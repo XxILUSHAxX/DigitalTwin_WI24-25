@@ -1,12 +1,12 @@
 from scripts.database.db_connection import ExperimentDBConnection
-from HuggingFaceEmbedderSentence import HuggingFaceEmbedder
+from HuggingFaceEmbedderParagraph import HuggingFaceEmbedder
 import os
 
 def main():
     # Initialize experiment-specific settings
-    experiment_name = "experiment_2"
-    persist_directory = "data/chromadb/experiment_2"
-    embedding_model = HuggingFaceEmbedder("distilroberta-base")
+    experiment_name = "experiment_3"
+    persist_directory = "data/chromadb/experiment_3"
+    embedding_model = HuggingFaceEmbedder("distilbert-base-uncased")
 
     # Initialize database connection
     db_connection = ExperimentDBConnection(
@@ -16,36 +16,32 @@ def main():
     )
 
     # Path to the text file relative to the Code folder
-    text_file_path = os.path.join("..", "Data", "raw", "sentences.txt")
+    text_file_path = os.path.join("..", "Data", "raw", "file1.txt")
 
-    # Read the text file
+    # Read the text file and split into paragraphs
     with open(text_file_path, "r", encoding="utf-8") as file:
-        text_content = file.read()
+        paragraphs = [para.strip() for para in file.read().split("\n\n") if para.strip()]  # Split on double newlines
 
-    # Split the text into individual sentences
-    sentences = [sentence.strip() for sentence in text_content.split(".") if sentence.strip()]
-
-    # Store each sentence as a document
-    for idx, sentence in enumerate(sentences):
+    # Store each paragraph in the database
+    for idx, paragraph in enumerate(paragraphs):
         db_connection.store_document(
             collection_name="test_collection",
-            document_id=f"doc2_{idx}",
+            document_id=f"doc3_para{idx}",
             metadata={"author": "Lennard"},
-            document=sentence,
-            embed_as="sentence"
+            document=paragraph,
+            embed_as="paragraph"
         )
 
 """
- #Query the collection
- 
-    query_text = "A query to match the text of a sentence"
+    # Query the collection
+    query_text = "My name is in this paragraph"
     results = db_connection.query_collection(
         collection_name="test_collection",
         query=query_text,
-        embed_as="sentence"
+        embed_as="paragraph"
     )
     print(f"Query results for '{query_text}': {results}")
-    
+
 """
 
 
