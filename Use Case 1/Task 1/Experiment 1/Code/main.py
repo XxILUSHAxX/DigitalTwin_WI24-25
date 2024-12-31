@@ -16,34 +16,30 @@ def main():
     )
 
     # Path to the text file
-    text_file_path = os.path.join("..","Data", "raw", "sentences.txt")
+    text_file_path = os.path.join("..", "Data", "raw", "sentences.txt")
 
     # Read the text file
-    with open(text_file_path, "r") as file:
+    with open(text_file_path, "r", encoding="utf-8") as file:
         text_content = file.read()
 
-    # Split the text into individual sentences
-    sentences = [sentence.strip() for sentence in text_content.split(".") if sentence.strip()]
+    #Unsere Datenbank prüft keine DOPPELEINTRÄGE, jedesmal wenn wir Main ausführen wird mit gleicher ID unsere Sätze eingetragen ->mehrere Einträge mit gleicher ID
+    # Store the document
+    db_connection.store_document(
+        collection_name="test_collection", #Collection Name
+        document_id="doc1", #Dokument ID, in der store.document Methode der Datenbank wird für jeden Satz noch eine Zusatz ID generiert. doc1_0, doc1_1, doc1_2 ...
+        metadata={"author": "Ilie"}, #author
+        document=text_content, #Das ist die Variable aus Zeile 23, die die "sentences.txt" liest
+        embed_as="sentence"  # Dies wird den Text automatisch in Sätze aufteilen
+    )
 
-    # Store each sentence as a document
-    for idx, sentence in enumerate(sentences):
-        db_connection.store_document(
-            collection_name="test_collection",
-            document_id=f"doc1_{idx}",
-            metadata={"author": "Lennard"},
-            document=sentence,
-            embed_as="sentence"
-        )
-
-"""
     # Query the collection
     results = db_connection.query_collection(
         collection_name="test_collection",
-        query="What is the second sentence?",
-        embed_as="sentence"
+        query= "Tell me your Name ?",
+        embed_as ="sentence",
     )
-    print(f"Query results: {results}")
-"""
+    print(f"Query results for '{results}")
+
 
 
 if __name__ == "__main__":
