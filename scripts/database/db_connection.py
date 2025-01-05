@@ -55,7 +55,7 @@ class ExperimentDBConnection:
             )
             print(f"Document '{document_id}_{idx}' stored in collection '{collection_name}' as {embed_as}.")
 
-    def query_collection(self, collection_name, query, embed_as="sentence", n_results=1):
+    def query_collection(self, collection_name, query, embed_as="paragraph", n_results=1):
         """
         Query the collection.
 
@@ -66,7 +66,7 @@ class ExperimentDBConnection:
         """
         # Generate query embeddings
         if embed_as == "sentence":
-            query_embedding = self.model.encode(query.split("."))[0]
+            query_embedding = self.model.encode(query.split(";"))[0]
         elif embed_as == "paragraph":
             query_embedding = self.model.encode([query])[0]
         else:
