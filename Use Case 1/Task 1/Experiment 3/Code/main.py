@@ -25,7 +25,7 @@ def main():
     # Store each sentence as a document
         db_connection.store_document(
             collection_name="test_collection",
-            document_id=f"doc3",
+            document_id="doc3",
             metadata={"author": "Lennard"},
             document=text_content,
             embed_as="sentence"
