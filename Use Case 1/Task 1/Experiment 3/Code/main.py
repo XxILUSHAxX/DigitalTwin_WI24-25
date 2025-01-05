@@ -16,7 +16,7 @@ def main():
     )
 
     # Path to the text file relative to the Code folder
-    text_file_path = os.path.join("..", "Data", "raw", "sentences.txt")
+    text_file_path = os.path.join("..", "Data", "raw", "baseInfos.txt")
 
     # Read the text file
     with open(text_file_path, "r", encoding="utf-8") as file:
@@ -31,17 +31,18 @@ def main():
             embed_as="sentence"
         )
 
-"""
+
  #Query the collection
  
-    query_text = "Essensart, die im offen gebacken wird"
+    query_text = "Wie verhält sich Lennard gegenüber anderen Menschen?"
     results = db_connection.query_collection(
         collection_name="test_collection",
         query=query_text,
-        embed_as="sentence"
+        embed_as="sentence",
+        n_results=2
     )
     print(f"Query results for '{query_text}': {results}")
-"""
+
 
 
 

@@ -16,7 +16,7 @@ def main():
     )
 
     # Path to the text file
-    text_file_path = os.path.join("..","Data", "raw", "sentences.txt")
+    text_file_path = os.path.join("..","Data", "raw", "baseInfos.txt")
 
     # Read the text file
     with open(text_file_path, "r", encoding="utf-8") as file:
@@ -31,16 +31,17 @@ def main():
             embed_as="sentence"
         )
 
-""" 
+
     # Query the collection
 
     results = db_connection.query_collection(
         collection_name="test_collection",
         query="What is the second sentence?",
-        embed_as="sentence"
+        embed_as="sentence",
+        n_results = 10
     )
     print(f"Query results: {results}")
-"""
+
 
 if __name__ == "__main__":
     main()
