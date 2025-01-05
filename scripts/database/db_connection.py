@@ -35,7 +35,7 @@ class ExperimentDBConnection:
         """
         # Determine the units to embed
         if embed_as == "sentence":
-            units = [sentence.strip() for sentence in document.split(".") if sentence.strip()]  # Split by periods
+            units = [sentence.strip() for sentence in document.split(";") if sentence.strip()]  # Split by periods
         elif embed_as == "paragraph":
             units = [para.strip() for para in document.split("\n\n") if para.strip()]  # Split by blank lines
         else:
@@ -53,7 +53,7 @@ class ExperimentDBConnection:
                 embeddings=[embedding],
                 documents=[unit]
             )
-        print(f"Document '{document_id}' stored in collection '{collection_name}' as {embed_as}.")
+            print(f"Document '{document_id}_{idx}' stored in collection '{collection_name}' as {embed_as}.")
 
     def query_collection(self, collection_name, query, embed_as="sentence", n_results=1):
         """

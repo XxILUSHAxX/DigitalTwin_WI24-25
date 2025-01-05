@@ -5,8 +5,8 @@ import os
 def main():
     # Initialize experiment-specific settings
     experiment_name = "experiment_4"
-    persist_directory = "data/chromadb/experiment_4"
-    embedding_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
+    persist_directory = "data/Task1/chromadb/experiment_4"
+    embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 
     # Initialize database connection
     db_connection = ExperimentDBConnection(
@@ -20,20 +20,20 @@ def main():
 
     # Read the text file and split into paragraphs
     with open(text_file_path, "r", encoding="utf-8") as file:
-        paragraphs = [para.strip() for para in file.read().split("\n\n") if para.strip()]  # Split on double newlines
+        text_content = file.read()
 
     # Store each paragraph in the database
-    for idx, paragraph in enumerate(paragraphs):
         db_connection.store_document(
             collection_name="test_collection",
-            document_id=f"doc4_para{idx}",
+            document_id="doc4",
             metadata={"author": "Lennard"},
-            document=paragraph,
+            document=text_content,
             embed_as="paragraph"
         )
 
 """
     # Query the collection
+
     query_text = "The paragraph with my hobbies."
     results = db_connection.query_collection(
         collection_name="test_collection",
@@ -41,8 +41,8 @@ def main():
         embed_as="paragraph"
     )
     print(f"Query results for '{query_text}': {results}")
-
 """
+
 
 if __name__ == "__main__":
     main()

@@ -4,9 +4,9 @@ import os
 
 def main():
     # Initialize experiment-specific settings
-    experiment_name = "experiment_2"
-    persist_directory = "data/Task1/chromadb/experiment_2"
-    embedding_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')  # Model B for sentence embeddings
+    experiment_name = "experiment_1"
+    persist_directory = "data/Task1/chromadb/experiment_1"
+    embedding_model = SentenceTransformer('all-MiniLM-L6-v2')  # Model A for sentence embeddings
 
     # Initialize database connection
     db_connection = ExperimentDBConnection(
@@ -19,28 +19,30 @@ def main():
     text_file_path = os.path.join("..","Data", "raw", "sentences.txt")
 
     # Read the text file
-    with open(text_file_path, "r", encoding="utf-8") as file:
+    with open(text_file_path, "r") as file:
         text_content = file.read()
 
+    # Split the text into individual sentences
+    sentences = [sentence.strip() for sentence in text_content.split(".") if sentence.strip()]
+
     # Store each sentence as a document
+    for idx, sentence in enumerate(sentences):
         db_connection.store_document(
             collection_name="test_collection",
-            document_id=f"doc2",
+            document_id=f"doc1_{idx}",
             metadata={"author": "Lennard"},
-            document=text_content,
+            document=sentence,
             embed_as="sentence"
         )
 
-""" 
     # Query the collection
-
     results = db_connection.query_collection(
         collection_name="test_collection",
         query="What is the second sentence?",
         embed_as="sentence"
     )
     print(f"Query results: {results}")
-"""
+
 
 if __name__ == "__main__":
     main()
