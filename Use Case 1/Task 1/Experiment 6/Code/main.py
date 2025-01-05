@@ -1,8 +1,11 @@
 from scripts.database.db_connection import ExperimentDBConnection
 from HuggingFaceEmbedderParagraph import HuggingFaceEmbedder
 import os
+import time
 
 def main():
+    start_time = time.time()
+
     # Initialize experiment-specific settings
     experiment_name = "experiment_6"
     persist_directory = "data/Task1/chromadb/experiment_6"
@@ -16,7 +19,7 @@ def main():
     )
 
     # Path to the text file relative to the Code folder
-    text_file_path = os.path.join("..", "Data", "raw", "sentences.txt")
+    text_file_path = os.path.join("..", "Data", "raw", "baseInfos.txt")
 
     # Read the text file
     with open(text_file_path, "r", encoding="utf-8") as file:
@@ -31,17 +34,19 @@ def main():
             embed_as="paragraph"
         )
 
-"""
- #Query the collection
+
+    end_time = time.time()
+    #Query the collection
  
-    query_text = "Essensart, die im Ofen gebacken wird"
+    query_text = ""
     results = db_connection.query_collection(
         collection_name="test_collection",
         query=query_text,
-        embed_as="paragraph"
+        embed_as="paragraph",
+        n_results=2
     )
     print(f"Query results for '{query_text}': {results}")
-"""
+    print(f"Query time: {end_time - start_time}")
 
 
 

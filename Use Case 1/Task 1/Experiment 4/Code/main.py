@@ -1,8 +1,11 @@
 from scripts.database.db_connection import ExperimentDBConnection
 from sentence_transformers import SentenceTransformer
 import os
+import time
 
 def main():
+    start_time = time.time()
+
     # Initialize experiment-specific settings
     experiment_name = "experiment_4"
     persist_directory = "data/Task1/chromadb/experiment_4"
@@ -31,10 +34,10 @@ def main():
             embed_as="paragraph"
         )
 
-
+    end_time = time.time()
     # Query the collection
 
-    query_text = "Wie Verhält sich Lennard gegenüber anderen Menschen?"
+    query_text = "Was ist mein wichtigstes Interesse?"
     results = db_connection.query_collection(
         collection_name="test_collection",
         query=query_text,
@@ -42,6 +45,7 @@ def main():
         n_results=2
     )
     print(f"Query results for '{query_text}': {results}")
+    print(f"Query time: {end_time - start_time}")
 
 
 
