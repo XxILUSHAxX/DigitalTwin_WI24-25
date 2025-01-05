@@ -1,8 +1,11 @@
 from scripts.database.db_connection import ExperimentDBConnection
 from HuggingFaceEmbedderSentence import HuggingFaceEmbedder
 import os
+import time
 
 def main():
+    start_time = time.time()
+
     # Initialize experiment-specific settings
     experiment_name = "experiment_3"
     persist_directory = "data/Task1/chromadb/experiment_3"
@@ -31,9 +34,9 @@ def main():
             embed_as="sentence"
         )
 
+    end_time = time.time()
 
- #Query the collection
- 
+    #Query the collection
     query_text = "Wie verhält sich Lennard gegenüber anderen Menschen?"
     results = db_connection.query_collection(
         collection_name="test_collection",
@@ -42,8 +45,7 @@ def main():
         n_results=2
     )
     print(f"Query results for '{query_text}': {results}")
-
-
+    print(f"Query time: {end_time - start_time}")
 
 
 if __name__ == "__main__":
