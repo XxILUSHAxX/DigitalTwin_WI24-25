@@ -39,3 +39,9 @@ Es werden jeweils 3 Queries getestet:
 Die **Auswertung** befindet sich in der jeweiligen Experiment-ReadMe. 
 Die Anzahl der Results ist auf 2 gesetzt, da bei mehr das Ergebnis zu undeutlich und bei weniger der Bezug zum Inhalt der Frage schlechter überprüfbar ist
 
+`Ergänzung: Nachdem ich nun die Ergebnisse ausgewertet habe, fragte ich mich ob ich nicht bessere Ergebnisse erzielen könnte,
+indem ich den Inhalt des baseInfo-Files einheitlicher und mehr als zusammenhängende Texte gestalte und 1-2 kleine Änderungen an den Überschriften vornehme. Das habe
+ich nun gemacht (baseInfos_v2), in jedem Modell getestet und habe etwas überraschend herausgefunden, dass es so gut wie keinen Einfluss hat,
+bis auf ein anderes Ergebnis in Eperiment 1 (die Zeit habe ich dafür nicht dokumentiert, da die zeitlichen Unterschiede nicht wirklich
+relevant waren). Somit fällt die Wahl erstmal auf das "all-MiniLM-L6-v2"-Modell. Wir werden die Anzahl an results für die weiteren
+Abfragen allerdings erhöhen um eine höhere Wahrscheinlichkeit des Auftauchens der relevanten Informationen zu garantieren.`
