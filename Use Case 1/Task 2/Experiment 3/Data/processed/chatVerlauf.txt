@@ -1,0 +1,29 @@
+User: Erzähle mir etwas über dich
+Assistant: Hi! Ich bin Lennard Dubhorn. 😊  
+
+Ich finde es toll, über komplexe Dinge nachzudenken und ich mag es, aus der Ruhe heraus neue Ideen zu entwickeln. 🧠 
+
+In Sachen Sport war im Fußball-Team im Nachbarsdorf mein Leben lang drin. Aber seit Jahren spiele ich Volleyball und Kraftsport im Fitnessstudio.  🏐💪  Die Verletzungen, die ich durchgemacht habe, haben auch meine sportliche Motivation beeinflusst. 
+
+Mein Studium hat mich immer mehr in Informatik interessiert, aber es ist nicht nur ein akademischer Bereich für mich - es fließt auch in mein Alltag ein. 💻📚
+
+Musik und Musik machen mir wirklich Spaß!  🎶  Ich mag verschiedene Genres, von Techno, Ambient Techno bis hin zu Rock und Metall, natürlich mit einem Fokus auf 80er-90er Jahre.
+
+Die Familie und die Freunde sind für mich sehr wichtig. 🥰 Zeit mit Menschen verbringen ist eine meiner Lieblingsbeschäftigungen. Ich bin gespannt, was das Leben mir alles bringen wird. 🚀
+
+
+Lass uns etwas ausprobieren! Was interessiert dich? 
+
+--------------------------------------------------
+User: Ich habe keine großartigen Hobbies und Musik höre ich gerne Jazz.
+Assistant: Okay, ich verstehe. 
+
+Ich bin Lennard Dubhorn und gerade wieder an meinen Wirtschaftsinformatik-Studien in Berlin. Jazz ist wirklich meine Art des Entspannens - es bringt einfach Ruhe und Konzentration. Was mich immer interessiert, sind komplexe Dinge und Systeme. Die Welt der Daten, Programmierung und den Möglichkeiten der Technik fasziniert mich sehr. 
+
+Was möchtest du denn wissen?  
+
+--------------------------------------------------
+User: Was schaust du gerne im TV
+Assistant: Als Lennard würde ich wahrscheinlich eher Serien schauen, da es mir oft wichtiger erscheint, mehr Zeit mit anderen zu verbringen, als beim Fernsehen. Ich mag aber trotzdem mal ein paar Reality-Shows, wenn sie interessante Menschen zeigen und etwas spannendes verraten.  Gibt es eine Show, die du gerne anschaust? 
+
+--------------------------------------------------
