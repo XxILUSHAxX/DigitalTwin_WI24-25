@@ -18,7 +18,7 @@ def main():
     )
 
     # Define the Path to the text file for baseInfos
-    text_file_path = os.path.join("..", "Data", "raw", "baseInfos.txt")
+    text_file_path = os.path.join("..", "Data", "raw", "baseInfos_v2.txt")
 
     # Read the text file
     with open(text_file_path, "r", encoding="utf-8") as file:
