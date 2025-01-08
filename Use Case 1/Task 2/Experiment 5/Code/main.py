@@ -4,12 +4,13 @@ from scripts.database.db_connection import ExperimentDBConnection
 from scripts.ollama.ollama_chat import ChatWithLlama
 import time
 
-
 def main():
+
+
     # Initialize experiment-specific settings
-    experiment_name = "task2_experiment2"
-    persist_directory = "data/Task2/chromadb/experiment_2"
-    embedding_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
+    experiment_name = "task2_experiment1"
+    persist_directory = "data/Task2/chromadb/experiment_1"
+    embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 
     # Initialize database connection
     db_connection = ExperimentDBConnection(
@@ -35,7 +36,7 @@ def main():
     )
 
     # Initialise the chat
-    chat_system = ChatWithLlama(db_connection, model_name="llama3.2:3b")
+    chat_system = ChatWithLlama(db_connection, model_name="mistral")
 
     # Define Path to save chat history
     chat_history_path = os.path.join("..", "Data", "processed", "chatVerlauf.txt")
@@ -60,7 +61,6 @@ def main():
             print("Auf Wiedersehen!")
             break
 
-        # Generate Response
         start_time = time.time()
         # Generate Response
         response = chat_system.chat(user_query, collection_name)
@@ -69,6 +69,7 @@ def main():
         print("\nLlama's response:")
         print(response)
         print(f"\nAntwortgenerierung dauerte: {elapsed_time:.4f} Sekunden")
+
 
 if __name__ == "__main__":
     main()

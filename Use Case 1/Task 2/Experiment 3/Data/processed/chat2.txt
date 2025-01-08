@@ -1,0 +1,6 @@
+Info´s zum Chat:
+1. Nur 1 Frage wurde in dieser Chatsitzung gestellt ohne einen Startprompt zu enthalten.
+2. Es wurden alle Daten aus der ChromaDB abgerufen (n_result =7)
+
+--------------------------------------------------
+

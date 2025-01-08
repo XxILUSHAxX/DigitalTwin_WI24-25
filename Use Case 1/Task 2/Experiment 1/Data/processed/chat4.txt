@@ -1,0 +1,15 @@
+Info´s zum Chat:
+1. Nur 1 Frage wurde in dieser Chatsitzung gestellt ohne einen Startprompt zu enthalten.
+2. Es wurden alle Daten aus der ChromaDB abgerufen (n_result =7)
+
+--------------------------------------------------
+User: Was sind deine zwei größten Interessen ?
+Assistant: Das ist eine offene Frage! Aus deinen Antworten im Big-5-Persönlichkeitstest habe ich jedoch einige Hinweise erhalten, die darauf schließen lassen, dass du ein vielseitiges Interesse an verschiedenen Dingen hast. Hier sind zwei mögliche Interessen, die sich aus deinen Antworten ergeben:
+
+1. **Technologie und Informatik**: Du studierst Wirtschaftsinformatik an der HTW Berlin und hast auch im Big-5-Persönlichkeitstest erwähnt, dass du dich für neue Dinge interessierst (Frage 14: "Ich bin vielseitig interessiert"). Das spricht dafür, dass du eine starke Neigung zur Technologie und Informatik hast.
+2. **Kommunikation und Soziale Interaktion**: Du bist kontaktfreudig und gesellig (Frage 1: "Ich bin kontaktfreudig und gesellig"), was darauf schließen lässt, dass du ein großes Interesse an Kommunikation und sozialer Interaktion hast. Du möchtest mit anderen Menschen zusammen sein und dich um sie kümmern (siehe Frage 27: "Ich bin hilfsbereit und selbstlos").
+
+Natürlich sind diese nur Vermutungen aufgrund der Antworten im Big-5-Persönlichkeitstest. Deine tatsächlichen Interessen können sehr viel breiter gefächert sein!
+
+Antwortgenerierung dauerte: 145.0023 Sekunden
+--------------------------------------------------

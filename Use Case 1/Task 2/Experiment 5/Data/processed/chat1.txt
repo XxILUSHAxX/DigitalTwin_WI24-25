@@ -1,0 +1,41 @@
+Info´s zum Chat:
+1. Alle 3 Fragen wurden in einer Chatsitzung gestellt ohne einen Startprompt zu enthalten.
+2. Es wurden alle Daten aus der ChromaDB abgerufen (n_result =7)
+
+--------------------------------------------------
+User: Erzähle mir etwas über dich.
+Assistant: Ich bin Lennard Alexander Dubhorn, 21 Jahre alt, geboren am 27.03.2003. Ich komme aus einem kleinen Dorf namens Kogel in Mecklenburg-Vorpommern und lebe derzeit in Berlin. Ich studiere Wirtschaftsinformatik an der HTW Berlin.
+Ich bin ein offener und kommunikativer Mensch, der gerne mit anderen spricht und über interessante Dinge erzählt. Ich habe eine feste Freundin namens Elisa, die ich bereits seit der Schulzeit kenne, und wir haben eine sehr innige Beziehung.
+Meine Familie ist sehr wichtig für mich. Mein Vater arbeitet in einer Werkstatt und meine Mutter in ihrer Apotheke. Sie sind beide sehr engagiert und haben gute Moral. Mein Vater ist nicht so kommunikativ, aber mein Vater ist sehr bestrebt und hat eine gute Moral.
+Ich bin groß (1,90m) und wiege ungefähr 85kg. Ich bin nicht gläubig und spreche fließend Deutsch und Englisch
+Ich habe ein starkes Interesse an Wirtschaftsinformatik und studiere derzeit an der HTW Berlin. Mein Abitur schloss ich mit 1,7 ab, woraufhin ich mein Studium begann.
+
+Wenn du mehr über mich erfahren möchtest, stehe ich gerne zur Verfügung!
+--------------------------------------------------
+User: Beschreibe mir kurz deinen Charakter.
+Assistant: Basierend auf den Ergebnissen des Big 5 Persönlichkeitstests und deiner Verhaltensweisen, kannst du als jemand beschrieben werden, der:
+
+* Leidenschaftlich für komplexe Dinge ist und gerne nachdenkt (4)
+* Vertrauenswürdig ist und andere Menschen vertraut (5)
+* Ehrgeizig und tatendrangvoll ist, aber nicht übertrieben optimistisch (3-4)
+* Vielseitig interessiert ist, mit Interessen wie Musik, Psychologie und Natur
+* Wert auf Freundschaften und Familie legt (A)
+* Offen gegenüber anderen Meinungen ist und gerne diskutiert (A)
+
+Du bist ein echter Mitdenker, der gerne Zeit in deiner Umgebung verbringt. Du bist nicht übermäßig energiegeladen oder impulsiv, aber du hast deine Stärken und Schwächen.
+
+Dein Interesse an Musik und Psychologie weist darauf hin, dass du kreativ und analytisch denkst, was dein Fokus auf das Verständnis menschlichen Verhaltens unterstützt. Du bist ein echter Freund des Lernens und Entdeckens, der gerne Zeit mit Freunden verbringt und deine Familie schätzt.
+
+Trotz deiner vielen Interessen ist es wichtig zu beachten, dass du nicht übermäßig fantasievoll oder originell bist (2-3). Du bevorzugst es normalerweise, Dinge gründlich zu planen und zu analysieren, anstatt sich auf spontane Ideen oder Pläne zu verlassen.
+
+Es ist auch wichtig zu beachten, dass du gelegentlich gereizt werden kannst, wenn eine Situation nicht nach deinem Willen läuft (3). Aber allgemein bist du ein sehr ruhiger und vernünftiger Mensch, der Wert auf Freundschaften und Familie legt.
+--------------------------------------------------
+User: Was sind deine zwei größten Interessen ?
+Assistant: Basierend auf den Angaben aus deinem Profil habe ich folgende Informationen über deine Interessen:
+
+1. Du interessierst dich für "Kunst, Musik und Literatur" (Punkt 21 im Big5 Test), was ein deutlicher Hinweis darauf ist, dass du Interesse an kulturellen Dingen hast.
+
+2. Du bist "vielseitig interessiert", was bedeutet, dass du ein breites Spektrum an Themen und Interessen haben könntest (Punkt 20 im Big5 Test).
+
+Die Antwort auf die Frage lautet also: Kunst/Musik/Literatur und diverses.
+--------------------------------------------------

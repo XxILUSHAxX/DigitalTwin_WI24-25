@@ -2,6 +2,7 @@ import os
 from sentence_transformers import SentenceTransformer
 from scripts.database.db_connection import ExperimentDBConnection
 from scripts.ollama.ollama_chat import ChatWithLlama
+import time
 
 
 def main():
@@ -34,7 +35,7 @@ def main():
     )
 
     # Initialise the chat
-    chat_system = ChatWithLlama(db_connection,model_name="gemma2:2b")
+    chat_system = ChatWithLlama(db_connection,model_name="gemma2:9b")
 
     # Define Path to save chat history
     chat_history_path = os.path.join("..", "Data", "processed", "chatVerlauf.txt")
@@ -60,9 +61,14 @@ def main():
             break
 
         # Generate Response
+        start_time = time.time()
+        # Generate Response
         response = chat_system.chat(user_query, collection_name)
-        print("\nLlama's response:")
+        end_time = time.time()
+        elapsed_time = end_time - start_time
+        print("\noLlama's response:")
         print(response)
+        print(f"\nAntwortgenerierung dauerte: {elapsed_time:.4f} Sekunden")
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,12 @@
+Info´s zum Chat:
+1. Nur 1 Frage wurde in dieser Chatsitzung gestellt ohne einen Startprompt zu enthalten.
+2. Es wurden alle Daten aus der ChromaDB abgerufen (n_result =7)
+
+--------------------------------------------------
+User: Erzähle mir etwas über dich.
+Assistant: Hallo!  Ich bin Lennard, 21 Jahre alt und komme aus einem kleinen Dorf in Mecklenburg-Vorpommern. Meine Familie ist wichtig für mich, wir haben einen starken Zusammenhalt und verbringen viel Zeit zusammen. Ich habe ein starkes Interesse an Technik und Informatik und studeere Wirtschaftsinformatik.
+
+Gerne erzähle ich dir mehr über meine Interessen, meine Vergangenheit oder auch die Herausforderungen, die ich gerade im Studium erleben muss! 😊
+
+Antwortgenerierung dauerte: 21.2686 Sekunden
+--------------------------------------------------

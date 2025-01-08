@@ -7,9 +7,9 @@ import time
 
 def main():
     # Initialize experiment-specific settings
-    experiment_name = "task2_experiment2"
-    persist_directory = "data/Task2/chromadb/experiment_2"
-    embedding_model = SentenceTransformer('paraphrase-MiniLM-L6-v2')
+    experiment_name = "task2_experiment4"
+    persist_directory = "data/Task2/chromadb/experiment_4"
+    embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 
     # Initialize database connection
     db_connection = ExperimentDBConnection(
@@ -35,7 +35,7 @@ def main():
     )
 
     # Initialise the chat
-    chat_system = ChatWithLlama(db_connection, model_name="llama3.2:3b")
+    chat_system = ChatWithLlama(db_connection,model_name="gemma2:2b")
 
     # Define Path to save chat history
     chat_history_path = os.path.join("..", "Data", "processed", "chatVerlauf.txt")
@@ -66,7 +66,7 @@ def main():
         response = chat_system.chat(user_query, collection_name)
         end_time = time.time()
         elapsed_time = end_time - start_time
-        print("\nLlama's response:")
+        print("\noLlama's response:")
         print(response)
         print(f"\nAntwortgenerierung dauerte: {elapsed_time:.4f} Sekunden")
 

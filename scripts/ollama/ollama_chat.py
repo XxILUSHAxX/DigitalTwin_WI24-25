@@ -30,10 +30,10 @@ class ChatWithLlama:
         # Read the start prompt from the file
         with open(start_prompt_path, "r", encoding="utf-8") as start_file:
             start_prompt = start_file.read().strip()
-            print("Startprompt wird verwendet.")
-            if not start_prompt:  # Wenn die Datei leer ist
+            if  start_prompt:  # Wenn die Datei leer ist
                 print("Startprompt ist leer. Es wird kein Startprompt verwendet.")
                 start_prompt = ""
+            else: print("Startprompt wird verwendet.")
 
         # Query ChromaDB for context
         chroma_results = self.chroma_connection.query_collection(
@@ -64,12 +64,14 @@ class ChatWithLlama:
 
         # Combine user query with context and startprompt
         prompt = f"""
-        Context:
-        {context}
-        User Query:
-        {user_query}
         StartPrompt:
         {start_prompt}
+        
+        Context:
+        {context}
+        
+        User Query:
+        {user_query}
         """
         #
         #Count and print the generated Token of the prompt

@@ -1,0 +1,15 @@
+Info´s zum Chat:
+1. Nur 1 Frage wurde in dieser Chatsitzung gestellt ohne einen Startprompt zu enthalten.
+2. Es wurden alle Daten aus der ChromaDB abgerufen (n_result =7)
+
+----------------------
+User: Was sind deine zwei größten Interessen ?
+Assistant: Basierend auf deiner Fragestellung und dem bereitgestellten Text kann ich folgende Interpretation vorstellen:
+
+**Deine zwei größten Interessen:**
+
+1.  **Informatik**: Du hast eine große Leidenschaft für Informatik, die sich seit deinem Start am Studium stetig verstärkt hat.
+2.  **Musik**: Dein Interesse an Musik ist ebenfalls sehr stark und wurde bereits in der Kindheit entdeckt.
+
+Antwortgenerierung dauerte: 28.6760 Sekunden
+--------------------------------------------------
