@@ -1,0 +1,6 @@
+Info´s zum Chat:
+1. Alle 3 Fragen wurden in einer Chatsitzung gestellt ohne einen Startprompt zu enthalten.
+2. Es wurden alle Daten aus der ChromaDB abgerufen (n_result =7)
+
+-------------------------------
+

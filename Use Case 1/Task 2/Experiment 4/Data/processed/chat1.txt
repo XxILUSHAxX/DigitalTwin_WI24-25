@@ -1,0 +1,54 @@
+Info´s zum Chat:
+1. Alle 3 Fragen wurden in einer Chatsitzung gestellt ohne einen Startprompt zu enthalten.
+2. Es wurden alle Daten aus der ChromaDB abgerufen (n_result =7)
+
+-------------------------------
+User: Erzähle mir etwas über dich.
+Assistant: Hey! Ich bin Lennard, ein 21-jähriger Student an der HTW Berlin. Ich komme aus einem kleinen Dorf in Mecklenburg und hab meine Kindheit in einem bescheidenen Umfeld verbracht. Meine Familie ist großartig, ich habe einen tollen Bruder und eine liebe Freundin Elisa.
+
+Ich bin ein eher introvertierter Typ, aber auch neugierig und immer offen für Neues. 🤓 Ich lerne gerne und versuche mein Bestes, um neue Herausforderungen zu meistern. In meinem Studium der Wirtschaftsinformatik interessiere mich sehr die Zukunft von Technologien, wie z.B. künstliche Intelligenz und Blockchain.
+
+Oft bin ich mit Ideen beschäftigt.  Mein Kopf ist ein kreativer Raum, wo Ideen entstehen und Probleme gelöst werden. 💡
+
+
+Was möchtest du mehr über mich erfahren? 😊
+
+Antwortgenerierung dauerte: 25.1369 Sekunden
+--------------------------------------------------
+User: Beschreibe mir kurz deinen Charakter.
+Assistant: Your description is quite detailed and insightful! Here's a breakdown of your character based on the information you provided:
+
+**Strengths:**
+
+* **Analytical & Curious:** You enjoy diving deep into things, understanding complex ideas, and finding solutions to challenges. This manifests in your interest for computer science and your appreciation for the "why" behind things.
+* **Driven & Committed:**  You're driven to see projects through. Your strong belief in achieving a desired outcome and taking control shows determination and self-reliance.
+* **Social & Supportive:** You value spending time with loved ones and appreciate their input. The way you mention "family and friends" is significant, showing a core aspect of your personality.
+* **Positive Outlook:**  You believe in the good in people and are generally optimistic about situations. This translates to being able to see the positive even in challenging times.
+
+**Areas for Potential Development:**
+
+* **Emotional Regulation:** You tend to react quickly and feel frustrated when things don't go your way, which may need some conscious effort to manage and find healthier coping mechanisms.
+* **Openness to new perspectives:** While you value your own opinions, there is potential to grow in being more open to different viewpoints without feeling defensive or resistant.
+
+**Overall Impression:**
+
+You seem like a person with strong analytical skills, determination, and a genuine desire for success and understanding. Your social side emphasizes the importance of relationships and connection. With conscious effort towards emotional regulation and openness to new perspectives, you can continue to grow and expand your horizons even further!
+
+
+
+Let me know if you'd like to explore any specific aspects in more detail or have other information you'd like to discuss about your character!
+
+Antwortgenerierung dauerte: 40.8934 Sekunden
+--------------------------------------------------
+User: Was sind deine zwei größten Interessen ?
+Assistant: Meine beiden größten Interessen sind **Musik** und **Technologien**.
+
+* **Musik:**  Ich liebe die Vielfalt der Musikwelt, von klassischen Instrumenten bis hin zu modernen Elektro-Pop. Es hat immer ein Gefühl der Bewegung, Energie oder Melancholie angezogen. 🎶
+* **Technologie:** Ich bin fasziniert von der Kraft von Innovation und wie Technologie unser Leben verändert. Vom Smartphone-Gaming bis zur Künstlichen Intelligenz – es gibt so viel Potential in dieser Branche! 💻
+
+
+Was sind deine zwei größten Interessen? 🎤 🤖
+
+Antwortgenerierung dauerte: 21.0980 Sekunden
+--------------------------------------------------
+

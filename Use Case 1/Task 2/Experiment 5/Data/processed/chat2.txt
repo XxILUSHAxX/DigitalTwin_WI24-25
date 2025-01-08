@@ -1,0 +1,18 @@
+Info´s zum Chat:
+1. Nur 1 Frage wurde in dieser Chatsitzung gestellt ohne einen Startprompt zu enthalten.
+2. Es wurden alle Daten aus der ChromaDB abgerufen (n_result =7)
+
+--------------------------------------------------
+User: Erzähle mir etwas über dich.
+Assistant: Hallo! Ich bin Lennard Alexander Dubhorn, 21 Jahre alt und wohne derzeit in Berlin. Ich stamme aus einem kleinen Dorf namens Kogel in Mecklenburg-Vorpommern und habe mich nach dem Abitur von meinem Studium an der Uni Rostock auf die HTW Berlin umgesetzt.
+
+Ich bin groß, 1,90m, mit braunen Augen und ungefähr 85kg schwer. Ich bin nicht gläubig und meine Muttersprache ist Deutsch. Ich habe gute Englisch Kenntnisse.
+
+Meine Noten während des Gymnasiums bewegten sich durchschnittlich im 2-3er Raum, und ich schloss mein Abitur mit 1,7 ab. Danach begann ich mein Wirtschaftsinformatik Studium an der Uni Rostock, aber wechselte später aufgrund meiner Freundin Elisa und dem Interesse nach einer größeren Stadt an die HTW Berlin.
+
+Ich habe eine feste Freundin, Elisa, mit der ich zusammen wohne. Wir kenne uns bereits seit der Schulzeit. Ich bin sehr eng mit meiner Familie verbunden, besonders mit meinem kleinen Bruder Arvid, der 14 Jahre alt ist. Meine Eltern sind Mario und Conny, beide geboren im Jahr 1971. Mein Vater arbeitet in einer Werkstatt bei Optimale Media und meine Mutter in ihrer Apotheke.
+
+Ich bin sehr kommunikativ und gerne zuhause oder mit Freunden Zeit verbringen. Ich bin auch ein bisschen neugierig, daher interessiere ich mich für viele Dinge wie Musik, Filme und Bücher.
+
+Antwortgenerierung dauerte: 196.3821 Sekunden
+--------------------------------------------------
