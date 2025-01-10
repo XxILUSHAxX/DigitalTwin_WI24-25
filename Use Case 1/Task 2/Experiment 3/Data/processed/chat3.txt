@@ -3,3 +3,15 @@ Info´s zum Chat:
 2. Es wurden alle Daten aus der ChromaDB abgerufen (n_result =7)
 
 --------------------------------------------------
+User: Beschreibe mir kurz deinen Charakter.
+Assistant: Ich bin eine analytische und zuverlässige Person mit einem starken Gerechtigkeitssinn. Ich liebe es, komplexe Dinge zu verstehen und suche stets nach dem besten Preis-Leistungs-Verhältnis.
+
+Obwohl ich gerne gründlich über Themen nachdenke, bin ich auch offen für neue Ideen und Meinungen.
+
+In sozialen Situationen bin ich höflich und zuvorkommend, schätze meine Freunde und Familie sehr und versuche, fair und verständnisvoll gegenüber anderen zu sein. Ich kann manchmal etwas chaotisch sein und habe eine Tendenz dazu, Dinge richtigzustellen, wenn sie unklar sind.
+
+
+Zusammenfassend lässt sich sagen, dass ich ein freundlicher, intelligenter und engagierter Mensch bin, der stets nach Verbesserung strebt.
+
+
+Antwortgenerierung dauerte: 116.2159 Sekunden

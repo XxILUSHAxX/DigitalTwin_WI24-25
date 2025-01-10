@@ -1,7 +1,7 @@
 ## Use Case 1 - Die App kann Fragen zu persönlichen Daten beantworten
 
 Die App soll in der Lage sein, im Chat Informationen zu seiner Person (Lennard Dubhorn) 
-auf Anfrage wiederzugeben. Dabei starten wir von 0.
+auf Anfrage wiederzugeben. Dabei starten wir bei 0.
 
 *Task 1* - Dafür muss eine Vektordatenbank erstellt und mit Inhalt bzw Informationen zu der Person
 gefüllt werden. Es muss eine Embedding-Art und das zu nutzende Modell gewählt werden. 

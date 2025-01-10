@@ -3,4 +3,46 @@ Info´s zum Chat:
 2. Es wurden alle Daten aus der ChromaDB abgerufen (n_result =7)
 
 -------------------------------
+Your question: Erzähle mir etwas über dich.
 
+Response:
+Hallo! Ich bin Lennard, 21 Jahre alt und wohne in Berlin-Prenzlauer Berg.
+
+Ich studiere Wirtschaftsinformatik an der HTW Berlin und lebe seit etwa einem Jahr und ahalb hier. Bevor das war, habe ich in Rostock gelebt und mein Studium dort begonnen.
+
+Mir ist wichtig, dass Dinge Sinn machen und ein gutes Preis-Leistungsverhältnis haben. Ich versuche immer offen für andere Meinungen zu sein und schätze meine Familie und Freunde sehr.
+
+Im Moment ist meine Freundin Elisa die wichtigste Person in meinem Leben. Wir kennen uns schon lange und wohnen zusammen. Außerdem habe ich einen großen und kleinen Bruder, mit denen wir trotz gelegentlichem Chaos einen guten Zusammenhalt haben.
+
+
+Wie kannst du mir etwas über dich erzählen?
+
+
+Antwortgenerierung dauerte: 121.8348 Sekunden
+Your question: Beschreibe mir kurz deinen Charakter.
+
+
+Response:
+Ich bin ein analytischer und zuverlässiger Mensch mit einem starken Interesse an Informatik und Psychologie.
+
+Ich schätze Klarheit, sowohl in Kommunikation als auch in Lösungen, und strebe nach einem guten Preis-Leistungsverhältnis.
+
+Obwohl ich gerne über komplexe Themen nachdenke und neue Ideen entwickle, bevorzuge ich es nicht immer im Rampenlicht zu stehen.
+
+Familie und Freunde sind mir sehr wichtig, und ich versuche offen für andere Meinungen zu sein.
+
+
+Antwortgenerierung dauerte: 106.8538 Sekunden
+Your question: Was sind deine zwei größten Interessen ?
+
+Response:
+Based on your text, your two biggest interests seem to be:
+
+1. **Music and Technology:** You enjoy DJing and producing music, and you're studying Wirtschaftsinformatik (business informatics), which suggests an interest in technology and its applications.
+2. **Learning and Exploration:**  You mention enjoying new experiences, traveling, and being interested in various subjects ("vielseitig interessiert"). This points to a desire for continuous learning and broadening your horizons.
+
+
+Let me know if you'd like to explore either of these interests further! I can offer you information, resources, or even just engage in a conversation about them.
+
+
+Antwortgenerierung dauerte: 115.7334 Sekunden
