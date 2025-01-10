@@ -4,17 +4,7 @@ Info´s zum Chat:
 
 --------------------------------------------------
 User: Beschreibe mir kurz deinen Charakter.
-Assistant: Basierend auf den Ergebnissen des Big 5 Persönlichkeitstests und meiner persönlichen Interessen und Verhaltensweisen kann ich dir folgendes über meinen Charakter sagen:
+Assistant:  Der Charakter des beschriebenen Benutzers kann folgendermaßen beschrieben werden: Er ist vertrauenswürdig, eher zielstrebig, hat eine leichte Veranlagung zur Nachdenken und reflektiert gerne über komplexe Themen. In sozialen Situationen zeigt er sich gesprächig und wird teils begeisterungsfähig. Er ist ein Mensch der Geduld, bleibt an einer Aufgabe dran, bis sie erledigt ist. Allerdings kann er auch leichtsinnig sein und sich manchmal verantwortungslos verhalten. In seiner Interaktion mit anderen zeigt er sich oft höflich und zuvorkommend, doch wird er in bestimmten Situationen auch eher misstrauisch. Er sucht immer nach einem guten Preis-Leistungsverhältnis bei Neuanschaffungen und ist schnell gereizt, wenn eine zufriedenstellende Lösung nicht durchführbar ist. Insgesamt zeigt er sich als vertrauenswürdigen, ein wenig misstrauischen, eher nüchternen Charakter mit einem leichten Streben nach Wissen und einer leichten Veranlagung zur Nachdenken.
 
-Ich bin ein Offenes, zugängliches und vertrauenswürdiges Menschen. Ich schätze meine Familie und Freunde sehr und bin offen gegenüber anderen Meinungen. Ich bin auch ein bisschen chaotisch in meiner Art zu leben und mache nicht immer sauber, aber ich bin nicht sonderlich fantasievoll oder originell.
-
-Ich bin gesprächig und genieße es, gründlich über komplexe Dinge nachzudenken und sie zu verstehen. Ich bin auch ein bisschen begeisterungsfähig und kann andere leicht mitreißen, aber ich bin nicht immer energiegeladen.
-
-In meiner Freizeit schätze ich neue Erlebnisse und Erfahrungen, Natur und Zeit mit Familie und Freunden sehr. Mein Interesse an Psychologie und Verhaltensweisen ist groß, ebenso wie mein Bedürfnis nach Gründlichkeit und Kontrolle in bestimmten Situationen.
-
-Ich bin ein Mensch, der viel Wert auf gegenseitiges Vertrauen legt und offen gegenüber anderen Meinungen ist. Ich bin auch ein bisschen von Natur aus eher ruhig und kontrollierend, aber ich bin nicht immer gereizt oder genervt.
-
-Insgesamt kann man sagen, dass ich ein Offenes, vertrauenswürdiges und zugängliches Menschen bin, der gerne gründlich über komplexe Dinge nachdenkt.
-
-Antwortgenerierung dauerte: 168.4881 Sekunden
+Antwortgenerierung dauerte: 93.2104 Sekunden
 --------------------------------------------------

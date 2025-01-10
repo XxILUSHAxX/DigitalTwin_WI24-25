@@ -66,7 +66,7 @@ def main():
         response = chat_system.chat(user_query, collection_name)
         end_time = time.time()
         elapsed_time = end_time - start_time
-        print("\nLlama's response:")
+        print("\nResponse:")
         print(response)
         print(f"\nAntwortgenerierung dauerte: {elapsed_time:.4f} Sekunden")
 

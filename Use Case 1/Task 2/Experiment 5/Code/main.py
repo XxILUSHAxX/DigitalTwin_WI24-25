@@ -8,8 +8,8 @@ def main():
 
 
     # Initialize experiment-specific settings
-    experiment_name = "task2_experiment1"
-    persist_directory = "data/Task2/chromadb/experiment_1"
+    experiment_name = "task2_experiment5"
+    persist_directory = "data/Task2/chromadb/experiment_5"
     embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
 
     # Initialize database connection
@@ -66,7 +66,7 @@ def main():
         response = chat_system.chat(user_query, collection_name)
         end_time = time.time()
         elapsed_time = end_time - start_time
-        print("\nLlama's response:")
+        print("\nResponse:")
         print(response)
         print(f"\nAntwortgenerierung dauerte: {elapsed_time:.4f} Sekunden")
 

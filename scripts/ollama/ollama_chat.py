@@ -16,7 +16,7 @@ class ChatWithLlama:
         self.model_name = model_name
         self.chat_history = []
 
-    def generate_prompt(self, user_query, collection_name, n_results=3):
+    def generate_prompt(self, user_query, collection_name, n_results=7):
         """
         Generate a prompt for Llama based on user input and ChromaDB data.
         :param user_query: The question or input from the user.
@@ -30,7 +30,7 @@ class ChatWithLlama:
         # Read the start prompt from the file
         with open(start_prompt_path, "r", encoding="utf-8") as start_file:
             start_prompt = start_file.read().strip()
-            if  start_prompt:  # Wenn die Datei leer ist
+            if not start_prompt:  # Wenn die Datei leer ist
                 print("Startprompt ist leer. Es wird kein Startprompt verwendet.")
                 start_prompt = ""
             else: print("Startprompt wird verwendet.")

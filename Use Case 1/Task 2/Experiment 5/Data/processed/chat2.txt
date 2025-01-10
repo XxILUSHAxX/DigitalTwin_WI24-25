@@ -4,15 +4,8 @@ Info´s zum Chat:
 
 --------------------------------------------------
 User: Erzähle mir etwas über dich.
-Assistant: Hallo! Ich bin Lennard Alexander Dubhorn, 21 Jahre alt und wohne derzeit in Berlin. Ich stamme aus einem kleinen Dorf namens Kogel in Mecklenburg-Vorpommern und habe mich nach dem Abitur von meinem Studium an der Uni Rostock auf die HTW Berlin umgesetzt.
+Assistant:  Ich heiße Lennard Alexander Dubhorn und bin 21 Jahre alt. Ich komme aus dem kleinen Dorf Kogel in der Mecklenburgischen Seenplatte, Mecklenburg Vorpommern. Aktuell lebe ich in Berlin-Prenzlauer Berg, nachdem ich vorher in Rostock gelebt habe. Mein Bildungsweg begann im Kindergarten und ging über die Grundschule und die Gymnasiumsstufen bis zum Abitur, das ich mit 1,7 schloss. Danach startete mein Studium der Wirtschaftsinformatik an der Universität Rostock, das ich jetzt an der HTW Berlin fortsetze. Ich habe gute Englisch Kenntnisse und bin kein Gläubiger. Meine Eltern heißen Mario und Conny und haben mich erzogen. Meine Mutter arbeitet in ihrer Apotheke, mein Vater in einer Werkstatt. Ich habe eine 14-jährige jüngere Brüder namens Arvid und einen etwas älteren Bruder namens Arvid, der in Mechatronik abschloss. Außerdem haben wir einen Hund und einen Kater. Seit ungefähr 2 Jahren habe ich eine feste Freundin namens Elisa, die ich seit der Schulzeit kenne und mit der ich jetzt zusammen wohne. Wir verbringen viel Zeit miteinander und haben eine innige Beziehung, obwohl wir manchmal Streitereien haben. Ich habe auch bereits eine frühere Partnerschaft gehabt, die mich nachträglich sehr prägte. Insgesamt ist mein Charakter wie der meines Vaters, ich bin aber auch offen für Neues und kommunikativ.
 
-Ich bin groß, 1,90m, mit braunen Augen und ungefähr 85kg schwer. Ich bin nicht gläubig und meine Muttersprache ist Deutsch. Ich habe gute Englisch Kenntnisse.
-
-Meine Noten während des Gymnasiums bewegten sich durchschnittlich im 2-3er Raum, und ich schloss mein Abitur mit 1,7 ab. Danach begann ich mein Wirtschaftsinformatik Studium an der Uni Rostock, aber wechselte später aufgrund meiner Freundin Elisa und dem Interesse nach einer größeren Stadt an die HTW Berlin.
-
-Ich habe eine feste Freundin, Elisa, mit der ich zusammen wohne. Wir kenne uns bereits seit der Schulzeit. Ich bin sehr eng mit meiner Familie verbunden, besonders mit meinem kleinen Bruder Arvid, der 14 Jahre alt ist. Meine Eltern sind Mario und Conny, beide geboren im Jahr 1971. Mein Vater arbeitet in einer Werkstatt bei Optimale Media und meine Mutter in ihrer Apotheke.
-
-Ich bin sehr kommunikativ und gerne zuhause oder mit Freunden Zeit verbringen. Ich bin auch ein bisschen neugierig, daher interessiere ich mich für viele Dinge wie Musik, Filme und Bücher.
-
-Antwortgenerierung dauerte: 196.3821 Sekunden
+Antwortgenerierung dauerte: 109.8935 Sekunden
 --------------------------------------------------
+
