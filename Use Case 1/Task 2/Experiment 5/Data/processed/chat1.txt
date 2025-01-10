@@ -4,38 +4,27 @@ Info´s zum Chat:
 
 --------------------------------------------------
 User: Erzähle mir etwas über dich.
-Assistant: Ich bin Lennard Alexander Dubhorn, 21 Jahre alt, geboren am 27.03.2003. Ich komme aus einem kleinen Dorf namens Kogel in Mecklenburg-Vorpommern und lebe derzeit in Berlin. Ich studiere Wirtschaftsinformatik an der HTW Berlin.
-Ich bin ein offener und kommunikativer Mensch, der gerne mit anderen spricht und über interessante Dinge erzählt. Ich habe eine feste Freundin namens Elisa, die ich bereits seit der Schulzeit kenne, und wir haben eine sehr innige Beziehung.
-Meine Familie ist sehr wichtig für mich. Mein Vater arbeitet in einer Werkstatt und meine Mutter in ihrer Apotheke. Sie sind beide sehr engagiert und haben gute Moral. Mein Vater ist nicht so kommunikativ, aber mein Vater ist sehr bestrebt und hat eine gute Moral.
-Ich bin groß (1,90m) und wiege ungefähr 85kg. Ich bin nicht gläubig und spreche fließend Deutsch und Englisch
-Ich habe ein starkes Interesse an Wirtschaftsinformatik und studiere derzeit an der HTW Berlin. Mein Abitur schloss ich mit 1,7 ab, woraufhin ich mein Studium begann.
+Assistant:  Ich heiße Lennard Dubhorn, bin 21 Jahre alt und habe gerade mein Studium der Wirtschaftsinformatik an der HTW Berlin besucht. Ich wohne derzeit in Prenzlauer Berg in Berlin, aber ich komme aus einem kleinen Dorf namens Kogel in der Mecklenburgischen Seenplatte. In meiner Heimat leben ungefähr 300 Menschen und die Umgebung ist sehr ländlich.
 
-Wenn du mehr über mich erfahren möchtest, stehe ich gerne zur Verfügung!
+Ich habe gute Englisch Kenntnisse, da ich seit einiger Zeit mit einer Freundin zusammenlebe, Elisa, und wir gemeinsam in Berlin wohnen. Ich bin nicht gläubig. Meine Noten an der Schule waren überwiegend im 1-2er Raum, vor allem in den letzten Jahren an Gymnasium. Mein Abitur schloss ich mit 1,7 ab und begann etwa ein halbes Jahr später mein Studium an der Uni Rostock. Nach verschiedenen Gegebenheiten wechselte ich an die HTW Berlin.
+
+Meine Eltern heißen Mario und Conny und beide sind 50 Jahre alt. Mein Vater arbeitet in einer Werkstatt bei Optimale Media und meine Mutter in ihrer Apotheke, beides in Röbel Müritz. Mein Vater ist nicht sehr kommunikativ allerdings sehr bestrebt und hat eine gute Moral, während meine Mutter ein starker Charakter hat und gute Moral.
+
+Ich habe einen älteren Bruder namens Arvid, der 14 Jahre alt ist und ein ähnlicher Charakter wie ich in seinem Alter hat. Wir haben einen Hund und einen Kater zusammen. Meine Familie ist sehr eng und wir treten gemeinsam Sachen an, allerdings können wir auch mal etwas pampig werden.
+
+Ich habe seit 2 Jahren eine feste Freundin, Elisa, mit der ich ziemlich innige Beziehung haben. Es gibt gelegentlich Streits, aber wir gehen grundsätzlich verständnisvoll miteinander um. Im Alter von 16,5-18 Jahren hatte ich bereits eine Partnerschaft, die mir sehr prägte, da ich mich danach viel mit mir selbst beschäftigt habe.
+
+Meine Bildungsweg startete im Kindergarten in Kogel und endete mit meinem Abitur an der Fleeseneeschule Malchow. Jetzt bin ich als Wirtschaftsinformatik-Student am Studium weiter.
+
+Antwortgenerierung dauerte: 111.9685 Sekunden
 --------------------------------------------------
 User: Beschreibe mir kurz deinen Charakter.
-Assistant: Basierend auf den Ergebnissen des Big 5 Persönlichkeitstests und deiner Verhaltensweisen, kannst du als jemand beschrieben werden, der:
+Assistant:  Der Charakter des beschriebenen Benutzers ist kombinierend und umfasst verschiedene Persönlichkeitseigenschaften. Er ist vertrauenswürdig, zuverlässig und gutmütig, er glaubt an das Gute im Menschen und zeigt sich begeisterungsfähig. Zugleich ist er analytisch, nachdenklich, kreativ und originell, erfreut sich an gründlichen Nachdenken über komplexe Dinge und entwickelt neue Ideen. Er hat ein hohes Maß an Energie und Tatendrang und bleibt bei Aufgaben bis zum Ende hin durch. Im Umgang mit anderen Menschen ist er oft misstrauisch, wird aber auch beobachtungslos oder gleichgültig gegenüber ihnen. Er hat wenig Interesse an abstrakten Ideen und finde Gedichte und Theaterstücke langweilig. Er versucht offen gegenüber anderen Meinungen zu sein, ist gerecht und respektvoll, jedoch reagiert er schnell gereizt oder genervt, wenn er eine zufriedenstellendere Lösung nicht durchführen kann. Er verbringe viel Zeit damit, bei neuen Anschaffungen ein gutes Preis-Leistungsverhältnis zu garantieren und versucht dabei offen gegenüber anderen Meinungen zu sein. Insgesamt zeigt er eine kombinierte Persönlichkeit mit verschiedenen Eigenschaften, die in unterschiedlichen Situationen hervortragen können.
 
-* Leidenschaftlich für komplexe Dinge ist und gerne nachdenkt (4)
-* Vertrauenswürdig ist und andere Menschen vertraut (5)
-* Ehrgeizig und tatendrangvoll ist, aber nicht übertrieben optimistisch (3-4)
-* Vielseitig interessiert ist, mit Interessen wie Musik, Psychologie und Natur
-* Wert auf Freundschaften und Familie legt (A)
-* Offen gegenüber anderen Meinungen ist und gerne diskutiert (A)
-
-Du bist ein echter Mitdenker, der gerne Zeit in deiner Umgebung verbringt. Du bist nicht übermäßig energiegeladen oder impulsiv, aber du hast deine Stärken und Schwächen.
-
-Dein Interesse an Musik und Psychologie weist darauf hin, dass du kreativ und analytisch denkst, was dein Fokus auf das Verständnis menschlichen Verhaltens unterstützt. Du bist ein echter Freund des Lernens und Entdeckens, der gerne Zeit mit Freunden verbringt und deine Familie schätzt.
-
-Trotz deiner vielen Interessen ist es wichtig zu beachten, dass du nicht übermäßig fantasievoll oder originell bist (2-3). Du bevorzugst es normalerweise, Dinge gründlich zu planen und zu analysieren, anstatt sich auf spontane Ideen oder Pläne zu verlassen.
-
-Es ist auch wichtig zu beachten, dass du gelegentlich gereizt werden kannst, wenn eine Situation nicht nach deinem Willen läuft (3). Aber allgemein bist du ein sehr ruhiger und vernünftiger Mensch, der Wert auf Freundschaften und Familie legt.
+Antwortgenerierung dauerte: 106.1814 Sekunden
 --------------------------------------------------
 User: Was sind deine zwei größten Interessen ?
-Assistant: Basierend auf den Angaben aus deinem Profil habe ich folgende Informationen über deine Interessen:
+Assistant:  Meine beiden größten Interessen sind die Informatik und das kreative Schaffen. Ich bin im Studium der Informatik und finde es faszinierend, wie mit Algorithmen und technischen Lösungen Problemstellungen gelöst werden können. Außerdem verbinde ich meine Leidenschaft für die Technologie auch mit dem kreativen Schaffen in verschiedenen Bereichen wie Design oder Musik.
 
-1. Du interessierst dich für "Kunst, Musik und Literatur" (Punkt 21 im Big5 Test), was ein deutlicher Hinweis darauf ist, dass du Interesse an kulturellen Dingen hast.
-
-2. Du bist "vielseitig interessiert", was bedeutet, dass du ein breites Spektrum an Themen und Interessen haben könntest (Punkt 20 im Big5 Test).
-
-Die Antwort auf die Frage lautet also: Kunst/Musik/Literatur und diverses.
+Antwortgenerierung dauerte: 61.5605 Sekunden
 --------------------------------------------------
