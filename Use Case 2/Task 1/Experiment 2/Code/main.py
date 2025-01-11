@@ -2,6 +2,7 @@ import networkx as nx
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 from sentence_transformers import SentenceTransformer
+from sklearn.cluster import DBSCAN
 import os
 import re
 
@@ -37,46 +38,59 @@ def filter_and_clean_messages(file_path, sender_name):
 
 def main():
     # Nachrichten aus dem Chat
+#    text_file_path = os.path.join("..", "Data", "raw", "chats.txt")
+
     text_file_path = os.path.join("..", "Data", "raw", "chats.txt")
 
     # Schritt 1: Filtere und bereinige Nachrichten (z. B. Entferne Nachrichten von "Dominic Dbtech" sowie Datum/Uhrzeit)
     filtered_messages = filter_and_clean_messages(text_file_path, "Dominic Dbtech")
 
-# all-MiniLM-L6-v2
+#all-MiniLM-L6-v2 -> eps=1.03
+#paraphrase-MiniLM-L6-v2 -> eps=0.73
     # Schritt 2: Berechne Embeddings für die bereinigten Nachrichten
-    model = SentenceTransformer(
-        'paraphrase-MiniLM-L6-v2')  # Du kannst andere Modelle wie 'paraphrase-multilingual-MiniLM' ausprobieren
+    model = SentenceTransformer('all-MiniLM-L6-v2')  # Du kannst andere Modelle wie 'paraphrase-multilingual-MiniLM' ausprobieren
     embeddings = model.encode(filtered_messages)
 
-    # Schritt 3: Ähnlichkeitsmatrix erstellen
+    # Schritt 3: Berechnung der Ähnlichkeitsmatrix (wird in DBSCAN verwendet)
     similarity_matrix = cosine_similarity(embeddings)
 
-    # Schritt 4: Graph basierend auf der Ähnlichkeitsmatrix erstellen
-    threshold = np.percentile(similarity_matrix, 98)
-    # first attempt
-    #threshold = 0.59  # Schwellwert für die Ähnlichkeit; anpassbar je nach Anwendungsfall
-    graph = nx.Graph()
+    # Schritt 4: Berechnung der Distanzmatrix und Sicherstellung, dass keine negativen Werte vorhanden sind
+    distance_matrix = 1 - similarity_matrix  # Umwandlung der Ähnlichkeit in Distanz
+    distance_matrix = np.maximum(0, distance_matrix)  # Stelle sicher, dass alle Werte >= 0 sind
 
-    # Füge Knoten (bereinigte Nachrichten) hinzu
-    for i, message in enumerate(filtered_messages):
-        graph.add_node(i, text=message)  # Knoten-ID und bereinigte Nachricht
+#metric vorher precomputed
+#eclidean -> eps=1.85 all-MiniLM
 
-    # Füge Kanten basierend auf Ähnlichkeit hinzu
-    for i in range(len(filtered_messages)):
-        for j in range(i + 1, len(filtered_messages)):
-            if similarity_matrix[i, j] > threshold:  # Ähnlichkeitsschwelle
-                graph.add_edge(i, j, weight=similarity_matrix[i, j])
-
-    # Schritt 5: Cluster mit Connected Components finden
-    clusters = list(nx.connected_components(graph))
+    # Schritt 5: DBSCAN Clustering
+    dbscan = DBSCAN(eps=0.0056, min_samples=1, metric="cosine")
+    labels = dbscan.fit_predict(distance_matrix)
 
     # Schritt 6: Ergebnisse anzeigen
-    print("Thematische Cluster:")
-    for cluster_id, cluster in enumerate(clusters):
+    clusters = {}
+    for idx, label in enumerate(labels):
+        if label != -1:  # Ignoriere Ausreißer (Label = -1)
+            if label not in clusters:
+                clusters[label] = []
+            clusters[label].append(filtered_messages[idx])
+
+    # Ausgabe der Cluster
+    print("Thematische Cluster (DBSCAN):")
+    for cluster_id, cluster in clusters.items():
         print(f"\nCluster {cluster_id + 1}:")
-        for node in cluster:
-            print(f"- {graph.nodes[node]['text']}")
+        for message in cluster:
+            print(f"{message}")
+
+    # Speichern der Ergebnisse in einer Datei
+#    output_file_path = "..", "Data", "clustered_results.txt"
+#    with open(output_file_path, "w", encoding="utf-8") as f:
+#        f.write("Thematische Cluster (DBSCAN):\n\n")
+#        for cluster_id, cluster in clusters.items():
+#            f.write(f"Cluster {cluster_id + 1}:\n")
+#            for message in cluster:
+#                f.write(f"{message}\n")
+#            f.write("\n")
+
+
 
 if __name__ == "__main__":
     main()
-
