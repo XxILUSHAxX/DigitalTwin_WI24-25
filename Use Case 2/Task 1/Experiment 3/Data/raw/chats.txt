@@ -1,0 +1,953 @@
+01.11.23, 09:47 - Lennard: Moin, Lennard hier von Dbtech ✌🏻
+01.11.23, 09:54 - Dominic Dbtech: Jojo grüß dich.
+01.11.23, 10:14 - Lennard: In welcher Übung bist eigentlich?
+01.11.23, 10:15 - Dominic Dbtech: Immer Montags 17:15 und du ?
+01.11.23, 10:15 - Dominic Dbtech: VL habe ich bei Kempa
+01.11.23, 10:16 - Lennard: jo same aber Übung 19:00
+01.11.23, 10:16 - Lennard: wie weit bist so mit den Aufgaben?
+01.11.23, 10:17 - Dominic Dbtech: Die letzte Methode cleartray() muss ich noch machen, ansonsten ist soweit alles
+implementiert und die Tests sind grün.
+01.11.23, 10:18 - Lennard: nice nice, habe bisher nur die erste gemacht, habe aber auch immer erst gegen Ende der Woche viel Zeit
+01.11.23, 10:18 - Lennard: die erste hat er ja auch prinzipiell in der online Übung geleaked
+01.11.23, 10:18 - Lennard: lul
+01.11.23, 10:19 - Dominic Dbtech: 😂 Jo
+01.11.23, 10:19 - Lennard: also nehme denk ich trz meine impl, weiß nicht wie die sich da haben, wenn wir seins in etwas verändert übernehmen würden 🤔
+01.11.23, 10:20 - Dominic Dbtech: Also ich habe den Dozent gefragt, der meinte wir können das nehmen und bekommen Punkte drauf
+01.11.23, 10:20 - Lennard: ahh chillig 😄
+01.11.23, 10:22 - Dominic Dbtech: Also wir können die letzte Methode
+gerne zusammen machen und ich kann auch gerne meine Implementation der anderen Methoden zeigen und erklären.
+01.11.23, 10:24 - Lennard: also ich würd die zweite sonst erstmal alleine angucken und falls ich Schwierigkeiten hab oder dann zum Vergleichen können wir die gerne nochmal anschauen  👀
+01.11.23, 10:24 - Dominic Dbtech: Jo alles klar.
+01.11.23, 10:25 - Dominic Dbtech: Bis 12.11 haben wir noch Zeit.
+01.11.23, 10:26 - Lennard: jojo ich würd sagen ich meld mich einfach, wenn ich da weiter gemacht habe, sollte das im Laufe der nächsten Tage sein denke ich
+01.11.23, 10:26 - Lennard: ~das~
+01.11.23, 10:27 - Dominic Dbtech: Jut,ich warte der letzten Methode und wir implementieren die dann zusammen.
+01.11.23, 10:27 - Lennard: Jo ✌🏻️
+02.11.23, 19:27 - Lennard: <Medien ausgeschlossen>
+02.11.23, 19:36 - Dominic Dbtech: Ich gucke gleich zu Hause.
+Aber ich glaube du erreichst das return statement  garnicht .
+02.11.23, 19:37 - Dominic Dbtech: In 15min kann ich dir mehr sagen
+02.11.23, 19:54 - Dominic Dbtech: <Medien ausgeschlossen>
+02.11.23, 19:54 - Dominic Dbtech: Ich habe mit
+if und else gearbeitet
+02.11.23, 19:55 - Lennard: Ahh okay 🤔 ich schau mal
+02.11.23, 19:55 - Lennard: Hätte das anfänglich auch so
+02.11.23, 19:55 - Lennard: Also 2 catch Blöcke
+02.11.23, 19:56 - Dominic Dbtech: Ich habe nur einen catch, dass andere ist der else Fall
+sollte es keine Datenbankeintrag geben mit der SampleId
+02.11.23, 19:57 - Dominic Dbtech: den try Block lasse ich mit data excepitom catchen
+02.11.23, 20:04 - Lennard: Nice, habe gerade noch ein bisschen rumprobiert, bin noch nicht soo familiär mit Exceptions, an der Uni hatten wir die nur sehr beiläufig. Danke für die Hilfe :)
+02.11.23, 21:49 - Dominic Dbtech: Ich habe soweit alles implementiert. <Diese Nachricht wurde bearbeitet.>
+02.11.23, 21:49 - Dominic Dbtech: Test sind alle grün.
+03.11.23, 02:39 - Lennard: Also inkl 3. nehme ich an, hab die 2te gerade gemacht, lief recht reibungslos 👀
+03.11.23, 09:08 - Dominic Dbtech: Ja genau
+03.11.23, 09:08 - Dominic Dbtech: Alle 4 Methoden
+03.11.23, 10:33 - Lennard: Achso ja die erste hab ich mal nicht mitgezählt
+06.11.23, 13:12 - Dominic Dbtech: Jojo ich würde die Ü2 heute abgeben.
+06.11.23, 13:37 - Lennard: Jo alles klar, ich mach nachher gleich die letzte Aufgabe, sitzt jetzt schon über ne Stunde länger als geplant beim Bahnfahren fest wegen eines Unfalls auf den Gleisen, wollte eigentlich schon dran sitzen
+06.11.23, 13:40 - Dominic Dbtech: Ok alles klar.
+06.11.23, 21:07 - Lennard: Jo ich muss dich mal anhauen
+06.11.23, 21:08 - Lennard: Fühl mich richtig stupid
+06.11.23, 21:08 - Lennard: <Medien ausgeschlossen>
+06.11.23, 21:08 - Lennard: <Medien ausgeschlossen>
+06.11.23, 21:10 - Lennard: Also folgende Sache, geht um die ersten beiden Tests, wenn ich wie im ersten Bild nur teste ob nichts passiert wenn ich die Funktion Aufrufe bzw ob sie funktioniert, wird der zweite Test, (also dass beim Löschen nichts passiert ist) grün und er erkennt die leeren trays richtig
+06.11.23, 21:11 - Lennard: Wenn ich aber wie auf dem zweiten Bild das in ne if Anweisung setze um die Exception zu werfen für den ersten Test, funktioniert der zweite nicht mehr, obwohl die Else Anweisung eigentlich gar nicht aufgerufen werden sollte und ich ja nachgewiesen hab, dass die Funktion alleine beim 2ten Test grün bleibt <Diese Nachricht wurde bearbeitet.>
+06.11.23, 21:20 - Dominic Dbtech: Also ich habe garnicht geprüft ob die Tray's leer sind. Der erste Test soll prüfen ob der Tray überhaupt existiert.
+06.11.23, 21:21 - Dominic Dbtech: Schicke mir mal
+die Hilfsmethode
+06.11.23, 21:22 - Lennard: Müsste eigentlich trz n ähnliches Prinzip sein 🤔
+06.11.23, 21:22 - Lennard: <Medien ausgeschlossen>
+06.11.23, 21:24 - Lennard: Wobei
+06.11.23, 21:24 - Lennard: Ich schreibs mal um
+06.11.23, 21:33 - Dominic Dbtech: Ich habe das etwas anders implementiert.
+06.11.23, 21:38 - Dominic Dbtech: 1. Abfrage war, ob der tray überhaupt existiert, wenn nicht dann cooling exption, ansonsten
+2. Abfrage Gib mir die Placeno und die Sampleid des Tray's aus. Solange eine Ergebnismenge kommt soll er dann zuerst 3.Abfrage die Placeno löschen dann 4.Abfrage die Samplid löschen. Kommt aber wie bei tray 6 keine Ergebnismenge zurück, dann update das datum vom tray.
+06.11.23, 21:41 - Dominic Dbtech: Ich prüfe nicht direkt ob es
+überhaupt Platze auf dem Tray gibt durch eine Abfrage, sondern nur indirekt.
+06.11.23, 21:42 - Dominic Dbtech: <Medien ausgeschlossen>
+06.11.23, 21:42 - Lennard: Ja okay okay aber warum updatest du das Datum bei tray 6? Steht nicht im 2ten Test, dass keine Änderungen passieren sollen?
+06.11.23, 21:43 - Dominic Dbtech: Dadurch dass das Datum schon auf Null ist bei 6 und ich es nochmal auf Null setze ändere ich an sich nix 😂
+06.11.23, 21:44 - Lennard: Lul 😂
+06.11.23, 21:44 - Lennard: Mhh hmm
+06.11.23, 21:44 - Dominic Dbtech: Dein Gedanke ist deshalb garnicht schlecht.
+06.11.23, 21:45 - Dominic Dbtech: Aber es scheint auch so zu gehen wie ich es gemacht habe
+06.11.23, 21:45 - Lennard: Ja macht ja an sich auch Sinn
+06.11.23, 21:46 - Lennard: Ich raff bloß wirklich nicht wieso er sagt es hätte sich was verändert obwohl der else Fall ja gar nicht ausgeführt wird bei mir
+06.11.23, 21:46 - Dominic Dbtech: Warte ich schau nochmal nach
+06.11.23, 21:47 - Lennard: Falls du da nichts mehr finden solltest versuch ich's einfach anders danke aufjedenfall schonmal für die Hilfe 🫶🏻
+06.11.23, 21:48 - Dominic Dbtech: Das liegt glaube an der deleteSql methode
+06.11.23, 21:48 - Lennard: Aber die wird doch gar nicht aufgerufen eigentlich
+06.11.23, 21:52 - Dominic Dbtech: Also bei dem Fall wird Sie aufgerufen. Test 1 ist grün, wegen der cooling excepitom.
+Test 2 ist nicht grün, weil durch den deletesql
+scheinbar was verändert wird obwohl nix verändert werden soll.
+06.11.23, 21:52 - Lennard: Ja
+06.11.23, 21:53 - Lennard: Und hier hab ich ja die Methode ohne die zweite Methode genommen um zu gucken ob die was verändert, was sie ja müsste, aber tut sie nicht
+06.11.23, 21:54 - Lennard: Oh
+06.11.23, 21:54 - Lennard: Oh man
+06.11.23, 21:54 - Lennard: Jetzt weiß ichs
+06.11.23, 21:54 - Dominic Dbtech: Du machst 2x mal
+cooling exception oder ?
+06.11.23, 21:55 - Lennard: Beim zweiten wird der else Fall doch ausgelöst
+06.11.23, 21:55 - Lennard: Habe vorher nur ne falsche Methode benutzt wie du schon gesagt hast
+06.11.23, 21:56 - Lennard: Bin ja von ob das Tray leer ist ausgegangen, jetzt hab ich getestet ob die ID existiert und siehe da ja sie existiert also wird else ausgeführt
+06.11.23, 21:57 - Dominic Dbtech: Haha ok gut.
+06.11.23, 21:58 - Lennard: Aiaiaiai 🥲😂
+06.11.23, 21:59 - Dominic Dbtech: Bei dem hast du auch 2x Cooling Excepiton. 1x in deiner Hilfsmethode  und das 1x wenn es false
+ist
+06.11.23, 21:59 - Lennard: Jo
+06.11.23, 22:15 - Lennard: Okay um nochmal das Paradoxon vom Anfang aufzuklären, es lag daran, dass ich eine Exception geworfen habe, wenn das Tray leer ist und das galt auch schon als Änderung
+06.11.23, 22:16 - Lennard: Meintest du ja hier auch schon im Prinzip 😶‍🌫
+06.11.23, 22:17 - Lennard: Weird, dass ich da nicht selber drauf gekommen bin
+06.11.23, 22:20 - Dominic Dbtech: Naja so ganz richtig war es nicht von mir. In der Hilfsmethode wäre die cooling nur gekommen, wenn der try Befehl daneben geht.
+06.11.23, 22:24 - Dominic Dbtech: Ich habe gerade auch nochmal geschaut. Wenn man einen Spalte auf Null setzt die schon Null ist, dann updated er die Zeile trotzdem.
+06.11.23, 22:31 - Dominic Dbtech: Hast du diese Jahr zufällig Statistik belegt ?
+06.11.23, 22:43 - Lennard: Interesting 🤔
+06.11.23, 22:44 - Lennard: Nope, das wird mir wahrscheinlich angerechnet
+06.11.23, 22:44 - Lennard: Habe MAS und Dbtech aus dem dritten Semester
+06.11.23, 22:44 - Lennard: Achso und Englisch
+06.11.23, 22:45 - Dominic Dbtech: Ok, MAS hatte ich letztes Jahr
+06.11.23, 22:45 - Dominic Dbtech: Beim wem bist in Englisch ?
+06.11.23, 22:47 - Lennard: Woege, Dienstag 15:30
+07.11.23, 01:39 - Lennard: <Medien ausgeschlossen>
+07.11.23, 12:05 - Dominic Dbtech: Ja mir ist es Wurst. Dann gib deine Datei ab.
+07.11.23, 12:16 - Dominic Dbtech: Methode 1,2,3 dürften ja gleich sein.
+07.11.23, 12:24 - Dominic Dbtech: Warum haste den 1. Select -Befehl nicht in die testtrayid Methode gepackt ?
+Wie bei testtraynotempty ? :D
+07.11.23, 12:25 - Dominic Dbtech: Schicke mir mal bitte die Hilfsmethoden noch.
+07.11.23, 12:31 - Dominic Dbtech: Ich will mir das mit dem integerto. string trayid auch nochmal anschauen.
+07.11.23, 12:32 - Dominic Dbtech: Am Besten du schickst mir mal deine javadatei. 😂
+07.11.23, 12:54 - Lennard: Der ist um die Sampleid's zu speichern um die danach in Sample löschen zu können
+07.11.23, 12:59 - Lennard: <Medien ausgeschlossen>
+07.11.23, 13:05 - Dominic Dbtech: Danke
+07.11.23, 13:05 - Lennard: ✌🏻
+12.11.23, 19:42 - Dominic Dbtech: Jawoll für ü2 gab es volle Punktzahl
+13.11.23, 19:13 - Dominic Dbtech: War gerade in der Übung DBTech.
+Er hat ein paar Hinweise zur neuen Übung gegeben. Am
+Besten wir sprechen uns ab wie wir vorgehen. Die Methoden sind dieses mal nicht unabhängig von einander implementierbar.
+13.11.23, 19:49 - Lennard: Bin auch gerade in der Übung, jo sieht aber ganz spaßig aus
+13.11.23, 19:50 - Dominic Dbtech: Wie viele seit ihr ?
+13.11.23, 19:50 - Lennard: 4, er meinte schon bei euch waren 2 oder so 😂
+13.11.23, 19:50 - Dominic Dbtech: wir waren einfach zu zweit in der Übung
+13.11.23, 19:51 - Lennard: Ja wilde Nummer, weißt du weshalb? 🤔
+13.11.23, 19:52 - Dominic Dbtech: Kp wahrscheinlich könne alle anderen das 😂
+13.11.23, 20:18 - Lennard: Herr Dohmeier meint, die haben wohl gleichzeitig Statistik 🥸
+13.11.23, 20:18 - Dominic Dbtech: Ja Statistik ist auch 19 Uhr nochmal 😂
+13.11.23, 20:19 - Dominic Dbtech: Die haben einfach keine Bock solange in der Uni zu sein.
+13.11.23, 20:20 - Lennard: 😂
+13.11.23, 20:20 - Lennard: Gut möglich
+13.11.23, 20:21 - Dominic Dbtech: Ich habe da Übung aber gehe auch nicht hin 😂 Im Endeffekt löst du da die Aufgaben und er sagt jo
+passt oder passt nicht. Wirklich erklären tut er da nicht. Ich hab aber die Lösungen zu den Aufgaben 😅
+13.11.23, 20:31 - Lennard: Ja gut verständlich
+13.11.23, 20:33 - Lennard: Hab heute endlich meine Anrechnungen bekommen nach Jahren gefühlt. Statistik wurd angerechnet btw aber muss auch 1-2 Fächer nochmal machen 🥴 hattest du eigentlich schon Controlling?
+13.11.23, 20:34 - Dominic Dbtech: Ja die Info bekommt man erst in der Mitte des Semesters. War bei mir auch so habe vorher BWL studiert. 
+Ja Controlling hatte ich.
+13.11.23, 20:35 - Lennard: Braucht man dafür irgendwelches Vorwissen aus 1./2. Semester? Weil ich mach nächstes Semester die ganzen BWL Fächer aus dem 1. und 2. und eig auch Controlling <Diese Nachricht wurde bearbeitet.>
+13.11.23, 20:37 - Lennard: Ah interesting, an der HTW? Wie lang?
+13.11.23, 20:40 - Dominic Dbtech: Eventuell das Modul Buchführung und Finanzen. Das hat man normalerweise im 2. Semester und im 3. dann Controlling. 
+Im Prinzip geht es in Buchfürung  um die externe Buchaltung und Controlling um die interne Buchaltung.
+13.11.23, 20:40 - Dominic Dbtech: Kannst das auch parallel versuchen.
+13.11.23, 20:41 - Dominic Dbtech: Ne TH Wildau am Arsche der Welt 😂 2 Semester lang dann bin ich gewechselt.
+13.11.23, 20:41 - Dominic Dbtech: War mir zu trocken das Fach.
+13.11.23, 20:42 - Dominic Dbtech: Ich hatte halt gut Pech mit der Coronazeit.
+13.11.23, 20:42 - Lennard: Finanzbuchhaltung hatte ich schon, dann passt das ja, hatte an der Uni kosten-und Leistungsrechnung für internes
+13.11.23, 20:42 - Dominic Dbtech: Ja dann mach Controlling.
+13.11.23, 20:44 - Lennard: Lul ja verständlich ich muss sagen so ein paar Wirtschaftskurse sind ganz nice aber n ganzes Studium wär mir echt zu viel von dem kram
+13.11.23, 20:44 - Lennard: Bin schon bisschen traurig, dass ich nächstes Semester dann nur ein Info Kurs habe 😶‍🌫
+13.11.23, 20:45 - Dominic Dbtech: 😂 Ja ich habe mich megaschwer getan mit der Informatik.
+13.11.23, 20:46 - Dominic Dbtech: Programmieren hat 3. Semster gedauert bis ich es geschafft habe. <Diese Nachricht wurde bearbeitet.>
+13.11.23, 20:47 - Dominic Dbtech: Normalerweise hätte ich letztes Semster mein Abschluss machen müssen haha
+13.11.23, 20:47 - Lennard: lul aber war bei mir am Anfang auch auf der kritischen Seite, ich find das braucht ein bisschen, bis man sich da sicherer ist (würde mich nicht als sicher bezeichnen haha aber auch nicht unsicher) aufjedenfall hab ich gemerkt, dass es deutlich besser läuft wenn man Bock drauf hat
+13.11.23, 20:48 - Lennard: Bin rein theoretisch auch schon im 5. Semester
+13.11.23, 20:48 - Dominic Dbtech: Ick bin 7.
+13.11.23, 20:48 - Lennard: Arbeitest du nebenbei?
+13.11.23, 20:48 - Dominic Dbtech: Haha mit BWL bin ich im 9. 😂 Aber da habe ich noch als Werkstudent gearbeitet.
+13.11.23, 20:49 - Dominic Dbtech: Naja bei Rewe Aushilfe 😂 Aber nix mit IT.
+13.11.23, 20:49 - Dominic Dbtech: Kommendes Semster dann mit dem Praktikum. <Diese Nachricht wurde bearbeitet.>
+13.11.23, 20:49 - Dominic Dbtech: Davor habe ich Bafög bekommen.
+13.11.23, 20:50 - Dominic Dbtech: Bin auch schon etwas älter 😂
+13.11.23, 20:52 - Lennard: Mhhhh hmm
+13.11.23, 20:52 - Dominic Dbtech: und du ? Gehste irgendwo ackern ?
+13.11.23, 20:55 - Lennard: Hab noch den Luxus, dass meine Mum mich "fürs studieren bezahlt" 😶‍🌫
+13.11.23, 20:56 - Lennard: Bin aber auch noch etwas jünger, habe dann ja bald auch das Praktikum und danach bzw im Master hab ich vor nebenbei was zu machen 👀
+13.11.23, 20:57 - Dominic Dbtech: Das ist denke bei den meisten so.
+13.11.23, 21:01 - Dominic Dbtech: Master weiß ich noch nicht erstmal Bachelor 😂 schaffen.
+13.11.23, 21:01 - Lennard: Jojo muss ja auch nicht 🤷🏻‍♂️
+14.11.23, 00:56 - Lennard: also irgendwie war ich schon bisschen motiviert und habe ein paar Sachen implementiert. Die ersten 4 Tests sind grün und ich hab extra ein wenig (wenn auch nicht mega viel) Kommentiert und dokumentiert, damit man das hoffentlich recht schnell verstehen kann
+14.11.23, 00:57 - Lennard: <Medien ausgeschlossen>
+14.11.23, 12:58 - Dominic Dbtech: Ich verstehe den Code soweit.
+14.11.23, 12:58 - Dominic Dbtech: Können wir so nehmen. <Diese Nachricht wurde bearbeitet.>
+14.11.23, 12:59 - Dominic Dbtech: Müssen das alles eh noch umschreiben, wenn wir ein Pattern nutzen.
+14.11.23, 12:59 - Dominic Dbtech: Aber erstmal alle Tests grün bekommen.
+14.11.23, 13:08 - Lennard: Jo
+14.11.23, 13:18 - Dominic Dbtech: Nächste Woche wollte er in der Übung ein DAO implementieren.
+14.11.23, 13:38 - Lennard: Warst du in der Vorlesung?
+14.11.23, 13:41 - Dominic Dbtech: heute ausnahmsweise nicht
+14.11.23, 13:42 - Dominic Dbtech: bin arbeiten :D
+14.11.23, 13:43 - Lennard: Ahh schade ich hab tatsächlich verpennt 😅
+14.11.23, 13:43 - Dominic Dbtech: Denke PLSQL kam ran
+14.11.23, 13:44 - Dominic Dbtech: Es gibt auch Videos bei Youtube von Claaßen
+14.11.23, 13:44 - Dominic Dbtech: https://www.youtube.com/watch?v=02ivfSX0V-Q&list=PL9rvxJNs9la6LyrLd1NQjbs19GqtD6U5n
+14.11.23, 13:45 - Lennard: Ahhh niceeee danke 🤌🏻
+14.11.23, 13:45 - Dominic Dbtech: Musste in der Playlist gucken
+20.11.23, 18:02 - Lennard: Hätte ich die Übung vorher gesehen, hätte ich's gleich so gemacht 😂 naja aber könnte weiter davon weg sein
+20.11.23, 19:37 - Dominic Dbtech: Bin angeschlagen, war deswegen nicht inder Uni heute.
+20.11.23, 21:41 - Lennard: Same, er hat aber hybrid gemacht
+20.11.23, 21:41 - Lennard: Gute Besserung btw
+20.11.23, 21:42 - Lennard: Er hat Beispielprojekte für DAOs hochgeladen, da kann man sich das grob angucken bzw die Struktur
+20.11.23, 22:15 - Dominic Dbtech: Er meinte auch in der Übung letzte Woche wir sollen erstmal die Methode ohne DAO implementieren, um uns safe die 10Points zu sichern. Anschließend das DAO implentieren.
+27.11.23, 16:57 - Dominic Dbtech: Kommste in die Übung heute ?
+27.11.23, 16:58 - Dominic Dbtech: Werde 19 Uhr da sein und auch vor Ort
+27.11.23, 17:04 - Lennard: Heute ist Zoom lul <Diese Nachricht wurde bearbeitet.>
+27.11.23, 17:05 - Dominic Dbtech: ja beides
+27.11.23, 17:06 - Lennard: Ah okay wusst ich gar nicht 🤔 bin aber Zuhause, lohnt sich nicht nochmal 40min zur Uni zu Gurken wenn's auch online ist <Diese Nachricht wurde bearbeitet.>
+27.11.23, 17:06 - Dominic Dbtech: ok
+27.11.23, 17:07 - Dominic Dbtech: ick bin eh da
+27.11.23, 17:10 - Lennard: Bin in Präsens btw demnächst eher in der 17:15 Übung je nachdem wie's passt, habe normalerweise bis 15:15 Veranstaltungen (mit einem Freiblock) und würde dann in Zukunft wahrscheinlich noch bis 17:15 warten und zur Übung gehen
+27.11.23, 17:14 - Lennard: Also in Zukunft nicht heute
+27.11.23, 18:56 - Dominic Dbtech: xD er ist doch micht vor ort 😂
+27.11.23, 19:19 - Lennard: 😂
+27.11.23, 19:27 - Lennard: Also ich bin leider 15min zu spät in die Zoom Veranstaltung aber habe wohl auch nichts verpasst, war halt nur fragen stellen wenn wer welche hat und dass es wohl sinnvoll ist die erste Teilaufgaben einzeln zu machen für Aufgabe 4 schonmal
+27.11.23, 19:28 - Lennard: Außerdem gibt es btw einen Fehler, wenn du die Tests ausführen möchtest und gleichzeitig einen Zugriff im SQL dev offen hast
+27.11.23, 19:29 - Lennard: Bzw hängt Eclipse sich evtl auf
+27.11.23, 19:43 - Dominic Dbtech: Ick war kurz drin, aber hatte eh keine Fragen bisher.
+27.11.23, 19:43 - Dominic Dbtech: ok mal schauen
+28.11.23, 10:53 - Dominic Dbtech: Haste eigtl schon weiter programmiert ? oder wollen wir das zusammen machen ?
+28.11.23, 10:55 - Dominic Dbtech: Ich tue mich etwas schwer mit der Aufgabe 😂 Vllt können wir ja uner DC quatschen und das zusammen lösen.
+28.11.23, 11:57 - Lennard: Hab noch nicht weiter gemacht, können wir machen habe aber wahrscheinlich erst frühestens ab Donnerstag Zeit
+28.11.23, 11:58 - Dominic Dbtech: Jut, ja Donnerstag geht bei mir.
+28.11.23, 11:58 - Dominic Dbtech: Oder Wochenende
+28.11.23, 11:59 - Dominic Dbtech: haben noch etwas mehr als 2 Wochen Zeit bis zur Abgabe.
+28.11.23, 12:47 - Lennard: 👍🏻
+03.12.23, 17:37 - Lennard: Bis zum 10.12.
+03.12.23, 17:57 - Dominic Dbtech: Ja stimmt eine Woche nurnoch 😂
+04.12.23, 12:33 - Lennard: Gehst du heute zur Übung? Ist ja eigentlich wieder nur Konsultation
+04.12.23, 12:33 - Dominic Dbtech: Ich glaube nicht.
+04.12.23, 12:33 - Dominic Dbtech: Ich sitze grad dran
+04.12.23, 12:36 - Lennard: Schon weiter gekommen? Habe gerade auch 40-50min Zeit
+04.12.23, 12:40 - Dominic Dbtech: xD nicht wirklich, ich versuche mit am Entscheidungsbaum langzuhangeln.
+04.12.23, 12:40 - Lennard: Ich les mich auch gerade wieder rein
+04.12.23, 12:44 - Dominic Dbtech: Bist du in der Uni ?
+04.12.23, 12:45 - Lennard: Ja Raum 127
+04.12.23, 13:15 - Lennard: <Medien ausgeschlossen>
+04.12.23, 13:16 - Dominic Dbtech: welches test ist das ?
+04.12.23, 13:22 - Dominic Dbtech: Ah test 3
+04.12.23, 13:23 - Dominic Dbtech: Also wenn das Ablaufdatum des Tablett 30.12.2017 ist, darf deine Probe nicht ein Ablaufdatum "größer" zum Beispiel 03.01.2018 haben.
+04.12.23, 13:33 - Lennard: test 5
+04.12.23, 13:33 - Dominic Dbtech: denke das hat die gleiche bedeutung
+04.12.23, 13:34 - Dominic Dbtech: bei dir wird übrigens im test kein datum zurückgegeben
+04.12.23, 13:34 - Dominic Dbtech: bdeswegen but was (null)
+04.12.23, 13:34 - Lennard: Wo?
+04.12.23, 13:34 - Dominic Dbtech: in der ersten Zeile auf dem Bild
+04.12.23, 13:35 - Dominic Dbtech: expected 2017-12-30
+04.12.23, 13:35 - Lennard: Ja ik ich weiß nur nicht was genau er im Test vergleicht, ob die Tabellen 1 zu 1 wie vorher sind oder wie? Weil eigentlich dürfte sich ja nichts verändert haben
+04.12.23, 13:35 - Dominic Dbtech: but was null
+04.12.23, 13:35 - Lennard: Du hast diese Nachricht gelöscht.
+04.12.23, 13:36 - Lennard: Achso ja die Fehlermeldung kann ich ja lesen das ist ja meine Frage was genau der da überhaupt haben will
+04.12.23, 13:36 - Lennard: Ich weiß dass es das Datum ist was da steht
+04.12.23, 13:36 - Dominic Dbtech: ok
+04.12.23, 13:37 - Lennard: Aber wieso sollte ich an dem Punkt irgendwo ein Datum zurück geben
+04.12.23, 13:38 - Lennard: Der vergleicht im Test den Datenbank bzw Tabellenstand actual und expected aber da sich aber meines Verständnisses nach nichts geändert haben soll und ich nur selects ausgeführt habe sollte da nichts fehlen <Diese Nachricht wurde bearbeitet.>
+04.12.23, 13:39 - Lennard: Soll man dann das Ablaufdatum verändern oder wie
+04.12.23, 13:40 - Lennard: Ahh wahrscheinlich ein neues Tablett erstellen
+04.12.23, 13:41 - Dominic Dbtech: Ja denke auch
+04.12.23, 13:45 - Lennard: Hab jetzt Vorlesung, ich schau mir nachher den Baum bzw die Anforderungen nochmal ordentlich an bzw mach dann weiter. Eventuell könnten wir auch über dc schnacken oder so 🤷🏻‍♂️
+04.12.23, 13:45 - Dominic Dbtech: jo alles klar
+04.12.23, 13:48 - Dominic Dbtech: ich habe von 15:30- 18:30 Vl und Übung , kann an 19:30 dann wieder in DC sein
+04.12.23, 13:49 - Dominic Dbtech: vllt ist auch besser wenn wir das bequatschen
+04.12.23, 14:48 - Dominic Dbtech: Ich glaube es ist besser
+mit richtigen Objekten zu arbeiten wie bei DAO.
+04.12.23, 14:48 - Dominic Dbtech: Ich werde heute Abend mal die Klassen erstellen.
+04.12.23, 14:49 - Dominic Dbtech: Bzw lass uns nachher quatschen über dc
+04.12.23, 14:49 - Dominic Dbtech: Hast ab 19:30'Zeit ?
+04.12.23, 15:11 - Lennard: Ja sollte passen
+04.12.23, 15:11 - Dominic Dbtech: sehr jut
+04.12.23, 19:19 - Dominic Dbtech: Lass mal 10min spter machen. Muss kurz was zu essen holen.
+04.12.23, 19:31 - Lennard: Du hast diese Nachricht gelöscht.
+04.12.23, 19:34 - Lennard: <Medien ausgeschlossen>
+04.12.23, 19:40 - Dominic Dbtech: bin jetzt am start
+04.12.23, 19:42 - Dominic Dbtech: Dome#7247
+04.12.23, 19:42 - Dominic Dbtech: bei dc
+04.12.23, 19:48 - Lennard: <Medien ausgeschlossen>
+04.12.23, 20:38 - Lennard: Weißt du ob die erste placeNo 0 ist? Oder 1 🤔
+04.12.23, 20:38 - Lennard: Wenn nicht guck ich kurz nach bei oracle
+04.12.23, 20:39 - Dominic Dbtech: Denke 1
+04.12.23, 20:39 - Dominic Dbtech: Wenn es 4 Platze sind, dann von 1-4
+04.12.23, 20:39 - Lennard: Alles klar 👍🏻
+05.12.23, 01:18 - Lennard: <Medien ausgeschlossen>
+05.12.23, 01:21 - Lennard: wer hätte gedacht, dass es so eklig sein kann ein Datum über jdbc in SQL zu übertragen 🥴 (bei der Insert/Update Funktion)
+05.12.23, 10:10 - Dominic Dbtech: Ja nice, ich schaue mir das später an. 👍😁
+05.12.23, 11:51 - Dominic Dbtech: Du kannst übrigns mit dem Logger arbeiten. Ich glaube das ist wesentlich angenehmer, als system out print
+05.12.23, 11:52 - Dominic Dbtech: Diese Nachricht wurde gelöscht.
+05.12.23, 11:52 - Dominic Dbtech: Diese Nachricht wurde gelöscht.
+05.12.23, 12:23 - Lennard: Ja oder Debugger 😅 weiß nicht genau wie man mit dem logger arbeitet
+05.12.23, 12:31 - Dominic Dbtech: 😂 Du bist auch grad in der Vorleesung bei Kempa oder ? <Diese Nachricht wurde bearbeitet.>
+05.12.23, 12:52 - Lennard: Jo
+06.12.23, 01:33 - Lennard: <Medien ausgeschlossen>
+06.12.23, 01:35 - Lennard: <Medien ausgeschlossen>
+06.12.23, 10:44 - Dominic Dbtech: Sehr nice 👍 <Diese Nachricht wurde bearbeitet.>
+07.12.23, 18:50 - Dominic Dbtech: Jojo sagmal weißt du ob wie bei dem dao auch die Create und Delete methoden implentieren müssen ?
+07.12.23, 18:51 - Dominic Dbtech: Weil an sich nutzen wir die ja garnich in unserem
+Anwendungsfall
+07.12.23, 19:04 - Lennard: Denke wir sollen nur implementieren was unsere Aufgabe löst
+07.12.23, 19:19 - Dominic Dbtech: Jut
+07.12.23, 22:16 - Dominic Dbtech: Ich glaube ich brauch mal
+deine Hilfe morgen oder so.
+07.12.23, 22:16 - Dominic Dbtech: Also für die Ü3
+07.12.23, 23:59 - Lennard: Alles klaro
+08.12.23, 17:22 - Lennard: btw wir sollten laut Aufgabenblatt eigentlich in den Kommentar bei der Abgabe unsere Namen reinschreiben, wir können das ja einfach mal bei der Abgabe 3 jetzt machen, auch rückwirkend, falls es nötig ist <Diese Nachricht wurde bearbeitet.>
+08.12.23, 17:50 - Dominic Dbtech: er kann doch anhand der gruppe sehen wer das gemacht hat
+08.12.23, 17:50 - Lennard: ja eigentlich schon steht trz in der Aufgabe idk
+08.12.23, 17:51 - Dominic Dbtech: ja dann machen wir das bei de Übung halt
+08.12.23, 17:52 - Dominic Dbtech: das alte ist eh schon bewertet
+08.12.23, 18:32 - Lennard: Du hast diese Nachricht gelöscht.
+08.12.23, 19:17 - Dominic Dbtech: Ich setzte mich in 20 min nochmal ran
+08.12.23, 19:17 - Lennard: bin gerade dabei habe die Grundstruktur fast fertig 😅
+08.12.23, 19:18 - Dominic Dbtech: Die Klassen, Dao und Daoimpl habe ich drin. Aber der schwierige Teil kommt jetzt noch
+08.12.23, 19:19 - Lennard: schick mal
+08.12.23, 19:19 - Dominic Dbtech: soll ich dir das ganze Projekt schicken ?
+08.12.23, 19:19 - Lennard: jo
+08.12.23, 19:19 - Lennard: nee
+08.12.23, 19:19 - Lennard: wait
+08.12.23, 19:19 - Lennard: nur
+08.12.23, 19:20 - Lennard: dbtech_service projek´t
+08.12.23, 19:20 - Dominic Dbtech: Hast du in 10min Zeit ?
+08.12.23, 19:20 - Lennard: wollen wir sonst fix n call machen
+08.12.23, 19:20 - Dominic Dbtech: ich esse grad noch
+08.12.23, 19:20 - Dominic Dbtech: ja lass n Call bei DC machen in 10 min
+08.12.23, 19:21 - Dominic Dbtech: Ich esse kurz auf
+08.12.23, 23:36 - Dominic Dbtech: Habe es abgeändert
+08.12.23, 23:36 - Dominic Dbtech: funzt auch
+08.12.23, 23:36 - Lennard: Bruh 😭😂
+08.12.23, 23:36 - Dominic Dbtech: <Medien ausgeschlossen>
+08.12.23, 23:37 - Dominic Dbtech: das problem
+ist, das es java.sql.date in 2 Bibliotheken gibt
+08.12.23, 23:37 - Dominic Dbtech: und wenn man die falsche nimmt spackt es
+08.12.23, 23:37 - Lennard: Ahhh interesting 🤔
+08.12.23, 23:40 - Lennard: Ach übrigens, wenn du mal ne Runde Fortnite zocken willst sag bescheid
+08.12.23, 23:44 - Dominic Dbtech: <Medien ausgeschlossen>
+08.12.23, 23:44 - Dominic Dbtech: Kann nur eine Datei abgegeben
+08.12.23, 23:44 - Lennard: Also ich hab jetzt durch die Frage mal angenommen, dass du's spielst
+08.12.23, 23:44 - Lennard: Alles klar 👍🏻
+08.12.23, 23:45 - Dominic Dbtech: Hahah früher habe ich es gezockt auf PS4. Aber jetzt nicht mehr.
+08.12.23, 23:45 - Lennard: Achso okay 😁✌🏻
+08.12.23, 23:47 - Dominic Dbtech: <Medien ausgeschlossen>
+11.12.23, 17:10 - Lennard: Kommst du zur Übung?
+11.12.23, 17:10 - Dominic Dbtech: Ne ich muss was für Projektmanagement machen
+11.12.23, 17:10 - Dominic Dbtech: Bist du da ?
+11.12.23, 17:10 - Lennard: Bin bisher der einzige hier 😂🥲
+11.12.23, 17:10 - Dominic Dbtech: ja kenn ich
+17.12.23, 13:21 - Dominic Dbtech: Jojo volle Punktzahl für Ü3 👍
+17.12.23, 14:14 - Lennard: null
+17.12.23, 14:15 - Dominic Dbtech: Loool war Autokorrketur bro
+17.12.23, 14:15 - Dominic Dbtech: Habe dich ja auch so gespeichert bei Whatsapp
+17.12.23, 14:15 - Lennard: Alles gut 😄
+02.01.24, 14:44 - Dominic Dbtech: Jojo haste schon mit Ü4 angefangen ?
+02.01.24, 15:20 - Lennard: Nope 😅
+02.01.24, 15:37 - Dominic Dbtech: jut ick auch nicht
+02.01.24, 15:37 - Dominic Dbtech: Lass uns
+die Woche einfach bei DC treffen und anfangen gemeinsam.
+02.01.24, 15:37 - Dominic Dbtech: Erstmal Aufgabe angucken und ein Plan machen.
+02.01.24, 15:37 - Dominic Dbtech: Vllt schon 1-2 Funktionen schreiben
+02.01.24, 17:08 - Lennard: Jo find ich gut
+02.01.24, 17:09 - Lennard: Habe morgen oder Freitag oder evtl übers Wochenende Zeit
+03.01.24, 12:15 - Dominic Dbtech: Wann haste Zeit heute ?
+03.01.24, 13:23 - Lennard: So ab 15Uhr 🤔
+03.01.24, 13:24 - Lennard: Also später würde auch gehen
+03.01.24, 13:44 - Dominic Dbtech: Ich habe ganzen Tag Zeit.
+03.01.24, 13:44 - Dominic Dbtech: Also sag du wann es dir am Besten passt.
+03.01.24, 15:40 - Lennard: In 10min 😅👀
+03.01.24, 16:10 - Dominic Dbtech: lass halb machen ich esse grad
+03.01.24, 23:10 - Lennard: Habe mal die findFittingTrays Funktion versucht zu bauen, noch keine Zeit gehabt sie zu testen aber so in der Art sollte es wohl aussehen
+03.01.24, 23:11 - Lennard: das "IS" steht stellvertretend für "declare". In den Folien steht zwar immer declare aber in den Beispielen aus der Übung IS, außerdem wird mir mit declare eine Fehlermeldung angezeigt
+04.01.24, 11:42 - Dominic Dbtech: Ja nice
+04.01.24, 23:42 - Lennard: Bringt mich jetzt schon zum verzweifeln der quatsch
+04.01.24, 23:42 - Lennard: Das schlimmste ist, dass man keine ordentlichen Fehlermeldungen kriegt
+04.01.24, 23:42 - Dominic Dbtech: 😂😂
+04.01.24, 23:43 - Dominic Dbtech: Ich habe heute nix gemacht.
+04.01.24, 23:43 - Dominic Dbtech: Dann chill bis Samstag
+04.01.24, 23:43 - Dominic Dbtech: Da können wir gemeinsam nachdenken
+04.01.24, 23:44 - Lennard: Ich hab bisher auch nur versucht die Funktion zum laufen zu bringen, hab's jetzt geschafft einen Tabellen-Datentypen zu machen, den die Funktion zurückgeben kann aber jetzt will er das SQL Statement nicht mehr ausführen
+04.01.24, 23:44 - Dominic Dbtech: Das Callable Statement aus Java ? <Diese Nachricht wurde bearbeitet.>
+04.01.24, 23:45 - Lennard: Nene in der Pl SQL Funktion
+04.01.24, 23:45 - Lennard: Möchte da ja in eine Tabelle auslesen aber irgendwas läuft da noch nicht rund
+04.01.24, 23:46 - Lennard: Aber naja ich schau mir mal 1,2 Youtube Videos an
+04.01.24, 23:46 - Dominic Dbtech: Sitzt du an der Sache von gestern ? Fittingtrays ?
+04.01.24, 23:46 - Lennard: Jo
+04.01.24, 23:48 - Lennard: "RETURN TABLE" geht nicht weil man den Datentyp der spezifischen Tabelle erst erstellen muss. Das habe ich jetzt gemacht und das kompiliert auch wie es soll aber in der Funktion meckert er
+04.01.24, 23:48 - Lennard: Beim SQL Statement aber wie gesagt mal schauen erkläre das sonst lieber beim callen
+04.01.24, 23:49 - Dominic Dbtech: Gibt es
+garkeine Fehlermeldung ?
+04.01.24, 23:49 - Dominic Dbtech: Wenn doch schick sie mir mal 
+:)
+04.01.24, 23:53 - Lennard: <Medien ausgeschlossen>
+04.01.24, 23:53 - Lennard: Der Anfang klappt soweit (man sieht die Datentypen auch im Baum links unter "Typen")
+04.01.24, 23:53 - Lennard: Die Funktion zeigt allerdings diese Fehler:
+04.01.24, 23:54 - Lennard: <Medien ausgeschlossen>
+04.01.24, 23:57 - Dominic Dbtech: Mhhh ich kann gerade auch nicht weiterhelfen.
+04.01.24, 23:58 - Dominic Dbtech: Ich raffe das noch nicht ganz
+05.01.24, 01:13 - Lennard: Also ich habe es jetzt gefixt
+05.01.24, 01:14 - Lennard: Allerdings ist mir aufgefallen, dass er das Vorgehen (wahrscheinlich auch in etwas besser..) in der letzten Übung gemacht hat und es dafür n Beispiel auf Moodle gibt 🥲
+09.01.24, 00:39 - Lennard: Die Funktion ist doch gut wie sie ist.. das habe ich jetzt nach locker 2-3h endlich herausgefunden, weil das Problem was ich die ganze Zeit hatte nur war, dass die verkackte Datenbank nicht richtig aufgesetzt war....
+09.01.24, 13:34 - Dominic Dbtech: Ah verstehe
+09.01.24, 13:35 - Lennard: <Medien ausgeschlossen>
+09.01.24, 13:36 - Lennard: Also so ist die final, wir können die Tage auch callen, dann versuch ich dir paar Sachen zu erklären muss dafür aber selber noch etwas mehr verstehen
+09.01.24, 13:38 - Dominic Dbtech: Jo aufjedenfall, so ein bisschen kann ich es nachvollziehen. Ich denke am WE sollte es klappen. Bin derzeit angeschlagen. Fieber..Hals- und Gliederschmerzen 🤧.
+09.01.24, 13:38 - Dominic Dbtech: Vorgestern war Katastrophe heute geht es schon halbwegs
+09.01.24, 13:38 - Lennard: Aiaiai, dann gute Besserung erstmal 😬
+09.01.24, 13:38 - Dominic Dbtech: Ja danke
+09.01.24, 13:39 - Lennard: Hast noch viele Projekte zurzeit?
+09.01.24, 13:40 - Dominic Dbtech: Webtech, Projektmanagement und Statistik 😂
+09.01.24, 13:41 - Lennard: rip 😂😅
+09.01.24, 13:41 - Lennard: Oh man oh man
+09.01.24, 13:41 - Dominic Dbtech: Ja man, aber Webtech bin ich fast durch.
+09.01.24, 13:41 - Dominic Dbtech: 3 kleine Sachen für die Mindestabgabe 😂
+09.01.24, 13:42 - Dominic Dbtech: Projektmanagement sind wir auch im Zeitplan.
+09.01.24, 13:42 - Dominic Dbtech: Nur Statistik wird eklig
+09.01.24, 13:42 - Lennard: Naja aber hört sich eigentlich noch ganz okay an
+09.01.24, 13:44 - Lennard: nächste Woche wird spaßig bei mir, gefühlt alle Abgaben auf einmal aber geht noch zb prog 1 ist halt sehr entspannt
+09.01.24, 21:23 - Lennard: Du hast diese Nachricht gelöscht.
+11.01.24, 12:45 - Dominic Dbtech: Also habe mir Corona eingefangen
+11.01.24, 14:11 - Lennard: Perfekt 😬
+14.01.24, 21:45 - Dominic Dbtech: Bin wieder fit soweit.
+14.01.24, 21:45 - Dominic Dbtech: Können uns die Woche peilen, um
+Ü4 fertig zu machen.
+14.01.24, 23:43 - Lennard: Jo ich versuche Zeit zu finden 😅 hab noch echt ne Menge für MAS zu tun
+14.01.24, 23:44 - Lennard: Also Abgabe ist bisher Mittwoch 0Uhr die Tage danach sollte ich Zeit haben
+15.01.24, 00:02 - Lennard: Falls du dir das schon vorher angucken möchtest kann ich dir rüberschicken, was ich schon gemacht habe
+15.01.24, 00:03 - Lennard: Es ist recht schwer einzuschätzen, wie viel noch zu machen bleibt, kann sein, dass es nicht mehr viel ist, kann aber auch sein, dass sich das noch irgendwie viel länger zieht als gedacht
+15.01.24, 00:14 - Dominic Dbtech: Hast du mehr als das gemacht ?
+15.01.24, 00:17 - Lennard: <Medien ausgeschlossen>
+15.01.24, 00:19 - Lennard: Hat sich wie mehr angefühlt haha aber die beiden sind die schwereren Funktionen, die anderen Funktionen in jdbc sind nur Update undso, was in pl/sql easy ist
+15.01.24, 00:21 - Lennard: Im Prinzip kann man die der Übersichtshalber auch als Funktionen schreiben aber sonst wäre der nächste Schritt die Transfer Sample zu implementieren. Habe noch nichts mit Funktionsaufrufen gemacht, deswegen wird das etwas interessant aber sonst sollte es tatsächlich ganz machbar sein
+15.01.24, 00:24 - Dominic Dbtech: OK jut ich gucke es mir an.
+15.01.24, 12:09 - Dominic Dbtech: Haste weiter dran gearbeitet ?
+15.01.24, 12:11 - Lennard: Ne ist nur der ganze Code also Übersichtshalber. Musst dann nur noch das package bzw. body öffnen und die Funktionen da rein schreiben
+15.01.24, 12:11 - Dominic Dbtech: Ok gut
+16.01.24, 17:21 - Dominic Dbtech: Also bei mir klappt die Funktion nicht 😂
+16.01.24, 17:26 - Lennard: Was meinst mit "1 Funktionen hast schon..."
+16.01.24, 17:27 - Dominic Dbtech: Na hier erstellst du doch die Funktion f_firstemptyplace
+16.01.24, 17:28 - Dominic Dbtech: Das entspricht doch der aus unserer Ü3.
+16.01.24, 17:28 - Dominic Dbtech: Wir müssen da eher quastschen glaube
+16.01.24, 17:29 - Lennard: Hier sind die beiden Funktionen die ich implementiert hab
+16.01.24, 17:30 - Dominic Dbtech: Aber die hast du nach dem Vorbild aus Ü3 genommen oder ?
+16.01.24, 17:30 - Dominic Dbtech: F_findFittingTrays
+16.01.24, 17:30 - Lennard: Ja
+16.01.24, 17:30 - Dominic Dbtech: Ok
+16.01.24, 17:30 - Lennard: F_firstEmptyPlace auch
+16.01.24, 17:30 - Dominic Dbtech: Genau
+16.01.24, 17:31 - Lennard: Das expirationdate des Samples kann man in der Transfersample Funktion einfach abfragen
+16.01.24, 17:32 - Dominic Dbtech: Muss da keine Exception fliegen ?
+16.01.24, 17:32 - Lennard: Wo?
+16.01.24, 17:33 - Dominic Dbtech: Wenn die SampleId garnicht exisitert ?
+16.01.24, 17:33 - Lennard: Dafür haben wir die Funktion aus der Übung
+16.01.24, 17:33 - Lennard: IsSampleExisting
+16.01.24, 17:33 - Dominic Dbtech: Ok
+16.01.24, 17:34 - Dominic Dbtech: F_isSampleExisting
+16.01.24, 17:34 - Lennard: F_isSampleExisting 🥸
+16.01.24, 17:34 - Dominic Dbtech: Ok
+16.01.24, 17:34 - Dominic Dbtech: nutzen wir garnicht oder ?
+16.01.24, 17:35 - Lennard: Ne
+16.01.24, 17:35 - Dominic Dbtech: jut
+16.01.24, 17:38 - Lennard: Btw das DECLARE was in den Vorlesungsfolien überall steht heißt in einer Funktion/Prozedur IS oder AS
+16.01.24, 17:44 - Dominic Dbtech: Also mir eerschließt es sich nicht, warum man eigtl die Funktion doppelt machen muss. Einmal als Funktion speichern und dann nochmal im package selbest :D
+Select expirationdate into v_expOfSample from sample where sampleid = v_sampleId;
+16.01.24, 17:45 - Lennard: Irgendwie so
+16.01.24, 17:45 - Dominic Dbtech: In den Beispeilen nutzt er auch nirgendwoe Declare :D
+16.01.24, 17:45 - Lennard: Ja keine Ahnung 😂
+16.01.24, 17:45 - Dominic Dbtech: Diese Nachricht wurde gelöscht.
+16.01.24, 17:46 - Lennard: Glaube das externe speichern ist nur zum testen
+16.01.24, 17:59 - Lennard: Wenn's auch in der Funktion geht, isses da wohl besser 🤷🏻‍♂️
+16.01.24, 17:59 - Dominic Dbtech: Ok gut, weil er zbsp. v_numbers t_numbers := t_numbers();
+16.01.24, 18:00 - Dominic Dbtech: Ich gucke mir das an
+16.01.24, 18:00 - Lennard: Ja sieht so aus, habe da viel umher probiert also das meiste da sollte schon seinen Grund haben
+16.01.24, 18:01 - Dominic Dbtech: Bei mir findet er halt diesen Typ nicht weil er ja nicht in der Funktion deklariert ist.
+16.01.24, 18:02 - Lennard: Aber deshalb führt man das ja vorher schon aus 🤔
+16.01.24, 18:02 - Lennard: Damit die Typen definiert sind
+16.01.24, 18:03 - Lennard: Glaub ich
+16.01.24, 18:16 - Dominic Dbtech: Ah ok, da ist ein Punkt statt Komma reingerutscht. Deswegen hat er es nicht gefunden.
+16.01.24, 18:52 - Dominic Dbtech: F_findfittingTrays Methode kann er nicht implmentierren
+16.01.24, 18:53 - Dominic Dbtech: Hat das bei dir alle geklappt ?
+16.01.24, 18:53 - Lennard: Wieso was wird angezeigt?
+16.01.24, 18:53 - Lennard: Ja getestet hab ich's auch
+16.01.24, 18:55 - Lennard: Da stimmt was mit den Namen nicht
+16.01.24, 18:55 - Dominic Dbtech: RETURN t_tray_table AS 
+v_fittingTrays t_tray_table;
+16.01.24, 18:55 - Lennard: Nenn t_tray_table mal t_tray_set
+16.01.24, 18:57 - Dominic Dbtech: jetzt geht es haha
+16.01.24, 18:58 - Lennard: Ups 😅 sorry war noch die alte Namensgebung..
+16.01.24, 18:59 - Lennard: Aber nenn es mal wieder in t_tray_table um, das ist der richtige Name
+16.01.24, 19:00 - Lennard: <Medien ausgeschlossen>
+16.01.24, 19:00 - Dominic Dbtech: Also alles was t_tray_set heißt in .._table umändern ?
+16.01.24, 19:00 - Lennard: Jo
+16.01.24, 19:02 - Lennard: <Medien ausgeschlossen>
+16.01.24, 19:03 - Lennard: Also die Befüllung der Tabellen
+16.01.24, 19:05 - Dominic Dbtech: Na das ist halt der Datenbanksatz .. also ich raffe es grad nicht was du meinst :D
+16.01.24, 19:05 - Lennard: ja isses
+16.01.24, 19:05 - Dominic Dbtech: Die Datei gibt es ja on Moodle auch glaube
+16.01.24, 19:05 - Lennard: ja aber alles einzeln hab das nur zusammengefasst
+16.01.24, 19:06 - Dominic Dbtech: Aso ja XD
+16.01.24, 19:09 - Dominic Dbtech: Warum werden mir die function nicht angezeigt
+16.01.24, 19:09 - Dominic Dbtech: <Medien ausgeschlossen>
+16.01.24, 19:09 - Dominic Dbtech: wie isSampleExisitng
+16.01.24, 19:10 - Dominic Dbtech: Man ich schwöre das ist richtige Pissmüll hahahahah
+16.01.24, 19:14 - Lennard: <Medien ausgeschlossen>
+16.01.24, 19:14 - Lennard: <Medien ausgeschlossen>
+16.01.24, 19:15 - Lennard: Und 10 Mal aktualisieren
+16.01.24, 19:18 - Dominic Dbtech: Was ein AUFRISS hahahaa
+16.01.24, 19:19 - Dominic Dbtech: Aber es wird kein Test  weiter grün, weil noch die Gesamtlogik implementiert werden muss wa.
+16.01.24, 19:20 - Lennard: Ja
+16.01.24, 19:20 - Dominic Dbtech: Jut
+16.01.24, 19:20 - Lennard: No risk no fun
+16.01.24, 19:22 - Dominic Dbtech: richtig aufregend nochmal auf der Endspur.
+16.01.24, 19:22 - Dominic Dbtech: Ich habe noch nix gelernt und schreibe Montag Dienstag gleich Klausur hahaha
+16.01.24, 19:23 - Dominic Dbtech: Nebenbei noch 2 Projekte und eine Abgabe
+16.01.24, 19:23 - Lennard: Dann lass mal dbtech erstmal sein, lass einfach zusammen machen
+16.01.24, 19:24 - Dominic Dbtech: Ich fange eh nix mehr neues an heute. Ich ziehe noch 1-2 Stunden durch. Wenn ich garnicht voran komme chill ich ab.
+16.01.24, 20:00 - Dominic Dbtech: Also ich geb es erstma auf :D
+16.01.24, 20:01 - Dominic Dbtech: Ab wann haste wieder Zeit ?
+16.01.24, 20:07 - Lennard: Donnerstag
+16.01.24, 20:07 - Lennard: Vorraussichtlich
+16.01.24, 20:07 - Dominic Dbtech: Ok
+17.01.24, 19:30 - Lennard: <Medien ausgeschlossen>
+17.01.24, 19:31 - Dominic Dbtech: Ah also biste moch dran ?
+17.01.24, 19:31 - Lennard: Habe noch mit Errors rumgespielt deswegen hat's etwas länger gedauert
+17.01.24, 19:31 - Lennard: Hab jetzt Volleyball
+17.01.24, 19:31 - Dominic Dbtech: Ok
+17.01.24, 19:32 - Lennard: Bin erst gegen dreiviertel 11 wieder home
+17.01.24, 19:37 - Dominic Dbtech: aber hat es geklappt
+mit test 2 exception ?
+17.01.24, 19:38 - Lennard: Keine Zeit gehabt um auf Eclipse zu testen bei oracle wird aufjedenfall der die tray exception angezeigt also sollte
+17.01.24, 19:38 - Dominic Dbtech: ok
+17.01.24, 23:10 - Lennard: Falls du zufällig Bock hast können wir jetzt noch was machen
+17.01.24, 23:49 - Dominic Dbtech: morgen dicka
+18.01.24, 00:06 - Lennard: Okay okay 😂
+18.01.24, 00:06 - Dominic Dbtech: mach nicht zuviel
+18.01.24, 00:06 - Dominic Dbtech: ich will auch was machen und verstehen
+18.01.24, 00:08 - Lennard: Ja ich weiß 😅 ist für mich ne top Ausrede die anderen Fächer nicht zu machen deshalb mach ich's wahrscheinlich noch lieber und weil ichs so langsam ganz gut verstanden hab denk ich. Aber ich werd mich zusammenreißen.. für dich 😂
+18.01.24, 00:08 - Dominic Dbtech: oder warte kurz ich telefnoiere noch
+18.01.24, 00:08 - Dominic Dbtech: 10 min
+18.01.24, 00:12 - Lennard: kann jetzt auch ein bisschen Englisch machen und wir machen morgen weiter 🤷🏻‍♂️
+18.01.24, 00:12 - Dominic Dbtech: na ich kann jetzt in 2min
+18.01.24, 19:00 - Dominic Dbtech: Wollen wir uns später nochmal ransetzen ? oder willste mir den code
+schicken?
+18.01.24, 19:00 - Dominic Dbtech: Will auch mal n kleinen Stück coden 😂
+18.01.24, 20:21 - Lennard: können später auch callen, wenn du bock hast
+18.01.24, 20:22 - Dominic Dbtech: Jo ok
+18.01.24, 21:15 - Dominic Dbtech: Ab wann biste bereit ?
+18.01.24, 22:17 - Lennard: Schätze 23Uhr
+18.01.24, 22:17 - Dominic Dbtech: Jut
+18.01.24, 22:20 - Dominic Dbtech: Weil ich sehe einfach nicht durch bei dem Code von dir
+18.01.24, 22:20 - Dominic Dbtech: Sitz seit ner Stunde davor aber bisher konnte ich nicht weitermachen.
+18.01.24, 22:21 - Lennard: Miese Briese
+18.01.24, 22:51 - Lennard: Wird leider noch ein kleines bisschen dauern bei mir sorry 😅
+18.01.24, 22:51 - Lennard: Versuche 23:30 ready zu sein
+18.01.24, 22:51 - Dominic Dbtech: Jo ok.
+18.01.24, 22:51 - Dominic Dbtech: Schande über dein haupt hahah
+18.01.24, 22:54 - Lennard: <Medien ausgeschlossen>
+19.01.24, 01:48 - Lennard: also ab FUNCTION F_traysFittingExp,,,
+19.01.24, 16:02 - Lennard: Jo wann wär n das, wenn du heute noch vorbei kommen würdest? 🤔
+19.01.24, 16:28 - Dominic Dbtech: Habe 17 Uhr schluss
+19.01.24, 16:28 - Dominic Dbtech: Danach
+19.01.24, 16:28 - Dominic Dbtech: Kp wie lange ich zu dir brauche
+19.01.24, 16:35 - Lennard: https://maps.app.goo.gl/jQ66SuFkhVPavyA38
+19.01.24, 16:36 - Dominic Dbtech: 15-20min
+19.01.24, 16:37 - Dominic Dbtech: 17:30 spätestens
+19.01.24, 16:37 - Lennard: Alles klar
+19.01.24, 17:24 - Dominic Dbtech: wo muss ick bimmeln ?
+19.01.24, 17:26 - Lennard: Dubhorn Krüger
+19.01.24, 17:26 - Lennard: Erste Etage
+19.01.24, 17:26 - Dominic Dbtech: Hä aber ist doch 32 oder ?
+19.01.24, 17:27 - Lennard: Ja gibt 2 Eingangstüren musst Aufgang 1 nehmen
+19.01.24, 20:03 - Dominic Dbtech: Kam der Hurensohn einfach 2 min zu früh
+19.01.24, 20:03 - Lennard: Aii miese Nummer 😅😂
+20.01.24, 22:50 - Lennard: Ich habe nach ner Stunde endlich rausgefunden was der verkackte Fehler an der ganzen Sache war... man schreibt IF(blabla *IS NULL*) und nicht IF(blabla *=* NULL)....
+20.01.24, 22:50 - Lennard: Junge
+20.01.24, 22:50 - Dominic Dbtech: Hahaha
+20.01.24, 22:50 - Dominic Dbtech: Good Job
+20.01.24, 22:51 - Lennard: Fühlt sich nicht gerade belohnend an 😂🥲
+20.01.24, 22:51 - Lennard: Aber naja
+20.01.24, 22:51 - Lennard: Müssen jetzt eigentlich noch den Code refactoren ich hoffe man kann alle Variablennamen aufeinmal ändern..
+20.01.24, 22:51 - Dominic Dbtech: xD So ist das fucking programmieren :D
+20.01.24, 22:52 - Lennard: Wohl wahr 😶‍🌫
+20.01.24, 22:52 - Dominic Dbtech: Warum willste die Variablen refactoren ?
+20.01.24, 22:52 - Dominic Dbtech: Also was genau macht er da
+20.01.24, 22:52 - Lennard: Wegen der Namenskonventionen
+20.01.24, 22:53 - Lennard: Kein Bock, dass er uns deswegen Punkte abzieht
+20.01.24, 22:53 - Lennard: Aber das geht immerhin also sollte Recht fix gehen
+20.01.24, 22:53 - Dominic Dbtech: mit v für variable und p parameter oder wie ?
+20.01.24, 22:53 - Lennard: Ne die _ zwischen den Wörtern also zu v_fitting_Trays statt v_fittingTrays
+20.01.24, 22:54 - Lennard: Aber idk
+20.01.24, 22:54 - Lennard: Mal schauen wie ich lustig bin
+20.01.24, 22:54 - Dominic Dbtech: ah
+20.01.24, 22:54 - Dominic Dbtech: ok
+20.01.24, 23:29 - Lennard: Perfekt. Habe versucht was zu refactoren und jetzt geht gar nichts mehr, danke oracle
+20.01.24, 23:30 - Lennard: Mir wird angezeigt, dass die Funktionen nicht mehr im Body seien obwohl ich da nichts verändert habe
+20.01.24, 23:53 - Lennard: So ich habe jetzt alles in eine SQL Datei gemacht und getestet und geb das jetzt ab okay?
+20.01.24, 23:54 - Dominic Dbtech: ja gib ab
+20.01.24, 23:54 - Dominic Dbtech: Dies kann in einer Textdatei (txt) oder wieder als Archiv (zip, rar) erfolgen.
+20.01.24, 23:54 - Dominic Dbtech: Er meinte txt Datei
+20.01.24, 23:54 - Dominic Dbtech: in der Abgabe
+20.01.24, 23:55 - Dominic Dbtech: also kp ob SQL Datei geht
+20.01.24, 23:55 - Lennard: Ich mach's einfach in ne txt Datei fix
+20.01.24, 23:55 - Dominic Dbtech: jut
+21.01.24, 14:44 - Dominic Dbtech: Jawoll Ü4 volle Punktzahl
+04.02.24, 15:13 - Dominic Dbtech: xD Also ich glaube ich werde DBTech auch im zweiten Termin schreiben.
+04.02.24, 15:14 - Dominic Dbtech: Ich komme
+garnicht klar bei der Probeklausur 😂
+04.02.24, 17:55 - Lennard: Supi 😂👍🏻 hab da nur mal ganz kurz rüber geguckt und fand die auch nicht so geil
+04.02.24, 17:56 - Dominic Dbtech: Aufgabe 1 habe ich hinbekommen.
+04.02.24, 17:56 - Dominic Dbtech: Sitze an 2 gerade
+04.02.24, 17:57 - Dominic Dbtech: gibt es bei PL/SQL egentliche INT als Datentyp ?
+04.02.24, 17:57 - Lennard: Number
+04.02.24, 17:57 - Dominic Dbtech: Ok voll verwirrend, dass er INT nimmt
+04.02.24, 17:58 - Lennard: Mhh das versteh ich auch nicht 😅🤔
+04.02.24, 17:58 - Dominic Dbtech: Wie viele KLausuren haste schon geschrieben ?
+04.02.24, 17:59 - Lennard: 2 und die Präsi in MAS
+04.02.24, 17:59 - Lennard: Lief ganz gut, bei dir?
+04.02.24, 17:59 - Dominic Dbtech: Statistik habe ich nicht gemacht, weil ich zu spät angefangen habe zu lernen
+04.02.24, 18:00 - Dominic Dbtech: Nächste Woche DBTech eigtl und Vortrag Projektmanagement
+04.02.24, 18:00 - Dominic Dbtech: Hast du noch eine Prüfung oder biste durch für den ersten Zeitraum ?
+04.02.24, 18:27 - Lennard: Ersten bin ich durch, hab dann ab 20.03. noch 3
+04.02.24, 18:27 - Lennard: Hast dann im zweiten noch gut was zu tun?
+04.02.24, 18:27 - Dominic Dbtech: 4 im zweiten
+04.02.24, 20:58 - Lennard: Mhh hmm
+06.02.24, 17:58 - Dominic Dbtech: Also DBTech klausur war genau wie die Probeklausur aufgebaut
+06.02.24, 17:58 - Dominic Dbtech: 😂 <Diese Nachricht wurde bearbeitet.>
+06.02.24, 18:20 - Lennard: Lul, hoffe im nächsten Prüfungsraum auch 🫣 lief gut?
+06.02.24, 18:21 - Dominic Dbtech: Geht JDBC hat bisschen gesrockt bzw zu wenig Zeit aber ansonsten ging es klar
+06.02.24, 18:46 - Dominic Dbtech: Ich habe das JDBC nicht geschafft, weil keine Zeit mehr war. Habe zwar bisschen was geschrieben aber, war auch falsch hahah.
+Ansonsten konnte ich alles Lösen.
+06.02.24, 18:47 - Dominic Dbtech: Irgendwas zwischen 2 und 3 denke
+06.02.24, 21:08 - Lennard: Nice nice
+06.02.24, 21:08 - Lennard: Ist Papier oder?
+06.02.24, 21:08 - Dominic Dbtech: Jo aber du kannst alle Aufzeichnungen mitnehmen.
+06.02.24, 21:09 - Dominic Dbtech: Da wusste ich halt nicht 😂
+06.02.24, 21:09 - Dominic Dbtech: Alles frei ausm
+Kopf gemacht
+06.02.24, 21:09 - Dominic Dbtech: Am Besten du löst die Übungsklausur und nimmst die mit rein.
+06.02.24, 21:11 - Dominic Dbtech: Der claaßen hat auf seine confluence seite die Lösungen bereitsgestellt 😂
+06.02.24, 21:37 - Lennard: Loool 😶‍🌫
+06.02.24, 21:37 - Lennard: 🌚👍🏻
+14.03.24, 15:03 - Lennard: Halli hallo, du wie waren die Übungen in Webtech eigentlich aufgebaut? Nur Abnahmen wie in prog 2 oder auch Inhalt?
+14.03.24, 15:17 - Dominic Dbtech: Grüß dich, nur Abnahmen.
+14.03.24, 15:17 - Dominic Dbtech: Es gibt Meilensteine die du bis zum bestimmten Termin kurz präsentieren musst.
+14.03.24, 15:17 - Dominic Dbtech: Auf den Code
+geht man da nicht wirklich ein.
+14.03.24, 15:18 - Dominic Dbtech: Am Ende präsentiert man alles vor dem Kurs.
+14.03.24, 15:57 - Lennard: Ahh okay okay, gut zu wissen 👀👌🏻
+10.10.24, 17:47 - Lennard: 👍🏻
+10.10.24, 17:48 - Dominic Dbtech: Moin Moin, habe doch noch deine Nummer haha
+10.10.24, 17:48 - Dominic Dbtech: Ich habe mich in deine Gruppe eingeschrieben.
+10.10.24, 17:48 - Lennard: Jo, n Kumpel von mir ist auch dabei der muss sich noch eintragen, dann sind wir 3
+10.10.24, 17:49 - Dominic Dbtech: Sauber
+10.10.24, 18:11 - Dominic Dbtech: Kennst du dich aus mit diesen AWE Modulen ?
+10.10.24, 18:11 - Dominic Dbtech: Muss man die bei Wirtschftsinformatik belegen ?
+10.10.24, 18:14 - Lennard: Naja also du musst welche von den Wahlpflicht Modulen wählen, wenn du das meinst
+10.10.24, 18:14 - Lennard: Die AWE dinger sind ja eigentlich die Fremdsprachen oder nicht
+10.10.24, 18:15 - Dominic Dbtech: <Medien ausgeschlossen>
+10.10.24, 18:16 - Lennard: Oh shit ähh idk
+10.10.24, 18:16 - Dominic Dbtech: In der Studien Studienplanübersicht steht das so drin
+10.10.24, 18:19 - Lennard: Weiß nicht genau was man da belegt und oder was dazu zählt
+10.10.24, 18:20 - Dominic Dbtech: <Medien ausgeschlossen>
+10.10.24, 18:20 - Dominic Dbtech: Im Prinzip machen wir Variante 3 oder ?
+10.10.24, 18:21 - Lennard: Jo denke schon, wir hatten das in Englisch auch schonmal besprochen
+10.10.24, 18:23 - Dominic Dbtech: Ah ok
+10.10.24, 18:24 - Dominic Dbtech: Im Prinzip Business Englisch 1 und Businessenglisch 2 (vertiefend) ersetzt quasi diese AWE Module ws
+10.10.24, 18:24 - Lennard: Bei mir steht in der Notenübersicht, dass ich wohl Variante 1 gewählt habe was mich wundert, weil ich eigentlich genau das nicht machen wollte??
+10.10.24, 18:24 - Lennard: Habe jetzt ja auch Englisch 2
+10.10.24, 18:24 - Lennard: Ja
+10.10.24, 18:26 - Dominic Dbtech: Hattest du schon englisch 2 ?
+10.10.24, 18:27 - Dominic Dbtech: Also eine Vorlesung
+10.10.24, 18:27 - Dominic Dbtech: Ach und wie viele LP hast du für Eng1 bekommen ?
+10.10.24, 18:27 - Lennard: 4
+10.10.24, 18:28 - Lennard: Ja heute war aber nicht da
+10.10.24, 18:28 - Dominic Dbtech: Ah kk
+10.10.24, 18:30 - Dominic Dbtech: <Medien ausgeschlossen>
+10.10.24, 18:30 - Dominic Dbtech: Also Variante 1 macht schon Sinn
+10.10.24, 18:30 - Lennard: Ahh Okay aber awe muss ich dann machen
+10.10.24, 18:32 - Dominic Dbtech: Ja weil ohne AWE Module fehlen einem 4 LP
+10.10.24, 18:32 - Dominic Dbtech: Für die 180 ( 6 Semester a 30 LP)
+14.10.24, 11:07 - Dominic Dbtech: Moin, in welcher Ü-Gruppe bist du eigtl bei verteilte Anwendung ?
+14.10.24, 11:10 - Lennard: Die nach der Vorlesung am Donnerstag
+14.10.24, 11:11 - Dominic Dbtech: heißt ab 15:30 wa
+14.10.24, 11:12 - Dominic Dbtech: Mhh ich werd da wahrscheinlich immer erst 20min später da sein, weil ich Wilheminenhof bin.
+14.10.24, 11:13 - Dominic Dbtech: Theoretisch bin ich in der Übung ab 17:45 drin. <Diese Nachricht wurde bearbeitet.>
+14.10.24, 11:26 - Lennard: Ich eigentlich auch aber können wohl überall hin
+14.10.24, 11:26 - Lennard: Passt schon
+14.10.24, 11:52 - Dominic Dbtech: Welche Module hast du eigtl dieses Semester ? <Diese Nachricht wurde bearbeitet.>
+14.10.24, 15:08 - Lennard: Alle Kurse aus dem 5. Semester bzw Marketing und Komponentenbasierte Entwicklung als Wahlmodule
+14.10.24, 15:10 - Dominic Dbtech: Bist du überall reingekommen ?
+14.10.24, 15:10 - Dominic Dbtech: Unternehmenssoftware bist du dann auch wa ?
+14.10.24, 15:10 - Dominic Dbtech: Da bin ich bisher 4x abgelehnt wurden
+14.10.24, 15:59 - Lennard: Lol
+14.10.24, 16:02 - Lennard: <Medien ausgeschlossen>
+14.10.24, 16:04 - Lennard: <Medien ausgeschlossen>
+14.10.24, 18:34 - Dominic Dbtech: Ach man muss das begründen dann ?
+14.10.24, 18:35 - Dominic Dbtech: Gehst du morgen zu Unternehmenssoftware VL um 8 ?
+14.10.24, 18:36 - Dominic Dbtech: Und hast du schon eine Gruppe für das Projekt ?
+14.10.24, 23:24 - Lennard: Jo und ne noch nicht
+14.10.24, 23:24 - Lennard: Also denke dann steigen die Chancen aufjedenfall 🤔🤷🏻‍♂️
+15.10.24, 07:11 - Dominic Dbtech: Jut dann sehen wa uns gleich. Komme auch zur VL.
+15.10.24, 07:30 - Lennard: Hoffe ich krieg noch n Platz 😶‍🌫
+15.10.24, 07:34 - Dominic Dbtech: War so voll letzte Woche ?
+15.10.24, 07:34 - Lennard: Letzte Woche konnte ich nicht aber vorletzte waren bis 2m² um den Prof Stühle
+15.10.24, 07:35 - Dominic Dbtech: Fuck hahaha
+15.10.24, 07:35 - Dominic Dbtech: er macht auch nur eine VL was ich gesehen habe
+15.10.24, 07:35 - Dominic Dbtech: Und 106 Leute xD
+15.10.24, 07:39 - Dominic Dbtech: Kannst du mir zufällig von Moodle die VL von letzter Woche schicken ?
+15.10.24, 07:42 - Lennard: Oh wait nvm, es gab doch erst eine Vorlesung, hab irgendwie an ein anderes Modul gedacht
+15.10.24, 07:43 - Dominic Dbtech: Naja ich bin gespannt. Ich hoffe, dass es viele gab, die sich eingeschrieben haben und nicht kommen 😂
+15.10.24, 07:45 - Dominic Dbtech: Kannst mir die VL mal
+schicken 😂
+15.10.24, 07:46 - Lennard: <Medien ausgeschlossen>
+15.10.24, 07:46 - Dominic Dbtech: nice thx
+15.10.24, 07:47 - Dominic Dbtech: Alles auf englishc
+15.10.24, 07:48 - Dominic Dbtech: Also ich hätte noch eine Person die mit in die Gruppe kommen könnte. Habe gesehen sind 3 Leute braucht man
+15.10.24, 07:54 - Lennard: Okay haben nen größeren Raum heute
+15.10.24, 07:54 - Lennard: Ja können wir machen
+15.10.24, 07:54 - Dominic Dbtech: Welcher raum ?
+15.10.24, 07:55 - Lennard: 239 bist nicht im Moodle Kurs?
+15.10.24, 07:55 - Dominic Dbtech: Ne
+15.10.24, 07:55 - Dominic Dbtech: bin noch nicht zugelassen
+15.10.24, 07:55 - Dominic Dbtech: Bist schon da ?
+15.10.24, 07:55 - Lennard: Jo
+15.10.24, 07:57 - Dominic Dbtech: Wo stehste sehe dich janicht 😂
+15.10.24, 08:47 - Lennard: https://github.com/HTW-WI-USW/titanic-F4c3hugg3r
+15.10.24, 08:48 - Lennard: https://moodle.htw-berlin.de/mod/url/view.php?id=1744774
+15.10.24, 09:46 - Dominic Dbtech: Diese Nachricht wurde gelöscht.
+15.10.24, 11:21 - Dominic Dbtech: Biste noch in der Übung ?
+15.10.24, 11:24 - Lennard: In der Mensa mit nem Kollegen, die Übung war wie erwartet nur, dass jeder Probleme mit dem Setup hatte, bei mir und glaube vielen anderen funktionierts immer noch nicht richtig
+15.10.24, 11:26 - Dominic Dbtech: xD
+15.10.24, 11:27 - Dominic Dbtech: wo ist denn die mensa lol
+15.10.24, 11:30 - Lennard: Lul Gebäude C glaub ich
+15.10.24, 11:30 - Dominic Dbtech: ahh ok
+15.10.24, 11:33 - Lennard: Die ist so bodenlos voll heute
+15.10.24, 11:34 - Dominic Dbtech: will eh nix kaufen
+15.10.24, 11:34 - Dominic Dbtech: ist gebaude d
+15.10.24, 11:34 - Lennard: Btw würd dir empfehlen zur Übung zu gehen sonst kriegst du das höchstwahrscheinlich nicht zum laufen
+15.10.24, 11:34 - Lennard: Ahh okay
+15.10.24, 11:35 - Dominic Dbtech: Wo sitzt du ?
+15.10.24, 13:24 - Dominic Dbtech: Also bei mir kamen auch die ganzen Fehler 😂
+15.10.24, 13:24 - Dominic Dbtech: Ich habe versucht das manuell zu importieren weil er auf diese Repo nicht zugreifen konnte
+15.10.24, 14:40 - Lennard: Und funktioniert?
+15.10.24, 14:40 - Dominic Dbtech: ne man
+15.10.24, 14:40 - Dominic Dbtech: ich bekomme die daten nicht importiert manuell
+15.10.24, 14:41 - Lennard: Hast du ihn mal gefragt? Weil dieses Problem hatten eigentlich einige vorhin
+15.10.24, 14:41 - Dominic Dbtech: Also bei mir kann der mac nicht auf dieses Repo zugreifen.
+15.10.24, 14:41 - Dominic Dbtech: Und er meinte ich soll es manuell impotieren
+15.10.24, 14:42 - Dominic Dbtech: ich habe die Datei runtergeladen aber das sind seltsame dateitypen
+15.10.24, 14:42 - Dominic Dbtech: Irgenein Problem mit der SSL Zertifikat, scheint wohl bei mehreren Leuten der Fall gewesen zu sein
+15.10.24, 15:19 - Dominic Dbtech: jawoll ich habe es hhinbekommen
+15.10.24, 16:37 - Lennard: Nice 👌🏻
+15.10.24, 16:58 - Dominic Dbtech: Biste schon am Campus
+15.10.24, 17:01 - Lennard: 5min
+15.10.24, 17:03 - Dominic Dbtech: bin am Raum aber ist noch niemand da
+15.10.24, 17:15 - Lennard: Sach Mal meinst du er hat schon ne Gruppe? Er seemed jedenfalls motiviert
+15.10.24, 17:15 - Dominic Dbtech: Ja bestimmt
+16.10.24, 16:06 - Lennard: Aber einen motivierten Kollegen für unsere US Gruppe
+16.10.24, 16:07 - Dominic Dbtech: Jo ok
+17.10.24, 16:08 - Dominic Dbtech: Wollen wir alle an einem Projekt arbeiten ?
+17.10.24, 16:08 - Lennard: jo
+17.10.24, 16:08 - Dominic Dbtech: Ok wer lädt wen ein ? xD
+17.10.24, 16:09 - Lennard: ich mach
+17.10.24, 16:09 - Dominic Dbtech: ok 578252 ist meine Mtr.Nr
+17.10.24, 16:11 - Lennard: Anzeige iist raus
+21.10.24, 21:46 - Dominic Dbtech: Übungen sind morgen nicht oder ?
+21.10.24, 21:47 - Dominic Dbtech: Unternehmenssoftware meine ich
+21.10.24, 22:58 - Lennard: Keine Ahnung wird er wahrscheinlich im Zoom call sagen
+22.10.24, 17:18 - Lennard: Kommst noch zur Logistik Übung
+22.10.24, 17:18 - Lennard: ?
+22.10.24, 17:19 - Dominic Dbtech: Ne dieses mal nicht.
+22.10.24, 17:50 - Lennard: Btw sie rechnet die Punkte auf also wenn du zb 1 mal mehr mitmachst kannst du die Punkte auffüllen
+22.10.24, 18:07 - Dominic Dbtech: XD Verstehe ich nicht
+22.10.24, 18:07 - Dominic Dbtech: Sie meinte bei der ersten Übung es werden 10/13 bewertet
+22.10.24, 18:09 - Dominic Dbtech: Ah ok glaube jetz raffe och es. Aber das würde eigtl ihrer Aussage widersprechen 😂
+24.10.24, 11:50 - Lennard: jo wenn du bei US irgendwo nicht weiter kommen solltest kann ich dir maybe helfen. Habe nicht alle Aufgaben fertig aber evtl hab ich ja schon was
+24.10.24, 11:51 - Dominic Dbtech: Jo nice
+24.10.24, 11:51 - Dominic Dbtech: Ich komme
+mit dem Debugger nicht klar. Ich setze ein Breakpoint und er ballert trotzdem den ganzen Code durch 😂
+24.10.24, 11:53 - Lennard: Du hast diese Nachricht gelöscht.
+24.10.24, 11:55 - Dominic Dbtech: Muss ich quasi 2 Brekapoints machen Anfang und Ende ?
+24.10.24, 11:56 - Lennard: Du hast diese Nachricht gelöscht.
+24.10.24, 11:56 - Lennard: Sorry sollten nicht an dich 😂
+24.10.24, 11:56 - Dominic Dbtech: Ah hahah
+24.10.24, 12:01 - Lennard: Das war die Steckdosenaufteilung in unserem Schlafzimmer 😂😂
+24.10.24, 12:02 - Lennard: Debugger habe ich leider auch keine Ahnung von 😶‍🌫
+24.10.24, 12:02 - Lennard: Ich führ bei Python dann immer nur Teile des Codes nacheinander aus um zu debuggen
+24.10.24, 15:02 - Dominic Dbtech: Ist die Übung voll ?
+24.10.24, 15:03 - Lennard: Ist noch Vorlesung
+24.10.24, 15:03 - Dominic Dbtech: oh sorry
+24.10.24, 15:04 - Lennard: All good
+24.10.24, 15:04 - Dominic Dbtech: In der Übung arbeiten wir nur an den Aufgaben und er ist für Fragen da oder ?
+24.10.24, 15:04 - Lennard: Ja
+24.10.24, 15:05 - Dominic Dbtech: Ich überlege nach Hause zu fahren und mir die Tutorials anzuschauen.
+24.10.24, 15:05 - Dominic Dbtech: Kann aber auch sein das ich komme, bin Wilhelminenhof
+24.10.24, 15:27 - Lennard: Idk
+24.10.24, 15:36 - Dominic Dbtech: ist noch platz ?
+24.10.24, 15:37 - Lennard: Jo
+26.10.24, 20:38 - Dominic Dbtech: Was machst du gerade ?
+26.10.24, 21:14 - Lennard: Wohnung abkleben
+26.10.24, 21:15 - Lennard: 🐧
+26.10.24, 21:15 - Dominic Dbtech: xD Ich mache gerade Aufgabe 2 von verteilte Anwendung, aber es hackt etwas
+26.10.24, 21:16 - Dominic Dbtech: Weißt du ob wir den Klassen und Code selber erstellen dürfen in dem Projekt ?
+26.10.24, 21:59 - Lennard: Kommt drauf an obs jetzt notwendig ist für die Lösung aber kannst aufjedenfall probieren
+26.10.24, 22:10 - Dominic Dbtech: Ne habe aufgabe 2 drin
+26.10.24, 22:10 - Dominic Dbtech: Kann ich morgen erklären
+26.10.24, 22:40 - Lennard: 👍🏻
+27.10.24, 20:08 - Dominic Dbtech: Sagmal wie kann ich bei USW auf den Code von dem Hochstein zugreifen ?
+27.10.24, 20:08 - Dominic Dbtech: zum Beispiel titanic
+27.10.24, 20:40 - Lennard: Bist du gerade noch dran?
+27.10.24, 20:40 - Dominic Dbtech: Jo
+27.10.24, 20:40 - Lennard: Bin in 16min am Start
+27.10.24, 20:42 - Dominic Dbtech: null
+27.10.24, 20:42 - Dominic Dbtech: Jut
+27.10.24, 21:19 - Lennard: Internet ist gerade richtig am durchdrehen ich starte gerade den Router neu..
+27.10.24, 21:19 - Dominic Dbtech: easy
+28.10.24, 12:46 - Dominic Dbtech: Jojo ich kann irgendwie die View Ansicht des Dataframes nicht einsehen
+28.10.24, 12:47 - Dominic Dbtech: <Medien ausgeschlossen>
+28.10.24, 12:47 - Dominic Dbtech: <Medien ausgeschlossen>
+28.10.24, 12:50 - Lennard: Untick mal rezise automatically
+28.10.24, 12:50 - Dominic Dbtech: bester man hahah
+28.10.24, 14:59 - Dominic Dbtech: War ein guter Tipp mit copy/paste und es anzupassen.
+28.10.24, 15:04 - Dominic Dbtech: Die Plots gingen auch direkt
+28.10.24, 19:45 - Dominic Dbtech: <Medien ausgeschlossen>
+28.10.24, 19:46 - Lennard: Keine Ahnung
+28.10.24, 19:47 - Lennard: Steht auch online nicht genauer beschrieben
+28.10.24, 19:47 - Lennard: Aber ist eigentlich irrelevant die Spalte
+28.10.24, 20:28 - Dominic Dbtech: Hast du bei occupation die ? ersetzt oder die Spalte rausgelassen ?
+28.10.24, 22:14 - Lennard: Gute Frage weiß gar nicht
+28.10.24, 22:22 - Dominic Dbtech: Oki
+28.10.24, 22:23 - Dominic Dbtech: Weißt du ob morgen die VL in verteilte Anwendung auch online ist ?
+29.10.24, 08:24 - Lennard: Ja
+29.10.24, 08:25 - Dominic Dbtech: Hast du da ein Link ?
+29.10.24, 08:25 - Lennard: Ist in der Mail
+29.10.24, 08:28 - Dominic Dbtech: Mhh ich habe garkeine bekommen xD
+29.10.24, 08:28 - Lennard: Ach ne stimmt im Moodle kurs
+29.10.24, 08:28 - Lennard: Steht das
+29.10.24, 08:28 - Dominic Dbtech: ah perfekt danke
+29.10.24, 17:05 - Dominic Dbtech: Kommst Log ?
+29.10.24, 17:09 - Lennard: <Medien ausgeschlossen>
+29.10.24, 17:12 - Dominic Dbtech: Jo ich gucke was sich machen lässt
+29.10.24, 17:17 - Dominic Dbtech: heute ist mit aufgabe vorstellen
+29.10.24, 17:18 - Dominic Dbtech: Also einfach abgabe gibt es nicht
+29.10.24, 17:18 - Dominic Dbtech: und sie prüft die Anwesenheit 😂
+29.10.24, 17:29 - Lennard: Du hast diese Nachricht gelöscht.
+29.10.24, 17:38 - Lennard: Mhm rip, falls sich doch noch ne Chance für irgendwas ergibt schreib durch
+29.10.24, 18:42 - Dominic Dbtech: also war richtig bescheidn
+29.10.24, 18:43 - Dominic Dbtech: Man musste programmieren in java
+29.10.24, 18:43 - Dominic Dbtech: schwöre garnicht durchgesehen
+29.10.24, 18:45 - Dominic Dbtech: vllt 1 Punkt wenn ich luck habe
+29.10.24, 21:52 - Lennard: Habe auch noch auf schnelle Welle was abgegeben aber mal schauen ob sies wertet wegen Abwesenheit
+29.10.24, 21:52 - Dominic Dbtech: Never sie hat eine Liste gemacht und alle Namen abgefragt.
+29.10.24, 21:53 - Lennard: Pfff letztes Mal hat sie's nicht
+29.10.24, 21:53 - Lennard: Frech
+29.10.24, 21:53 - Dominic Dbtech: Ja sie hat es explizit erwähnt diese mal
+30.10.24, 21:41 - Dominic Dbtech: Was hast du bei Aufgabe 65 python basic ?
+03.11.24, 21:33 - Lennard: Bin noch nicht so weit
+03.11.24, 21:34 - Lennard: Habe vergessen zu antworten sorry 😂
+03.11.24, 22:24 - Dominic Dbtech: asoo dachte du warst schon bei den 70gern
+03.11.24, 22:37 - Lennard: Nene, habe jetzt die Woche auch nichts mehr machen können
+03.11.24, 22:37 - Lennard: Bin bei 60
+03.11.24, 22:37 - Dominic Dbtech: ok ich bei 86 oder so haha
+03.11.24, 22:38 - Dominic Dbtech: wir müssen noch ü1 verteilte Anwendung beenden
+03.11.24, 22:40 - Lennard: Jo
+05.11.24, 07:53 - Dominic Dbtech: kommste usw?
+05.11.24, 07:55 - Lennard: Jo bin aber 10min zu spat6
+05.11.24, 07:55 - Dominic Dbtech: ok
+05.11.24, 08:05 - Dominic Dbtech: sitze letzte reihe
+05.11.24, 11:39 - Lennard: Ich war in der 'übung' gerade so kurz vorm wegpennen warum auch immer, ich hatte so zu kämpfen teilweise 😂
+05.11.24, 11:40 - Lennard: Obwohl ich das Thema schon ziemlich interessant fand eig, klar nicht gerade alles komplett verstanden aber trotzdem
+05.11.24, 11:41 - Lennard: War kurz vorm Koma wirklich
+05.11.24, 11:48 - Dominic Dbtech: xD Ging mir ähnlich, habe kurz überlegt eher reinzunhauen 😂
+05.11.24, 11:48 - Dominic Dbtech: Vllt war die Luft im Raum auch einfach bescheiden.
+05.11.24, 11:49 - Dominic Dbtech: Kp ich hab es nicht wirklich gerafft. Seine Erklärung sind eigtl gut, aber reicht trotzdem nicht 😂
+05.11.24, 11:55 - Lennard: <Medien ausgeschlossen>
+13.11.24, 00:12 - Dominic Dbtech: und wofür haste dich entschieden ? Training oder Zeit mir der Freundin 😂
+13.11.24, 11:36 - Lennard: Zuhause bleiben, das Training hat 19:45 angefangen hätte das eh nicht rechtzeitig geschafft 😶‍🌫
+14.11.24, 17:32 - Lennard: Scheiße sehe gerade ich wäre sogar 2min früher da wegen der wartezeit 🥴
+14.11.24, 17:33 - Lennard: Nvm ist doch gleich
+14.11.24, 17:34 - Dominic Dbtech: Hä fährt die m27 auch über das Evanglische Krankenhaus ?
+14.11.24, 17:35 - Lennard: Nene wäre woanders lang
+14.11.24, 17:36 - Dominic Dbtech: Also andere Verbindung gleiches Ziel. Ja sry wollte nur nicht dass du komplett woanders kandesr
+14.11.24, 21:27 - Lennard: All good lol 🤷🏻‍♂️
+18.11.24, 17:41 - Dominic Dbtech: Ich weiß nicht wie oder warum, aber wir haben 3/3 Punkte bekommem in der Logistik Ü <Diese Nachricht wurde bearbeitet.>
+20.11.24, 13:21 - Dominic Dbtech: Jojo sorry, war gestern völlig durch mit Fieber und dem ganzen Mist. Handy hatte kein Akku mehr. Dickes Sorry, bin weiterhin am start nur augeknockt gestern.
+20.11.24, 13:41 - Lennard: Ahhh okay miese Briese. Ja all good, ne kleine Nachricht wäre bei sowas vllt schon praktisch, wir haben schon überlegt ob dir was passiert ist 😅😂 gute Besserung ✌🏻
+21.11.24, 15:05 - Dominic Dbtech: Joo ich komme heute nicht zur Übung verteilte Anwendung. Bin weiterhin angeschlagen :)
+26.11.24, 19:11 - Lennard: Jo die Logistik Übung ist online bis 1.12. btw
+03.12.24, 17:19 - Lennard: Sach mal kommst nicht mehr zur übung Dienstags? 👀
+03.12.24, 20:43 - Dominic Dbtech: Doch doch, aber hatte kein Bock heute. Habe mein letzten Joker genutzt :p Kommende Woche bin ich wieder am Start.
+03.12.24, 23:08 - Lennard: Okay alles klar, hast auch echt Glück weil diese Woche haben wir wieder bis Sonntag Zeit lul
+03.12.24, 23:08 - Lennard: Ist ne easy Aufgabe sollen 3 User Stories schreiben
+03.12.24, 23:50 - Dominic Dbtech: Luckyyy
+17.12.24, 12:25 - Dominic Dbtech: Diese Nachricht wurde gelöscht.
+04.01.25, 11:57 - Dominic Dbtech: Biste wach ?
+04.01.25, 12:00 - Lennard: Sorry hab mies verpennt 🥴
+04.01.25, 12:00 - Dominic Dbtech: Allet jut
+04.01.25, 12:00 - Dominic Dbtech: Wollen wir in 15min kurz ran ?
+04.01.25, 12:01 - Dominic Dbtech: für ne Stunde
+04.01.25, 12:01 - Dominic Dbtech: oder jetzt gleich wie du magst ...musst ja 13:45 los wa
+04.01.25, 12:06 - Lennard: Ja ist bisschen ungünstig, ärgert mich, dass ich die Wecker anscheinend weggedrückt habe.. wir essen in 10min Mittag, würde eher probieren danach noch ne halbe Stunde
+04.01.25, 12:07 - Dominic Dbtech: ok
+04.01.25, 12:07 - Dominic Dbtech: dann so
+04.01.25, 12:07 - Lennard: 👍🏻
+04.01.25, 12:07 - Dominic Dbtech: sag Bescheid
+04.01.25, 12:55 - Lennard: Kann jetzt
+04.01.25, 12:55 - Dominic Dbtech: jut ich call bei dc
+04.01.25, 13:49 - Dominic Dbtech: lol er hatte schon geantwortet...nur nicht runtergescrollt 😂
+04.01.25, 13:49 - Dominic Dbtech: Aber er hat es durcheinander gebracht 😂
+04.01.25, 13:51 - Lennard: Ohh ja ich glaube ich muss die ersten Infos etwas anders gestalten 😂 werde es dann als Fließtext statt stichpunkte schreiben damit er weiß dass ich nicht der große Bruder bin
+04.01.25, 13:52 - Lennard: Evtl könnten wir heute Nacht noch callen
+04.01.25, 13:52 - Lennard: Ich schaue mal das kann ich auch immer nebenher mal machen
+04.01.25, 13:54 - Dominic Dbtech: Ich würde erstmal amrawmaterial nix machen.
+04.01.25, 13:55 - Dominic Dbtech: Ich werde noch ein zweites Modell aufsetzen
+04.01.25, 13:59 - Dominic Dbtech: Lol ich lese gerade das unser EmbeddingModell nur 256token nehmen kann.
+04.01.25, 14:00 - Dominic Dbtech: Vllt machen wir einen Text und chunken das auf die 256 token, ich überlege mal bis nachher
+04.01.25, 14:01 - Lennard: Lul oh man das ist nicht viel
+04.01.25, 14:02 - Lennard: Wir brauchen dann auf jeden Fall mehr Ergebnisse aus dem Kontext
+04.01.25, 14:03 - Dominic Dbtech: Ja er hat derzeit 3 Contexte weil ich n_results = 3 defniert habe
+04.01.25, 14:14 - Lennard: Jo, mir fällt gerade auf dass token nicht zwingend Zeichen heißt, können auch Wörter sein, haben sie ja jetzt durch /n/n getrennt aber evtl könnte ich die Chunks auch deutlich länger machen, wenn token Wörter sind und keine Zeichen <Diese Nachricht wurde bearbeitet.>
+04.01.25, 14:15 - Lennard: Könntest du evtl rausfinden was token für unser Modell bedeutet und ob man das möglicherweise sogar einstellen kann zB ob Zeichen oder Wörter? <Diese Nachricht wurde bearbeitet.>
+04.01.25, 15:22 - Lennard: Sorry für den Spam aber würde mich auch mal interessieren, ob man auch so 20 Kontext Ausgaben machen könnte bzw wie die Performance dann ist usw können wir sonst aber auch heute Abend testen
+04.01.25, 15:23 - Dominic Dbtech: Aso ja das es wörter sind war mir klar xD
+04.01.25, 15:23 - Dominic Dbtech: sinnvolle Einheit wird der token erstellt was ich gelesen haben
+04.01.25, 15:24 - Dominic Dbtech: Jo ich schaue mal nach, bzw man kann tokenzähler implementieren um zu schauen
+04.01.25, 15:24 - Dominic Dbtech: Ja ich kann das n-result auf 20 erhöhen
+04.01.25, 15:44 - Dominic Dbtech: Also bei 20 results wird mein Laptop gut gefickt RAM auf Anschlag CPU +7ß%
+04.01.25, 15:49 - Dominic Dbtech: Hallo! Ich bin Lennard Alexander Dubhorn. Ich bin ein junger Mann aus dem ländlichen Dorf Kogel Fünfseen in Mecklenburg-Vorpommern. Ich wurde am 27. März 2003 geboren und habe eine Größe von 1,90 Metern und wiege etwa 85 Kilogramm.
+04.01.25, 15:49 - Dominic Dbtech: Auf die Frage : Wer bist du ?
+04.01.25, 16:16 - Lennard: Interessant 🤔 ist aufjedenfall sehr ausführlich geworden dadurch, bisschen Halluzination ist dabei aber immerhin die meisten Sachen richtig
+04.01.25, 16:18 - Lennard: Wenn dir noch was einfällt gerne dazu schreiben
+04.01.25, 16:19 - Lennard: Übrigens solche Sachen könnten wir auch als Experimente kennzeichnen also immer am besten irgendwo die Ergebnisse Speichern damit wir daraus evtl im Nachhinein was basteln können ✌🏻
+04.01.25, 16:44 - Dominic Dbtech: Der Jailbreak ist im Prinzip der Satz wa
+04.01.25, 19:40 - Lennard: Jo
+04.01.25, 22:26 - Lennard: Ich glaube wahrscheinlich ist es sogar sinnvoll, ihm sehr viele Ergebnisse aus der Datenbank zu geben (?50+) und dann halt im prompt zu spezifizieren, dass er sich nur das wichtigste für die gewisse Antwort suchen soll und ebend mögliche nicht gegebene Zusammenhänge selber interpretieren
+04.01.25, 22:27 - Dominic Dbtech: Haben wir 50 Paragraphen ?
+04.01.25, 22:28 - Dominic Dbtech: das wird auch mein rechner nicht schaffen xD
+04.01.25, 22:28 - Dominic Dbtech: Bei 20 hat schon alles den ygeist aufgegeben
+04.01.25, 22:29 - Dominic Dbtech: Ich werde will noch ein kleineres etwas untrainierteres Modell nutzen
+04.01.25, 22:30 - Dominic Dbtech: Und dann per Prompts dann finetunen
+04.01.25, 22:30 - Lennard: Okay Mal schauen ob das allgmein gute Outputs gibt
+04.01.25, 22:30 - Lennard: Wäre jetzt Zuhause btw
+04.01.25, 22:31 - Dominic Dbtech: ja wegen mir können wa noch n Stündchen machen
+04.01.25, 22:33 - Lennard: Jo ich komm gleich on
+04.01.25, 23:42 - Lennard: Sinnhaftigkeit, Performance, Halluzinationen
+04.01.25, 23:42 - Lennard: + weitere sinnvolle
+05.01.25, 14:58 - Lennard: null
+05.01.25, 15:06 - Lennard: <Medien ausgeschlossen>
+05.01.25, 15:50 - Dominic Dbtech: null
+05.01.25, 15:51 - Dominic Dbtech: Ruf mal durch xD
+05.01.25, 15:52 - Lennard: Bin nicht Zuhause gerade
+05.01.25, 15:54 - Dominic Dbtech: Wann hast du dir den COde gezogen vom Projekt ?
+05.01.25, 15:54 - Lennard: Den letzten commit
+05.01.25, 15:54 - Dominic Dbtech: Heute ?
+05.01.25, 15:54 - Dominic Dbtech: vor einer Stunde
+05.01.25, 15:55 - Lennard: Aso ne
+05.01.25, 15:56 - Lennard: Den davor dann
+05.01.25, 15:56 - Dominic Dbtech: mhhh, weil er hat noch am Cod was geändert.
+05.01.25, 16:28 - Lennard: Okay okay, irgendwas wichtiges?
+05.01.25, 18:07 - Dominic Dbtech: Diese Nachricht wurde gelöscht.
+06.01.25, 23:04 - Dominic Dbtech: Biste home ?
+06.01.25, 23:16 - Lennard: Jo
+06.01.25, 23:16 - Dominic Dbtech: Nice
+06.01.25, 23:16 - Dominic Dbtech: kann man callen ?

@@ -1,23 +1,22 @@
-import networkx as nx
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
-from sentence_transformers import SentenceTransformer
 from sklearn.cluster import DBSCAN
 import os
-import re
+from scripts.data_clustering.HuggingFaceEmbedderSentence import HuggingFaceEmbedder
+
 
 def main():
     # Nachrichten aus dem Chat
 #    text_file_path = os.path.join("..", "Data", "raw", "chats.txt")
 
-    text_file_path = os.path.join("..", "conde4", "clustered_results_bereinigt.txt")
+    text_file_path = os.path.join("../../Experiment 1", "Code", "clustered_results_bereinigt.txt")
 
     # Schritt 1: Filtere und bereinige Nachrichten (z. B. Entferne Nachrichten von "Dominic Dbtech" sowie Datum/Uhrzeit)
     with open(text_file_path, "r", encoding="utf-8") as file:
         messages = file.readlines()  # Alle Zeilen lesen
 
     # Schritt 2: Berechne Embeddings für die bereinigten Nachrichten
-    model = SentenceTransformer('all-MiniLM-L6-v2')  # Du kannst andere Modelle wie 'paraphrase-multilingual-MiniLM' ausprobieren
+    model = HuggingFaceEmbedder("avsolatorio/GIST-Embedding-v0")
     embeddings = model.encode(messages)
 
     # Schritt 3: Berechnung der Ähnlichkeitsmatrix (wird in DBSCAN verwendet)
@@ -34,9 +33,10 @@ def main():
     #dann euclidean & manhatten
 
     #cosine -> eps=0.0056
+    #avsolatorio/GIST-Embedding-v0 0.0045
 
     # Schritt 5: DBSCAN Clustering
-    dbscan = DBSCAN(eps=0.0056, min_samples=1, metric="cosine")
+    dbscan = DBSCAN(eps=0.0045, min_samples=1, metric="cosine")
     labels = dbscan.fit_predict(distance_matrix)
 
     # Schritt 6: Ergebnisse anzeigen
@@ -55,13 +55,13 @@ def main():
             print(f"{message}")
 
      #Speichern der Ergebnisse in einer Datei
-    output_file_path = "clustered_results3.txt"
-    with open(output_file_path, "w", encoding="utf-8") as f:
-        for cluster_id, cluster in clusters.items():
-            f.write(f"Cluster {cluster_id + 1}:\n")
-            for message in cluster:
-                f.write(f"{message}")
-            f.write("\n")
+#    output_file_path = "..", "Data", "clustered_results3.txt"
+#    with open(output_file_path, "w", encoding="utf-8") as f:
+#        for cluster_id, cluster in clusters.items():
+#            f.write(f"Cluster {cluster_id + 1}:\n")
+#            for message in cluster:
+#                f.write(f"{message}")
+#            f.write("\n")
 
 
 if __name__ == "__main__":
