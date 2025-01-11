@@ -16,9 +16,10 @@ class ChatWithLlama:
         self.model_name = model_name
         self.chat_history = []
 
-    def generate_prompt(self, user_query, collection_name, n_results=3):
+    def generate_prompt(self, user_query, collection_name, collection_name_2, n_results=3):
         """
         Generate a prompt for Llama based on user input and ChromaDB data.
+        :param collection_name_2:
         :param user_query: The question or input from the user.
         :param collection_name: The ChromaDB collection to query.
         :param n_results: Number of results to retrieve from ChromaDB.
@@ -36,30 +37,56 @@ class ChatWithLlama:
             else: print("Startprompt wird verwendet.")
 
         # Query ChromaDB for context
-        chroma_results = self.chroma_connection.query_collection(
+        chroma_results_baseinfo = self.chroma_connection.query_collection(
             collection_name=collection_name,
             query=user_query,
             n_results=n_results,
             embed_as="paragraph"
         )
+
+        chroma_results_chat = self.chroma_connection.query_collection(
+            collection_name=collection_name_2,
+            query=user_query,
+            n_results=n_results,
+            embed_as="paragraph"
+        )
         
-        if not chroma_results or "documents" not in chroma_results:
+        if not chroma_results_baseinfo or "documents" not in chroma_results_baseinfo:
             print("Keine Ergebnisse gefunden")
             return f"Keine relevanten Informationen für: {user_query}"
         
         # Flatten the nested list structure of the ChromaDB results
-        flat_documents = []
-        for doc in chroma_results["documents"]:
+        flat_documents_baseinfo = []
+        for doc in chroma_results_baseinfo["documents"]:
             if isinstance(doc, list):  # Falls ein Element eine Liste ist
-                flat_documents.extend(doc)  # Alle Elemente der Liste in flat_documents einfügen
+                flat_documents_baseinfo.extend(doc)  # Alle Elemente der Liste in flat_documents einfügen
             else:
-                flat_documents.append(doc)
-        context = "\n".join(flat_documents)
+                flat_documents_baseinfo.append(doc)
+        context_baseinfo = "\n".join(flat_documents_baseinfo)
 
         #Debugg
         print("\nGefundener Context:")
         print("-" * 50)
-        print(context)
+        print(context_baseinfo)
+        print("-" * 50)
+
+        if not chroma_results_chat or "documents" not in chroma_results_chat:
+            print("Keine Ergebnisse gefunden")
+            return f"Keine relevanten Informationen für: {user_query}"
+
+        # Flatten the nested list structure of the ChromaDB results
+        flat_documents_chat = []
+        for doc in chroma_results_chat["documents"]:
+            if isinstance(doc, list):  # Falls ein Element eine Liste ist
+                flat_documents_chat.extend(doc)  # Alle Elemente der Liste in flat_documents einfügen
+            else:
+                flat_documents_chat.append(doc)
+        context_chat = "\n".join(flat_documents_chat)
+
+        # Debugg
+        print("\nGefundener Context:")
+        print("-" * 50)
+        print(context_chat)
         print("-" * 50)
 
         # Combine user query with context and startprompt
@@ -67,8 +94,15 @@ class ChatWithLlama:
         StartPrompt:
         {start_prompt}
         
-        Context:
-        {context}
+        Du bist nun Lennard.
+        Im Kontext sind Informationen zu dir zu finden.
+        Entscheide selbst, wie du die Person am besten verkörpern kannst.
+        {context_baseinfo}
+        
+        Das sind Lernnards Schreibstil und Worte die er nutzt.
+        Im Kontext sind Chatauschnitte von dir zu finden.
+        Verusuche den Schreibstil und die Worte zu imitieren,
+        {context_chat}
         
         User Query:
         {user_query}
@@ -81,15 +115,16 @@ class ChatWithLlama:
 
         return prompt
 
-    def chat(self, user_query, collection_name):
+    def chat(self, user_query, collection_name, collection_name_2):
         """
         Chat with the user using an Ollama model and save the conversation.
+        :param collection_name_2:
         :param user_query: The user's input.
         :param collection_name: The ChromaDB collection to query.
         :return: The model's response.
         """
         # Generate the prompt
-        prompt = self.generate_prompt(user_query, collection_name)
+        prompt = self.generate_prompt(user_query, collection_name, collection_name_2)
 
         # Send the prompt to Ollama
         response = self.client.chat(model=self.model_name, messages=[
