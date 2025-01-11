@@ -1,0 +1,180 @@
+- wie weit bist so mit den Aufgaben?
+- nice nice, habe bisher nur die erste gemacht, habe aber auch immer erst gegen Ende der Woche viel Zeit
+- also nehme denk ich trz meine impl, weiß nicht wie die sich da haben, wenn wir seins in etwas verändert übernehmen würden 🤔
+- gerne zusammen machen und ich kann auch gerne meine Implementation der anderen Methoden zeigen und erklären.
+- also ich würd die zweite sonst erstmal alleine angucken und falls ich Schwierigkeiten hab oder dann zum Vergleichen können wir die gerne nochmal anschauen 👀
+- jojo ich würd sagen ich meld mich einfach, wenn ich da weiter gemacht habe, sollte das im Laufe der nächsten Tage sein denke ich
+- Ahh okay 🤔 ich schau mal
+- Achso ja die erste hab ich mal nicht mitgezählt
+- Jo alles klar, ich mach nachher gleich die letzte Aufgabe, sitzt jetzt schon über ne Stunde länger als geplant beim Bahnfahren fest wegen eines Unfalls auf den Gleisen, wollte eigentlich schon dran sitzen
+- Jo ich muss dich mal anhauen
+- Also folgende Sache, geht um die ersten beiden Tests, wenn ich wie im ersten Bild nur teste ob nichts passiert wenn ich die Funktion Aufrufe bzw ob sie funktioniert, wird der zweite Test, (also dass beim Löschen nichts passiert ist) grün und er erkennt die leeren trays richtig
+- Wenn ich aber wie auf dem zweiten Bild das in ne if Anweisung setze um die Exception zu werfen für den ersten Test, funktioniert der zweite nicht mehr, obwohl die Else Anweisung eigentlich gar nicht aufgerufen werden sollte und ich ja nachgewiesen hab, dass die Funktion alleine beim 2ten Test grün bleibt <Diese Nachricht wurde bearbeitet.>
+- Ich schreibs mal um
+- Ich raff bloß wirklich nicht wieso er sagt es hätte sich was verändert obwohl der else Fall ja gar nicht ausgeführt wird bei mir
+- Falls du da nichts mehr finden solltest versuch ich's einfach anders danke aufjedenfall schonmal für die Hilfe 🫶🏻
+- Aber die wird doch gar nicht aufgerufen eigentlich
+- Und hier hab ich ja die Methode ohne die zweite Methode genommen um zu gucken ob die was verändert, was sie ja müsste, aber tut sie nicht
+- Jetzt weiß ichs
+- Habe vorher nur ne falsche Methode benutzt wie du schon gesagt hast
+- Bin ja von ob das Tray leer ist ausgegangen, jetzt hab ich getestet ob die ID existiert und siehe da ja sie existiert also wird else ausgeführt
+- Okay um nochmal das Paradoxon vom Anfang aufzuklären, es lag daran, dass ich eine Exception geworfen habe, wenn das Tray leer ist und das galt auch schon als Änderung
+- Meintest du ja hier auch schon im Prinzip 😶‍🌫
+- Er hat ein paar Hinweise zur neuen Übung gegeben. Am
+- Bin auch gerade in der Übung, jo sieht aber ganz spaßig aus
+- 4, er meinte schon bei euch waren 2 oder so 😂
+- Herr Dohmeier meint, die haben wohl gleichzeitig Statistik 🥸
+- passt oder passt nicht. Wirklich erklären tut er da nicht. Ich hab aber die Lösungen zu den Aufgaben 😅
+- Hab heute endlich meine Anrechnungen bekommen nach Jahren gefühlt. Statistik wurd angerechnet btw aber muss auch 1-2 Fächer nochmal machen 🥴 hattest du eigentlich schon Controlling?
+- Finanzbuchhaltung hatte ich schon, dann passt das ja, hatte an der Uni kosten-und Leistungsrechnung für internes
+- Lul ja verständlich ich muss sagen so ein paar Wirtschaftskurse sind ganz nice aber n ganzes Studium wär mir echt zu viel von dem kram
+- Bin schon bisschen traurig, dass ich nächstes Semester dann nur ein Info Kurs habe 😶‍🌫
+- lul aber war bei mir am Anfang auch auf der kritischen Seite, ich find das braucht ein bisschen, bis man sich da sicherer ist (würde mich nicht als sicher bezeichnen haha aber auch nicht unsicher) aufjedenfall hab ich gemerkt, dass es deutlich besser läuft wenn man Bock drauf hat
+- Bin rein theoretisch auch schon im 5. Semester
+- Hab noch den Luxus, dass meine Mum mich "fürs studieren bezahlt" 😶‍🌫
+- Bin aber auch noch etwas jünger, habe dann ja bald auch das Praktikum und danach bzw im Master hab ich vor nebenbei was zu machen 👀
+- also irgendwie war ich schon bisschen motiviert und habe ein paar Sachen implementiert. Die ersten 4 Tests sind grün und ich hab extra ein wenig (wenn auch nicht mega viel) Kommentiert und dokumentiert, damit man das hoffentlich recht schnell verstehen kann
+- Ahh schade ich hab tatsächlich verpennt 😅
+- Hätte ich die Übung vorher gesehen, hätte ich's gleich so gemacht 😂 naja aber könnte weiter davon weg sein
+- Er hat Beispielprojekte für DAOs hochgeladen, da kann man sich das grob angucken bzw die Struktur
+- Ah okay wusst ich gar nicht 🤔 bin aber Zuhause, lohnt sich nicht nochmal 40min zur Uni zu Gurken wenn's auch online ist <Diese Nachricht wurde bearbeitet.>
+- Also ich bin leider 15min zu spät in die Zoom Veranstaltung aber habe wohl auch nichts verpasst, war halt nur fragen stellen wenn wer welche hat und dass es wohl sinnvoll ist die erste Teilaufgaben einzeln zu machen für Aufgabe 4 schonmal
+- Hab noch nicht weiter gemacht, können wir machen habe aber wahrscheinlich erst frühestens ab Donnerstag Zeit
+- Gehst du heute zur Übung? Ist ja eigentlich wieder nur Konsultation
+- Ich les mich auch gerade wieder rein
+- Ja ik ich weiß nur nicht was genau er im Test vergleicht, ob die Tabellen 1 zu 1 wie vorher sind oder wie? Weil eigentlich dürfte sich ja nichts verändert haben
+- Achso ja die Fehlermeldung kann ich ja lesen das ist ja meine Frage was genau der da überhaupt haben will
+- Ich weiß dass es das Datum ist was da steht
+- Aber wieso sollte ich an dem Punkt irgendwo ein Datum zurück geben
+- Der vergleicht im Test den Datenbank bzw Tabellenstand actual und expected aber da sich aber meines Verständnisses nach nichts geändert haben soll und ich nur selects ausgeführt habe sollte da nichts fehlen <Diese Nachricht wurde bearbeitet.>
+- Soll man dann das Ablaufdatum verändern oder wie
+- Hab jetzt Vorlesung, ich schau mir nachher den Baum bzw die Anforderungen nochmal ordentlich an bzw mach dann weiter
+- Weißt du ob die erste placeNo 0 ist? Oder 1 🤔
+- btw wir sollten laut Aufgabenblatt eigentlich in den Kommentar bei der Abgabe unsere Namen reinschreiben, wir können das ja einfach mal bei der Abgabe 3 jetzt machen, auch rückwirkend, falls es nötig ist <Diese Nachricht wurde bearbeitet.>
+- ja eigentlich schon steht trz in der Aufgabe idk
+- Ach übrigens, wenn du mal ne Runde Fortnite zocken willst sag bescheid
+- Also ich hab jetzt durch die Frage mal angenommen, dass du's spielst
+- Bin bisher der einzige hier 😂🥲
+- Habe morgen oder Freitag oder evtl übers Wochenende Zeit
+- Habe mal die findFittingTrays Funktion versucht zu bauen, noch keine Zeit gehabt sie zu testen aber so in der Art sollte es wohl aussehen
+- Möchte da ja in eine Tabelle auslesen aber irgendwas läuft da noch nicht rund
+- Also ich habe es jetzt gefixt
+- Allerdings ist mir aufgefallen, dass er das Vorgehen (wahrscheinlich auch in etwas besser..) in der letzten Übung gemacht hat und es dafür n Beispiel auf Moodle gibt 🥲
+- Die Funktion ist doch gut wie sie ist.. das habe ich jetzt nach locker 2-3h endlich herausgefunden, weil das Problem was ich die ganze Zeit hatte nur war, dass die verkackte Datenbank nicht richtig aufgesetzt war....
+- Also so ist die final, wir können die Tage auch callen, dann versuch ich dir paar Sachen zu erklären muss dafür aber selber noch etwas mehr verstehen
+- nächste Woche wird spaßig bei mir, gefühlt alle Abgaben auf einmal aber geht noch zb prog 1 ist halt sehr entspannt
+- Jo ich versuche Zeit zu finden 😅 hab noch echt ne Menge für MAS zu tun
+- Also Abgabe ist bisher Mittwoch 0Uhr die Tage danach sollte ich Zeit haben
+- Es ist recht schwer einzuschätzen, wie viel noch zu machen bleibt, kann sein, dass es nicht mehr viel ist, kann aber auch sein, dass sich das noch irgendwie viel länger zieht als gedacht
+- Im Prinzip kann man die der Übersichtshalber auch als Funktionen schreiben aber sonst wäre der nächste Schritt die Transfer Sample zu implementieren. Habe noch nichts mit Funktionsaufrufen gemacht, deswegen wird das etwas interessant aber sonst sollte es tatsächlich ganz machbar sein
+- Hier sind die beiden Funktionen die ich implementiert hab
+- Das expirationdate des Samples kann man in der Transfersample Funktion einfach abfragen
+- Dafür haben wir die Funktion aus der Übung
+- Weil's so funktioniert hat und mit den anderen Sachen nicht, kann gut sein, dass ich zu doof war aber nach ewigen hin und her probiere hab ich mich entschieden es so zu lassen <Diese Nachricht wurde bearbeitet.>
+- Ja sieht so aus, habe da viel umher probiert also das meiste da sollte schon seinen Grund haben
+- Aber deshalb führt man das ja vorher schon aus 🤔
+- ja aber alles einzeln hab das nur zusammengefasst
+- Habe noch mit Errors rumgespielt deswegen hat's etwas länger gedauert
+- Ja ich weiß 😅 ist für mich ne top Ausrede die anderen Fächer nicht zu machen deshalb mach ich's wahrscheinlich noch lieber und weil ichs so langsam ganz gut verstanden hab denk ich. Aber ich werd mich zusammenreißen.. für dich 😂
+- kann jetzt auch ein bisschen Englisch machen und wir machen morgen weiter 🤷🏻‍♂️
+- * Hier wird die Logik aehnlich wie in Aufgabe Ü3 umgesetzt
+- * Hier wird die Logik aehnlich wie in Aufgabe Ü3 umgesetzt
+- Kein Bock, dass er uns deswegen Punkte abzieht
+- Mal schauen wie ich lustig bin
+- Mir wird angezeigt, dass die Funktionen nicht mehr im Body seien obwohl ich da nichts verändert habe
+- Mhh das versteh ich auch nicht 😅🤔
+- geht man da nicht wirklich ein.
+- Jo, n Kumpel von mir ist auch dabei der muss sich noch eintragen, dann sind wir 3
+- Naja also du musst welche von den Wahlpflicht Modulen wählen, wenn du das meinst
+- Die AWE dinger sind ja eigentlich die Fremdsprachen oder nicht
+- Bei mir steht in der Notenübersicht, dass ich wohl Variante 1 gewählt habe was mich wundert, weil ich eigentlich genau das nicht machen wollte??
+- Ahh Okay aber awe muss ich dann machen
+- Ich eigentlich auch aber können wohl überall hin
+- Letzte Woche konnte ich nicht aber vorletzte waren bis 2m² um den Prof Stühle
+- Oh wait nvm, es gab doch erst eine Vorlesung, hab irgendwie an ein anderes Modul gedacht
+- Okay haben nen größeren Raum heute
+- In der Mensa mit nem Kollegen, die Übung war wie erwartet nur, dass jeder Probleme mit dem Setup hatte, bei mir und glaube vielen anderen funktionierts immer noch nicht richtig
+- Btw würd dir empfehlen zur Übung zu gehen sonst kriegst du das höchstwahrscheinlich nicht zum laufen
+- Hast du ihn mal gefragt? Weil dieses Problem hatten eigentlich einige vorhin
+- Sach Mal meinst du er hat schon ne Gruppe? Er seemed jedenfalls motiviert
+- Btw sie rechnet die Punkte auf also wenn du zb 1 mal mehr mitmachst kannst du die Punkte auffüllen
+- jo wenn du bei US irgendwo nicht weiter kommen solltest kann ich dir maybe helfen. Habe nicht alle Aufgaben fertig aber evtl hab ich ja schon was
+- Debugger habe ich leider auch keine Ahnung von 😶‍🌫
+- Kommt drauf an obs jetzt notwendig ist für die Lösung aber kannst aufjedenfall probieren
+- Steht das
+- Habe auch noch auf schnelle Welle was abgegeben aber mal schauen ob sies wertet wegen Abwesenheit
+- Nene, habe jetzt die Woche auch nichts mehr machen können
+- Ich war in der 'übung' gerade so kurz vorm wegpennen warum auch immer, ich hatte so zu kämpfen teilweise 😂
+- Obwohl ich das Thema schon ziemlich interessant fand eig, klar nicht gerade alles komplett verstanden aber trotzdem
+- Scheiße sehe gerade ich wäre sogar 2min früher da wegen der wartezeit 🥴
+- Ahhh okay miese Briese. Ja all good, ne kleine Nachricht wäre bei sowas vllt schon praktisch, wir haben schon überlegt ob dir was passiert ist 😅😂 gute Besserung ✌🏻
+- Ja ist bisschen ungünstig, ärgert mich, dass ich die Wecker anscheinend weggedrückt habe.. wir essen in 10min Mittag, würde eher probieren danach noch ne halbe Stunde
+- Ich bin Lennard Dubhorn, 23 Jahre alt. Ich komme aus einer Familie mit starkem Zusammenhalt, in der es auch einiges an Humor gibt. Als Großer Bruder habe ich es mir zur Gewohnheit gemacht, meine beiden jüngeren Familienmitglieder zu unterstützen und manchmal auch ein bisschen zu necken.
+- Ich studierte Mechatronik und habe mich danach entschieden, mich auf eine berufliche Laufbahn zu konzentrieren. Momentan wohne ich in einem eigenen Apartment, aber trotz der räumlichen Trennung von meiner Familie bleiben wir uns sehr nah.
+- Übrigens bin ich mit einer feste Freundin zusammen, seit zwei Jahren nun schon. Sie ist mir eine wichtige Unterstützung und hilft mich dabei, meine Probleme zu lösen.
+- Ohh ja ich glaube ich muss die ersten Infos etwas anders gestalten 😂 werde es dann als Fließtext statt stichpunkte schreiben damit er weiß dass ich nicht der große Bruder bin
+- Evtl könnten wir heute Nacht noch callen
+- Ich schaue mal das kann ich auch immer nebenher mal machen
+- Lul oh man das ist nicht viel
+- Wir brauchen dann auf jeden Fall mehr Ergebnisse aus dem Kontext
+- Jo, mir fällt gerade auf dass token nicht zwingend Zeichen heißt, können auch Wörter sein, haben sie ja jetzt durch /n/n getrennt aber evtl könnte ich die Chunks auch deutlich länger machen, wenn token Wörter sind und keine Zeichen <Diese Nachricht wurde bearbeitet.>
+- Könntest du evtl rausfinden was token für unser Modell bedeutet und ob man das möglicherweise sogar einstellen kann zB ob Zeichen oder Wörter? <Diese Nachricht wurde bearbeitet.>
+- Sorry für den Spam aber würde mich auch mal interessieren, ob man auch so 20 Kontext Ausgaben machen könnte bzw wie die Performance dann ist usw können wir sonst aber auch heute Abend testen
+- Ich bin ein sehr aktiver Mensch, der gerne Sport macht. Von 6 bis 18 Jahren war ich Fußballspieler in meinem Nachbardorf, aber aufgrund von Verletzungen und Interessenwechsel habe ich seit 4-5 Jahren Volleyball gespielt. Darüber hinaus habe ich mich auch für Kraftsport interessiert und bin im Fitness Studio trainiert.
+- Mein Vater ist handwerklich tätig in einer Werkstatt bei Optimal Media GmbH in Röbel Müritz, während meine Mutter eine Apotheke in Röbel Müritz leitet.
+- Ich liebe Musik, Filme, Bücher und Reisen. Mein aktuellem Wohnort ist Berlin, Prenzlauer Berg, wo ich seit 1,5 Jahren wohne.
+- Interessant 🤔 ist aufjedenfall sehr ausführlich geworden dadurch, bisschen Halluzination ist dabei aber immerhin die meisten Sachen richtig
+- - Zussammefassen der Antwort auf die wichtigsten Punkte/Zusammenhänge
+- Ich glaube wahrscheinlich ist es sogar sinnvoll, ihm sehr viele Ergebnisse aus der Datenbank zu geben (?50+) und dann halt im prompt zu spezifizieren, dass er sich nur das wichtigste für die gewisse Antwort suchen soll und ebend mögliche nicht gegebene Zusammenhänge selber interpretieren
+- Jo ✌🏻️
+- Jo
+- Jo
+- Jo
+- jo
+- Jo
+- Jo
+- Jo
+- jo
+- Jo
+- Jo
+- Jo
+- Jo
+- Mhh hmm
+- Oh
+- Oh man
+- Mhhhh hmm
+- Achso okay 😁✌🏻
+- IS
+- :)
+- Oh man oh man
+- Okay okay 😂
+- Mhh hmm
+- Oh shit ähh idk
+- Ahh okay
+- Interesting 🤔
+- ✌🏻
+- 😂
+- 😂
+- 👍🏻
+- Ahhh interesting 🤔
+- Nice nice
+- 🌚👍🏻
+- 👍🏻
+- Nice 👌🏻
+- 🐧
+- 👍🏻
+- 👍🏻
+- Alles klar 👍🏻
+- Alles klaro
+- Alles klar 👍🏻
+- Alles klar
+- wer hätte gedacht, dass es so eklig sein kann ein Datum über jdbc in SQL zu übertragen 🥴 (bei der Insert/Update Funktion)
+- Ich hab bisher auch nur versucht die Funktion zum laufen zu bringen, hab's jetzt geschafft einen Tabellen-Datentypen zu machen, den die Funktion zurückgeben kann aber jetzt will er das SQL Statement nicht mehr ausführen
+- Beim SQL Statement aber wie gesagt mal schauen erkläre das sonst lieber beim callen
+- Hat sich wie mehr angefühlt haha aber die beiden sind die schwereren Funktionen, die anderen Funktionen in jdbc sind nur Update undso, was in pl/sql easy ist
+- So ich habe jetzt alles in eine SQL Datei gemacht und getestet und geb das jetzt ab okay?
+- Ja keine Ahnung 😂
+- Wohl wahr 😶‍🌫
+- Keine Ahnung
+
+
