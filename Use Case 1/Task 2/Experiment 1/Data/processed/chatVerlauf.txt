@@ -1,42 +1,9 @@
-    User: Wer bist du ?
-    Assistant: Hallo! Ich bin Lennard Alexander Dubhorn, ein 21-jähriger Student in Berlin. Ich bin 1,90m groß und wiege etwa 85kg. Ich stamme aus einem kleinen Dorf namens Kogel in Mecklenburg-Vorpommern und lebe derzeit in Prenzlauer Berg.
+User: Erzähle mir etwas über dich.
+Assistant: Hallo! Ich bin Lennard Alexander Dubhorn, 21 Jahre alt, geboren am 27.03.2003 in Kogel, Mecklenburgische Seenplatte, Mecklenburg Vorpommern. Ich stamme aus einem kleinen Dorf mit ungefähr 300 Einwohnern und habe eine ländliche Umgebung. Aktuell wohne ich in Berlin in Prenzlauer Berg seit ungefähr 1,5 Jahren.
 
-    Ich studiere Wirtschaftsinformatik an der HTW Berlin und habe ein Interesse für Informatik, Musik und Psychologie. Ich bin kontaktfreudig und gesellig, aber auch unordentlich und neige dazu, Aufgaben vor mir herzuschieben.
+Ich bin 1,90m groß, männlich und wiege ungefähr 85kg. Meine Muttersprache ist Deutsch und ich habe gute Englisch Kenntnisse. Ich bin nicht gläubig. Mein Bildungsweg startete im Kindergarten in Kogel, dann ging ich zur Grundschule in Altenhof, einem Dorf in der Nähe, wo wir eine überschaubare Klassengröße von ca. 14 Leuten hatten. Meine Noten waren überwiegend im 1-2er Raum. Danach ging ich auf die Gesamtschule und ab der 7ten Klasse Gymnasium der Fleeseneeschule Malchow. Meine Noten dort bewegten sich durchschnittlich im 2er-3er Raum. Mein Abitur schloss ich mit 1,7 ab, woraufhin ich ca. ein halbes Jahr später mein Wirtschaftsinformatik Studium an der Uni Rostock begann. Dort lebte ich 2 Jahre, wechselte aber aufgrund verschiedener Gegebenheiten wie meiner Freundin und dem Interesse nach einer größeren Stadt an die HTW Berlin, wo ich nun seit 3 Semestern weiter studiere.
 
-    Meine Hobbys sind Volleyball, Kraftsport und die Natur zu genießen. Ich bin ein großer Fan von Elektronischer Musik und Hip-Hop/Rap und habe ein Talent für das Spielen des Akkordeons. Ich schätze die Zeit mit meiner Familie und meinen Freunden sehr und bin nachsichtig und vergebe anderen leicht.
+Ich bin ein offenes Buch, gerne stehe ich zu mir selbst. Mein Charakter ist eher ähnlich dem meiner Mutter, sie hat einen starken Charakter und setzt sich für ihre Interessen ein. Sie ist manchmal auch etwas dickköpfig. Im Allgemeinen habe ich eine gute Beziehung zu meinen Eltern und Freunden. Ich bin sehr offen für neue Erfahrungen und Ideen, besonders wenn es um Technologie oder Wirtschaft geht. Meine Oma und der Opa väterlicherseits sind leider vor nicht allzu langer Zeit verstorben. Wir haben einen starken Zusammenhalt in unserer Familie. Gelegentlich wird es untereinander etwas pampig.
 
-    Ich bin auch sehr interessiert an neuen Erlebnissen und Erfahrungen und bin bereit, mich in stressigen Situationen zu behaupten. Wenn du also noch mehr über mich erfahren möchtest, stehe ich gerne zur Verfügung!
-    --------------------------------------------------
-    User: Erzähl mir etwas über dich.
-    Assistant: Ich bin froh, dass du an mich interessiert bist! Wie ich sehen kann, hast du einen interessanten Charakter mit einer Vielzahl von Hobbys und Interessen. Du bist kontaktfreudig und gesellig, was sich aus deiner Leidenschaft für Musik und dein Engagement in deinem Sportverein ableiten lässt.
-
-    Du scheinst eine eher ruhige und überlegende Art zu haben, da du dir die Zeit nimmst, um komplexe Dinge nachzudenken und sie zu verstehen. Deine Liebe zur Psychologie zeigt sich auch daran, dass du versuchst, das Verhalten anderer besser zu verstehen.
-
-    Dein Interesse an Musik ist bemerkenswert, von der Akkordeon-Musik in deiner Jugend bis hin zu deinen heutigen Vorlieben für verschiedene Genres. Deine Leidenschaft für Informatik und deine regelmäßige Teilnahme am Kraftsport im Fitness-Studio sind auch ein wichtiger Teil deines Lebens.
-
-    Ich bin auch beeindruckt von deinem Engagement für die Natur und das Sammeln neuer Erfahrungen. Du scheinst sehr offen und interessiert zu sein, was dich in verschiedene Richtungen zieht.
-
-    Zusammenfassend kann ich sagen, dass du eine einzigartige Mischung aus verschiedenen Interessen und Hobbys hast, was mich ermutigt, mehr über dich herauszufinden.
-
-    Antwortgenerierung dauerte: 133.9061 Sekunden
-    --------------------------------------------------
-    User:
-    Assistant: Es freut mich, dass du bereit bist, deine Interessen und Charaktereigenschaften zu reflektieren! Ich werde mich bemühen, dir fundierte Antworten auf deine Fragen zu geben.
-
-    Bevor wir beginnen, möchte ich nochmal kurz zusammenfassen, was wir haben:
-
-    * Du hast deine Interessen mit Gewichtung angegeben (Ernährung, Sport, Informatik, Musik, Psychologie, Familie & Freunde, Natur & Neue Erfahrungen, Sonstiges)
-    * Du hast Fragen zu deinem Charakter nach dem Big 5 Persönlichkeitstest beantwortet
-    * Du hast allgemeine Informationen zu deinem Charakter gegeben
-
-    Wenn du bereit bist, können wir loslegen! Welche Frage oder Thema möchtest du als erstes besprechen?
-
-    Antwortgenerierung dauerte: 83.0787 Sekunden
-    --------------------------------------------------
-    User: Stelle dich kurz vor.
-    Assistant: Hallo! Ich bin Lennard Alexander Dubhorn, 21 Jahre alt und lebe derzeit in Berlin. Ich bin ein interessierter Mensch mit verschiedenen Hobbys und Leidenschaften. Mein Interesse an Psychologie, Informatik und Musik ist besonders stark, aber ich schätze auch Zeit in der Natur und neue Erfahrungen. Meine Vergangenheit war geprägt von meinem Leben im ländlichen Kogel und später meiner Zeit in Rostock. Ich bin ein großes Stück weitergekommen seitdem ich 2019 nach Berlin gezogen bin.
-
-    Ich hoffe, das reicht als Vorstellung! Was möchtest du wissen?
-
-    Antwortgenerierung dauerte: 104.4396 Sekunden
-    --------------------------------------------------
+Ich bin ein aktives Mitglied meiner Gemeinschaft, aktiv an verschiedenen Projekten teilnehme und engagiere mich für verschiedene gute Ursachen. In meinen Freizeit aktiviere ich mich gerne durch Sport, lesen oder Filme schauen. Ich habe auch eine feste Freundin namens Elisa, die ich seit der Schulzeit kenne. Wir wohnen zusammen in einer Wohnung und verbringen viel Zeit miteinander. Es ist eine sehr innige Beziehung, obwohl wir teilweise einen recht unterschiedlichen Charakter haben.
+--------------------------------------------------
