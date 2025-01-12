@@ -37,8 +37,6 @@ def filter_and_clean_messages(file_path, sender_name):
 
 
 def main():
-    # Nachrichten aus dem Chat
-#    text_file_path = os.path.join("..", "Data", "raw", "chats.txt")
 
     text_file_path = os.path.join("..", "Data", "raw", "chats.txt")
 
@@ -86,7 +84,7 @@ def main():
         for message in cluster:
             print(f"{message}")
 
-    # Speichern der Ergebnisse in einer Datei
+    # Speichern der Ergebnisse in einer Datei (Ausgeklammert zu Testzwecken)
 #    output_file_path = "..", "Data", "clustered_results.txt"
 #    with open(output_file_path, "w", encoding="utf-8") as f:
 #        f.write("Thematische Cluster (DBSCAN):\n\n")
