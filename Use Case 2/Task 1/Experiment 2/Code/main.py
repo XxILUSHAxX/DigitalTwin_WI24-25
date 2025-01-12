@@ -45,8 +45,7 @@ def main():
     # Schritt 1: Filtere und bereinige Nachrichten (z. B. Entferne Nachrichten von "Dominic Dbtech" sowie Datum/Uhrzeit)
     filtered_messages = filter_and_clean_messages(text_file_path, "Dominic Dbtech")
 
-#all-MiniLM-L6-v2 -> eps=1.03
-#paraphrase-MiniLM-L6-v2 -> eps=0.73
+
     # Schritt 2: Berechne Embeddings für die bereinigten Nachrichten
     model = SentenceTransformer('all-MiniLM-L6-v2')  # Du kannst andere Modelle wie 'paraphrase-multilingual-MiniLM' ausprobieren
     embeddings = model.encode(filtered_messages)
@@ -58,8 +57,15 @@ def main():
     distance_matrix = 1 - similarity_matrix  # Umwandlung der Ähnlichkeit in Distanz
     distance_matrix = np.maximum(0, distance_matrix)  # Stelle sicher, dass alle Werte >= 0 sind
 
-#metric vorher precomputed
-#eclidean -> eps=1.85 all-MiniLM
+    #metric vorher precomputed
+
+    #eclidean
+    # eps=1.85 all-MiniLM
+    # eps=1,43 paraphrase
+
+    #cosine
+    # all-MiniLM-L6-v2 -> eps=1.03
+    # paraphrase-MiniLM-L6-v2 -> eps=0.73
 
     # Schritt 5: DBSCAN Clustering
     dbscan = DBSCAN(eps=0.0056, min_samples=1, metric="cosine")
