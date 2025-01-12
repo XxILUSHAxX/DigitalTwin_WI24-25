@@ -6,9 +6,6 @@ from scripts.data_clustering.HuggingFaceEmbedderSentence import HuggingFaceEmbed
 
 
 def main():
-    # Nachrichten aus dem Chat
-#    text_file_path = os.path.join("..", "Data", "raw", "chats.txt")
-
     text_file_path = os.path.join("../../Experiment 1", "Code", "clustered_results_bereinigt.txt")
 
     # Schritt 1: Filtere und bereinige Nachrichten (z. B. Entferne Nachrichten von "Dominic Dbtech" sowie Datum/Uhrzeit)
@@ -32,7 +29,7 @@ def main():
 
     #dann euclidean & manhatten
 
-    #cosine -> eps=0.0056
+    #cosine -> all-MiniLM eps=0.0056
     #avsolatorio/GIST-Embedding-v0 0.0045
 
     # Schritt 5: DBSCAN Clustering
@@ -54,7 +51,7 @@ def main():
         for message in cluster:
             print(f"{message}")
 
-     #Speichern der Ergebnisse in einer Datei
+     #Speichern der Ergebnisse in einer Datei (Ausgeklammert zu Testzwecken)
 #    output_file_path = "..", "Data", "clustered_results3.txt"
 #    with open(output_file_path, "w", encoding="utf-8") as f:
 #        for cluster_id, cluster in clusters.items():
