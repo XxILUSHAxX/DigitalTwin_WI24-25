@@ -1,4 +1,4 @@
-Nachdem die Chatverläufe in Exp 1-4 in Cluster eingeteilt wurden, wollen wir diese in unsere Vektorendatenbank speichern, um sie als Kontext für Prompts abzurufen.
+Nachdem die Chatverläufe in Exp 1-3 in Cluster eingeteilt wurden, wollen wir diese in unsere Vektorendatenbank speichern, um sie als Kontext für Prompts abzurufen.
 Dafür benötigen wir eine weitere Collection um dort die Inhalte hinzuzufügen und zu embedden. 
 Wir benutzen weiterhin das Modell all-MiniLM-L6-v2 und chunken die Cluster in Pragraphen. Jedes Cluster entspricht quasi einem Paragraphen.
 Für die Umsetzung haben wir eine weitere ollama.chat.py (in diesem Experiment ollama.chat.llama.py) erstellt und die main.py etwas modifiziert.
@@ -132,4 +132,4 @@ Also außer es gibt viel zu überarbeiten
 Kannst meins wenn du willst überarbeiten btw
 --------------------------------------------------
 
-*Das Modell erhält die die gewünschten Resultate aus beiden Collection. Die Funktion läuft*
+*Das Modell erhält die gewünschten Resultate aus beiden Collection. Die Funktion läuft*
