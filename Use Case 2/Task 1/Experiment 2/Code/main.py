@@ -85,7 +85,7 @@ def main():
             print(f"{message}")
 
     # Speichern der Ergebnisse in einer Datei (Ausgeklammert zu Testzwecken)
-#    output_file_path = "..", "Data", "clustered_results.txt"
+#    output_file_path = os.path.join("..", "Data", "clustered_results.txt")
 #    with open(output_file_path, "w", encoding="utf-8") as f:
 #        f.write("Thematische Cluster (DBSCAN):\n\n")
 #        for cluster_id, cluster in clusters.items():

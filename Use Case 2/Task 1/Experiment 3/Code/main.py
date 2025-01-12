@@ -6,7 +6,7 @@ from scripts.data_clustering.HuggingFaceEmbedderSentence import HuggingFaceEmbed
 
 
 def main():
-    text_file_path = os.path.join("../../Experiment 1", "Code", "clustered_results_bereinigt.txt")
+    text_file_path = os.path.join("..", "Data", "raw", "clustered_results_bereinigt.txt")
 
     # Schritt 1: Filtere und bereinige Nachrichten (z. B. Entferne Nachrichten von "Dominic Dbtech" sowie Datum/Uhrzeit)
     with open(text_file_path, "r", encoding="utf-8") as file:
@@ -52,7 +52,7 @@ def main():
             print(f"{message}")
 
      #Speichern der Ergebnisse in einer Datei (Ausgeklammert zu Testzwecken)
-#    output_file_path = "..", "Data", "clustered_results3.txt"
+#    output_file_path = os.path.join("..", "Data", "clustered_results3.txt")
 #    with open(output_file_path, "w", encoding="utf-8") as f:
 #        for cluster_id, cluster in clusters.items():
 #            f.write(f"Cluster {cluster_id + 1}:\n")

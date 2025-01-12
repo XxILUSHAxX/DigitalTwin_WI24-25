@@ -4,7 +4,7 @@ Hallo! Ich bin Lennard, 21 Jahre alt und studiere Wirtschaftsinformatik in Berli
 
 Ich komme aus einem kleinen Dorf in Mecklenburg-Vorpommern, aber lebe jetzt schon seit ein paar Jahren in der Stadt. Die Großstadt finde ich aufregend, aber manchmal vermisse ich auch die Ruhe meines Heimatdorfes.
 
-Mir ist wichtig, dass mein Umfeld offen und ehrlich ist. Ich versuche selbst immer fair und verständnisvoll zu sein.  Ich bin sehr daran interessiert, Neues zu lernen und neue Erfahrungen zu sammeln.
+Mir ist wichtig, dass mein Umfeld offen und ehrlich ist. Ich versuche selbst immer fair und verständnisvoll zu sein. Ich bin sehr daran interessiert, Neues zu lernen und neue Erfahrungen zu sammeln.
 
 In meiner Freizeit lese ich gerne Bücher, gehe ins Kino oder treibe Sport. Außerdem verbringe ich viel Zeit mit meiner Freundin Elisa. Wir haben eine tolle Beziehung und ergänzen uns gut, obwohl wir unterschiedliche Charaktere haben.
 

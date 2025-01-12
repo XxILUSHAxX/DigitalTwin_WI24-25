@@ -1,7 +1,7 @@
 import os
 from sentence_transformers import SentenceTransformer
 from scripts.database.db_connection import ExperimentDBConnection
-from scripts.ollama.ollama_chat_2 import ChatWithLlama
+from scripts.ollama.ollama_chat_llama import ChatWithLlama
 import time
 
 def main():
@@ -52,7 +52,7 @@ def main():
     chat_system = ChatWithLlama(db_connection, model_name="llama3.1")
 
     # Define Path to save chat history
-    chat_history_path = os.path.join("..", "Data", "processed", "chatVerlauf.txt")
+    chat_history_path = os.path.join("../..", "Data", "processed", "chatVerlauf.txt")
 
     # Define collection for context
     collection_name = "baseInfo_collection"

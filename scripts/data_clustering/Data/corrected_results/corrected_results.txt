@@ -1,0 +1,937 @@
+In welcher Übung bist eigentlich?
+jo same aber Übung 19:00
+wie weit bist so mit den Aufgaben?
+nice nice, habe bisher nur die erste gemacht, habe aber auch immer erst gegen Ende der Woche viel Zeit
+die erste hat er ja auch prinzipiell in der online Übung geleaked
+also nehme denk ich trz meine impl, weiß nicht wie die sich da haben, wenn wir seins in etwas verändert übernehmen würden 🤔
+also ich würd die zweite sonst erstmal alleine angucken und falls ich Schwierigkeiten hab oder dann zum Vergleichen können wir die gerne nochmal anschauen 👀
+~das~
+Hätte das anfänglich auch so
+Nice, habe gerade noch ein bisschen rumprobiert, bin noch nicht soo familiär mit Exceptions, an der Uni hatten wir die nur sehr beiläufig. Danke für die Hilfe :)
+Also inkl 3. nehme ich an, hab die 2te gerade gemacht, lief recht reibungslos 👀
+Achso ja die erste hab ich mal nicht mitgezählt
+Jo alles klar, ich mach nachher gleich die letzte Aufgabe, sitzt jetzt schon über ne Stunde länger als geplant beim Bahnfahren fest wegen eines Unfalls auf den Gleisen, wollte eigentlich schon dran sitzen
+Jo ich muss dich mal anhauen
+Also folgende Sache, geht um die ersten beiden Tests, wenn ich wie im ersten Bild nur teste ob nichts passiert wenn ich die Funktion Aufrufe bzw ob sie funktioniert, wird der zweite Test, (also dass beim Löschen nichts passiert ist) grün und er erkennt die leeren trays richtig
+Wenn ich aber wie auf dem zweiten Bild das in ne if Anweisung setze um die Exception zu werfen für den ersten Test, funktioniert der zweite nicht mehr, obwohl die Else Anweisung eigentlich gar nicht aufgerufen werden sollte und ich ja nachgewiesen hab, dass die Funktion alleine beim 2ten Test grün bleibt <Diese Nachricht wurde bearbeitet.>
+Müsste eigentlich trz n ähnliches Prinzip sein 🤔
+Ich schreibs mal um
+Ja okay okay aber warum updatest du das Datum bei tray 6? Steht nicht im 2ten Test, dass keine Änderungen passieren sollen?
+Ja macht ja an sich auch Sinn
+Ich raff bloß wirklich nicht wieso er sagt es hätte sich was verändert obwohl der else Fall ja gar nicht ausgeführt wird bei mir
+Falls du da nichts mehr finden solltest versuch ich's einfach anders danke aufjedenfall schonmal für die Hilfe 🫶🏻
+Aber die wird doch gar nicht aufgerufen eigentlich
+Und hier hab ich ja die Methode ohne die zweite Methode genommen um zu gucken ob die was verändert, was sie ja müsste, aber tut sie nicht
+Jetzt weiß ichs
+Beim zweiten wird der else Fall doch ausgelöst
+Habe vorher nur ne falsche Methode benutzt wie du schon gesagt hast
+Bin ja von ob das Tray leer ist ausgegangen, jetzt hab ich getestet ob die ID existiert und siehe da ja sie existiert also wird else ausgeführt
+Okay um nochmal das Paradoxon vom Anfang aufzuklären, es lag daran, dass ich eine Exception geworfen habe, wenn das Tray leer ist und das galt auch schon als Änderung
+Meintest du ja hier auch schon im Prinzip 😶‍🌫
+Weird, dass ich da nicht selber drauf gekommen bin
+Nope, das wird mir wahrscheinlich angerechnet
+Habe MAS und Dbtech aus dem dritten Semester
+Achso und Englisch
+Woege, Dienstag 15:30
+Der ist um die Sampleid's zu speichern um die danach in Sample löschen zu können
+4, er meinte schon bei euch waren 2 oder so 😂
+Ja wilde Nummer, weißt du weshalb? 🤔
+Herr Dohmeier meint, die haben wohl gleichzeitig Statistik 🥸
+Gut möglich
+Ja gut verständlich
+Hab heute endlich meine Anrechnungen bekommen nach Jahren gefühlt. Statistik wurd angerechnet btw aber muss auch 1-2 Fächer nochmal machen 🥴 hattest du eigentlich schon Controlling?
+Braucht man dafür irgendwelches Vorwissen aus 1./2. Semester? Weil ich mach nächstes Semester die ganzen BWL Fächer aus dem 1. und 2. und eig auch Controlling <Diese Nachricht wurde bearbeitet.>
+Ah interesting, an der HTW? Wie lang?
+Finanzbuchhaltung hatte ich schon, dann passt das ja, hatte an der Uni kosten-und Leistungsrechnung für internes
+Lul ja verständlich ich muss sagen so ein paar Wirtschaftskurse sind ganz nice aber n ganzes Studium wär mir echt zu viel von dem kram
+Bin schon bisschen traurig, dass ich nächstes Semester dann nur ein Info Kurs habe 😶‍🌫
+lul aber war bei mir am Anfang auch auf der kritischen Seite, ich find das braucht ein bisschen, bis man sich da sicherer ist (würde mich nicht als sicher bezeichnen haha aber auch nicht unsicher) aufjedenfall hab ich gemerkt, dass es deutlich besser läuft wenn man Bock drauf hat
+Bin rein theoretisch auch schon im 5. Semester
+Hab noch den Luxus, dass meine Mum mich "fürs studieren bezahlt" 😶‍🌫
+also irgendwie war ich schon bisschen motiviert und habe ein paar Sachen implementiert. Die ersten 4 Tests sind grün und ich hab extra ein wenig (wenn auch nicht mega viel) Kommentiert und dokumentiert, damit man das hoffentlich recht schnell verstehen kann
+Warst du in der Vorlesung?
+Ahh schade ich hab tatsächlich verpennt 😅
+Hätte ich die Übung vorher gesehen, hätte ich's gleich so gemacht 😂 naja aber könnte weiter davon weg sein
+Same, er hat aber hybrid gemacht
+Gute Besserung btw
+Er hat Beispielprojekte für DAOs hochgeladen, da kann man sich das grob angucken bzw die Struktur
+Heute ist Zoom lul <Diese Nachricht wurde bearbeitet.>
+Ah okay wusst ich gar nicht 🤔 bin aber Zuhause, lohnt sich nicht nochmal 40min zur Uni zu Gurken wenn's auch online ist <Diese Nachricht wurde bearbeitet.>
+Bin in Präsens btw demnächst eher in der 17:15 Übung je nachdem wie's passt, habe normalerweise bis 15:15 Veranstaltungen (mit einem Freiblock) und würde dann in Zukunft wahrscheinlich noch bis 17:15 warten und zur Übung gehen
+Also in Zukunft nicht heute
+Also ich bin leider 15min zu spät in die Zoom Veranstaltung aber habe wohl auch nichts verpasst, war halt nur fragen stellen wenn wer welche hat und dass es wohl sinnvoll ist die erste Teilaufgaben einzeln zu machen für Aufgabe 4 schonmal
+Außerdem gibt es btw einen Fehler, wenn du die Tests ausführen möchtest und gleichzeitig einen Zugriff im SQL dev offen hast
+Bzw hängt Eclipse sich evtl auf
+Hab noch nicht weiter gemacht, können wir machen habe aber wahrscheinlich erst frühestens ab Donnerstag Zeit
+Bis zum 10.12.
+Gehst du heute zur Übung? Ist ja eigentlich wieder nur Konsultation
+Schon weiter gekommen? Habe gerade auch 40-50min Zeit
+Ich les mich auch gerade wieder rein
+Ja ik ich weiß nur nicht was genau er im Test vergleicht, ob die Tabellen 1 zu 1 wie vorher sind oder wie? Weil eigentlich dürfte sich ja nichts verändert haben
+Achso ja die Fehlermeldung kann ich ja lesen das ist ja meine Frage was genau der da überhaupt haben will
+Ich weiß dass es das Datum ist was da steht
+Aber wieso sollte ich an dem Punkt irgendwo ein Datum zurück geben
+Der vergleicht im Test den Datenbank bzw Tabellenstand actual und expected aber da sich aber meines Verständnisses nach nichts geändert haben soll und ich nur selects ausgeführt habe sollte da nichts fehlen <Diese Nachricht wurde bearbeitet.>
+Soll man dann das Ablaufdatum verändern oder wie
+Ahh wahrscheinlich ein neues Tablett erstellen
+Hab jetzt Vorlesung, ich schau mir nachher den Baum bzw die Anforderungen nochmal ordentlich an bzw mach dann weiter. Eventuell könnten wir auch über dc schnacken oder so 🤷🏻‍♂️
+Weißt du ob die erste placeNo 0 ist? Oder 1 🤔
+Wenn nicht guck ich kurz nach bei oracle
+wer hätte gedacht, dass es so eklig sein kann ein Datum über jdbc in SQL zu übertragen 🥴 (bei der Insert/Update Funktion)
+Ja oder Debugger 😅 weiß nicht genau wie man mit dem logger arbeitet
+Denke wir sollen nur implementieren was unsere Aufgabe löst
+btw wir sollten laut Aufgabenblatt eigentlich in den Kommentar bei der Abgabe unsere Namen reinschreiben, wir können das ja einfach mal bei der Abgabe 3 jetzt machen, auch rückwirkend, falls es nötig ist <Diese Nachricht wurde bearbeitet.>
+ja eigentlich schon steht trz in der Aufgabe idk
+bin gerade dabei habe die Grundstruktur fast fertig 😅
+dbtech_service projek´t
+Ach übrigens, wenn du mal ne Runde Fortnite zocken willst sag bescheid
+Also ich hab jetzt durch die Frage mal angenommen, dass du's spielst
+Kommst du zur Übung?
+Bin bisher der einzige hier 😂🥲
+Habe morgen oder Freitag oder evtl übers Wochenende Zeit
+Also später würde auch gehen
+Habe mal die findFittingTrays Funktion versucht zu bauen, noch keine Zeit gehabt sie zu testen aber so in der Art sollte es wohl aussehen
+das "IS" steht stellvertretend für "declare". In den Folien steht zwar immer declare aber in den Beispielen aus der Übung IS, außerdem wird mir mit declare eine Fehlermeldung angezeigt
+Bringt mich jetzt schon zum verzweifeln der quatsch
+Das schlimmste ist, dass man keine ordentlichen Fehlermeldungen kriegt
+Ich hab bisher auch nur versucht die Funktion zum laufen zu bringen, hab's jetzt geschafft einen Tabellen-Datentypen zu machen, den die Funktion zurückgeben kann aber jetzt will er das SQL Statement nicht mehr ausführen
+Nene in der Pl SQL Funktion
+Möchte da ja in eine Tabelle auslesen aber irgendwas läuft da noch nicht rund
+Aber naja ich schau mir mal 1,2 Youtube Videos an
+"RETURN TABLE" geht nicht weil man den Datentyp der spezifischen Tabelle erst erstellen muss. Das habe ich jetzt gemacht und das kompiliert auch wie es soll aber in der Funktion meckert er
+Beim SQL Statement aber wie gesagt mal schauen erkläre das sonst lieber beim callen
+Der Anfang klappt soweit (man sieht die Datentypen auch im Baum links unter "Typen")
+Die Funktion zeigt allerdings diese Fehler:
+Also ich habe es jetzt gefixt
+Allerdings ist mir aufgefallen, dass er das Vorgehen (wahrscheinlich auch in etwas besser..) in der letzten Übung gemacht hat und es dafür n Beispiel auf Moodle gibt 🥲
+Die Funktion ist doch gut wie sie ist.. das habe ich jetzt nach locker 2-3h endlich herausgefunden, weil das Problem was ich die ganze Zeit hatte nur war, dass die verkackte Datenbank nicht richtig aufgesetzt war....
+Also so ist die final, wir können die Tage auch callen, dann versuch ich dir paar Sachen zu erklären muss dafür aber selber noch etwas mehr verstehen
+Aiaiai, dann gute Besserung erstmal 😬
+Hast noch viele Projekte zurzeit?
+Naja aber hört sich eigentlich noch ganz okay an
+nächste Woche wird spaßig bei mir, gefühlt alle Abgaben auf einmal aber geht noch zb prog 1 ist halt sehr entspannt
+Jo ich versuche Zeit zu finden 😅 hab noch echt ne Menge für MAS zu tun
+Also Abgabe ist bisher Mittwoch 0Uhr die Tage danach sollte ich Zeit haben
+Falls du dir das schon vorher angucken möchtest kann ich dir rüberschicken, was ich schon gemacht habe
+Es ist recht schwer einzuschätzen, wie viel noch zu machen bleibt, kann sein, dass es nicht mehr viel ist, kann aber auch sein, dass sich das noch irgendwie viel länger zieht als gedacht
+Hat sich wie mehr angefühlt haha aber die beiden sind die schwereren Funktionen, die anderen Funktionen in jdbc sind nur Update undso, was in pl/sql easy ist
+Im Prinzip kann man die der Übersichtshalber auch als Funktionen schreiben aber sonst wäre der nächste Schritt die Transfer Sample zu implementieren. Habe noch nichts mit Funktionsaufrufen gemacht, deswegen wird das etwas interessant aber sonst sollte es tatsächlich ganz machbar sein
+Ne ist nur der ganze Code also Übersichtshalber. Musst dann nur noch das package bzw. body öffnen und die Funktionen da rein schreiben
+Was meinst mit "1 Funktionen hast schon..."
+Hier sind die beiden Funktionen die ich implementiert hab
+Dafür haben wir die Funktion aus der Übung
+Btw das DECLARE was in den Vorlesungsfolien überall steht heißt in einer Funktion/Prozedur IS oder AS
+Glaube das externe speichern ist nur zum testen
+Wenn's auch in der Funktion geht, isses da wohl besser 🤷🏻‍♂️
+Ja sieht so aus, habe da viel umher probiert also das meiste da sollte schon seinen Grund haben
+Aber deshalb führt man das ja vorher schon aus 🤔
+Damit die Typen definiert sind
+Glaub ich
+Wieso was wird angezeigt?
+Ja getestet hab ich's auch
+Da stimmt was mit den Namen nicht
+Ups 😅 sorry war noch die alte Namensgebung..
+Aber nenn es mal wieder in t_tray_table um, das ist der richtige Name
+Also die Befüllung der Tabellen
+ja aber alles einzeln hab das nur zusammengefasst
+Und 10 Mal aktualisieren
+Dann lass mal dbtech erstmal sein, lass einfach zusammen machen
+Donnerstag
+Vorraussichtlich
+Habe noch mit Errors rumgespielt deswegen hat's etwas länger gedauert
+Bin erst gegen dreiviertel 11 wieder home
+Keine Zeit gehabt um auf Eclipse zu testen bei oracle wird aufjedenfall der die tray exception angezeigt also sollte
+Falls du zufällig Bock hast können wir jetzt noch was machen
+Ja ich weiß 😅 ist für mich ne top Ausrede die anderen Fächer nicht zu machen deshalb mach ich's wahrscheinlich noch lieber und weil ichs so langsam ganz gut verstanden hab denk ich. Aber ich werd mich zusammenreißen.. für dich 😂
+kann jetzt auch ein bisschen Englisch machen und wir machen morgen weiter 🤷🏻‍♂️
+können später auch callen, wenn du bock hast
+Schätze 23Uhr
+Wird leider noch ein kleines bisschen dauern bei mir sorry 😅
+Versuche 23:30 ready zu sein
+Jo wann wär n das, wenn du heute noch vorbei kommen würdest? 🤔
+Ja gibt 2 Eingangstüren musst Aufgang 1 nehmen
+Ich habe nach ner Stunde endlich rausgefunden was der verkackte Fehler an der ganzen Sache war... man schreibt IF(blabla *IS NULL*) und nicht IF(blabla *=* NULL)....
+Fühlt sich nicht gerade belohnend an 😂🥲
+Müssen jetzt eigentlich noch den Code refactoren ich hoffe man kann alle Variablennamen aufeinmal ändern..
+Wegen der Namenskonventionen
+Kein Bock, dass er uns deswegen Punkte abzieht
+Aber das geht immerhin also sollte Recht fix gehen
+Ne die _ zwischen den Wörtern also zu v_fitting_Trays statt v_fittingTrays
+Mal schauen wie ich lustig bin
+Perfekt. Habe versucht was zu refactoren und jetzt geht gar nichts mehr, danke oracle
+Mir wird angezeigt, dass die Funktionen nicht mehr im Body seien obwohl ich da nichts verändert habe
+So ich habe jetzt alles in eine SQL Datei gemacht und getestet und geb das jetzt ab okay?
+Ich mach's einfach in ne txt Datei fix
+Supi 😂👍🏻 hab da nur mal ganz kurz rüber geguckt und fand die auch nicht so geil
+Mhh das versteh ich auch nicht 😅🤔
+2 und die Präsi in MAS
+Lief ganz gut, bei dir?
+Ersten bin ich durch, hab dann ab 20.03. noch 3
+Hast dann im zweiten noch gut was zu tun?
+Lul, hoffe im nächsten Prüfungsraum auch 🫣 lief gut?
+Ist Papier oder?
+Halli hallo, du wie waren die Übungen in Webtech eigentlich aufgebaut? Nur Abnahmen wie in prog 2 oder auch Inhalt?
+Jo, n Kumpel von mir ist auch dabei der muss sich noch eintragen, dann sind wir 3
+Naja also du musst welche von den Wahlpflicht Modulen wählen, wenn du das meinst
+Die AWE dinger sind ja eigentlich die Fremdsprachen oder nicht
+Weiß nicht genau was man da belegt und oder was dazu zählt
+Jo denke schon, wir hatten das in Englisch auch schonmal besprochen
+Bei mir steht in der Notenübersicht, dass ich wohl Variante 1 gewählt habe was mich wundert, weil ich eigentlich genau das nicht machen wollte??
+Habe jetzt ja auch Englisch 2
+Ja heute war aber nicht da
+Die nach der Vorlesung am Donnerstag
+Ich eigentlich auch aber können wohl überall hin
+Alle Kurse aus dem 5. Semester bzw Marketing und Komponentenbasierte Entwicklung als Wahlmodule
+Jo und ne noch nicht
+Also denke dann steigen die Chancen aufjedenfall 🤔🤷🏻‍♂️
+Hoffe ich krieg noch n Platz 😶‍🌫
+Letzte Woche konnte ich nicht aber vorletzte waren bis 2m² um den Prof Stühle
+Oh wait nvm, es gab doch erst eine Vorlesung, hab irgendwie an ein anderes Modul gedacht
+Okay haben nen größeren Raum heute
+Ja können wir machen
+239 bist nicht im Moodle Kurs?
+https://moodle.htw-berlin.de/mod/url/view.php?id=1744774
+In der Mensa mit nem Kollegen, die Übung war wie erwartet nur, dass jeder Probleme mit dem Setup hatte, bei mir und glaube vielen anderen funktionierts immer noch nicht richtig
+Lul Gebäude C glaub ich
+Die ist so bodenlos voll heute
+Btw würd dir empfehlen zur Übung zu gehen sonst kriegst du das höchstwahrscheinlich nicht zum laufen
+Und funktioniert?
+Hast du ihn mal gefragt? Weil dieses Problem hatten eigentlich einige vorhin
+Sach Mal meinst du er hat schon ne Gruppe? Er seemed jedenfalls motiviert
+Aber einen motivierten Kollegen für unsere US Gruppe
+Anzeige iist raus
+Keine Ahnung wird er wahrscheinlich im Zoom call sagen
+Kommst noch zur Logistik Übung
+Btw sie rechnet die Punkte auf also wenn du zb 1 mal mehr mitmachst kannst du die Punkte auffüllen
+jo wenn du bei US irgendwo nicht weiter kommen solltest kann ich dir maybe helfen. Habe nicht alle Aufgaben fertig aber evtl hab ich ja schon was
+Sorry sollten nicht an dich 😂
+Das war die Steckdosenaufteilung in unserem Schlafzimmer 😂😂
+Debugger habe ich leider auch keine Ahnung von 😶‍🌫
+Ich führ bei Python dann immer nur Teile des Codes nacheinander aus um zu debuggen
+Ist noch Vorlesung
+Kommt drauf an obs jetzt notwendig ist für die Lösung aber kannst aufjedenfall probieren
+Bist du gerade noch dran?
+Internet ist gerade richtig am durchdrehen ich starte gerade den Router neu..
+Steht auch online nicht genauer beschrieben
+Aber ist eigentlich irrelevant die Spalte
+Gute Frage weiß gar nicht
+Ist in der Mail
+Ach ne stimmt im Moodle kurs
+Steht das
+Mhm rip, falls sich doch noch ne Chance für irgendwas ergibt schreib durch
+Habe auch noch auf schnelle Welle was abgegeben aber mal schauen ob sies wertet wegen Abwesenheit
+Pfff letztes Mal hat sie's nicht
+Bin noch nicht so weit
+Habe vergessen zu antworten sorry 😂
+Nene, habe jetzt die Woche auch nichts mehr machen können
+Jo bin aber 10min zu spat6
+Ich war in der 'übung' gerade so kurz vorm wegpennen warum auch immer, ich hatte so zu kämpfen teilweise 😂
+Obwohl ich das Thema schon ziemlich interessant fand eig, klar nicht gerade alles komplett verstanden aber trotzdem
+War kurz vorm Koma wirklich
+Zuhause bleiben, das Training hat 19:45 angefangen hätte das eh nicht rechtzeitig geschafft 😶‍🌫
+Scheiße sehe gerade ich wäre sogar 2min früher da wegen der wartezeit 🥴
+Ahhh okay miese Briese. Ja all good, ne kleine Nachricht wäre bei sowas vllt schon praktisch, wir haben schon überlegt ob dir was passiert ist 😅😂 gute Besserung ✌🏻
+Jo die Logistik Übung ist online bis 1.12. btw
+Sach mal kommst nicht mehr zur übung Dienstags? 👀
+Okay alles klar, hast auch echt Glück weil diese Woche haben wir wieder bis Sonntag Zeit lul
+Ist ne easy Aufgabe sollen 3 User Stories schreiben
+Ja ist bisschen ungünstig, ärgert mich, dass ich die Wecker anscheinend weggedrückt habe.. wir essen in 10min Mittag, würde eher probieren danach noch ne halbe Stunde
+Kann jetzt
+Ohh ja ich glaube ich muss die ersten Infos etwas anders gestalten 😂 werde es dann als Fließtext statt stichpunkte schreiben damit er weiß dass ich nicht der große Bruder bin
+Evtl könnten wir heute Nacht noch callen
+Ich schaue mal das kann ich auch immer nebenher mal machen
+Lul oh man das ist nicht viel
+Wir brauchen dann auf jeden Fall mehr Ergebnisse aus dem Kontext
+Jo, mir fällt gerade auf dass token nicht zwingend Zeichen heißt, können auch Wörter sein, haben sie ja jetzt durch /n/n getrennt aber evtl könnte ich die Chunks auch deutlich länger machen, wenn token Wörter sind und keine Zeichen <Diese Nachricht wurde bearbeitet.>
+Könntest du evtl rausfinden was token für unser Modell bedeutet und ob man das möglicherweise sogar einstellen kann zB ob Zeichen oder Wörter? <Diese Nachricht wurde bearbeitet.>
+Sorry für den Spam aber würde mich auch mal interessieren, ob man auch so 20 Kontext Ausgaben machen könnte bzw wie die Performance dann ist usw können wir sonst aber auch heute Abend testen
+Interessant 🤔 ist aufjedenfall sehr ausführlich geworden dadurch, bisschen Halluzination ist dabei aber immerhin die meisten Sachen richtig
+Wenn dir noch was einfällt gerne dazu schreiben
+Übrigens solche Sachen könnten wir auch als Experimente kennzeichnen also immer am besten irgendwo die Ergebnisse Speichern damit wir daraus evtl im Nachhinein was basteln können ✌🏻
+Ich glaube wahrscheinlich ist es sogar sinnvoll, ihm sehr viele Ergebnisse aus der Datenbank zu geben (?50+) und dann halt im prompt zu spezifizieren, dass er sich nur das wichtigste für die gewisse Antwort suchen soll und ebend mögliche nicht gegebene Zusammenhänge selber interpretieren
+Okay Mal schauen ob das allgmein gute Outputs gibt
+Wäre jetzt Zuhause btw
+Sinnhaftigkeit, Performance, Halluzinationen
++ weitere sinnvolle
+Bin nicht Zuhause gerade
+Den letzten commit
+Wie heißt du eigentlich? Habe gar nicht gefragt 😂😅
+War auf dem Festival of Lights, da Standen ein paar Planeten usw rum 👀
+Jo hab das beidseitig gedruckt 5 Seiten warens aber glaub gibt keine Begrenzung
+Im Oktober war das letztes Jahr, da werden einige große Gebäude in Mitte mit Beamern undso angeleuchtet und allgemein viel Lichtshow, war ganz nice eigentlich
+Also kann sein, dass die dieses Semester etwas verändert haben, musst dich mal erkundigen 🤔
+Ja stimmt, finde hier ist es aber schon fast essentiell, hätte jedenfalls kein Bock gehabt die formalen Sachen komplett auswendig zu wissen lul
+Glaub ne Woche tatsächlich 🤔
+Muss schauen, diese Woche nur Freitag aber da hab ich leider keine Zeit, nächste Woche sind auch kaum noch Veranstaltungen. Mittwoch bin ich aufjedenfall in der Uni 👀, können zur Not sonst auch nen kurzen call machen nächste Woche
+Jo kann ich aber erst wann anders machen, bin gerade in der Heimat und hab ab heute Abend bis Sonntag volles Programm
+Ahh shit voll vergessen 😬😬 hast du die geschrieben heute?
+Ja das wär wild 😂 aber denke das wird kein Problem sein, war die Klausur schwer?
+Moin, jo Unimäßig schon, Freizeitmäßig geht so, letztens mein Portemonnaie mit allen Karten verloren.. 😭😂
+Bei dir? Mache jetzt btw das 5te Semester und Praktikum erst im Sommer
+Jo finde auch die Module sind echt interessant 👌🏻
+Jo zum Glück, habe aber Frau felske geschrieben sonst wäre ich bei manchen nicht rein
+Hast eigentlich schon ne Gruppe in Unternehmenssoftware?
+Fand die Aufgaben in der Logistik Übung witzig das war auch 10te Klasse
+Jo gerne, sind schon zu 2t, dann wären wir 3 mit dir
+Ich werd mich auch gleich damit beschäftigen, muss aber erstmal schauen, dass die graphen plotten, es funktioniert warum auch immer nicht obwohl ich TkAgg benutze
+das was der Prof heut morgen als Mail geschickt hat, hat's tatsächlich gelöst. Habe vorher die Plots als Bilder gespeichert, da es nicht anders funktioniert hat aber jetzt geht alles 👌🏻 <Diese Nachricht wurde bearbeitet.>
+Jo, da sind wir allerdings schon 3 in der Gruppe leider 😬
+Ja mal schauen, habe Komponentenbasierte Entwicklung als Wahlfach, das sieht auch nicht einfach aus aber ist schon in Ordnung wird vielleicht schwer das Semester aber ziemlich interessant
+doch war dar war nur zu spät
+saß hinten 🤷🏻‍♂️😂
+so 30-40min die bahn hat sich wieder gemeldet
+habe mir ein good first issue erstellt wo ich einfach nur equals und toString Methode teste, mal schauen ob das durch geht
+bin warum auch immer 5 Stationen zu weit gefahren und danach hatte die bahn zurück Verspätung 💀😂
+Jo haben wir ganz zum Schluss gemacht
+jo wenn irgendwas nicht klappt sag bescheid
+das sind einfach 100, das dauert ne weile bin auch 'erst' bei ~36 😂
+Zwischen Pankow und Pberg
+geht schon, noch carried muddi 😶‍🌫️
+Ring und U5 also die Strecke geht normalerweise voll klar
+mit Freundin und ihren Bruder
+Also ab Praktikum wahrscheinlich
+weißt du was er in US zur Übung heute gesgt hat? <Diese Nachricht wurde bearbeitet.>
+also noch wohnen wir alleine aber bald zieht er ein verstehe mich aber gut mit ihm 😂
+Zurzeit definiv prog möchte evtl später erst in der 'Karriere' mehr Management machen
+Habe Elektriker Zuhause die haben gerade meinen Strom gekillt das war's dann mit dem Wlan 🫠
+Laptop ist auch gleich leer
+joa glaube sogar, dass ich für Management sachen eher geeignet wäre
+lange Geschichte.. <Diese Nachricht wurde bearbeitet.>
+Jo schick mal den Error, vielleicht kann ich helfen
+Hast du alle Programme runtergeladen? (Erste Vorlesung in den Folien)
+Welche Präsi? 🫣
+Jo aber erst 17Uhr
+Kommt aufs Thema an habe erst am 18. zum Glück, habe diese Woche 0 Zeit
+Ja vor allem die Aufgaben heute bruh
+Ja aber wie gesagt die Woche kaum Zeit daran was zu machen leider..
+Moin, quatschen ist leider schlecht, weil ich gerade selber einiges nachzuholen habe aber kann dir kurz erklären wie das mit den issues ist
+Issues sind im Prinzip eine Art Ticket auf GitHub, du kannst entweder eine Stelle im Programm suchen die fehlerhaft ist oder wozu es noch keine Tests gibt und legst eins selber an oder du schaust im Original Repo unter 'Issues' nach bereits angelegten. Dort hat Herr Stanik welche angelegt. Da kannst du eins aussuchen und kommentieren, dass du es bearbeiten willst. Er weist es dann offiziell zu und du musst das spezifische Problem dann im Code fixen <Diese Nachricht wurde bearbeitet.>
+Moin, hast du das Problem mit dem Backend inzwischen lösen können?
+aber immerhin läufts jetzt 👌🏻
+Willst du dieses Semester das Praktikum machen?
+Wir waren insgesamt nur 3 Leute deswegen sind wir nur Folien (42- ca. 62) durchgegangen, die Videos die verlinkt sind sollen wir uns Zuhause anschauen
+Haben in den Folien weiter gemacht, kann sonst nachher mal schauen bis wohin
+Moin, gerade nicht aber danke fürs bescheid geben ✌🏻
+In Marketing sind wir Folie 66-72 durchgegangen und haben uns einen Text zu Innovation vs Imitation durchgelesen den er hochgeladen hat. Sollen uns zum nächsten Mal den Harvard 3... Text durchlesen
+Musst das dataset neu importieren also einfach nur den Teil am Anfang ausführen
+Also bei mir hat er noch zwei Änderungen gefordert als Kommentar beim pull request, habe das erst heute gesehen. Hab die dann im Code behoben und gepusht. Der Push wurde dann jetzt im pull request angezeigt und ich denke er muss es erst nochmal reviewen 🤷🏻‍♂️ <Diese Nachricht wurde bearbeitet.>
+Mhm sieht aus als hätte er es gemerged also denke ist alles richtig ja 🤔
+Ich hoffe dem geht's gut 😶‍🌫
+Er war auch nicht in der Logistik Übung heute idk
+Ja gute Frage, es implementieren allerdings auch 2 Leute die entsprechenden views
+Ansonsten müssen wir ihn mal fragen
+Wetten mein Kollege wüsste nichtmal was das alles heißt
+Ja dann musst eines erstellen
+Ja kannst versuchen aber weiß nicht ob dir das die Punkte bringt, wenn es da nicht so viel zu überarbeiten gibt
+Also außer es gibt viel zu überarbeiten
+All good habe schon 2 issues erstellt
+Kannst meins wenn du willst überarbeiten btw
+Spezifizieren nicht erweitern 😂
+Die letzten Wochen nicht wegen des 'Umzuges' aber normalerweise aufjedenfall
+Habe noch bis 19Uhr Uni, kann mir das eh erst richtig heute Abend anschauen btw
+Lul ne wusst ich nicht
+Moin ✌🏻 habe mein pull request fertig, also kannst dich als reviewer eintragen (wenn man das zuweisen kann), damit das kein anderer macht. Habe versucht es dir zuzuweisen aber hab nicht gesehen wo und ob das möglich ist <Diese Nachricht wurde bearbeitet.>
+Bist du remsfal schon beigetreten? Ich kann dich nicht taggen
+Ne macht man ja mit Rest assured tests in ...ResourceTest
+Wenn das in deinem Model Interface so definiert ist sollte es passen idk
+Habe ne Veranstaltung gerade 😬
+die laufen automatisch durch, wenn du in den draft request pushst
+Ne müsste trz gehen
+Naja wenn du das Model änderst, änderst du auch die Logik wie das Projekt funktionieren soll
+Wofür möchtest du es ändern?
+Musst nichts an der Datenbank verändern. Solltest dich eher am liquibase Changeset orientieren
+Von immutable ist nur der builder
+Achso und die immutable Klasse wird generiert wenn du das Projekt baust glaub ich deswegen muss du das erst in der Json ändern und dann nochmal bauen
+Ne das wird vorher gebaut
+Okay, kannst die ja 1 zu 1 dann kopieren
+Okay all good, ich hab eh erst die Tage Zeit mir das anzuschauen
+Jo okay, bis 06.01. sollen wir das dann resolven btw
+Bin Recht flexibel vielleicht a frühen Nachmittag?
+Wenn möglich ne Stunde später aber sonst geht auch 13Uhr
+Oh sorry hab dich Nachricht nicht gesehen 😶‍🌫
+Ah ist ja auch noch bis morgen Zeit seh gerade
+Weiß nicht, hab's nicht hinbekommen 😅
+Würde ich in der Vorlesungszeit machen
+Wenn das passt
+Ne noch nicht 😶‍🌫
+Hab in Rostock mal 110€ bezahlt, war aber auch ohne Deutschlandticket to be fair aber trz
+Jo wie sieht's bei dir aus? Schaffst du's in nächster Zeit zu pushen?
+Fahre jetzt nach Hause dann schau ichs mir kurz an, weiß gar nicht ob ich eigentlich überhaupt noch reviewen muss lul
+Jo ich schau mal
+Bin jetzt home
+Ja hab ich aber das muss er machen, war bei mir ja auch so
+Komme morgen Nachmittag nach Hause
+Oh man oh man, ab wann bist du im Krankenhaus? Heute?
+Ah okay, hier hat ja aufeinmal jeder zweite ne Verletzung
+Sollen wir dir am Wochenende etwas zum Lesen bringen?
+Weiß ich nicht
+Ob er quietscht weiß ich nicht aber den hat sie sich schon selbst ausgepackt 😂
+Die weiß doch ganz genau was los ist wenn so ein Paket kommt
+Selbst wenn das nicht stark riecht wird sie wissen wenn so ein Packet ankommt weil es ein Hund ist 🤔
+Bitte normalen Tofu mitbringen
+Und Hefeflocken bitte
+Ich kann am Montag leider erst 19:36 in Malchow sein, weil die Klausur bis 16:30 geht und dann erst gegen 18Uhr eine Bahn fährt
+Schnupfen und Husten halten sich gerade zum Glück in Grenzen, hab auch nen dicken Mittagsschlaf gemacht bin aber sehr schlapp, war auch beim Arzt heut morgen
+Kann mich jemand nach der Arbeit aus Appelburg mitnehmen?
+Das ist ja nicht schwer 🥸
+Hier zieht der Wind auch ganz schön umher
+Wir sind in der Innenstadt in einem Café
+Sind ca 17:30 da
+Wann genau hat Julia Geburtstag?
+Lissi ist morgen Abend auch da
+Lissi würde gerne mitkommen
+Also Samstag 11Uhr steht dann fest, haben gestern mit ihr telefoniert
+Live-Standort wird geteilt.
+Auf dem Markt
+Live-Standort wird geteilt.
+Wieso weißt du's nicht? An dem Wochenende ist auch Volksfest in Malchow aber wenn wir das tagsüber machen könnten wir evtl trotzdem
+Lissi und ich kommen gegen Nachmittag übrigens nachhause
+Heute Nachmittag, die Infoveranstaltung heut Abend ist auch online
+Vorm Abendbrot machen anhören!
+Geht heute zufällig noch wer einkaufen?
+Ich fahre demnächst, wenn jemand was braucht schreibt ne Nachricht
+Wann fahren wir hier los?
+Ich erwarte noch den Schufa Brief, falls einer ankommt, schickt mir bitte den Verifizierungscode der da drauf steht
+Schreibt mal bitte wenn ihr los fahrt!!
+Hier ist wohl kein Platz mehr frei
+Würde dann bei euch mit wenn ihr demnächst fahrt
+Die kommen jetzt
+Klagge kommt nachher gleich nach Kogel, ich bleibe in Malchow wenn das okay ist, komme sonst nicht wieder zurück
+Hallöchen, wir haben Dienstag 17Uhr einen Besichtigungstermin in Berlin, die Wohnung ist wohl von einer Klassenkameradin (oder deren Verwandtschaft) von Martina. Hätte einer von euch (Mama,Papa) Zeit dort mitzukommen?
+Dienstag 17Uhr
+Falls du am Dienstag etwas mehr Zeit hättest haben die beiden vorgeschlagen, dass man noch etwas kleines zusammen machen könnte
+Hat sich erledigt, wird doch nichts...
+Nein noch nicht
+Morgen wahrscheinlich
+Könnte mich morgen jemand nach der Arbeit mitnehmen?
+Aus Appelburg
+Okay das wäre gut, mit Auto oder Motorrad? Müsste mit Auto abgeholt werden, wegen der ganzen Zelt Sachen
+Lissi und ich wahrscheinlich
+Ohh :( ich weiß nicht ob ich das schaffe..
+Ist es möglich, dass uns jemand aus Krakow am See abholt? Lissis Mutti muss spontan aushelfen bei Harms im Laden 😬
+Wir kommen 13:40 an
+Oma hatte ziemlich viel Rindfleisch im Kühlschrank, wir haben das jetzt mit rüber genommen und kaufen Schwein bzw Pute, weil sie das ja nicht kauen kann
+Im Edeka in Malchow, der Film war ganz okay, nicht schlecht
+Achso dachte das wäre ein Ausruf 😂
+Sehr schön...
+Da ist ja gut was los bei euch
+Sehr schön!
+seit wann hat Arvid einen Führerschein? 🤔
+Alter Falter das sieht ja aus wie im Paradies 🫣
+Wir sind jetzt im Flugzeug ✌🏻
+Sogar mit Vornamen 😂👌🏻
+Wollt ich auch sagen
+Thessaloniki für heute und morgen
+Danach fahren wir zu Georgs Ferienhaus in der Gegend
+Das erste, nicht schlecht
+Weiß ich gerade nicht 😅
+35-37° Tagsüber, ist aber noch aushaltbar, da wir meistens sowieso erst am Nachmittag losfahren
+Georg weiß das genau er ist aber gerade nicht hier
+Alles gut bei euch? Kriege niemanden erreicht
+Ach stimmt ihr habt ja noch Urlaub
+Ich auch nicht
+Ich nicht
+Habt ihr heute Abend Zeit, dass wir mit Lissis Mutti kurz vorbei kommen können 1-2 Sachen zur Wohnung besprechen? (Kein Abendbrot oder so nur quatschen)
+Ihr könnt auch gerne her kommen
+Lissi und ich kommen heute Abend wenn wir hier fertig sind
+Das Zeug in der Küche bitte nicht wegräumen
+Wo seid ihr denn?
+Gerade bei #Kleinanzeigen gefunden. Wie findest du das?
+Gerade bei #Kleinanzeigen gefunden. Wie findest du das?
+Könnt ihr, falls wir welche Zuhause haben noch 1-2 Glühbirnenfassungen mitbringen?
+Die könnt ihr mitnehmen
+Also schonmal vorweg, in der Küche können wir aufjedenfall nichts machen am Wochenende.. der Elektriker war hier und da muss sehr viel erneuert, gemacht,.. werden und die Firma wird das nicht übernehmen. Wir müssen jetzt erstmal mit der Wohnungsgesellschaft kommunizieren
+Ich schicke demnächst ein Bild, was der Handwerker aufgeschrieben hat
+Ja ist bloß sehr schade, weil wir jetzt wahrscheinlich nichts machen können außer die Küche abholen und evtl 1-2 Erledigungen im Baumarkt zu machen
+Hat jemand zufällig Lust Lissi und mich heute Abend aus Waren abzuholen..?
+Fährt leider kein Zug/Bus nach Malchow
+20:28 würden wir in Waren ankommen
+Eigentlich müssen wir gar nicht am Freitag los, Samstag für die Küche reicht
+Welche Uhrzeit wäre euch Samstag am liebsten? Wir fahren 2h
+Können wir nicht
+In jedem Zimmer muss Elektrik gemacht werden
+Ihr könnt wahrscheinlich Samstag auch zum Geburtstag
+Also wenn der nicht allzu früh ist
+Wir müssen wir gesagt Küche abholen, können in den Baumarkt/Ikea ein paar Sachen holen aber viel mehr gibt's nicht zu tun so lange kein Elektriker die Sachen gemacht hat
+Mhh das ist eigentlich ungünstig wenn wir noch Sachen kaufen wollen
+Wir können ja nachher reden
+Wäre aber ganz schön wenn wir ne Uhrzeit so bald wie möglich ausmachen, dass ich ihr nochmal schreiben kann
+Harms kann wahrscheinlich nicht kommen, weil er keine Vertretung für seinen Laden hat, habe ich Mama am Telefon erzählt. Außerdem gibt's leider eh nicht so viel zu tun. Wenn ihr zum Geburtstag wollt können wir auch am Freitag hin und da eine Nacht schlafen
+Wir fahren Samstag hoch die Küche holen (spätestens 8Uhr los), danach die Wohnung angucken und etwas planen und dann seid ihr höchstwahrscheinlich rechtzeitig zuhause
+Wann sollen wir morgen da sein?
+Die 13€ kann ich dazu legen
+gegen eine kleine Bedingung 🥸
+Moin, könnte jemand uns und unsere Sachen am Dienstag nach Berlin bringen? Harms hat einen Hänger den wir nehmen könnten (ihr könntet es ja evtl auch mit einem Ausflug verbinden). Und Gardinenstangen anbauen wäre auch praktisch 😶‍🌫
+Ouaha sieht sehr schön aus die Stadt
+Das hört sich ziemlich gut an 🥸
+Ouha das ist aber bunt bei euch
+Hier ist es heute auch mal wieder etwas wärmer
+Hier so 22-23°
+Soo voll war es tatsächlich gar nicht
+Bloß 'Hotspots' auf den Videos zu sehen
+Weiß noch nicht
+Gleich da nur noch 2 Stationen Ringbahn
+Danke, gute Nacht
+Wir kommen jetzt doch nochmal zurück
+Nichts wir wollen das Wetter noch genießen und luci muss ja auch sowieso hoch heute
+Ich komm am Wochenende doch nicht, nächstes aber
+am Freitag ja für Georgs Konzert
+Ich brauche noch ein bisschen, Versuche halb 2
+Wir auch
+Gute Nacht, euch auch
+Nicht gut
+Ich auch fahre aber entweder Samstag Nachmittag oder Sonntag früh wieder hoch
+@491608564028 sind mehrere Bilder
+Ja ich gehe jetzt schlafen
+Gute Nacht 💤
+Gute Nacht 🫶🏻
+Ja schon gesehen
+Wir kommen erst Samstag früh, Lissi ist Freitag noch bis 20Uhr Probearbeiten
+Wir kommen doch schon heute, das Probearbeiten wird verschoben
+Könnte uns eventuell jemand 18:30 aus Waren abholen? Bringen auch ne Kleinigkeit zu essen mit
+Wollen wir morgen gegen 11:45 zu Simone dann können wir danach noch zu den Sieglers Adri und Lydia da, wollten noch was spielen
+Wir sind das Wochenende in Berlin
+Sind die Kniebandagen neu? Wir haben letztes Jahr zu Weihnachten schon solche bekommen 😶‍🌫
+Übrigens Luki und ich sind an Silvester höchstwahrscheinlich da, Lissi geht, wenn es mit der Arbeit klappt aber wahrscheinlich arbeiten, wegen der Zuschüsse
+Sieht ja schön aus bei euch 👀 würd auch gern ne Runde durch den Wald schlendern, naja zumindest ist der Himmel hier auch ähnlich rot
+- für jeden 1 Terrabyte (viel) Cloud-Speicher
+- und dazu bekommt jeder kostenlos _(wenn er/sie möchte)_ die ganzen Premium Office Programme also Word, Excel, Powerpoint usw.. <Diese Nachricht wurde bearbeitet.>
+Kann man auch jährlich zahlen, dann kostet es 20€ weniger
+Ich komme am Donnerstag & Samstag mit
+Ich denke Oma und Thore feiern da Geburtstag?
+Donnerstag Abend
+Oder trinken wir Kaffee? <Diese Nachricht wurde bearbeitet.>
+Aii dann werde ich wohl so kommen, dass ich rechtzeitig da bin. Kann mich eventuell jemand nach der Arbeit aus Waren abholen?
+Och ne stimmt ja.. kacke
+Busse fahren keine, hab jedenfalls keine gefunden und luci fährt Donnerstag oder Freitag, das entscheidet sich morgen
+Sind bei euch auch -11°?
+Ach ne war nur heute morgen, jetzt sind's -5 das geht ja 🫣
+Ihr braucht mich doch nicht abholen heute, komme Donnerstag Mittag, habe eine Mitfahrgelegenheit
+Gute Nacht
+Ne diese Woche nicht
+Es gibt inzwischen auch FlixTrains
+ein Zug, der von FlixBus organisiert wird, wie die Busse nur als Zug
+Ne da gilt das nicht aber mit dem Deutschlandticket wäre ich 5h unterwegs
+Nein noch nicht, mach ich aber gleich
+Wäre das möglich Lissi am Donnerstag aus Berlin mitzunehmen, wenn wir zurück fahren? Sie hat aber wahrscheinlich erst 20:00Uhr Schluss. Wenn's nicht passt fährt sie Bahn, wäre auch nicht der Weltuntergang
+Okay, bin dann morgen ~9:50 in Eisenach, nicht vergessen bitte 🫣
+Bin im zug
+Weiter
+Ich muss heute nicht nach Appelburg 👀
+Ich bestell die schonmal für meinen Geburtstag, die ist gerade sehr stark reduziert und ich weiß nicht wie lange das Angebot noch existiert
+Ich komme am Wochenende (bzw morgen oder übermorgen) übrigens hoch.
+Habe überlegt, dass man die Lautsprecher in der Mitte vielleicht sogar mit einem kleinen Holzbrett zusammenschrauben könnte
+In meinem Zimmer steht auch noch ein großer, ich weiß aber leider die Maße nicht
+Mhh wäre gut, wenn wir beide in einen packen könnten
+Könnte mich jemand Freitag eventuell nach der Arbeit mitnehmen? Ich könnte z.B. 16:28 in Waren sein
+Ne sind wieder Zuhause
+Sind noch in einer Bar aber geht bald los :)
+Schaut euch das mal an. Ich will hier niemanden angreifen, das ist einfach *wirklich* nur sehr interessant 👀
+Wenn ihr das gesehen habt versuche ich auch mein bestes nicht immer meinen Senf dazu zu geben bei dem Thema 😅
+Nächstes Wochenende 🐧
+Die Anwältin war übrigens die ganze Woche nicht zu erreichen, war auch dort klingeln, denke die ist gerade im Urlaub
+Komme morgen mit Lucas
+Greifenhagener Straße 32
+Vor 6 Jahren
+So nochmal ohne Ton, weil ich schonwieder bullshit geschnackt hab
+ist da überhaupt was drin?
+Ich komme heute doch spontan nach Hause
+Fahre gleich mit der Bahn nach Wittstock, von da holt mich Milan ab
+Sehen gut aus
+The Blaze heißen die, die machen so atmosphärische elektronische Musik würde ichs betiteln
+Ja war sehr gut. In der Uber Arena (ist die Mercedes Benz Arena, wurde vor kurzem umbenannt)
+Guten Appetit, seid ihr zu einem Konzert? 🤔
+Erinnert mich an einen bestimmten Hund
+Ist ja schön bei euch
+Waren heute in einem Museum/Ausstellung "Deja Vu" über optische Täuschungen und Spiegelungen, war ziemlich witzig 🐧
+Habe Freitag Nachmittag noch einen Test bis 17Uhr also komme erst Abends <Diese Nachricht wurde bearbeitet.>
+Könnte mich jemand eventuell um 20:30 aus Waren abholen? 😶‍🌫 <Diese Nachricht wurde bearbeitet.>
+Wie sie da auch steht 😂
+7:50 müssen wir los
+Ne brauch ich noch
+Guten Appetit 😁
+Übrigens, Lissi kommt vielleicht doch am Donnerstag Abend
+Ja sie hat ein bisschen mit den Praktikumstagen geschummelt, damit sie diese Woche einen Tag mehr frei hat und endlich mal nach MV fahren kann <Diese Nachricht wurde bearbeitet.>
+Unser Zug ist zu voll, die fordern jetzt die Polizei an, damit die den Zug zum Teil räumen.. das heißt wir kommen wahrscheinlich ne halbe Stunde später als geplant an.. ist jetzt sehr ungünstig, weil @491608564028 uns ja nach der Arbeit abholen wollte
+Offiziell ist die Verspätung jetzt auf 15min angesetzt
+Also hält sich in Grenzen
+Was wären im Sommer die möglichen Wochen an denen Arvid Ferien hat, wo ihr in Urlaub fahren könntet?
+Mhm schade, habe ab dem 04.08. frei
+Könnte evtl die letzte Woche nachkommen
+Klassiker
+Ist aber ganz schön hell
+Als wir einen Wochenendausflug in ein Feriendorf gemacht haben, weiß den Namen nicht mehr
+Ein ziemlich großer Artemis Tempel (hab's gegoogelt)
+Also ich habe am 31.07. die letzte Prüfung des 1. Prufungszeitraumes. Könnte, falls ihr die letzten 2 Wochen fahren solltet am 01.08. (Donnerstag) nach kommen
+Aber nicht ganz so viele Bilder bitte, so viel macht der Speicher nicht mit langfristig 😂
+Die sehen doch alle gleich aus 😶‍🌫
+Sind die Zeichen usw original?
+Mhm okay gerade die überdachten Sachen sind ja noch echt gut erhalten
+Hey ich komme doch erst am nächsten Wochenende. Lissi hat diese Wochenende extra Sonntag/Montag frei bekommen, weil ich da normalerweise Zeit habe und Georg ist auch in Berlin
+Am Samstag ist in Fredenhagen 30 jähriges Jubiläum soll ich euch ausrichten, falls ihr da sonst nichts vor habt :)
+Wann ist der Wahltermin?Komme am Wochenende nach Hause 👀
+Mhm für die Europawahl hab ich die Wahlbenachrichtigung hier bekommen
+Also werde denk ich Sonntag noch in Kogel sein aber abends fahr ich dann wieder
+Milan holt mich 20:30 aus Waren ab, komme dann nur kurz nachhause um Sachen abzustellen und Pizza zu essen, er feiert nämlich in überschaubarer Größe Geburtstag heute
+Bei Stobers gibt's leider keine Eier mehr, ich würde wenn ich euch abhole in Suckow schauen, falls ihr mit Gütschows mitfahrt, könntet ihr dort evtl mal kurz ran?
+Ich fahre jetzt los
+Jo, gab zum Schluss auch 2 für 1
+Am Pätsch? <Diese Nachricht wurde bearbeitet.>
+Na toll... hoffe da ist nicht viel kaputt 😬 Lissi hat erst um 8 Feierabend
+Übrigens, Lissi kommt am Freitag erst gegen halb 11 in Waren an. Ich könnte euch zu 22:15 nach Malchow bringen, dann Lissi abholen und euch aufm Rückweg einsammeln. Ich schaffe dann leider nicht das Feuerwerk zu schauen, ist aber in Ordnung
+Aus denen kommt nichts raus, deshalb kann ich die Waschmaschine nicht anschließen..
+Wahrscheinlich am Nachmittag
+Kannst du morgen evtl Calcium mitbringen? 👀
+Komme hoffentlich 17:45 an, wir stehen im Stau
+Bin aufm weg6
+Die wichtigere Frage ist, warum essen fast alle Ihre Pizza mit Besteck? 😁 <Diese Nachricht wurde bearbeitet.>
+Wo hastn den jetzt hergeholt 😵‍💫
+Gute Nacht mit 8
+Habe keinen erreichen können, wir kommen erst 18:30 an, unser Zug hat sich verspätet
+Nein haben jetzt den Anschluss genau eine Stunde später aber dafür ist noch Zeit
+Also den sollten wir schon kriegen 👀
+Ist es bei euch auch regnerisch?
+Wie genau heißt eigentlich der Ort wo das Ferienhaus ist? 🤔
+Kann sein, dass wir den nächsten Anschluss in Koblenz auch nicht kriegen, weil wir wieder Verspätung haben...
+Das nächst mögliche würden dann 19:20-30 in Trier ankommen..
+Ist eingetroffen
+Am besten in Trier wir können mal schauen
+Bei jedem sind Parkhäuser oder Parkplätze in der direkten Nähe
+https://www.outdoorfreizeit.lu/de/
+Wir sind hier gelandet
+Könnt gerne her kommen
+Aii das sieht gut aus..
+Waren mit Luki im Wald spazieren
+Komme heute gegen Nachmittag ✌🏻
+Niklas und ich sind am Freitag übrigens nicht zum Pizza essen da
+Bei mikusch zum grillen
+Das behindert sich nicht
+Ich kann's mir ganz gut vorstellen 👀
+Arvid hat ja morgen ein Spiel, wann genau seid ihr dann in Waren und habt ihr 3 Plätze frei?
+Jo, Lissi und ich kommen laut Plan 18:30 in Waren an
+(Rieke hat's nicht geschafft)
+Der Praktikant guckt Youtube und hat vergessen auf das richtige Programm umzuschalten <Diese Nachricht wurde bearbeitet.>
+Wer ist das?
+Stellt mal die Dose mit wo der Apfelmus drin ist in mein Zimmer bitte, sobald sie leer ist
+Alles gut bei euch, ihr habt bei mir angerufen?
+Mama falls du möchtest kannst du morgen nach der Arbeit hier Kuchen abholen, Martina hat einiges übrig
+Ich komme dieses Wochenende doch nachhause
+Bzw morgen
+Lissi fährt nach Rostock deshalb
+Ich nicht
+Das ist ja echt schön bei euch 👀
+Seid froh dass der Hund nicht mit ist 😂
+Der Fluss gefällt mir 🐙
+Und die Amphoren sind ganz schön groß 🫣
+So war das nicht gemeint 😂
+*Elektrikerkram nicht Malerkram (wie auch immer)
+Schicke ich später
+Bleibt jetzt so 👀
+Der Anwalt der Gegenseite war wohl auch unvorbereitet, unpünktlich und hat sich ein wenig mit dem Richter in den Haaren gehabt
+Könnte uns heute jemand um 21Uhr aus Sietow oder um 20:30Uhr aus Waren abholen?
+Wir kommen eine Stunde früher also 20Uhr
+Aber mit runden Stangen
+Oh man... streich das wenn möglich mal mit einem Tuch vorsichtig ab und am besten pass auf, dass er wenn er sich hinlegt nicht irgendwas vollblutet 😬 also kann sein, dass die Kopfseite dann sowieso oben ist aber evtl auch nicht <Diese Nachricht wurde bearbeitet.>
+Ja die linken
+Habt ihr schon gegessen wenn ihr in Neustrelitz seid?
+UMFRAGE:
+Ja hab keine Lust auf Döner und bis auf das letzte sind die eher Imbiss-artig
+Aber auch das letzte ist recht preiswert
+Wobei ist auch ein Restaurant
+Umfragen meinst du
+Falls möglich würde ich gern zum Raclette Einkauf mitkommen 🥸
+Habt ihr Humus?
+Moin, jo hab ja bisher nur Georg kennengelernt aber wir kommen sehr gut klar 👌🏻
+Alles gute dude 🥳
+16 Dias in ner dreiviertel Stunde ohne Glück auf der Spitzhacke
+Besser als jeder Orgasmus
+Das ist so ziemlich mit Abstand das beste was du in dem Preisbereich kriegen kannst
+Hier kriegst das prinzipell noch günstiger ist aber befristet die Aktion
+Ne heute ist Zwischenbau
+Könntest du mir noch Wurst, also chicken oder salami und Vollkorntoast mitbringen? 😅
+Ja schon ne weile
+Wollen wir was bestellen?
++ cornerskip ganz zum Schluss
+Na da sind 3 fertige Paare die man nur noch einsetzten muss
+Und das heißt, dass sie während ich die letzten mitteldinger gelöst hab die Ecken mitgelöst wurden
+Auf der Transportebene
+Moin ich bin heute schon früher los, hab dir und Georg noch was da gelassen auf Armins Kühlschrank 😉 hab noch 0,2 oder so raufgelegt weil ichs nicht mehr geschafft hab den Rest abzuwaschen 😅
+Veit kommt gleich rum geld bringen kannst du ihm aufmachen wenn er klingelt?
+Hab wie gesagt noch 2 da also alles gut 🤷🏻‍♂️
+Bin jetzt in der Wohnung aber muss noch ne halbe Stunde-Stunde Hausaufgaben machen die wir heute abgeben müssen
+Und eigentlich bin ich auch schon echt durch hab 3 tage hintereinander gesoffen und gebufft wie n schlund und war gestern bzw heute bis halb 8 wach 🥴 was ist oben so los?
+Was gehtn ab bei euch?
+Lohnt sich das noch hoch zu kommen?
+Und btw ist georg jetzt eigentlich auch mit oder nicht?
+Wollen wir uns gleich oben aufm balkon treffen n Tüten rauchen vorher?
+Ich schreib gleich mach mich noch kurz fertig
+Jaaa mit schlafen ist sowieso nichts 😂
+Jetzt
+Kommst du?
+Verschwimmt mit der Umgebung 🧙🏻‍♂️
+Urst krass für 200€
+Also halb würde ich eigentlich schon gerne bestellen langsam 😅
+JA man 300 auf 4 Wiederholungen🤑🤑
+Nur damit du bescheid weißt, damit zu pünktlich zum WGlichen Ritual da bist
+Aber verlass dich nicht auf meine Zeitangaben
+Bin denk ich kurz vor um wieder da 🥴😶‍🌫
+Dein Verlangen mit Gesellschaft zu rauchen hat gefragt 😌
+Welcher Geschmack?
+Meinst mit Spüli den für die Küche?
+Digga ich find den nicht
+Jo habs nicht mehr geschafft die Flaschen wegzubringen sorry.. hab auch vergessen wo der Container sein soll 😅 wenigstens abwaschen hab ich noch geschafft
+Weißt du was Amin meint? 😅
+Jo ich komm btw morgen wieder hoch
+Hat sich erledigt
+Richtiger Krampf
+Lass eine smöseln
+Ich werd jtz nochmal in der Südstadt n Test machrn
+Gleich eine smöseln?
+Ich fahr kurz nach 18 Uhr los, geh jtz noch kurz ins Gym, überleg dir mal noch was du an Essen brauchen könntest bzw wenn ich jtz im Gym bin kann ich auch noch fix ne Kleinigkeit einkaufen
+Überhaupt kein front an Amin aber digga ich hab mich so heftig weggeschmissen als ich die Nachricht gelesen hab 😂😂😂😂
+Mhm miese Briese aber so Geschmacksverlust oder so hast nicht?
+Mhm btw ich wollt eigentlich Freitag/Samstag wieder hoch kommen aber wäre ja absolut belastend wenn ich mich dann noch ansteck 😬
+Wobei das ist dann ja schon über ne Woche
+Allerdings kann ich jtz trz erst Sonntag kommen weil Niklas erst Sonntag fährt
+Bist du Montag noch in Rostock?
+Jo weiß aber noch nicht wann
+Jtz muss ich meine ganzen Sachen in ner halben Stunde packen weil ich seit heute mittag Anime gegrindet hab
+Muss ich nachher gleich mal testen 👀
+Internet ist down bei mir
+Warst du schon einkaufen? 😅
+Ah Shit, vllt haben die das ja auch im Kaufland idk 😬
+Kannst ja nachfragen aber wär nice 😶‍🌫️
+Ich grab mich Mal von da hoch
+Wenn man sich da irgendwo in der Mitte trifft könnte man das bestimmt hinkriegen, dass beide chunks geladen werden oder? 🤔
+Ersten beiden Minuten kannst skippen
+Hab Mal die Einstellungen bisschen optimiert (du solltest dir btw optifine holen) und da waren 1-2 dabei die einfach instant 100-200 fps mehr gegönnt haben 😂
+No Joke, grad in ner survival Welt den krankesten seed, den ich jemals selber gesehen hab gefunden
+Muss ich dir morgen mal zeigen
+Schlüssel vergessen 🙃
+Okay kann noch 10-15min dauern evtl
+Kommst du heute oder morgen? 🤔
+Btw wolltest du jetzt wirklich 40g trim?
+Kannst aber von mir noch was haben
+Bist du bei den Nachbarn?
++7,29 Einkauf letztens für das was Georg gekocht hat (in der WG Gruppe)
+Kommst du on?
+Moin, du ist n Paket für mich angekommen? Hab ne Mail gekriegt, dass das cbd wohl angekommen sei aber so richtig sicher bin ich mir nicht, die meinten bloß geshiped
+Wie siehts bei den shroomies aus?
+Kannst du in 30sek wenn ich Klingel aufmachen?
+Hab noch 19 Minuten meine Hausaufgaben abzugeben
+Rauchen wir nachher gleich noch einen? 🤔
+Dann gehst du pennen?
+Bin jetzt jedenfalls aufm weg home
+Können wir machen ich kann ja trz noch n normalen Kopf smoken 😶‍🌫
+Gute Besserung von Sou
+Könntest du evtl meinen PC starten (Anknopf ist oben drauf direkt rechts unter der Ablage) Passwort: p4ssworT, im Explorer die Datei Hochzeit suchen (sollte ne .txt Datei sein und mir davon ein Bild schicken? Hab vergessen, das auf Drive hochzuladen
+Das sind Wunschlieder 😂😂
+Bruh bin gleich fertig, dauert doch bisschen länger als erwartet 😵‍💫
+Hat sich erledigt
+Auf ein Köpfchen
+Jetzt ist demnächst endlich
+Weiß nicht gerade das erste mal gehört bin grad auf klo
+Btw ich hab nicht ganz geschafft alles abzuwaschen, hab verpennt und Niklas musste ewig warten deswegen ist da noch das Besteck und 1-2 Sachen aber den Großteil hab ich noch gemacht
+Könntest du evtl heut Abend bei den Pilzen Mal nachgucken und mir n Bild schicken wies aussieht?
+Ich kenn den auch bloß von Dream undso 😅
+Aber heftig, vorallem weil der Krebs ja noch nicht so lange diagnostiziert war
+Und dann noch in Anfangsstadium
+Einfach Sport genascht 😂😂
+Junge mein Bauch tut so hart weh ich hab vorhin n seit 3 Wochen abgelaufenen Skyr gegessen bzw so die Hälfte davon 🥴🥴
+Sobald da ein paar mehr Köpfe kommen muss die Tüte offen bleiben
+Naja Mal gucken aber mach Mal so, dass die Tüte leicht auf ist pls :)
+Hab mir Mal n Schluck Milch fürs Müsli geklaut, ich geh demnächst wahrscheinlich einkaufen wenn du was brauchst sag an
+Ich nehm glaub ich n Döner ohne Tomaten 🤔
+Meinst du die sind klein weil die da noch 4,50 kosten?
+Ja dann nehm ich auch n großen ohne Tomaten
+Kann ich den Wagenkorb da zum Einkaufen?
+/Korbwagen
+Hier ist ganz schön actuon
+Sou und Aladin sind auch hier
+Aber ist glaub ich eh um 10 zuende idk
+Ja alles gut, hatte ich sowieso vor, ihr seid mir immer zuvor gekommen lul, ich kann aber erst heut Nachmittag spülen, bin gleich noch verabredet
+Brauchst auch nicht immer sone langen Erklärungen schreiben, einfach, spülst du heute oder so reicht aus 😂
+Btw ich wasch morgen nach dem Testat (das fängt 13Uhr an) ab, habs verpeilt heute 😅
+Heute wird's wahrscheinlich nichts mehr evtl Nachts aber Mal gucken ich würd mich einfach Mal melden wenn ich Zeit hab 🤔
+Denke heute Nacht eventuell aber ist zurzeit echt schwer Zeit zu finden obwohl ich Bock hab 😶‍🌫
+Weißt du ob Amin Schweinefleisch isst? 😅
+Mhm will nicht respektlos rüber kommen 😶‍🌫
+Keine Ahnung wie das so mit Religion und Höflichkeit läuft
+Bin schonwieder nicht Zuhause aber ich nehm mein Laptop glaub ich mit nächstes mal
+Ahh chillig, bei mir ähnlich zurzeit :) bin schon in der Heimat aber viel bei ner Freundin
+Die wurde warum auch immer als nicht bestanden eingetragen, das ist das komische aber ich krieg das hoffentlich noch geregelt
+Und sonst so? Alles fit in Ikenhausen? 😁
+Nice, hört sich gut an 🤌🏻😁
+Wenn dann vor-nachmittags, Montag Dienstag kann ich eigentlich gar nicht aber sonst sollten wir die Tage mal spielen können bin halt Abends so gut wie imemr weg
+Morgen können wir endlich 🥸
+Guten Morgen
+Also muss jetzt erstmal die Lage checken, nachm Mittag wär am besten bei mir
+Komme gleich on, hab noch mittag gemacht
+Keine Zeit zurzeit 😅
+Das ist schon ewig her als ich das da hin gestellt hab, hat aber wohl gut funktioniert das easter Egg 😁
+Server wurd wieder verlängert btw
+Safe 😂 ich freu mich auch schon euch wieder zu sehen ✌🏻
+Wo seid ihr denn? 🤔
+Hab mir mal etwas Milch und und einen Apfel für mein Müsli schnabuliert
+Noch keine Zeit zum einkaufen gehabt
+Süßer
+Das Lied was ich gesucht hab heißt glue von bicep
+Kannst du das Geld für Minecraft über PayPal schicken? 😅
+Bin wach aber muss Weed sparen 🫣🫣
+Hab die IP auf dc geschickt
+3 Tage glaub ich
+*Nicht laut vorlesen lol*
+Mhm nagut das ist schonmal sehr gut
+Müssen wir mal schnacken wie wir das am besten abwickeln 🥸
+Ich stibitz mir mal etwas Toast, wollte dich nicht aufwecken, falls du geschlafen hast und ich hab mega Hunger 😶‍🌫
+Können wir machen 👀
+14€ bitte schicken für Pizza und Energy 🍪
+Ich mach nachher Bolognese, du kannst mitessen wenn du möchtest. Hab aber leider keine Nudeln hier wollte evtl Reis dazu machen idk 🤷🏻‍♂️ ca. 3€ würde die Hälfte der Zutaten kosten btw
+Könntest du die Wohnungstür aufmachen? 😶‍🌫
+Nur <-> wenn meinst du bestimmt
+Also falls du noch Platz haben solltest könntest du mir noch einen Humus und einmal veganen Aufschnitt also dieses "Wurstzeug" in dieser veggiekühlecke links 😶‍🌫
+okay, passt schon 👀
+Du hattest jetzt 25g oder?
+Du kostest gar nicht mal so selten 😂
+😬 oh man wie isn das passiert?
+Das ist im müll war zu dreckig
+Fuck dude das ist von mir, hab vergessen das weg zu machen 😶‍🌫😶‍🌫😶‍🌫😶‍🌫😶‍🌫😶‍🌫
+Ich werd aber bis 20./21. Nicht da sein 😅
+Kann ich aber ich gehe wohl erst etwas später einkaufen
+Wie heißt du bei Duolingo?
+Dauert noch etwas
+Jojo, wann kommt ihr morgen eigentlich her? Ich hab mir leider ne etwas dickere Erkältung aufgesackt :/ also ich werd trz versuchen so gut es geht zu helfen aber ich werd aufjedenfall nicht so viel Energie haben wie sonst
+Hallööchen, wenn du schon einen genaueren Zeitplan hast sag den mal durch bitte, muss 1,2 Sachen planen 👀
+Audio kommt gleich
+Achso und 09.04. ist schon Ostern also wäre auch etwas unpassender
+Also für paar Striche sollte das aufjedenfall funktionieren 🤔
+Ey ihr habt meinen Kuchen mitgenommen 😂
+Nene alles gut ist nicht der Weltuntergang 😄
+Falls ihr nochmal her kommen solltet deine Schublade ist noch voll deine mum hat die oberste genommen 😶‍🌫
+Da waren auch noch Beeren von Georg glaub ich
+Also Winter bin ich nicht mehr hier aber wegen des Sommersemesters werd ich Mal gucken, thx 👀
+Schon neuen Infos zum 28./29.?
+Mhmm das ist natürlich ungünstig 😅
+Hab extra schon das Bettgestell an die Wand gestellt, falls das so kommt damit du ins Bett kommst 😂
+Wer kommtn da noch eigentlich? 🤔
+Achso okay okay, ja also wenn alles passt können wir doch auch noch hoch kommen aber das steht jetzt noch nicht fest, also brauchst nichts groß einplanen oder so, ich würd mich einfach spontan melden 👀
+Weiß nicht ob ich das zeitlich schaffe, wird wenn dann n ziemlich spontanes Ding 😬
+Pass auf die ist wirklich gut scharf lul
+Also ich werd heut Abend leider nicht kommen können, noch zu viel zu tun :/
+Die Wohnung sieht nice aus 😁👌🏻
+Georg hat mir die roomtour gezeigt
+Schreibst du wenn du da bist?
+Wann ist das fertig?
+Hast du schon mit gerog geschrieben?
+Ja, wollte nur sagen, dass ich nicht sonst wie lange bleiben werd, weil ich noch zum Sport will und eigentlich Hausaufgaben anfangen muss, ich hoffe nur Georg braucht nicht ne Georg-halbe Stunde oder ich fahr später alleine zurück
+Ja kannst du machen ich guck spontan ob ich Hunger hab
+Ich werd gleich los bin denk ich 35-40 an der Parkstraße
+Na du, der neue Mitbewohner ist btw angekommen, leider nicht sehr gesprächig und auch nicht gerade leicht verständlich aber immerhin ziemlich nett 🥸 was läuft bei dir so? Bisschen Sonne auf der Terrasse genießen? 👀
+Dieses Wochenende bin ich in der Heimat aber mit ein bisschen Glück kriegst du ihn wann anders bestimmt Mal zu Gesicht, also weil er auch nicht so häufig aus seinem Zimmer kommt lul
+Das hört sich echt gut an, wie ihr jeweils bzw zusammen Fortschritte in dem Thema macht 👀 das mit dem Termin wird bestimmt auch ganz interessant, weißt du schon was ihr da so besprecht? Würde auch schon fast mal gerne mit zu nem Termin von Lissi 🤔
+Das hört sich nach nem ziemlich guten Vorschlag an actually 🤔
+Hab ich schon mit ihr beschnackt, evtl machen wir das auch mal, wenn wir ein interessantes Thema finden 🥸
+Kann man da vllt noch irgendwie später hinkommen?
+Muss Samstag leider in der Heimat sein, weil ich da meine Anlage vermiete.. Können die Woche oder nächste sonst was anderes machen, nen Döner essen oder so 🤔
+Übrigens kleine Vorwarnung, falls du in die Verlegenheit geraten solltest einen Kopf rauchen zu wollen musst du selber was mitbringen ich hab extra alles rauchbare Zuhause gelassen damit ich nicht in Versuchung komme 😅
+Warte kurz
+Wann ist das so?
+Es gibt ne kleine Planänderung
+Volleyball fällt jetzt leider aus heute aber ich hab voll Bock auf Sport weshalb ich mit Georg zur Kletterhalle möchte. Der kann allerdings nur jetzt (bis 18:15). Wenn du möchtest kannst du mitkommen und da mit uns ein bisschen schnacken oder so, oder wir machen nächste Woche wieder was 🤔🤷🏻‍♂️
+Wir sind noch hier wollen aber gleich los
+Voll falsch gelaufen haha
+Jo moin, hast du eventuell Bock heut Abend auf ne Kleinigkeit zu Trinken vorbei zu kommen? Lissi ist auch hier und Paul hab ich auch gefragt 🥸 Isabell kannst natürlich mitbringen wenn du möchtest
+Nice 👌🏻kannst so gegen 19Uhr hier sein wenn das passt 🤔
+Also wir sind ziemlich flexibel
+Schickst du mir die Moneten dann über PayPal? 👀 Waren 10 fürs Essen/Trinken und 8 für die Kippen
+Mooin, ich bin gerade wieder in Rostock, hab am 02. und 04. Prüfung. Mit in Kogel besuchen ist erstmal schwierig weil ich die Zeit zum Lernen brauche und man da schon ne Tag einplanen sollte. Eventuell könnte man das an einem Tag nach den beiden Prüfungen machen aber da kann ich dir jetzt noch nichts versprechen. Weiß auch nicht ob/wann/wie lange ich jetzt vor den Prüfungen nochmal in die Heimat fahre aber ich bin auf jeden Fall ne gewisse Zeit hier in der wir so mal chillen können 👀
+Also prinzipiell hab ich den ganzen Tag Zeit, bin auch bis Mittwoch aufjedenfall in hro, würde mich sonst nach dir richten oder spontan 🤷🏻‍♂️
+Bist du bis Ende September in der Heimat?
+Mhhh heute ist eher unpraktisch, muss echt noch was schaffen und Volleyball findet jetzt doch statt heute 😬 wie sieht's mit Donnerstag aus?
+Jo in der Mensa oder bei mir?
+so muss das
+Okay also nur mal um alle Möglichkeiten durchzuspielen, wäre es sonst möglich mit Isabell irgendwie Mittags in die Mensa zu gehen?
+Also ich hätte auch irgendwie Bock mit dir Lissi sou und evtl wem von den anderen Kollegen abends in ne Shisha Bar zu gehen aber das muss halt auch nicht sein, wir können abends auch, wenn sie mittags nicht kann mit dir und Isabell was trinken gehen (bloß essen gehen wäre raus dafür sind wir zu broke)
+Alles klar, habt ihr sonst Lust was kleines rauszusuchen wo man hingehen könnte? 👀
+Also Betonung war nicht auf trinken haha
+Mhhh ich hab gerade nicht so den Kopf dafür könnte morgen sonst gucken
+Ja dann gucken wir morgen nach der Prüfung mal, kannst ja Isabell trz fragen ob sie evtl was kennt
+Glaube wenn wir zu 4t hingehen ist entspannter
+Aber wollt ihr da noch essen? 🤔
+Achso ja das ist ja kein Ding 🤷🏻‍♂️
+Evtl nehmen wir auch ne Kleinigkeit, sieht ziemlich gut aus das Essen aber mal sehen, wie gesagt müssen echt aufs Budget gucken 😶‍🌫
+Ich will ja nicht auf'n Sack gehen aber weiß sie zufällig, was da n Cocktail so kostet im schnitt? 😂
+Nur fürs Protokoll
+Also es gibt n kleines Problem 😅 Lissi meint es ist ihr schon zu teuer, wir haben halt bald richtig fett Ausgaben für die neue Wohnung (da muss ziemlich viel gemacht werden, komplett neue Küche, Fußböden usw.). Ist schade, weil das Restaurant an sich echt geil aussieht :/
+nene aber woanders wos günstiger ist wäre cool
+ja wir könnten morgen mal gucken
+ich schnack nochmal mit ihr
+Weißt du schon wann du losfährst?
+Nono, kannst dir sonst ne Pizza hier machen, bist du irgendwo im trockenen? 😬
+Kannst dich auch langsam auf'n Weg hierher machen?
+Ohne Fragezeichen
+In 10 min soll's weniger werden mitm Regen falls du nicht komplett nass werden möchtest
+Hast ihn noch gekriegt?
+Ist wohl überall bisschen das gleiche, Lissi ist jetzt komplett schlecht gelaunt, weil sie wohl keinen kompletten halben Döner bekommen hat obwohl das nichtmal eindeutig so abgesprochen war 🙃
+Hoffe das beste für dich 🙏🏻
+Habby Birthday 🎂🥳 bisschen spät dran aber noch pünktlich genug hehe, hoffe du hattest einen schönen Tag, wie läuft's bei dir so? 👀
+Hört sich doch ganz gut an 🐧 hab diese Woche schon Vorlesungsbeginn, ist sehr stressig, weil viel organisatorisches außen rum geregelt werden muss und man hier halt deutlich mehr Aufgaben in der Vorlesungszeit hat aber das wollte ich ja :)
+Wie sieht's eigentlich aus mit Georgs Konzerten Ende Oktober, wollen wir da eventuell zusammen zu einem gehen?
+Was hast jetzt für n Handy?
+Ich schreib jetzt mal hier weiter weil ich irgendwie schlechtes Gewissen wegen Paul hab 🥴 danach können wir entweder zu georg meinte er oder alle in ne Bar
+Georg muss btw Samstag 5e aufstehen also er kann nicht ewig aber er kommt ja auch mit etwas weniger Schlaf klar 🌚
+Aiaiai hoffen wir mal die haben noch welche 😬
+Du brauchst Lukas nicht jedes Mal vorstellen 😂
+Ja willst dann da fragen oder wie? 🤔
+Wir essen jetzt hier fix was
+Wo genau müssen wir eigentlich hin?
+Halt die mal frei 😬
+Kommen etwas zu spät 😅
+Puhhh zum Glück hat's noch geklappt 👀😶‍🌫 gute Nacht dir (rückwirkend) 😁
+Jo wir nehmen uns jetzt auch immer extra nichts zu rauchen mit 😶‍🌫 freut mich, dass das noch machbar ist 👀 und Dankeschön :)✌🏻
+Tatsächlich eher weniger, weil wir meistens wenn wir zu zweit überlegen, ob wir jetzt rauchen zu zögerlich sind und die Verantwortung hin und her schieben und dann halt smoken. Man tendiert auch irgendwie mehr dazu nachzugeben wenn der andere auch am überlegen ist
+Glaube das ist nur hilfreich, wenn wir uns beide fest vornehmen es nach striktem Plan sein zu lassen aber in dem jetzigen Alltag nicht 😅😶‍🌫
+Bock je Runde zu quatschen?
+Ich ruf in 10min an guck mir noch fix ne Aufgabe an
+Frohes neues 🥂🌚
+Jo also ich habe Mitte Februar frei und Lissi und ich wollten da mal wieder nach hro, müssen auch noch bei Georg unsere Oliven abholen, da könnte man ja evtl wieder zusammen was starten ✌🏻
+Mhhh wieder schön das große Zimmer abgestaubt 😂👌🏻 aber trifft sich ja dann mit der Wohnung 👍🏻
+ungewohnt von dort unten raus zu schauen 👀
+Keine Ahnung alles gut 😂 habe auch noch ne Löffel und ne Gabel aus Rostock lul
+Also ich habe mal gegoogelt wie das wohl aussehen könnte, weil wir habens ja im Ikea gekauft als ich eingezogen bin und der kleine Löffel, einer der großen und oder das Messer könnten von mir sein 😂 ist leider schwierig genau zu sagen aber die Chance ist gar nicht so klein, dass es zumindest eine Sache davon ist 🥸
+Genau das hab ich gestern auch überlegt, isses dann aber doch nicht geworden leider
+Mhhh ne nicht wirklich
+Wann fährst eigentlich in die Heimat? Bin zurzeit am überlegen wann und ob ich hoch kommen könnte 🤔
+Ist schwierig, eigentlich hatte ich geplant am Donnerstag nach meiner Prüfung zu kommen und mit meinem Bruder nach Hause aber der fährt schon Donnerstag Abend und Lissi kann da auch nicht deswegen bin ich mir noch sehr unschlüssig
+Wird leider nichts vor Ostern.. Können aber gerne mal telefonieren oder discordieren wenn du Lust hast 👀
+Yessir, denke Morgen Nachmittag würde es vermutlich passen sonst Freitag 🐧
+Ma kiecken fahre morgen in die Heimat und gehen abends essen weil mein Vater Geburtstag hat. Falls das nichts wird, Freitag hab ich aber wirklich Zeit! 🫣 <Diese Nachricht wurde bearbeitet.>
+Nagut das freut mich ehrlich gesagt, dass ich nicht der einzige bin 😵‍💫😂 bei mir ist auch erstmal kaggi weil aus dem Nichts 100 Dinge um die Ohren.. Sonntag Abend hätte ich eigentlich erst wieder Zeit <Diese Nachricht wurde bearbeitet.>
+Gerade 3h Volleyball gehabt jetzt erstmal was essen und runter kommen 😶‍🌫
+Ich hör dich noch
+Aber du mich wohl nicht
+Sag mal so ganz rein zufällig
+Bist du nicht gerade wach oder?
+Mir ist nämlich gerade Arsch langweilig
+Mit Betonung auf Betonung
+Halli hallo, also Lissi muss leider arbeiten, ich wäre aber dabei, müsste nur irgendwie bei dir oder Georg pennen, habe keinen Schlafsack oder so hier 🤔
+Muss ich später mal schauen hab gerade zu tun
+Ich würd dann 17:23 am Hbf ankommen ✌🏻
+Also bin denke ich gegen ~17:50+- da
+Ich werd gleich nochmal zum Kaufland ran, soll ich noch was mitbringen?
+Dauert noch, hier ist alles dicht wegen Fußball
+Müssten gerade schon warten, und jetzt kommt keine Bahn
+Nice 👌🏻 Lissi und ich haben jetzt ab demnächst frei und würden nen Tag mal in Rostock vorbei schauen, genauer haben wir aber noch nichts geplant bisher aber wenn du Lust hast was zu machen würd ich dir nochmal schreiben wenn sich da was rausgestellt hat 🐧
+Ich schreib dann wenn wir genauer planen, wann wir los düsen undso 👀✌🏻
+Kommt drauf an, fahre bei meinem Bruder mit und der weiß noch nicht ob er morgen oder Freitag fährt
+Jo dann lass in der Mensa treffen, kann aber sein, dass wir ~5-10min zu spät kommen
+Hi, coole Sache 👀 muss mich noch einmal mit Lissi abstimmen ob ich nichts vergessen habe aber denke nächstes Wochenende könnte gut passen 👌🏻
+Jo passt. Hätte vorgeschlagen, dass du dann Samstag gegen frühen Mittag evtl kommst? Freitag muss ich noch etwas Uni machen. Passt das? Lissi hat btw am Samstag 'früh' also gegen 21Uhr+- Schluss
+Haben jetzt sogar ne Couch seit ner Woche 😎 also sollte für dich auch recht entspannt sein mitm schlafen
+Also die Adresse ist _Greifenhagener Straße 32_. Du kommst dann mitm Scooter nehm ich an?
+Junge Text editing >9000 alla 😤🤯
+Okay all good, passt auch eigentlich ganz gut weil morgens kommt noch n Kleinanzeigen Atze hier ne alte Couch abholen und muss noch absaugen
+Ruf mal am wenn du Schönhauser Allee bisr
+Mein PayPalius-Konto ist unter l.dubhorn@gmail.com erreichbar
+Irgendwie hab ich schlechtes Gewissen weil du auch immer nicht so gut bei Kasse bist 🫣 dann zieh da mal noch meinen Döner ab
+Moin, ich meld mich vor Dienstag nochmal deswegen 👀✌🏻

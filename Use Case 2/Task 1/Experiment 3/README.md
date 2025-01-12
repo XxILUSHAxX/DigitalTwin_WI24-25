@@ -6,4 +6,5 @@ welches c.a. 3x so groß ist wie das bisherige und 100 Plätze höher im Benchma
 Nach dem Testen zum Herausfinden des richtigen Epsilon Wertes, merkte man eine Verbesserung in den Ergebnissen. 
 Als Metric habe ich nach Tests und Recherche die "cosine" genommen, da sich diese wohl für Sentence Embeddings eignete. 
 Ich entschied mich dazu dieses Modell zukünftig für beide Iterationen zu verwenden. Das Endergebnis bzw. endgültige 
-Vorgehensweise ist in scripts/data_clustering zu finden.
+Vorgehensweise ist in scripts/data_clustering zu finden. Dort wurden auch noch kleine Änderungen an der Filterung der Daten
+vorgenommen.
