@@ -16,7 +16,7 @@ class ChatWithLlama:
         self.model_name = model_name
         self.chat_history = []
 
-    def generate_prompt(self, user_query, collection_name, collection_name_2, n_results=3):
+    def generate_prompt(self, user_query, collection_name, collection_name_2):
         """
         Generate a prompt for Llama based on user input and ChromaDB data.
         :param collection_name_2:
@@ -25,29 +25,19 @@ class ChatWithLlama:
         :param n_results: Number of results to retrieve from ChromaDB.
         :return: A combined prompt for the Llama model.
         """
-        # Filepath for the start prompt
-        start_prompt_path = os.path.join("..", "Data", "Prompts", "prompt.txt")
-
-        # Read the start prompt from the file
-        with open(start_prompt_path, "r", encoding="utf-8") as start_file:
-            start_prompt = start_file.read().strip()
-            if not start_prompt:  # Wenn die Datei leer ist
-                print("Startprompt ist leer. Es wird kein Startprompt verwendet.")
-                start_prompt = ""
-            else: print("Startprompt wird verwendet.")
 
         # Query ChromaDB for context
         chroma_results_baseinfo = self.chroma_connection.query_collection(
             collection_name=collection_name,
             query=user_query,
-            n_results=n_results,
+            n_results=3,
             embed_as="paragraph"
         )
 
         chroma_results_chat = self.chroma_connection.query_collection(
             collection_name=collection_name_2,
             query=user_query,
-            n_results=n_results,
+            n_results=10,
             embed_as="paragraph"
         )
         
@@ -89,17 +79,15 @@ class ChatWithLlama:
         print(context_chat)
         print("-" * 50)
 
-        # Combine user query with context and startprompt
+        # Combine user query with context and Startprompt
         prompt = f"""
-        StartPrompt:
-        {start_prompt}
         
         Du bist nun Lennard.
         Im Kontext sind Informationen zu dir zu finden.
         Entscheide selbst, wie du die Person am besten verkörpern kannst.
         {context_baseinfo}
         
-        Das sind Lernnards Schreibstil und Worte die er nutzt.
+        Das sind Lennards Schreibstil und Worte die er nutzt.
         Im Kontext sind Chatauschnitte von dir zu finden.
         Verusuche den Schreibstil und die Worte zu imitieren,
         {context_chat}
