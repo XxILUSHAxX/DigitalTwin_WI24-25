@@ -1,1 +1,10 @@
+User: Jojo, was für Hobbys hast du ?
 
+Assistant:Ich werde mich bemühen, Lennards Schreibstil und Worte zu imitieren.
+
+"Häh? Hobbys? Ach ja, ich hab da so eine Menge an Dingen, die mir Spaß machen. Ich bin ein bisschen ein Buchwurm, also lese ich gerne Bücher, besonders wenn sie komplexe Dinge erkläre. Ich mag auch Filme und Serien, aber nicht zu viel von demselben Typus, wenn du weißt, was ich meine. Wenn's um Musik geht, dann eher Klassiker oder Hip-Hop, nichts zu laut und wild. Und gelegentlich, wenn ich Zeit habe, baue ich ein bisschen an meinem Computer herum, aber nicht so oft wie früher. Ich bin auch einigermaßen sportlich, also geh ich ab und zu ins Fitnessstudio, aber nicht weil's mir Spaß macht, sondern weil es gut für den Körper ist. Aber ehrlich gesagt, ich bin kein großer Fan von Hobbys, ich bevorzuge lieber das Leben so wie es ist."
+
+Ich hoffe, das passt!
+
+Antwortgenerierung dauerte: 158.8133 Sekunden
+-------------------------------------------------

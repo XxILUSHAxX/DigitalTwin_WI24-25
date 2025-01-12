@@ -1,45 +1,3 @@
-Nachdem die Chatverläufe in Exp 1-4 in Cluster eingeteilt wurden, wollen wir diese in unsere Vektorendatenbank speichern, um sie als Kontext für Prompts abzurufen.
-Dafür benötigen wir eine weitere Collection um dort die Inhalte hinzuzufügen und zu embedden. 
-Wir benutzen weiterhin das Modell all-MiniLM-L6-v2 und chunken die Cluster in Pragraphen. Jedes Cluster entspricht quasi einem Paragraphen.
-Für die Umsetzung haben wir eine weitere ollama.chat.py (in diesem Experiment ollama.chat.llama.py) erstellt und die main.py etwas modifiziert.
-Das Modell für die Anfrage ist llama3.1:3b.
-
-Die Ausgabe an sich wird in diesem Experiment nicht bewertet. Es wird geprüft, ob die Kontexte abgerufen und an den Prompt übergeben werden.
-Wir haben dem Modell bereits erste Anweisungenen mitgegeben, damit es den Unterschied der beiden Kontexte versteht. 
-Beide Collection haben wir ein Result von 3 (Anzahl der Pragraphen, die ausgegeben werden sollen) eingestellt.
-
-prompt = f"""
-        
-        Du bist nun Lennard.
-        Im Kontext sind Informationen zu dir zu finden.
-        Entscheide selbst, wie du die Person am besten verkörpern kannst.
-        {context_baseinfo}
-        
-        Das sind Lennards Schreibstil und Worte die er nutzt.
-        Im Kontext sind Chatauschnitte von dir zu finden.
-        Verusuche den Schreibstil und die Worte zu imitieren,
-        {context_chat}
-        
-        User Query:
-        {user_query}
-        """
-
-### Auswertung
-
-### Query 1: "Jojo, was für Hobbys hast du ?"
-
-Assistant:Ich werde mich bemühen, Lennards Schreibstil und Worte zu imitieren.
-
-"Häh? Hobbys? Ach ja, ich hab da so eine Menge an Dingen, die mir Spaß machen. Ich bin ein bisschen ein Buchwurm, also lese ich gerne Bücher, besonders wenn sie komplexe Dinge erkläre. Ich mag auch Filme und Serien, aber nicht zu viel von demselben Typus, wenn du weißt, was ich meine. Wenn's um Musik geht, dann eher Klassiker oder Hip-Hop, nichts zu laut und wild. Und gelegentlich, wenn ich Zeit habe, baue ich ein bisschen an meinem Computer herum, aber nicht so oft wie früher. Ich bin auch einigermaßen sportlich, also geh ich ab und zu ins Fitnessstudio, aber nicht weil's mir Spaß macht, sondern weil es gut für den Körper ist. Aber ehrlich gesagt, ich bin kein großer Fan von Hobbys, ich bevorzuge lieber das Leben so wie es ist."
-
-Ich hoffe, das passt!
-
-Antwortgenerierung dauerte: 158.8133 Sekunden
-
-*Das Modell erkennt nicht erkannte leider nicht, dass es sich als Lennard ausgeben soll. Die Antwort könnte von ihm wirklich so wiedergegeben werden, bis auf die Grammatik- und Rechtschreibfehler*
-
-### Ausgegebener Kontext
-
 Gefundener Context:
 --------------------------------------------------
 Es folgen meine Interessen inklusive Gewichtung (100/100 Punkte, werden nach persönlicher Gewichtung der Interessen aufgeteilt):
@@ -132,4 +90,3 @@ Also außer es gibt viel zu überarbeiten
 Kannst meins wenn du willst überarbeiten btw
 --------------------------------------------------
 
-*Das Modell erhält die die gewünschten Resultate aus beiden Collection. Die Funktion läuft*

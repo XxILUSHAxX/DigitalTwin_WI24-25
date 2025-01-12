@@ -1,953 +1,2167 @@
-01.11.23, 09:47 - Lennard: Moin, Lennard hier von Dbtech ✌🏻
-01.11.23, 09:54 - Dominic Dbtech: Jojo grüß dich.
-01.11.23, 10:14 - Lennard: In welcher Übung bist eigentlich?
-01.11.23, 10:15 - Dominic Dbtech: Immer Montags 17:15 und du ?
-01.11.23, 10:15 - Dominic Dbtech: VL habe ich bei Kempa
-01.11.23, 10:16 - Lennard: jo same aber Übung 19:00
-01.11.23, 10:16 - Lennard: wie weit bist so mit den Aufgaben?
-01.11.23, 10:17 - Dominic Dbtech: Die letzte Methode cleartray() muss ich noch machen, ansonsten ist soweit alles
-implementiert und die Tests sind grün.
-01.11.23, 10:18 - Lennard: nice nice, habe bisher nur die erste gemacht, habe aber auch immer erst gegen Ende der Woche viel Zeit
-01.11.23, 10:18 - Lennard: die erste hat er ja auch prinzipiell in der online Übung geleaked
-01.11.23, 10:18 - Lennard: lul
-01.11.23, 10:19 - Dominic Dbtech: 😂 Jo
-01.11.23, 10:19 - Lennard: also nehme denk ich trz meine impl, weiß nicht wie die sich da haben, wenn wir seins in etwas verändert übernehmen würden 🤔
-01.11.23, 10:20 - Dominic Dbtech: Also ich habe den Dozent gefragt, der meinte wir können das nehmen und bekommen Punkte drauf
-01.11.23, 10:20 - Lennard: ahh chillig 😄
-01.11.23, 10:22 - Dominic Dbtech: Also wir können die letzte Methode
-gerne zusammen machen und ich kann auch gerne meine Implementation der anderen Methoden zeigen und erklären.
-01.11.23, 10:24 - Lennard: also ich würd die zweite sonst erstmal alleine angucken und falls ich Schwierigkeiten hab oder dann zum Vergleichen können wir die gerne nochmal anschauen  👀
-01.11.23, 10:24 - Dominic Dbtech: Jo alles klar.
-01.11.23, 10:25 - Dominic Dbtech: Bis 12.11 haben wir noch Zeit.
-01.11.23, 10:26 - Lennard: jojo ich würd sagen ich meld mich einfach, wenn ich da weiter gemacht habe, sollte das im Laufe der nächsten Tage sein denke ich
-01.11.23, 10:26 - Lennard: ~das~
-01.11.23, 10:27 - Dominic Dbtech: Jut,ich warte der letzten Methode und wir implementieren die dann zusammen.
-01.11.23, 10:27 - Lennard: Jo ✌🏻️
-02.11.23, 19:27 - Lennard: <Medien ausgeschlossen>
-02.11.23, 19:36 - Dominic Dbtech: Ich gucke gleich zu Hause.
-Aber ich glaube du erreichst das return statement  garnicht .
-02.11.23, 19:37 - Dominic Dbtech: In 15min kann ich dir mehr sagen
-02.11.23, 19:54 - Dominic Dbtech: <Medien ausgeschlossen>
-02.11.23, 19:54 - Dominic Dbtech: Ich habe mit
-if und else gearbeitet
-02.11.23, 19:55 - Lennard: Ahh okay 🤔 ich schau mal
-02.11.23, 19:55 - Lennard: Hätte das anfänglich auch so
-02.11.23, 19:55 - Lennard: Also 2 catch Blöcke
-02.11.23, 19:56 - Dominic Dbtech: Ich habe nur einen catch, dass andere ist der else Fall
-sollte es keine Datenbankeintrag geben mit der SampleId
-02.11.23, 19:57 - Dominic Dbtech: den try Block lasse ich mit data excepitom catchen
-02.11.23, 20:04 - Lennard: Nice, habe gerade noch ein bisschen rumprobiert, bin noch nicht soo familiär mit Exceptions, an der Uni hatten wir die nur sehr beiläufig. Danke für die Hilfe :)
-02.11.23, 21:49 - Dominic Dbtech: Ich habe soweit alles implementiert. <Diese Nachricht wurde bearbeitet.>
-02.11.23, 21:49 - Dominic Dbtech: Test sind alle grün.
-03.11.23, 02:39 - Lennard: Also inkl 3. nehme ich an, hab die 2te gerade gemacht, lief recht reibungslos 👀
-03.11.23, 09:08 - Dominic Dbtech: Ja genau
-03.11.23, 09:08 - Dominic Dbtech: Alle 4 Methoden
-03.11.23, 10:33 - Lennard: Achso ja die erste hab ich mal nicht mitgezählt
-06.11.23, 13:12 - Dominic Dbtech: Jojo ich würde die Ü2 heute abgeben.
-06.11.23, 13:37 - Lennard: Jo alles klar, ich mach nachher gleich die letzte Aufgabe, sitzt jetzt schon über ne Stunde länger als geplant beim Bahnfahren fest wegen eines Unfalls auf den Gleisen, wollte eigentlich schon dran sitzen
-06.11.23, 13:40 - Dominic Dbtech: Ok alles klar.
-06.11.23, 21:07 - Lennard: Jo ich muss dich mal anhauen
-06.11.23, 21:08 - Lennard: Fühl mich richtig stupid
-06.11.23, 21:08 - Lennard: <Medien ausgeschlossen>
-06.11.23, 21:08 - Lennard: <Medien ausgeschlossen>
-06.11.23, 21:10 - Lennard: Also folgende Sache, geht um die ersten beiden Tests, wenn ich wie im ersten Bild nur teste ob nichts passiert wenn ich die Funktion Aufrufe bzw ob sie funktioniert, wird der zweite Test, (also dass beim Löschen nichts passiert ist) grün und er erkennt die leeren trays richtig
-06.11.23, 21:11 - Lennard: Wenn ich aber wie auf dem zweiten Bild das in ne if Anweisung setze um die Exception zu werfen für den ersten Test, funktioniert der zweite nicht mehr, obwohl die Else Anweisung eigentlich gar nicht aufgerufen werden sollte und ich ja nachgewiesen hab, dass die Funktion alleine beim 2ten Test grün bleibt <Diese Nachricht wurde bearbeitet.>
-06.11.23, 21:20 - Dominic Dbtech: Also ich habe garnicht geprüft ob die Tray's leer sind. Der erste Test soll prüfen ob der Tray überhaupt existiert.
-06.11.23, 21:21 - Dominic Dbtech: Schicke mir mal
-die Hilfsmethode
-06.11.23, 21:22 - Lennard: Müsste eigentlich trz n ähnliches Prinzip sein 🤔
-06.11.23, 21:22 - Lennard: <Medien ausgeschlossen>
-06.11.23, 21:24 - Lennard: Wobei
-06.11.23, 21:24 - Lennard: Ich schreibs mal um
-06.11.23, 21:33 - Dominic Dbtech: Ich habe das etwas anders implementiert.
-06.11.23, 21:38 - Dominic Dbtech: 1. Abfrage war, ob der tray überhaupt existiert, wenn nicht dann cooling exption, ansonsten
-2. Abfrage Gib mir die Placeno und die Sampleid des Tray's aus. Solange eine Ergebnismenge kommt soll er dann zuerst 3.Abfrage die Placeno löschen dann 4.Abfrage die Samplid löschen. Kommt aber wie bei tray 6 keine Ergebnismenge zurück, dann update das datum vom tray.
-06.11.23, 21:41 - Dominic Dbtech: Ich prüfe nicht direkt ob es
-überhaupt Platze auf dem Tray gibt durch eine Abfrage, sondern nur indirekt.
-06.11.23, 21:42 - Dominic Dbtech: <Medien ausgeschlossen>
-06.11.23, 21:42 - Lennard: Ja okay okay aber warum updatest du das Datum bei tray 6? Steht nicht im 2ten Test, dass keine Änderungen passieren sollen?
-06.11.23, 21:43 - Dominic Dbtech: Dadurch dass das Datum schon auf Null ist bei 6 und ich es nochmal auf Null setze ändere ich an sich nix 😂
-06.11.23, 21:44 - Lennard: Lul 😂
-06.11.23, 21:44 - Lennard: Mhh hmm
-06.11.23, 21:44 - Dominic Dbtech: Dein Gedanke ist deshalb garnicht schlecht.
-06.11.23, 21:45 - Dominic Dbtech: Aber es scheint auch so zu gehen wie ich es gemacht habe
-06.11.23, 21:45 - Lennard: Ja macht ja an sich auch Sinn
-06.11.23, 21:46 - Lennard: Ich raff bloß wirklich nicht wieso er sagt es hätte sich was verändert obwohl der else Fall ja gar nicht ausgeführt wird bei mir
-06.11.23, 21:46 - Dominic Dbtech: Warte ich schau nochmal nach
-06.11.23, 21:47 - Lennard: Falls du da nichts mehr finden solltest versuch ich's einfach anders danke aufjedenfall schonmal für die Hilfe 🫶🏻
-06.11.23, 21:48 - Dominic Dbtech: Das liegt glaube an der deleteSql methode
-06.11.23, 21:48 - Lennard: Aber die wird doch gar nicht aufgerufen eigentlich
-06.11.23, 21:52 - Dominic Dbtech: Also bei dem Fall wird Sie aufgerufen. Test 1 ist grün, wegen der cooling excepitom.
-Test 2 ist nicht grün, weil durch den deletesql
-scheinbar was verändert wird obwohl nix verändert werden soll.
-06.11.23, 21:52 - Lennard: Ja
-06.11.23, 21:53 - Lennard: Und hier hab ich ja die Methode ohne die zweite Methode genommen um zu gucken ob die was verändert, was sie ja müsste, aber tut sie nicht
-06.11.23, 21:54 - Lennard: Oh
-06.11.23, 21:54 - Lennard: Oh man
-06.11.23, 21:54 - Lennard: Jetzt weiß ichs
-06.11.23, 21:54 - Dominic Dbtech: Du machst 2x mal
-cooling exception oder ?
-06.11.23, 21:55 - Lennard: Beim zweiten wird der else Fall doch ausgelöst
-06.11.23, 21:55 - Lennard: Habe vorher nur ne falsche Methode benutzt wie du schon gesagt hast
-06.11.23, 21:56 - Lennard: Bin ja von ob das Tray leer ist ausgegangen, jetzt hab ich getestet ob die ID existiert und siehe da ja sie existiert also wird else ausgeführt
-06.11.23, 21:57 - Dominic Dbtech: Haha ok gut.
-06.11.23, 21:58 - Lennard: Aiaiaiai 🥲😂
-06.11.23, 21:59 - Dominic Dbtech: Bei dem hast du auch 2x Cooling Excepiton. 1x in deiner Hilfsmethode  und das 1x wenn es false
-ist
-06.11.23, 21:59 - Lennard: Jo
-06.11.23, 22:15 - Lennard: Okay um nochmal das Paradoxon vom Anfang aufzuklären, es lag daran, dass ich eine Exception geworfen habe, wenn das Tray leer ist und das galt auch schon als Änderung
-06.11.23, 22:16 - Lennard: Meintest du ja hier auch schon im Prinzip 😶‍🌫
-06.11.23, 22:17 - Lennard: Weird, dass ich da nicht selber drauf gekommen bin
-06.11.23, 22:20 - Dominic Dbtech: Naja so ganz richtig war es nicht von mir. In der Hilfsmethode wäre die cooling nur gekommen, wenn der try Befehl daneben geht.
-06.11.23, 22:24 - Dominic Dbtech: Ich habe gerade auch nochmal geschaut. Wenn man einen Spalte auf Null setzt die schon Null ist, dann updated er die Zeile trotzdem.
-06.11.23, 22:31 - Dominic Dbtech: Hast du diese Jahr zufällig Statistik belegt ?
-06.11.23, 22:43 - Lennard: Interesting 🤔
-06.11.23, 22:44 - Lennard: Nope, das wird mir wahrscheinlich angerechnet
-06.11.23, 22:44 - Lennard: Habe MAS und Dbtech aus dem dritten Semester
-06.11.23, 22:44 - Lennard: Achso und Englisch
-06.11.23, 22:45 - Dominic Dbtech: Ok, MAS hatte ich letztes Jahr
-06.11.23, 22:45 - Dominic Dbtech: Beim wem bist in Englisch ?
-06.11.23, 22:47 - Lennard: Woege, Dienstag 15:30
-07.11.23, 01:39 - Lennard: <Medien ausgeschlossen>
-07.11.23, 12:05 - Dominic Dbtech: Ja mir ist es Wurst. Dann gib deine Datei ab.
-07.11.23, 12:16 - Dominic Dbtech: Methode 1,2,3 dürften ja gleich sein.
-07.11.23, 12:24 - Dominic Dbtech: Warum haste den 1. Select -Befehl nicht in die testtrayid Methode gepackt ?
-Wie bei testtraynotempty ? :D
-07.11.23, 12:25 - Dominic Dbtech: Schicke mir mal bitte die Hilfsmethoden noch.
-07.11.23, 12:31 - Dominic Dbtech: Ich will mir das mit dem integerto. string trayid auch nochmal anschauen.
-07.11.23, 12:32 - Dominic Dbtech: Am Besten du schickst mir mal deine javadatei. 😂
-07.11.23, 12:54 - Lennard: Der ist um die Sampleid's zu speichern um die danach in Sample löschen zu können
-07.11.23, 12:59 - Lennard: <Medien ausgeschlossen>
-07.11.23, 13:05 - Dominic Dbtech: Danke
-07.11.23, 13:05 - Lennard: ✌🏻
-12.11.23, 19:42 - Dominic Dbtech: Jawoll für ü2 gab es volle Punktzahl
-13.11.23, 19:13 - Dominic Dbtech: War gerade in der Übung DBTech.
-Er hat ein paar Hinweise zur neuen Übung gegeben. Am
-Besten wir sprechen uns ab wie wir vorgehen. Die Methoden sind dieses mal nicht unabhängig von einander implementierbar.
-13.11.23, 19:49 - Lennard: Bin auch gerade in der Übung, jo sieht aber ganz spaßig aus
-13.11.23, 19:50 - Dominic Dbtech: Wie viele seit ihr ?
-13.11.23, 19:50 - Lennard: 4, er meinte schon bei euch waren 2 oder so 😂
-13.11.23, 19:50 - Dominic Dbtech: wir waren einfach zu zweit in der Übung
-13.11.23, 19:51 - Lennard: Ja wilde Nummer, weißt du weshalb? 🤔
-13.11.23, 19:52 - Dominic Dbtech: Kp wahrscheinlich könne alle anderen das 😂
-13.11.23, 20:18 - Lennard: Herr Dohmeier meint, die haben wohl gleichzeitig Statistik 🥸
-13.11.23, 20:18 - Dominic Dbtech: Ja Statistik ist auch 19 Uhr nochmal 😂
-13.11.23, 20:19 - Dominic Dbtech: Die haben einfach keine Bock solange in der Uni zu sein.
-13.11.23, 20:20 - Lennard: 😂
-13.11.23, 20:20 - Lennard: Gut möglich
-13.11.23, 20:21 - Dominic Dbtech: Ich habe da Übung aber gehe auch nicht hin 😂 Im Endeffekt löst du da die Aufgaben und er sagt jo
-passt oder passt nicht. Wirklich erklären tut er da nicht. Ich hab aber die Lösungen zu den Aufgaben 😅
-13.11.23, 20:31 - Lennard: Ja gut verständlich
-13.11.23, 20:33 - Lennard: Hab heute endlich meine Anrechnungen bekommen nach Jahren gefühlt. Statistik wurd angerechnet btw aber muss auch 1-2 Fächer nochmal machen 🥴 hattest du eigentlich schon Controlling?
-13.11.23, 20:34 - Dominic Dbtech: Ja die Info bekommt man erst in der Mitte des Semesters. War bei mir auch so habe vorher BWL studiert. 
-Ja Controlling hatte ich.
-13.11.23, 20:35 - Lennard: Braucht man dafür irgendwelches Vorwissen aus 1./2. Semester? Weil ich mach nächstes Semester die ganzen BWL Fächer aus dem 1. und 2. und eig auch Controlling <Diese Nachricht wurde bearbeitet.>
-13.11.23, 20:37 - Lennard: Ah interesting, an der HTW? Wie lang?
-13.11.23, 20:40 - Dominic Dbtech: Eventuell das Modul Buchführung und Finanzen. Das hat man normalerweise im 2. Semester und im 3. dann Controlling. 
-Im Prinzip geht es in Buchfürung  um die externe Buchaltung und Controlling um die interne Buchaltung.
-13.11.23, 20:40 - Dominic Dbtech: Kannst das auch parallel versuchen.
-13.11.23, 20:41 - Dominic Dbtech: Ne TH Wildau am Arsche der Welt 😂 2 Semester lang dann bin ich gewechselt.
-13.11.23, 20:41 - Dominic Dbtech: War mir zu trocken das Fach.
-13.11.23, 20:42 - Dominic Dbtech: Ich hatte halt gut Pech mit der Coronazeit.
-13.11.23, 20:42 - Lennard: Finanzbuchhaltung hatte ich schon, dann passt das ja, hatte an der Uni kosten-und Leistungsrechnung für internes
-13.11.23, 20:42 - Dominic Dbtech: Ja dann mach Controlling.
-13.11.23, 20:44 - Lennard: Lul ja verständlich ich muss sagen so ein paar Wirtschaftskurse sind ganz nice aber n ganzes Studium wär mir echt zu viel von dem kram
-13.11.23, 20:44 - Lennard: Bin schon bisschen traurig, dass ich nächstes Semester dann nur ein Info Kurs habe 😶‍🌫
-13.11.23, 20:45 - Dominic Dbtech: 😂 Ja ich habe mich megaschwer getan mit der Informatik.
-13.11.23, 20:46 - Dominic Dbtech: Programmieren hat 3. Semster gedauert bis ich es geschafft habe. <Diese Nachricht wurde bearbeitet.>
-13.11.23, 20:47 - Dominic Dbtech: Normalerweise hätte ich letztes Semster mein Abschluss machen müssen haha
-13.11.23, 20:47 - Lennard: lul aber war bei mir am Anfang auch auf der kritischen Seite, ich find das braucht ein bisschen, bis man sich da sicherer ist (würde mich nicht als sicher bezeichnen haha aber auch nicht unsicher) aufjedenfall hab ich gemerkt, dass es deutlich besser läuft wenn man Bock drauf hat
-13.11.23, 20:48 - Lennard: Bin rein theoretisch auch schon im 5. Semester
-13.11.23, 20:48 - Dominic Dbtech: Ick bin 7.
-13.11.23, 20:48 - Lennard: Arbeitest du nebenbei?
-13.11.23, 20:48 - Dominic Dbtech: Haha mit BWL bin ich im 9. 😂 Aber da habe ich noch als Werkstudent gearbeitet.
-13.11.23, 20:49 - Dominic Dbtech: Naja bei Rewe Aushilfe 😂 Aber nix mit IT.
-13.11.23, 20:49 - Dominic Dbtech: Kommendes Semster dann mit dem Praktikum. <Diese Nachricht wurde bearbeitet.>
-13.11.23, 20:49 - Dominic Dbtech: Davor habe ich Bafög bekommen.
-13.11.23, 20:50 - Dominic Dbtech: Bin auch schon etwas älter 😂
-13.11.23, 20:52 - Lennard: Mhhhh hmm
-13.11.23, 20:52 - Dominic Dbtech: und du ? Gehste irgendwo ackern ?
-13.11.23, 20:55 - Lennard: Hab noch den Luxus, dass meine Mum mich "fürs studieren bezahlt" 😶‍🌫
-13.11.23, 20:56 - Lennard: Bin aber auch noch etwas jünger, habe dann ja bald auch das Praktikum und danach bzw im Master hab ich vor nebenbei was zu machen 👀
-13.11.23, 20:57 - Dominic Dbtech: Das ist denke bei den meisten so.
-13.11.23, 21:01 - Dominic Dbtech: Master weiß ich noch nicht erstmal Bachelor 😂 schaffen.
-13.11.23, 21:01 - Lennard: Jojo muss ja auch nicht 🤷🏻‍♂️
-14.11.23, 00:56 - Lennard: also irgendwie war ich schon bisschen motiviert und habe ein paar Sachen implementiert. Die ersten 4 Tests sind grün und ich hab extra ein wenig (wenn auch nicht mega viel) Kommentiert und dokumentiert, damit man das hoffentlich recht schnell verstehen kann
-14.11.23, 00:57 - Lennard: <Medien ausgeschlossen>
-14.11.23, 12:58 - Dominic Dbtech: Ich verstehe den Code soweit.
-14.11.23, 12:58 - Dominic Dbtech: Können wir so nehmen. <Diese Nachricht wurde bearbeitet.>
-14.11.23, 12:59 - Dominic Dbtech: Müssen das alles eh noch umschreiben, wenn wir ein Pattern nutzen.
-14.11.23, 12:59 - Dominic Dbtech: Aber erstmal alle Tests grün bekommen.
-14.11.23, 13:08 - Lennard: Jo
-14.11.23, 13:18 - Dominic Dbtech: Nächste Woche wollte er in der Übung ein DAO implementieren.
-14.11.23, 13:38 - Lennard: Warst du in der Vorlesung?
-14.11.23, 13:41 - Dominic Dbtech: heute ausnahmsweise nicht
-14.11.23, 13:42 - Dominic Dbtech: bin arbeiten :D
-14.11.23, 13:43 - Lennard: Ahh schade ich hab tatsächlich verpennt 😅
-14.11.23, 13:43 - Dominic Dbtech: Denke PLSQL kam ran
-14.11.23, 13:44 - Dominic Dbtech: Es gibt auch Videos bei Youtube von Claaßen
-14.11.23, 13:44 - Dominic Dbtech: https://www.youtube.com/watch?v=02ivfSX0V-Q&list=PL9rvxJNs9la6LyrLd1NQjbs19GqtD6U5n
-14.11.23, 13:45 - Lennard: Ahhh niceeee danke 🤌🏻
-14.11.23, 13:45 - Dominic Dbtech: Musste in der Playlist gucken
-20.11.23, 18:02 - Lennard: Hätte ich die Übung vorher gesehen, hätte ich's gleich so gemacht 😂 naja aber könnte weiter davon weg sein
-20.11.23, 19:37 - Dominic Dbtech: Bin angeschlagen, war deswegen nicht inder Uni heute.
-20.11.23, 21:41 - Lennard: Same, er hat aber hybrid gemacht
-20.11.23, 21:41 - Lennard: Gute Besserung btw
-20.11.23, 21:42 - Lennard: Er hat Beispielprojekte für DAOs hochgeladen, da kann man sich das grob angucken bzw die Struktur
-20.11.23, 22:15 - Dominic Dbtech: Er meinte auch in der Übung letzte Woche wir sollen erstmal die Methode ohne DAO implementieren, um uns safe die 10Points zu sichern. Anschließend das DAO implentieren.
-27.11.23, 16:57 - Dominic Dbtech: Kommste in die Übung heute ?
-27.11.23, 16:58 - Dominic Dbtech: Werde 19 Uhr da sein und auch vor Ort
-27.11.23, 17:04 - Lennard: Heute ist Zoom lul <Diese Nachricht wurde bearbeitet.>
-27.11.23, 17:05 - Dominic Dbtech: ja beides
-27.11.23, 17:06 - Lennard: Ah okay wusst ich gar nicht 🤔 bin aber Zuhause, lohnt sich nicht nochmal 40min zur Uni zu Gurken wenn's auch online ist <Diese Nachricht wurde bearbeitet.>
-27.11.23, 17:06 - Dominic Dbtech: ok
-27.11.23, 17:07 - Dominic Dbtech: ick bin eh da
-27.11.23, 17:10 - Lennard: Bin in Präsens btw demnächst eher in der 17:15 Übung je nachdem wie's passt, habe normalerweise bis 15:15 Veranstaltungen (mit einem Freiblock) und würde dann in Zukunft wahrscheinlich noch bis 17:15 warten und zur Übung gehen
-27.11.23, 17:14 - Lennard: Also in Zukunft nicht heute
-27.11.23, 18:56 - Dominic Dbtech: xD er ist doch micht vor ort 😂
-27.11.23, 19:19 - Lennard: 😂
-27.11.23, 19:27 - Lennard: Also ich bin leider 15min zu spät in die Zoom Veranstaltung aber habe wohl auch nichts verpasst, war halt nur fragen stellen wenn wer welche hat und dass es wohl sinnvoll ist die erste Teilaufgaben einzeln zu machen für Aufgabe 4 schonmal
-27.11.23, 19:28 - Lennard: Außerdem gibt es btw einen Fehler, wenn du die Tests ausführen möchtest und gleichzeitig einen Zugriff im SQL dev offen hast
-27.11.23, 19:29 - Lennard: Bzw hängt Eclipse sich evtl auf
-27.11.23, 19:43 - Dominic Dbtech: Ick war kurz drin, aber hatte eh keine Fragen bisher.
-27.11.23, 19:43 - Dominic Dbtech: ok mal schauen
-28.11.23, 10:53 - Dominic Dbtech: Haste eigtl schon weiter programmiert ? oder wollen wir das zusammen machen ?
-28.11.23, 10:55 - Dominic Dbtech: Ich tue mich etwas schwer mit der Aufgabe 😂 Vllt können wir ja uner DC quatschen und das zusammen lösen.
-28.11.23, 11:57 - Lennard: Hab noch nicht weiter gemacht, können wir machen habe aber wahrscheinlich erst frühestens ab Donnerstag Zeit
-28.11.23, 11:58 - Dominic Dbtech: Jut, ja Donnerstag geht bei mir.
-28.11.23, 11:58 - Dominic Dbtech: Oder Wochenende
-28.11.23, 11:59 - Dominic Dbtech: haben noch etwas mehr als 2 Wochen Zeit bis zur Abgabe.
-28.11.23, 12:47 - Lennard: 👍🏻
-03.12.23, 17:37 - Lennard: Bis zum 10.12.
-03.12.23, 17:57 - Dominic Dbtech: Ja stimmt eine Woche nurnoch 😂
-04.12.23, 12:33 - Lennard: Gehst du heute zur Übung? Ist ja eigentlich wieder nur Konsultation
-04.12.23, 12:33 - Dominic Dbtech: Ich glaube nicht.
-04.12.23, 12:33 - Dominic Dbtech: Ich sitze grad dran
-04.12.23, 12:36 - Lennard: Schon weiter gekommen? Habe gerade auch 40-50min Zeit
-04.12.23, 12:40 - Dominic Dbtech: xD nicht wirklich, ich versuche mit am Entscheidungsbaum langzuhangeln.
-04.12.23, 12:40 - Lennard: Ich les mich auch gerade wieder rein
-04.12.23, 12:44 - Dominic Dbtech: Bist du in der Uni ?
-04.12.23, 12:45 - Lennard: Ja Raum 127
-04.12.23, 13:15 - Lennard: <Medien ausgeschlossen>
-04.12.23, 13:16 - Dominic Dbtech: welches test ist das ?
-04.12.23, 13:22 - Dominic Dbtech: Ah test 3
-04.12.23, 13:23 - Dominic Dbtech: Also wenn das Ablaufdatum des Tablett 30.12.2017 ist, darf deine Probe nicht ein Ablaufdatum "größer" zum Beispiel 03.01.2018 haben.
-04.12.23, 13:33 - Lennard: test 5
-04.12.23, 13:33 - Dominic Dbtech: denke das hat die gleiche bedeutung
-04.12.23, 13:34 - Dominic Dbtech: bei dir wird übrigens im test kein datum zurückgegeben
-04.12.23, 13:34 - Dominic Dbtech: bdeswegen but was (null)
-04.12.23, 13:34 - Lennard: Wo?
-04.12.23, 13:34 - Dominic Dbtech: in der ersten Zeile auf dem Bild
-04.12.23, 13:35 - Dominic Dbtech: expected 2017-12-30
-04.12.23, 13:35 - Lennard: Ja ik ich weiß nur nicht was genau er im Test vergleicht, ob die Tabellen 1 zu 1 wie vorher sind oder wie? Weil eigentlich dürfte sich ja nichts verändert haben
-04.12.23, 13:35 - Dominic Dbtech: but was null
-04.12.23, 13:35 - Lennard: Du hast diese Nachricht gelöscht.
-04.12.23, 13:36 - Lennard: Achso ja die Fehlermeldung kann ich ja lesen das ist ja meine Frage was genau der da überhaupt haben will
-04.12.23, 13:36 - Lennard: Ich weiß dass es das Datum ist was da steht
-04.12.23, 13:36 - Dominic Dbtech: ok
-04.12.23, 13:37 - Lennard: Aber wieso sollte ich an dem Punkt irgendwo ein Datum zurück geben
-04.12.23, 13:38 - Lennard: Der vergleicht im Test den Datenbank bzw Tabellenstand actual und expected aber da sich aber meines Verständnisses nach nichts geändert haben soll und ich nur selects ausgeführt habe sollte da nichts fehlen <Diese Nachricht wurde bearbeitet.>
-04.12.23, 13:39 - Lennard: Soll man dann das Ablaufdatum verändern oder wie
-04.12.23, 13:40 - Lennard: Ahh wahrscheinlich ein neues Tablett erstellen
-04.12.23, 13:41 - Dominic Dbtech: Ja denke auch
-04.12.23, 13:45 - Lennard: Hab jetzt Vorlesung, ich schau mir nachher den Baum bzw die Anforderungen nochmal ordentlich an bzw mach dann weiter. Eventuell könnten wir auch über dc schnacken oder so 🤷🏻‍♂️
-04.12.23, 13:45 - Dominic Dbtech: jo alles klar
-04.12.23, 13:48 - Dominic Dbtech: ich habe von 15:30- 18:30 Vl und Übung , kann an 19:30 dann wieder in DC sein
-04.12.23, 13:49 - Dominic Dbtech: vllt ist auch besser wenn wir das bequatschen
-04.12.23, 14:48 - Dominic Dbtech: Ich glaube es ist besser
-mit richtigen Objekten zu arbeiten wie bei DAO.
-04.12.23, 14:48 - Dominic Dbtech: Ich werde heute Abend mal die Klassen erstellen.
-04.12.23, 14:49 - Dominic Dbtech: Bzw lass uns nachher quatschen über dc
-04.12.23, 14:49 - Dominic Dbtech: Hast ab 19:30'Zeit ?
-04.12.23, 15:11 - Lennard: Ja sollte passen
-04.12.23, 15:11 - Dominic Dbtech: sehr jut
-04.12.23, 19:19 - Dominic Dbtech: Lass mal 10min spter machen. Muss kurz was zu essen holen.
-04.12.23, 19:31 - Lennard: Du hast diese Nachricht gelöscht.
-04.12.23, 19:34 - Lennard: <Medien ausgeschlossen>
-04.12.23, 19:40 - Dominic Dbtech: bin jetzt am start
-04.12.23, 19:42 - Dominic Dbtech: Dome#7247
-04.12.23, 19:42 - Dominic Dbtech: bei dc
-04.12.23, 19:48 - Lennard: <Medien ausgeschlossen>
-04.12.23, 20:38 - Lennard: Weißt du ob die erste placeNo 0 ist? Oder 1 🤔
-04.12.23, 20:38 - Lennard: Wenn nicht guck ich kurz nach bei oracle
-04.12.23, 20:39 - Dominic Dbtech: Denke 1
-04.12.23, 20:39 - Dominic Dbtech: Wenn es 4 Platze sind, dann von 1-4
-04.12.23, 20:39 - Lennard: Alles klar 👍🏻
-05.12.23, 01:18 - Lennard: <Medien ausgeschlossen>
-05.12.23, 01:21 - Lennard: wer hätte gedacht, dass es so eklig sein kann ein Datum über jdbc in SQL zu übertragen 🥴 (bei der Insert/Update Funktion)
-05.12.23, 10:10 - Dominic Dbtech: Ja nice, ich schaue mir das später an. 👍😁
-05.12.23, 11:51 - Dominic Dbtech: Du kannst übrigns mit dem Logger arbeiten. Ich glaube das ist wesentlich angenehmer, als system out print
-05.12.23, 11:52 - Dominic Dbtech: Diese Nachricht wurde gelöscht.
-05.12.23, 11:52 - Dominic Dbtech: Diese Nachricht wurde gelöscht.
-05.12.23, 12:23 - Lennard: Ja oder Debugger 😅 weiß nicht genau wie man mit dem logger arbeitet
-05.12.23, 12:31 - Dominic Dbtech: 😂 Du bist auch grad in der Vorleesung bei Kempa oder ? <Diese Nachricht wurde bearbeitet.>
-05.12.23, 12:52 - Lennard: Jo
-06.12.23, 01:33 - Lennard: <Medien ausgeschlossen>
-06.12.23, 01:35 - Lennard: <Medien ausgeschlossen>
-06.12.23, 10:44 - Dominic Dbtech: Sehr nice 👍 <Diese Nachricht wurde bearbeitet.>
-07.12.23, 18:50 - Dominic Dbtech: Jojo sagmal weißt du ob wie bei dem dao auch die Create und Delete methoden implentieren müssen ?
-07.12.23, 18:51 - Dominic Dbtech: Weil an sich nutzen wir die ja garnich in unserem
-Anwendungsfall
-07.12.23, 19:04 - Lennard: Denke wir sollen nur implementieren was unsere Aufgabe löst
-07.12.23, 19:19 - Dominic Dbtech: Jut
-07.12.23, 22:16 - Dominic Dbtech: Ich glaube ich brauch mal
-deine Hilfe morgen oder so.
-07.12.23, 22:16 - Dominic Dbtech: Also für die Ü3
-07.12.23, 23:59 - Lennard: Alles klaro
-08.12.23, 17:22 - Lennard: btw wir sollten laut Aufgabenblatt eigentlich in den Kommentar bei der Abgabe unsere Namen reinschreiben, wir können das ja einfach mal bei der Abgabe 3 jetzt machen, auch rückwirkend, falls es nötig ist <Diese Nachricht wurde bearbeitet.>
-08.12.23, 17:50 - Dominic Dbtech: er kann doch anhand der gruppe sehen wer das gemacht hat
-08.12.23, 17:50 - Lennard: ja eigentlich schon steht trz in der Aufgabe idk
-08.12.23, 17:51 - Dominic Dbtech: ja dann machen wir das bei de Übung halt
-08.12.23, 17:52 - Dominic Dbtech: das alte ist eh schon bewertet
-08.12.23, 18:32 - Lennard: Du hast diese Nachricht gelöscht.
-08.12.23, 19:17 - Dominic Dbtech: Ich setzte mich in 20 min nochmal ran
-08.12.23, 19:17 - Lennard: bin gerade dabei habe die Grundstruktur fast fertig 😅
-08.12.23, 19:18 - Dominic Dbtech: Die Klassen, Dao und Daoimpl habe ich drin. Aber der schwierige Teil kommt jetzt noch
-08.12.23, 19:19 - Lennard: schick mal
-08.12.23, 19:19 - Dominic Dbtech: soll ich dir das ganze Projekt schicken ?
-08.12.23, 19:19 - Lennard: jo
-08.12.23, 19:19 - Lennard: nee
-08.12.23, 19:19 - Lennard: wait
-08.12.23, 19:19 - Lennard: nur
-08.12.23, 19:20 - Lennard: dbtech_service projek´t
-08.12.23, 19:20 - Dominic Dbtech: Hast du in 10min Zeit ?
-08.12.23, 19:20 - Lennard: wollen wir sonst fix n call machen
-08.12.23, 19:20 - Dominic Dbtech: ich esse grad noch
-08.12.23, 19:20 - Dominic Dbtech: ja lass n Call bei DC machen in 10 min
-08.12.23, 19:21 - Dominic Dbtech: Ich esse kurz auf
-08.12.23, 23:36 - Dominic Dbtech: Habe es abgeändert
-08.12.23, 23:36 - Dominic Dbtech: funzt auch
-08.12.23, 23:36 - Lennard: Bruh 😭😂
-08.12.23, 23:36 - Dominic Dbtech: <Medien ausgeschlossen>
-08.12.23, 23:37 - Dominic Dbtech: das problem
-ist, das es java.sql.date in 2 Bibliotheken gibt
-08.12.23, 23:37 - Dominic Dbtech: und wenn man die falsche nimmt spackt es
-08.12.23, 23:37 - Lennard: Ahhh interesting 🤔
-08.12.23, 23:40 - Lennard: Ach übrigens, wenn du mal ne Runde Fortnite zocken willst sag bescheid
-08.12.23, 23:44 - Dominic Dbtech: <Medien ausgeschlossen>
-08.12.23, 23:44 - Dominic Dbtech: Kann nur eine Datei abgegeben
-08.12.23, 23:44 - Lennard: Also ich hab jetzt durch die Frage mal angenommen, dass du's spielst
-08.12.23, 23:44 - Lennard: Alles klar 👍🏻
-08.12.23, 23:45 - Dominic Dbtech: Hahah früher habe ich es gezockt auf PS4. Aber jetzt nicht mehr.
-08.12.23, 23:45 - Lennard: Achso okay 😁✌🏻
-08.12.23, 23:47 - Dominic Dbtech: <Medien ausgeschlossen>
-11.12.23, 17:10 - Lennard: Kommst du zur Übung?
-11.12.23, 17:10 - Dominic Dbtech: Ne ich muss was für Projektmanagement machen
-11.12.23, 17:10 - Dominic Dbtech: Bist du da ?
-11.12.23, 17:10 - Lennard: Bin bisher der einzige hier 😂🥲
-11.12.23, 17:10 - Dominic Dbtech: ja kenn ich
-17.12.23, 13:21 - Dominic Dbtech: Jojo volle Punktzahl für Ü3 👍
-17.12.23, 14:14 - Lennard: null
-17.12.23, 14:15 - Dominic Dbtech: Loool war Autokorrketur bro
-17.12.23, 14:15 - Dominic Dbtech: Habe dich ja auch so gespeichert bei Whatsapp
-17.12.23, 14:15 - Lennard: Alles gut 😄
-02.01.24, 14:44 - Dominic Dbtech: Jojo haste schon mit Ü4 angefangen ?
-02.01.24, 15:20 - Lennard: Nope 😅
-02.01.24, 15:37 - Dominic Dbtech: jut ick auch nicht
-02.01.24, 15:37 - Dominic Dbtech: Lass uns
-die Woche einfach bei DC treffen und anfangen gemeinsam.
-02.01.24, 15:37 - Dominic Dbtech: Erstmal Aufgabe angucken und ein Plan machen.
-02.01.24, 15:37 - Dominic Dbtech: Vllt schon 1-2 Funktionen schreiben
-02.01.24, 17:08 - Lennard: Jo find ich gut
-02.01.24, 17:09 - Lennard: Habe morgen oder Freitag oder evtl übers Wochenende Zeit
-03.01.24, 12:15 - Dominic Dbtech: Wann haste Zeit heute ?
-03.01.24, 13:23 - Lennard: So ab 15Uhr 🤔
-03.01.24, 13:24 - Lennard: Also später würde auch gehen
-03.01.24, 13:44 - Dominic Dbtech: Ich habe ganzen Tag Zeit.
-03.01.24, 13:44 - Dominic Dbtech: Also sag du wann es dir am Besten passt.
-03.01.24, 15:40 - Lennard: In 10min 😅👀
-03.01.24, 16:10 - Dominic Dbtech: lass halb machen ich esse grad
-03.01.24, 23:10 - Lennard: Habe mal die findFittingTrays Funktion versucht zu bauen, noch keine Zeit gehabt sie zu testen aber so in der Art sollte es wohl aussehen
-03.01.24, 23:11 - Lennard: das "IS" steht stellvertretend für "declare". In den Folien steht zwar immer declare aber in den Beispielen aus der Übung IS, außerdem wird mir mit declare eine Fehlermeldung angezeigt
-04.01.24, 11:42 - Dominic Dbtech: Ja nice
-04.01.24, 23:42 - Lennard: Bringt mich jetzt schon zum verzweifeln der quatsch
-04.01.24, 23:42 - Lennard: Das schlimmste ist, dass man keine ordentlichen Fehlermeldungen kriegt
-04.01.24, 23:42 - Dominic Dbtech: 😂😂
-04.01.24, 23:43 - Dominic Dbtech: Ich habe heute nix gemacht.
-04.01.24, 23:43 - Dominic Dbtech: Dann chill bis Samstag
-04.01.24, 23:43 - Dominic Dbtech: Da können wir gemeinsam nachdenken
-04.01.24, 23:44 - Lennard: Ich hab bisher auch nur versucht die Funktion zum laufen zu bringen, hab's jetzt geschafft einen Tabellen-Datentypen zu machen, den die Funktion zurückgeben kann aber jetzt will er das SQL Statement nicht mehr ausführen
-04.01.24, 23:44 - Dominic Dbtech: Das Callable Statement aus Java ? <Diese Nachricht wurde bearbeitet.>
-04.01.24, 23:45 - Lennard: Nene in der Pl SQL Funktion
-04.01.24, 23:45 - Lennard: Möchte da ja in eine Tabelle auslesen aber irgendwas läuft da noch nicht rund
-04.01.24, 23:46 - Lennard: Aber naja ich schau mir mal 1,2 Youtube Videos an
-04.01.24, 23:46 - Dominic Dbtech: Sitzt du an der Sache von gestern ? Fittingtrays ?
-04.01.24, 23:46 - Lennard: Jo
-04.01.24, 23:48 - Lennard: "RETURN TABLE" geht nicht weil man den Datentyp der spezifischen Tabelle erst erstellen muss. Das habe ich jetzt gemacht und das kompiliert auch wie es soll aber in der Funktion meckert er
-04.01.24, 23:48 - Lennard: Beim SQL Statement aber wie gesagt mal schauen erkläre das sonst lieber beim callen
-04.01.24, 23:49 - Dominic Dbtech: Gibt es
-garkeine Fehlermeldung ?
-04.01.24, 23:49 - Dominic Dbtech: Wenn doch schick sie mir mal 
-:)
-04.01.24, 23:53 - Lennard: <Medien ausgeschlossen>
-04.01.24, 23:53 - Lennard: Der Anfang klappt soweit (man sieht die Datentypen auch im Baum links unter "Typen")
-04.01.24, 23:53 - Lennard: Die Funktion zeigt allerdings diese Fehler:
-04.01.24, 23:54 - Lennard: <Medien ausgeschlossen>
-04.01.24, 23:57 - Dominic Dbtech: Mhhh ich kann gerade auch nicht weiterhelfen.
-04.01.24, 23:58 - Dominic Dbtech: Ich raffe das noch nicht ganz
-05.01.24, 01:13 - Lennard: Also ich habe es jetzt gefixt
-05.01.24, 01:14 - Lennard: Allerdings ist mir aufgefallen, dass er das Vorgehen (wahrscheinlich auch in etwas besser..) in der letzten Übung gemacht hat und es dafür n Beispiel auf Moodle gibt 🥲
-09.01.24, 00:39 - Lennard: Die Funktion ist doch gut wie sie ist.. das habe ich jetzt nach locker 2-3h endlich herausgefunden, weil das Problem was ich die ganze Zeit hatte nur war, dass die verkackte Datenbank nicht richtig aufgesetzt war....
-09.01.24, 13:34 - Dominic Dbtech: Ah verstehe
-09.01.24, 13:35 - Lennard: <Medien ausgeschlossen>
-09.01.24, 13:36 - Lennard: Also so ist die final, wir können die Tage auch callen, dann versuch ich dir paar Sachen zu erklären muss dafür aber selber noch etwas mehr verstehen
-09.01.24, 13:38 - Dominic Dbtech: Jo aufjedenfall, so ein bisschen kann ich es nachvollziehen. Ich denke am WE sollte es klappen. Bin derzeit angeschlagen. Fieber..Hals- und Gliederschmerzen 🤧.
-09.01.24, 13:38 - Dominic Dbtech: Vorgestern war Katastrophe heute geht es schon halbwegs
-09.01.24, 13:38 - Lennard: Aiaiai, dann gute Besserung erstmal 😬
-09.01.24, 13:38 - Dominic Dbtech: Ja danke
-09.01.24, 13:39 - Lennard: Hast noch viele Projekte zurzeit?
-09.01.24, 13:40 - Dominic Dbtech: Webtech, Projektmanagement und Statistik 😂
-09.01.24, 13:41 - Lennard: rip 😂😅
-09.01.24, 13:41 - Lennard: Oh man oh man
-09.01.24, 13:41 - Dominic Dbtech: Ja man, aber Webtech bin ich fast durch.
-09.01.24, 13:41 - Dominic Dbtech: 3 kleine Sachen für die Mindestabgabe 😂
-09.01.24, 13:42 - Dominic Dbtech: Projektmanagement sind wir auch im Zeitplan.
-09.01.24, 13:42 - Dominic Dbtech: Nur Statistik wird eklig
-09.01.24, 13:42 - Lennard: Naja aber hört sich eigentlich noch ganz okay an
-09.01.24, 13:44 - Lennard: nächste Woche wird spaßig bei mir, gefühlt alle Abgaben auf einmal aber geht noch zb prog 1 ist halt sehr entspannt
-09.01.24, 21:23 - Lennard: Du hast diese Nachricht gelöscht.
-11.01.24, 12:45 - Dominic Dbtech: Also habe mir Corona eingefangen
-11.01.24, 14:11 - Lennard: Perfekt 😬
-14.01.24, 21:45 - Dominic Dbtech: Bin wieder fit soweit.
-14.01.24, 21:45 - Dominic Dbtech: Können uns die Woche peilen, um
-Ü4 fertig zu machen.
-14.01.24, 23:43 - Lennard: Jo ich versuche Zeit zu finden 😅 hab noch echt ne Menge für MAS zu tun
-14.01.24, 23:44 - Lennard: Also Abgabe ist bisher Mittwoch 0Uhr die Tage danach sollte ich Zeit haben
-15.01.24, 00:02 - Lennard: Falls du dir das schon vorher angucken möchtest kann ich dir rüberschicken, was ich schon gemacht habe
-15.01.24, 00:03 - Lennard: Es ist recht schwer einzuschätzen, wie viel noch zu machen bleibt, kann sein, dass es nicht mehr viel ist, kann aber auch sein, dass sich das noch irgendwie viel länger zieht als gedacht
-15.01.24, 00:14 - Dominic Dbtech: Hast du mehr als das gemacht ?
-15.01.24, 00:17 - Lennard: <Medien ausgeschlossen>
-15.01.24, 00:19 - Lennard: Hat sich wie mehr angefühlt haha aber die beiden sind die schwereren Funktionen, die anderen Funktionen in jdbc sind nur Update undso, was in pl/sql easy ist
-15.01.24, 00:21 - Lennard: Im Prinzip kann man die der Übersichtshalber auch als Funktionen schreiben aber sonst wäre der nächste Schritt die Transfer Sample zu implementieren. Habe noch nichts mit Funktionsaufrufen gemacht, deswegen wird das etwas interessant aber sonst sollte es tatsächlich ganz machbar sein
-15.01.24, 00:24 - Dominic Dbtech: OK jut ich gucke es mir an.
-15.01.24, 12:09 - Dominic Dbtech: Haste weiter dran gearbeitet ?
-15.01.24, 12:11 - Lennard: Ne ist nur der ganze Code also Übersichtshalber. Musst dann nur noch das package bzw. body öffnen und die Funktionen da rein schreiben
-15.01.24, 12:11 - Dominic Dbtech: Ok gut
-16.01.24, 17:21 - Dominic Dbtech: Also bei mir klappt die Funktion nicht 😂
-16.01.24, 17:26 - Lennard: Was meinst mit "1 Funktionen hast schon..."
-16.01.24, 17:27 - Dominic Dbtech: Na hier erstellst du doch die Funktion f_firstemptyplace
-16.01.24, 17:28 - Dominic Dbtech: Das entspricht doch der aus unserer Ü3.
-16.01.24, 17:28 - Dominic Dbtech: Wir müssen da eher quastschen glaube
-16.01.24, 17:29 - Lennard: Hier sind die beiden Funktionen die ich implementiert hab
-16.01.24, 17:30 - Dominic Dbtech: Aber die hast du nach dem Vorbild aus Ü3 genommen oder ?
-16.01.24, 17:30 - Dominic Dbtech: F_findFittingTrays
-16.01.24, 17:30 - Lennard: Ja
-16.01.24, 17:30 - Dominic Dbtech: Ok
-16.01.24, 17:30 - Lennard: F_firstEmptyPlace auch
-16.01.24, 17:30 - Dominic Dbtech: Genau
-16.01.24, 17:31 - Lennard: Das expirationdate des Samples kann man in der Transfersample Funktion einfach abfragen
-16.01.24, 17:32 - Dominic Dbtech: Muss da keine Exception fliegen ?
-16.01.24, 17:32 - Lennard: Wo?
-16.01.24, 17:33 - Dominic Dbtech: Wenn die SampleId garnicht exisitert ?
-16.01.24, 17:33 - Lennard: Dafür haben wir die Funktion aus der Übung
-16.01.24, 17:33 - Lennard: IsSampleExisting
-16.01.24, 17:33 - Dominic Dbtech: Ok
-16.01.24, 17:34 - Dominic Dbtech: F_isSampleExisting
-16.01.24, 17:34 - Lennard: F_isSampleExisting 🥸
-16.01.24, 17:34 - Dominic Dbtech: Ok
-16.01.24, 17:34 - Dominic Dbtech: nutzen wir garnicht oder ?
-16.01.24, 17:35 - Lennard: Ne
-16.01.24, 17:35 - Dominic Dbtech: jut
-16.01.24, 17:38 - Lennard: Btw das DECLARE was in den Vorlesungsfolien überall steht heißt in einer Funktion/Prozedur IS oder AS
-16.01.24, 17:44 - Dominic Dbtech: Also mir eerschließt es sich nicht, warum man eigtl die Funktion doppelt machen muss. Einmal als Funktion speichern und dann nochmal im package selbest :D
-Select expirationdate into v_expOfSample from sample where sampleid = v_sampleId;
-16.01.24, 17:45 - Lennard: Irgendwie so
-16.01.24, 17:45 - Dominic Dbtech: In den Beispeilen nutzt er auch nirgendwoe Declare :D
-16.01.24, 17:45 - Lennard: Ja keine Ahnung 😂
-16.01.24, 17:45 - Dominic Dbtech: Diese Nachricht wurde gelöscht.
-16.01.24, 17:46 - Lennard: Glaube das externe speichern ist nur zum testen
-16.01.24, 17:59 - Lennard: Wenn's auch in der Funktion geht, isses da wohl besser 🤷🏻‍♂️
-16.01.24, 17:59 - Dominic Dbtech: Ok gut, weil er zbsp. v_numbers t_numbers := t_numbers();
-16.01.24, 18:00 - Dominic Dbtech: Ich gucke mir das an
-16.01.24, 18:00 - Lennard: Ja sieht so aus, habe da viel umher probiert also das meiste da sollte schon seinen Grund haben
-16.01.24, 18:01 - Dominic Dbtech: Bei mir findet er halt diesen Typ nicht weil er ja nicht in der Funktion deklariert ist.
-16.01.24, 18:02 - Lennard: Aber deshalb führt man das ja vorher schon aus 🤔
-16.01.24, 18:02 - Lennard: Damit die Typen definiert sind
-16.01.24, 18:03 - Lennard: Glaub ich
-16.01.24, 18:16 - Dominic Dbtech: Ah ok, da ist ein Punkt statt Komma reingerutscht. Deswegen hat er es nicht gefunden.
-16.01.24, 18:52 - Dominic Dbtech: F_findfittingTrays Methode kann er nicht implmentierren
-16.01.24, 18:53 - Dominic Dbtech: Hat das bei dir alle geklappt ?
-16.01.24, 18:53 - Lennard: Wieso was wird angezeigt?
-16.01.24, 18:53 - Lennard: Ja getestet hab ich's auch
-16.01.24, 18:55 - Lennard: Da stimmt was mit den Namen nicht
-16.01.24, 18:55 - Dominic Dbtech: RETURN t_tray_table AS 
-v_fittingTrays t_tray_table;
-16.01.24, 18:55 - Lennard: Nenn t_tray_table mal t_tray_set
-16.01.24, 18:57 - Dominic Dbtech: jetzt geht es haha
-16.01.24, 18:58 - Lennard: Ups 😅 sorry war noch die alte Namensgebung..
-16.01.24, 18:59 - Lennard: Aber nenn es mal wieder in t_tray_table um, das ist der richtige Name
-16.01.24, 19:00 - Lennard: <Medien ausgeschlossen>
-16.01.24, 19:00 - Dominic Dbtech: Also alles was t_tray_set heißt in .._table umändern ?
-16.01.24, 19:00 - Lennard: Jo
-16.01.24, 19:02 - Lennard: <Medien ausgeschlossen>
-16.01.24, 19:03 - Lennard: Also die Befüllung der Tabellen
-16.01.24, 19:05 - Dominic Dbtech: Na das ist halt der Datenbanksatz .. also ich raffe es grad nicht was du meinst :D
-16.01.24, 19:05 - Lennard: ja isses
-16.01.24, 19:05 - Dominic Dbtech: Die Datei gibt es ja on Moodle auch glaube
-16.01.24, 19:05 - Lennard: ja aber alles einzeln hab das nur zusammengefasst
-16.01.24, 19:06 - Dominic Dbtech: Aso ja XD
-16.01.24, 19:09 - Dominic Dbtech: Warum werden mir die function nicht angezeigt
-16.01.24, 19:09 - Dominic Dbtech: <Medien ausgeschlossen>
-16.01.24, 19:09 - Dominic Dbtech: wie isSampleExisitng
-16.01.24, 19:10 - Dominic Dbtech: Man ich schwöre das ist richtige Pissmüll hahahahah
-16.01.24, 19:14 - Lennard: <Medien ausgeschlossen>
-16.01.24, 19:14 - Lennard: <Medien ausgeschlossen>
-16.01.24, 19:15 - Lennard: Und 10 Mal aktualisieren
-16.01.24, 19:18 - Dominic Dbtech: Was ein AUFRISS hahahaa
-16.01.24, 19:19 - Dominic Dbtech: Aber es wird kein Test  weiter grün, weil noch die Gesamtlogik implementiert werden muss wa.
-16.01.24, 19:20 - Lennard: Ja
-16.01.24, 19:20 - Dominic Dbtech: Jut
-16.01.24, 19:20 - Lennard: No risk no fun
-16.01.24, 19:22 - Dominic Dbtech: richtig aufregend nochmal auf der Endspur.
-16.01.24, 19:22 - Dominic Dbtech: Ich habe noch nix gelernt und schreibe Montag Dienstag gleich Klausur hahaha
-16.01.24, 19:23 - Dominic Dbtech: Nebenbei noch 2 Projekte und eine Abgabe
-16.01.24, 19:23 - Lennard: Dann lass mal dbtech erstmal sein, lass einfach zusammen machen
-16.01.24, 19:24 - Dominic Dbtech: Ich fange eh nix mehr neues an heute. Ich ziehe noch 1-2 Stunden durch. Wenn ich garnicht voran komme chill ich ab.
-16.01.24, 20:00 - Dominic Dbtech: Also ich geb es erstma auf :D
-16.01.24, 20:01 - Dominic Dbtech: Ab wann haste wieder Zeit ?
-16.01.24, 20:07 - Lennard: Donnerstag
-16.01.24, 20:07 - Lennard: Vorraussichtlich
-16.01.24, 20:07 - Dominic Dbtech: Ok
-17.01.24, 19:30 - Lennard: <Medien ausgeschlossen>
-17.01.24, 19:31 - Dominic Dbtech: Ah also biste moch dran ?
-17.01.24, 19:31 - Lennard: Habe noch mit Errors rumgespielt deswegen hat's etwas länger gedauert
-17.01.24, 19:31 - Lennard: Hab jetzt Volleyball
-17.01.24, 19:31 - Dominic Dbtech: Ok
-17.01.24, 19:32 - Lennard: Bin erst gegen dreiviertel 11 wieder home
-17.01.24, 19:37 - Dominic Dbtech: aber hat es geklappt
-mit test 2 exception ?
-17.01.24, 19:38 - Lennard: Keine Zeit gehabt um auf Eclipse zu testen bei oracle wird aufjedenfall der die tray exception angezeigt also sollte
-17.01.24, 19:38 - Dominic Dbtech: ok
-17.01.24, 23:10 - Lennard: Falls du zufällig Bock hast können wir jetzt noch was machen
-17.01.24, 23:49 - Dominic Dbtech: morgen dicka
-18.01.24, 00:06 - Lennard: Okay okay 😂
-18.01.24, 00:06 - Dominic Dbtech: mach nicht zuviel
-18.01.24, 00:06 - Dominic Dbtech: ich will auch was machen und verstehen
-18.01.24, 00:08 - Lennard: Ja ich weiß 😅 ist für mich ne top Ausrede die anderen Fächer nicht zu machen deshalb mach ich's wahrscheinlich noch lieber und weil ichs so langsam ganz gut verstanden hab denk ich. Aber ich werd mich zusammenreißen.. für dich 😂
-18.01.24, 00:08 - Dominic Dbtech: oder warte kurz ich telefnoiere noch
-18.01.24, 00:08 - Dominic Dbtech: 10 min
-18.01.24, 00:12 - Lennard: kann jetzt auch ein bisschen Englisch machen und wir machen morgen weiter 🤷🏻‍♂️
-18.01.24, 00:12 - Dominic Dbtech: na ich kann jetzt in 2min
-18.01.24, 19:00 - Dominic Dbtech: Wollen wir uns später nochmal ransetzen ? oder willste mir den code
-schicken?
-18.01.24, 19:00 - Dominic Dbtech: Will auch mal n kleinen Stück coden 😂
-18.01.24, 20:21 - Lennard: können später auch callen, wenn du bock hast
-18.01.24, 20:22 - Dominic Dbtech: Jo ok
-18.01.24, 21:15 - Dominic Dbtech: Ab wann biste bereit ?
-18.01.24, 22:17 - Lennard: Schätze 23Uhr
-18.01.24, 22:17 - Dominic Dbtech: Jut
-18.01.24, 22:20 - Dominic Dbtech: Weil ich sehe einfach nicht durch bei dem Code von dir
-18.01.24, 22:20 - Dominic Dbtech: Sitz seit ner Stunde davor aber bisher konnte ich nicht weitermachen.
-18.01.24, 22:21 - Lennard: Miese Briese
-18.01.24, 22:51 - Lennard: Wird leider noch ein kleines bisschen dauern bei mir sorry 😅
-18.01.24, 22:51 - Lennard: Versuche 23:30 ready zu sein
-18.01.24, 22:51 - Dominic Dbtech: Jo ok.
-18.01.24, 22:51 - Dominic Dbtech: Schande über dein haupt hahah
-18.01.24, 22:54 - Lennard: <Medien ausgeschlossen>
-19.01.24, 01:48 - Lennard: also ab FUNCTION F_traysFittingExp,,,
-19.01.24, 16:02 - Lennard: Jo wann wär n das, wenn du heute noch vorbei kommen würdest? 🤔
-19.01.24, 16:28 - Dominic Dbtech: Habe 17 Uhr schluss
-19.01.24, 16:28 - Dominic Dbtech: Danach
-19.01.24, 16:28 - Dominic Dbtech: Kp wie lange ich zu dir brauche
-19.01.24, 16:35 - Lennard: https://maps.app.goo.gl/jQ66SuFkhVPavyA38
-19.01.24, 16:36 - Dominic Dbtech: 15-20min
-19.01.24, 16:37 - Dominic Dbtech: 17:30 spätestens
-19.01.24, 16:37 - Lennard: Alles klar
-19.01.24, 17:24 - Dominic Dbtech: wo muss ick bimmeln ?
-19.01.24, 17:26 - Lennard: Dubhorn Krüger
-19.01.24, 17:26 - Lennard: Erste Etage
-19.01.24, 17:26 - Dominic Dbtech: Hä aber ist doch 32 oder ?
-19.01.24, 17:27 - Lennard: Ja gibt 2 Eingangstüren musst Aufgang 1 nehmen
-19.01.24, 20:03 - Dominic Dbtech: Kam der Hurensohn einfach 2 min zu früh
-19.01.24, 20:03 - Lennard: Aii miese Nummer 😅😂
-20.01.24, 22:50 - Lennard: Ich habe nach ner Stunde endlich rausgefunden was der verkackte Fehler an der ganzen Sache war... man schreibt IF(blabla *IS NULL*) und nicht IF(blabla *=* NULL)....
-20.01.24, 22:50 - Lennard: Junge
-20.01.24, 22:50 - Dominic Dbtech: Hahaha
-20.01.24, 22:50 - Dominic Dbtech: Good Job
-20.01.24, 22:51 - Lennard: Fühlt sich nicht gerade belohnend an 😂🥲
-20.01.24, 22:51 - Lennard: Aber naja
-20.01.24, 22:51 - Lennard: Müssen jetzt eigentlich noch den Code refactoren ich hoffe man kann alle Variablennamen aufeinmal ändern..
-20.01.24, 22:51 - Dominic Dbtech: xD So ist das fucking programmieren :D
-20.01.24, 22:52 - Lennard: Wohl wahr 😶‍🌫
-20.01.24, 22:52 - Dominic Dbtech: Warum willste die Variablen refactoren ?
-20.01.24, 22:52 - Dominic Dbtech: Also was genau macht er da
-20.01.24, 22:52 - Lennard: Wegen der Namenskonventionen
-20.01.24, 22:53 - Lennard: Kein Bock, dass er uns deswegen Punkte abzieht
-20.01.24, 22:53 - Lennard: Aber das geht immerhin also sollte Recht fix gehen
-20.01.24, 22:53 - Dominic Dbtech: mit v für variable und p parameter oder wie ?
-20.01.24, 22:53 - Lennard: Ne die _ zwischen den Wörtern also zu v_fitting_Trays statt v_fittingTrays
-20.01.24, 22:54 - Lennard: Aber idk
-20.01.24, 22:54 - Lennard: Mal schauen wie ich lustig bin
-20.01.24, 22:54 - Dominic Dbtech: ah
-20.01.24, 22:54 - Dominic Dbtech: ok
-20.01.24, 23:29 - Lennard: Perfekt. Habe versucht was zu refactoren und jetzt geht gar nichts mehr, danke oracle
-20.01.24, 23:30 - Lennard: Mir wird angezeigt, dass die Funktionen nicht mehr im Body seien obwohl ich da nichts verändert habe
-20.01.24, 23:53 - Lennard: So ich habe jetzt alles in eine SQL Datei gemacht und getestet und geb das jetzt ab okay?
-20.01.24, 23:54 - Dominic Dbtech: ja gib ab
-20.01.24, 23:54 - Dominic Dbtech: Dies kann in einer Textdatei (txt) oder wieder als Archiv (zip, rar) erfolgen.
-20.01.24, 23:54 - Dominic Dbtech: Er meinte txt Datei
-20.01.24, 23:54 - Dominic Dbtech: in der Abgabe
-20.01.24, 23:55 - Dominic Dbtech: also kp ob SQL Datei geht
-20.01.24, 23:55 - Lennard: Ich mach's einfach in ne txt Datei fix
-20.01.24, 23:55 - Dominic Dbtech: jut
-21.01.24, 14:44 - Dominic Dbtech: Jawoll Ü4 volle Punktzahl
-04.02.24, 15:13 - Dominic Dbtech: xD Also ich glaube ich werde DBTech auch im zweiten Termin schreiben.
-04.02.24, 15:14 - Dominic Dbtech: Ich komme
-garnicht klar bei der Probeklausur 😂
-04.02.24, 17:55 - Lennard: Supi 😂👍🏻 hab da nur mal ganz kurz rüber geguckt und fand die auch nicht so geil
-04.02.24, 17:56 - Dominic Dbtech: Aufgabe 1 habe ich hinbekommen.
-04.02.24, 17:56 - Dominic Dbtech: Sitze an 2 gerade
-04.02.24, 17:57 - Dominic Dbtech: gibt es bei PL/SQL egentliche INT als Datentyp ?
-04.02.24, 17:57 - Lennard: Number
-04.02.24, 17:57 - Dominic Dbtech: Ok voll verwirrend, dass er INT nimmt
-04.02.24, 17:58 - Lennard: Mhh das versteh ich auch nicht 😅🤔
-04.02.24, 17:58 - Dominic Dbtech: Wie viele KLausuren haste schon geschrieben ?
-04.02.24, 17:59 - Lennard: 2 und die Präsi in MAS
-04.02.24, 17:59 - Lennard: Lief ganz gut, bei dir?
-04.02.24, 17:59 - Dominic Dbtech: Statistik habe ich nicht gemacht, weil ich zu spät angefangen habe zu lernen
-04.02.24, 18:00 - Dominic Dbtech: Nächste Woche DBTech eigtl und Vortrag Projektmanagement
-04.02.24, 18:00 - Dominic Dbtech: Hast du noch eine Prüfung oder biste durch für den ersten Zeitraum ?
-04.02.24, 18:27 - Lennard: Ersten bin ich durch, hab dann ab 20.03. noch 3
-04.02.24, 18:27 - Lennard: Hast dann im zweiten noch gut was zu tun?
-04.02.24, 18:27 - Dominic Dbtech: 4 im zweiten
-04.02.24, 20:58 - Lennard: Mhh hmm
-06.02.24, 17:58 - Dominic Dbtech: Also DBTech klausur war genau wie die Probeklausur aufgebaut
-06.02.24, 17:58 - Dominic Dbtech: 😂 <Diese Nachricht wurde bearbeitet.>
-06.02.24, 18:20 - Lennard: Lul, hoffe im nächsten Prüfungsraum auch 🫣 lief gut?
-06.02.24, 18:21 - Dominic Dbtech: Geht JDBC hat bisschen gesrockt bzw zu wenig Zeit aber ansonsten ging es klar
-06.02.24, 18:46 - Dominic Dbtech: Ich habe das JDBC nicht geschafft, weil keine Zeit mehr war. Habe zwar bisschen was geschrieben aber, war auch falsch hahah.
-Ansonsten konnte ich alles Lösen.
-06.02.24, 18:47 - Dominic Dbtech: Irgendwas zwischen 2 und 3 denke
-06.02.24, 21:08 - Lennard: Nice nice
-06.02.24, 21:08 - Lennard: Ist Papier oder?
-06.02.24, 21:08 - Dominic Dbtech: Jo aber du kannst alle Aufzeichnungen mitnehmen.
-06.02.24, 21:09 - Dominic Dbtech: Da wusste ich halt nicht 😂
-06.02.24, 21:09 - Dominic Dbtech: Alles frei ausm
-Kopf gemacht
-06.02.24, 21:09 - Dominic Dbtech: Am Besten du löst die Übungsklausur und nimmst die mit rein.
-06.02.24, 21:11 - Dominic Dbtech: Der claaßen hat auf seine confluence seite die Lösungen bereitsgestellt 😂
-06.02.24, 21:37 - Lennard: Loool 😶‍🌫
-06.02.24, 21:37 - Lennard: 🌚👍🏻
-14.03.24, 15:03 - Lennard: Halli hallo, du wie waren die Übungen in Webtech eigentlich aufgebaut? Nur Abnahmen wie in prog 2 oder auch Inhalt?
-14.03.24, 15:17 - Dominic Dbtech: Grüß dich, nur Abnahmen.
-14.03.24, 15:17 - Dominic Dbtech: Es gibt Meilensteine die du bis zum bestimmten Termin kurz präsentieren musst.
-14.03.24, 15:17 - Dominic Dbtech: Auf den Code
-geht man da nicht wirklich ein.
-14.03.24, 15:18 - Dominic Dbtech: Am Ende präsentiert man alles vor dem Kurs.
-14.03.24, 15:57 - Lennard: Ahh okay okay, gut zu wissen 👀👌🏻
-10.10.24, 17:47 - Lennard: 👍🏻
-10.10.24, 17:48 - Dominic Dbtech: Moin Moin, habe doch noch deine Nummer haha
-10.10.24, 17:48 - Dominic Dbtech: Ich habe mich in deine Gruppe eingeschrieben.
-10.10.24, 17:48 - Lennard: Jo, n Kumpel von mir ist auch dabei der muss sich noch eintragen, dann sind wir 3
-10.10.24, 17:49 - Dominic Dbtech: Sauber
-10.10.24, 18:11 - Dominic Dbtech: Kennst du dich aus mit diesen AWE Modulen ?
-10.10.24, 18:11 - Dominic Dbtech: Muss man die bei Wirtschftsinformatik belegen ?
-10.10.24, 18:14 - Lennard: Naja also du musst welche von den Wahlpflicht Modulen wählen, wenn du das meinst
-10.10.24, 18:14 - Lennard: Die AWE dinger sind ja eigentlich die Fremdsprachen oder nicht
-10.10.24, 18:15 - Dominic Dbtech: <Medien ausgeschlossen>
-10.10.24, 18:16 - Lennard: Oh shit ähh idk
-10.10.24, 18:16 - Dominic Dbtech: In der Studien Studienplanübersicht steht das so drin
-10.10.24, 18:19 - Lennard: Weiß nicht genau was man da belegt und oder was dazu zählt
-10.10.24, 18:20 - Dominic Dbtech: <Medien ausgeschlossen>
-10.10.24, 18:20 - Dominic Dbtech: Im Prinzip machen wir Variante 3 oder ?
-10.10.24, 18:21 - Lennard: Jo denke schon, wir hatten das in Englisch auch schonmal besprochen
-10.10.24, 18:23 - Dominic Dbtech: Ah ok
-10.10.24, 18:24 - Dominic Dbtech: Im Prinzip Business Englisch 1 und Businessenglisch 2 (vertiefend) ersetzt quasi diese AWE Module ws
-10.10.24, 18:24 - Lennard: Bei mir steht in der Notenübersicht, dass ich wohl Variante 1 gewählt habe was mich wundert, weil ich eigentlich genau das nicht machen wollte??
-10.10.24, 18:24 - Lennard: Habe jetzt ja auch Englisch 2
-10.10.24, 18:24 - Lennard: Ja
-10.10.24, 18:26 - Dominic Dbtech: Hattest du schon englisch 2 ?
-10.10.24, 18:27 - Dominic Dbtech: Also eine Vorlesung
-10.10.24, 18:27 - Dominic Dbtech: Ach und wie viele LP hast du für Eng1 bekommen ?
-10.10.24, 18:27 - Lennard: 4
-10.10.24, 18:28 - Lennard: Ja heute war aber nicht da
-10.10.24, 18:28 - Dominic Dbtech: Ah kk
-10.10.24, 18:30 - Dominic Dbtech: <Medien ausgeschlossen>
-10.10.24, 18:30 - Dominic Dbtech: Also Variante 1 macht schon Sinn
-10.10.24, 18:30 - Lennard: Ahh Okay aber awe muss ich dann machen
-10.10.24, 18:32 - Dominic Dbtech: Ja weil ohne AWE Module fehlen einem 4 LP
-10.10.24, 18:32 - Dominic Dbtech: Für die 180 ( 6 Semester a 30 LP)
-14.10.24, 11:07 - Dominic Dbtech: Moin, in welcher Ü-Gruppe bist du eigtl bei verteilte Anwendung ?
-14.10.24, 11:10 - Lennard: Die nach der Vorlesung am Donnerstag
-14.10.24, 11:11 - Dominic Dbtech: heißt ab 15:30 wa
-14.10.24, 11:12 - Dominic Dbtech: Mhh ich werd da wahrscheinlich immer erst 20min später da sein, weil ich Wilheminenhof bin.
-14.10.24, 11:13 - Dominic Dbtech: Theoretisch bin ich in der Übung ab 17:45 drin. <Diese Nachricht wurde bearbeitet.>
-14.10.24, 11:26 - Lennard: Ich eigentlich auch aber können wohl überall hin
-14.10.24, 11:26 - Lennard: Passt schon
-14.10.24, 11:52 - Dominic Dbtech: Welche Module hast du eigtl dieses Semester ? <Diese Nachricht wurde bearbeitet.>
-14.10.24, 15:08 - Lennard: Alle Kurse aus dem 5. Semester bzw Marketing und Komponentenbasierte Entwicklung als Wahlmodule
-14.10.24, 15:10 - Dominic Dbtech: Bist du überall reingekommen ?
-14.10.24, 15:10 - Dominic Dbtech: Unternehmenssoftware bist du dann auch wa ?
-14.10.24, 15:10 - Dominic Dbtech: Da bin ich bisher 4x abgelehnt wurden
-14.10.24, 15:59 - Lennard: Lol
-14.10.24, 16:02 - Lennard: <Medien ausgeschlossen>
-14.10.24, 16:04 - Lennard: <Medien ausgeschlossen>
-14.10.24, 18:34 - Dominic Dbtech: Ach man muss das begründen dann ?
-14.10.24, 18:35 - Dominic Dbtech: Gehst du morgen zu Unternehmenssoftware VL um 8 ?
-14.10.24, 18:36 - Dominic Dbtech: Und hast du schon eine Gruppe für das Projekt ?
-14.10.24, 23:24 - Lennard: Jo und ne noch nicht
-14.10.24, 23:24 - Lennard: Also denke dann steigen die Chancen aufjedenfall 🤔🤷🏻‍♂️
-15.10.24, 07:11 - Dominic Dbtech: Jut dann sehen wa uns gleich. Komme auch zur VL.
-15.10.24, 07:30 - Lennard: Hoffe ich krieg noch n Platz 😶‍🌫
-15.10.24, 07:34 - Dominic Dbtech: War so voll letzte Woche ?
-15.10.24, 07:34 - Lennard: Letzte Woche konnte ich nicht aber vorletzte waren bis 2m² um den Prof Stühle
-15.10.24, 07:35 - Dominic Dbtech: Fuck hahaha
-15.10.24, 07:35 - Dominic Dbtech: er macht auch nur eine VL was ich gesehen habe
-15.10.24, 07:35 - Dominic Dbtech: Und 106 Leute xD
-15.10.24, 07:39 - Dominic Dbtech: Kannst du mir zufällig von Moodle die VL von letzter Woche schicken ?
-15.10.24, 07:42 - Lennard: Oh wait nvm, es gab doch erst eine Vorlesung, hab irgendwie an ein anderes Modul gedacht
-15.10.24, 07:43 - Dominic Dbtech: Naja ich bin gespannt. Ich hoffe, dass es viele gab, die sich eingeschrieben haben und nicht kommen 😂
-15.10.24, 07:45 - Dominic Dbtech: Kannst mir die VL mal
-schicken 😂
-15.10.24, 07:46 - Lennard: <Medien ausgeschlossen>
-15.10.24, 07:46 - Dominic Dbtech: nice thx
-15.10.24, 07:47 - Dominic Dbtech: Alles auf englishc
-15.10.24, 07:48 - Dominic Dbtech: Also ich hätte noch eine Person die mit in die Gruppe kommen könnte. Habe gesehen sind 3 Leute braucht man
-15.10.24, 07:54 - Lennard: Okay haben nen größeren Raum heute
-15.10.24, 07:54 - Lennard: Ja können wir machen
-15.10.24, 07:54 - Dominic Dbtech: Welcher raum ?
-15.10.24, 07:55 - Lennard: 239 bist nicht im Moodle Kurs?
-15.10.24, 07:55 - Dominic Dbtech: Ne
-15.10.24, 07:55 - Dominic Dbtech: bin noch nicht zugelassen
-15.10.24, 07:55 - Dominic Dbtech: Bist schon da ?
-15.10.24, 07:55 - Lennard: Jo
-15.10.24, 07:57 - Dominic Dbtech: Wo stehste sehe dich janicht 😂
-15.10.24, 08:47 - Lennard: https://github.com/HTW-WI-USW/titanic-F4c3hugg3r
-15.10.24, 08:48 - Lennard: https://moodle.htw-berlin.de/mod/url/view.php?id=1744774
-15.10.24, 09:46 - Dominic Dbtech: Diese Nachricht wurde gelöscht.
-15.10.24, 11:21 - Dominic Dbtech: Biste noch in der Übung ?
-15.10.24, 11:24 - Lennard: In der Mensa mit nem Kollegen, die Übung war wie erwartet nur, dass jeder Probleme mit dem Setup hatte, bei mir und glaube vielen anderen funktionierts immer noch nicht richtig
-15.10.24, 11:26 - Dominic Dbtech: xD
-15.10.24, 11:27 - Dominic Dbtech: wo ist denn die mensa lol
-15.10.24, 11:30 - Lennard: Lul Gebäude C glaub ich
-15.10.24, 11:30 - Dominic Dbtech: ahh ok
-15.10.24, 11:33 - Lennard: Die ist so bodenlos voll heute
-15.10.24, 11:34 - Dominic Dbtech: will eh nix kaufen
-15.10.24, 11:34 - Dominic Dbtech: ist gebaude d
-15.10.24, 11:34 - Lennard: Btw würd dir empfehlen zur Übung zu gehen sonst kriegst du das höchstwahrscheinlich nicht zum laufen
-15.10.24, 11:34 - Lennard: Ahh okay
-15.10.24, 11:35 - Dominic Dbtech: Wo sitzt du ?
-15.10.24, 13:24 - Dominic Dbtech: Also bei mir kamen auch die ganzen Fehler 😂
-15.10.24, 13:24 - Dominic Dbtech: Ich habe versucht das manuell zu importieren weil er auf diese Repo nicht zugreifen konnte
-15.10.24, 14:40 - Lennard: Und funktioniert?
-15.10.24, 14:40 - Dominic Dbtech: ne man
-15.10.24, 14:40 - Dominic Dbtech: ich bekomme die daten nicht importiert manuell
-15.10.24, 14:41 - Lennard: Hast du ihn mal gefragt? Weil dieses Problem hatten eigentlich einige vorhin
-15.10.24, 14:41 - Dominic Dbtech: Also bei mir kann der mac nicht auf dieses Repo zugreifen.
-15.10.24, 14:41 - Dominic Dbtech: Und er meinte ich soll es manuell impotieren
-15.10.24, 14:42 - Dominic Dbtech: ich habe die Datei runtergeladen aber das sind seltsame dateitypen
-15.10.24, 14:42 - Dominic Dbtech: Irgenein Problem mit der SSL Zertifikat, scheint wohl bei mehreren Leuten der Fall gewesen zu sein
-15.10.24, 15:19 - Dominic Dbtech: jawoll ich habe es hhinbekommen
-15.10.24, 16:37 - Lennard: Nice 👌🏻
-15.10.24, 16:58 - Dominic Dbtech: Biste schon am Campus
-15.10.24, 17:01 - Lennard: 5min
-15.10.24, 17:03 - Dominic Dbtech: bin am Raum aber ist noch niemand da
-15.10.24, 17:15 - Lennard: Sach Mal meinst du er hat schon ne Gruppe? Er seemed jedenfalls motiviert
-15.10.24, 17:15 - Dominic Dbtech: Ja bestimmt
-16.10.24, 16:06 - Lennard: Aber einen motivierten Kollegen für unsere US Gruppe
-16.10.24, 16:07 - Dominic Dbtech: Jo ok
-17.10.24, 16:08 - Dominic Dbtech: Wollen wir alle an einem Projekt arbeiten ?
-17.10.24, 16:08 - Lennard: jo
-17.10.24, 16:08 - Dominic Dbtech: Ok wer lädt wen ein ? xD
-17.10.24, 16:09 - Lennard: ich mach
-17.10.24, 16:09 - Dominic Dbtech: ok 578252 ist meine Mtr.Nr
-17.10.24, 16:11 - Lennard: Anzeige iist raus
-21.10.24, 21:46 - Dominic Dbtech: Übungen sind morgen nicht oder ?
-21.10.24, 21:47 - Dominic Dbtech: Unternehmenssoftware meine ich
-21.10.24, 22:58 - Lennard: Keine Ahnung wird er wahrscheinlich im Zoom call sagen
-22.10.24, 17:18 - Lennard: Kommst noch zur Logistik Übung
-22.10.24, 17:18 - Lennard: ?
-22.10.24, 17:19 - Dominic Dbtech: Ne dieses mal nicht.
-22.10.24, 17:50 - Lennard: Btw sie rechnet die Punkte auf also wenn du zb 1 mal mehr mitmachst kannst du die Punkte auffüllen
-22.10.24, 18:07 - Dominic Dbtech: XD Verstehe ich nicht
-22.10.24, 18:07 - Dominic Dbtech: Sie meinte bei der ersten Übung es werden 10/13 bewertet
-22.10.24, 18:09 - Dominic Dbtech: Ah ok glaube jetz raffe och es. Aber das würde eigtl ihrer Aussage widersprechen 😂
-24.10.24, 11:50 - Lennard: jo wenn du bei US irgendwo nicht weiter kommen solltest kann ich dir maybe helfen. Habe nicht alle Aufgaben fertig aber evtl hab ich ja schon was
-24.10.24, 11:51 - Dominic Dbtech: Jo nice
-24.10.24, 11:51 - Dominic Dbtech: Ich komme
-mit dem Debugger nicht klar. Ich setze ein Breakpoint und er ballert trotzdem den ganzen Code durch 😂
-24.10.24, 11:53 - Lennard: Du hast diese Nachricht gelöscht.
-24.10.24, 11:55 - Dominic Dbtech: Muss ich quasi 2 Brekapoints machen Anfang und Ende ?
-24.10.24, 11:56 - Lennard: Du hast diese Nachricht gelöscht.
-24.10.24, 11:56 - Lennard: Sorry sollten nicht an dich 😂
-24.10.24, 11:56 - Dominic Dbtech: Ah hahah
-24.10.24, 12:01 - Lennard: Das war die Steckdosenaufteilung in unserem Schlafzimmer 😂😂
-24.10.24, 12:02 - Lennard: Debugger habe ich leider auch keine Ahnung von 😶‍🌫
-24.10.24, 12:02 - Lennard: Ich führ bei Python dann immer nur Teile des Codes nacheinander aus um zu debuggen
-24.10.24, 15:02 - Dominic Dbtech: Ist die Übung voll ?
-24.10.24, 15:03 - Lennard: Ist noch Vorlesung
-24.10.24, 15:03 - Dominic Dbtech: oh sorry
-24.10.24, 15:04 - Lennard: All good
-24.10.24, 15:04 - Dominic Dbtech: In der Übung arbeiten wir nur an den Aufgaben und er ist für Fragen da oder ?
-24.10.24, 15:04 - Lennard: Ja
-24.10.24, 15:05 - Dominic Dbtech: Ich überlege nach Hause zu fahren und mir die Tutorials anzuschauen.
-24.10.24, 15:05 - Dominic Dbtech: Kann aber auch sein das ich komme, bin Wilhelminenhof
-24.10.24, 15:27 - Lennard: Idk
-24.10.24, 15:36 - Dominic Dbtech: ist noch platz ?
-24.10.24, 15:37 - Lennard: Jo
-26.10.24, 20:38 - Dominic Dbtech: Was machst du gerade ?
-26.10.24, 21:14 - Lennard: Wohnung abkleben
-26.10.24, 21:15 - Lennard: 🐧
-26.10.24, 21:15 - Dominic Dbtech: xD Ich mache gerade Aufgabe 2 von verteilte Anwendung, aber es hackt etwas
-26.10.24, 21:16 - Dominic Dbtech: Weißt du ob wir den Klassen und Code selber erstellen dürfen in dem Projekt ?
-26.10.24, 21:59 - Lennard: Kommt drauf an obs jetzt notwendig ist für die Lösung aber kannst aufjedenfall probieren
-26.10.24, 22:10 - Dominic Dbtech: Ne habe aufgabe 2 drin
-26.10.24, 22:10 - Dominic Dbtech: Kann ich morgen erklären
-26.10.24, 22:40 - Lennard: 👍🏻
-27.10.24, 20:08 - Dominic Dbtech: Sagmal wie kann ich bei USW auf den Code von dem Hochstein zugreifen ?
-27.10.24, 20:08 - Dominic Dbtech: zum Beispiel titanic
-27.10.24, 20:40 - Lennard: Bist du gerade noch dran?
-27.10.24, 20:40 - Dominic Dbtech: Jo
-27.10.24, 20:40 - Lennard: Bin in 16min am Start
-27.10.24, 20:42 - Dominic Dbtech: null
-27.10.24, 20:42 - Dominic Dbtech: Jut
-27.10.24, 21:19 - Lennard: Internet ist gerade richtig am durchdrehen ich starte gerade den Router neu..
-27.10.24, 21:19 - Dominic Dbtech: easy
-28.10.24, 12:46 - Dominic Dbtech: Jojo ich kann irgendwie die View Ansicht des Dataframes nicht einsehen
-28.10.24, 12:47 - Dominic Dbtech: <Medien ausgeschlossen>
-28.10.24, 12:47 - Dominic Dbtech: <Medien ausgeschlossen>
-28.10.24, 12:50 - Lennard: Untick mal rezise automatically
-28.10.24, 12:50 - Dominic Dbtech: bester man hahah
-28.10.24, 14:59 - Dominic Dbtech: War ein guter Tipp mit copy/paste und es anzupassen.
-28.10.24, 15:04 - Dominic Dbtech: Die Plots gingen auch direkt
-28.10.24, 19:45 - Dominic Dbtech: <Medien ausgeschlossen>
-28.10.24, 19:46 - Lennard: Keine Ahnung
-28.10.24, 19:47 - Lennard: Steht auch online nicht genauer beschrieben
-28.10.24, 19:47 - Lennard: Aber ist eigentlich irrelevant die Spalte
-28.10.24, 20:28 - Dominic Dbtech: Hast du bei occupation die ? ersetzt oder die Spalte rausgelassen ?
-28.10.24, 22:14 - Lennard: Gute Frage weiß gar nicht
-28.10.24, 22:22 - Dominic Dbtech: Oki
-28.10.24, 22:23 - Dominic Dbtech: Weißt du ob morgen die VL in verteilte Anwendung auch online ist ?
-29.10.24, 08:24 - Lennard: Ja
-29.10.24, 08:25 - Dominic Dbtech: Hast du da ein Link ?
-29.10.24, 08:25 - Lennard: Ist in der Mail
-29.10.24, 08:28 - Dominic Dbtech: Mhh ich habe garkeine bekommen xD
-29.10.24, 08:28 - Lennard: Ach ne stimmt im Moodle kurs
-29.10.24, 08:28 - Lennard: Steht das
-29.10.24, 08:28 - Dominic Dbtech: ah perfekt danke
-29.10.24, 17:05 - Dominic Dbtech: Kommst Log ?
-29.10.24, 17:09 - Lennard: <Medien ausgeschlossen>
-29.10.24, 17:12 - Dominic Dbtech: Jo ich gucke was sich machen lässt
-29.10.24, 17:17 - Dominic Dbtech: heute ist mit aufgabe vorstellen
-29.10.24, 17:18 - Dominic Dbtech: Also einfach abgabe gibt es nicht
-29.10.24, 17:18 - Dominic Dbtech: und sie prüft die Anwesenheit 😂
-29.10.24, 17:29 - Lennard: Du hast diese Nachricht gelöscht.
-29.10.24, 17:38 - Lennard: Mhm rip, falls sich doch noch ne Chance für irgendwas ergibt schreib durch
-29.10.24, 18:42 - Dominic Dbtech: also war richtig bescheidn
-29.10.24, 18:43 - Dominic Dbtech: Man musste programmieren in java
-29.10.24, 18:43 - Dominic Dbtech: schwöre garnicht durchgesehen
-29.10.24, 18:45 - Dominic Dbtech: vllt 1 Punkt wenn ich luck habe
-29.10.24, 21:52 - Lennard: Habe auch noch auf schnelle Welle was abgegeben aber mal schauen ob sies wertet wegen Abwesenheit
-29.10.24, 21:52 - Dominic Dbtech: Never sie hat eine Liste gemacht und alle Namen abgefragt.
-29.10.24, 21:53 - Lennard: Pfff letztes Mal hat sie's nicht
-29.10.24, 21:53 - Lennard: Frech
-29.10.24, 21:53 - Dominic Dbtech: Ja sie hat es explizit erwähnt diese mal
-30.10.24, 21:41 - Dominic Dbtech: Was hast du bei Aufgabe 65 python basic ?
-03.11.24, 21:33 - Lennard: Bin noch nicht so weit
-03.11.24, 21:34 - Lennard: Habe vergessen zu antworten sorry 😂
-03.11.24, 22:24 - Dominic Dbtech: asoo dachte du warst schon bei den 70gern
-03.11.24, 22:37 - Lennard: Nene, habe jetzt die Woche auch nichts mehr machen können
-03.11.24, 22:37 - Lennard: Bin bei 60
-03.11.24, 22:37 - Dominic Dbtech: ok ich bei 86 oder so haha
-03.11.24, 22:38 - Dominic Dbtech: wir müssen noch ü1 verteilte Anwendung beenden
-03.11.24, 22:40 - Lennard: Jo
-05.11.24, 07:53 - Dominic Dbtech: kommste usw?
-05.11.24, 07:55 - Lennard: Jo bin aber 10min zu spat6
-05.11.24, 07:55 - Dominic Dbtech: ok
-05.11.24, 08:05 - Dominic Dbtech: sitze letzte reihe
-05.11.24, 11:39 - Lennard: Ich war in der 'übung' gerade so kurz vorm wegpennen warum auch immer, ich hatte so zu kämpfen teilweise 😂
-05.11.24, 11:40 - Lennard: Obwohl ich das Thema schon ziemlich interessant fand eig, klar nicht gerade alles komplett verstanden aber trotzdem
-05.11.24, 11:41 - Lennard: War kurz vorm Koma wirklich
-05.11.24, 11:48 - Dominic Dbtech: xD Ging mir ähnlich, habe kurz überlegt eher reinzunhauen 😂
-05.11.24, 11:48 - Dominic Dbtech: Vllt war die Luft im Raum auch einfach bescheiden.
-05.11.24, 11:49 - Dominic Dbtech: Kp ich hab es nicht wirklich gerafft. Seine Erklärung sind eigtl gut, aber reicht trotzdem nicht 😂
-05.11.24, 11:55 - Lennard: <Medien ausgeschlossen>
-13.11.24, 00:12 - Dominic Dbtech: und wofür haste dich entschieden ? Training oder Zeit mir der Freundin 😂
-13.11.24, 11:36 - Lennard: Zuhause bleiben, das Training hat 19:45 angefangen hätte das eh nicht rechtzeitig geschafft 😶‍🌫
-14.11.24, 17:32 - Lennard: Scheiße sehe gerade ich wäre sogar 2min früher da wegen der wartezeit 🥴
-14.11.24, 17:33 - Lennard: Nvm ist doch gleich
-14.11.24, 17:34 - Dominic Dbtech: Hä fährt die m27 auch über das Evanglische Krankenhaus ?
-14.11.24, 17:35 - Lennard: Nene wäre woanders lang
-14.11.24, 17:36 - Dominic Dbtech: Also andere Verbindung gleiches Ziel. Ja sry wollte nur nicht dass du komplett woanders kandesr
-14.11.24, 21:27 - Lennard: All good lol 🤷🏻‍♂️
-18.11.24, 17:41 - Dominic Dbtech: Ich weiß nicht wie oder warum, aber wir haben 3/3 Punkte bekommem in der Logistik Ü <Diese Nachricht wurde bearbeitet.>
-20.11.24, 13:21 - Dominic Dbtech: Jojo sorry, war gestern völlig durch mit Fieber und dem ganzen Mist. Handy hatte kein Akku mehr. Dickes Sorry, bin weiterhin am start nur augeknockt gestern.
-20.11.24, 13:41 - Lennard: Ahhh okay miese Briese. Ja all good, ne kleine Nachricht wäre bei sowas vllt schon praktisch, wir haben schon überlegt ob dir was passiert ist 😅😂 gute Besserung ✌🏻
-21.11.24, 15:05 - Dominic Dbtech: Joo ich komme heute nicht zur Übung verteilte Anwendung. Bin weiterhin angeschlagen :)
-26.11.24, 19:11 - Lennard: Jo die Logistik Übung ist online bis 1.12. btw
-03.12.24, 17:19 - Lennard: Sach mal kommst nicht mehr zur übung Dienstags? 👀
-03.12.24, 20:43 - Dominic Dbtech: Doch doch, aber hatte kein Bock heute. Habe mein letzten Joker genutzt :p Kommende Woche bin ich wieder am Start.
-03.12.24, 23:08 - Lennard: Okay alles klar, hast auch echt Glück weil diese Woche haben wir wieder bis Sonntag Zeit lul
-03.12.24, 23:08 - Lennard: Ist ne easy Aufgabe sollen 3 User Stories schreiben
-03.12.24, 23:50 - Dominic Dbtech: Luckyyy
-17.12.24, 12:25 - Dominic Dbtech: Diese Nachricht wurde gelöscht.
-04.01.25, 11:57 - Dominic Dbtech: Biste wach ?
-04.01.25, 12:00 - Lennard: Sorry hab mies verpennt 🥴
-04.01.25, 12:00 - Dominic Dbtech: Allet jut
-04.01.25, 12:00 - Dominic Dbtech: Wollen wir in 15min kurz ran ?
-04.01.25, 12:01 - Dominic Dbtech: für ne Stunde
-04.01.25, 12:01 - Dominic Dbtech: oder jetzt gleich wie du magst ...musst ja 13:45 los wa
-04.01.25, 12:06 - Lennard: Ja ist bisschen ungünstig, ärgert mich, dass ich die Wecker anscheinend weggedrückt habe.. wir essen in 10min Mittag, würde eher probieren danach noch ne halbe Stunde
-04.01.25, 12:07 - Dominic Dbtech: ok
-04.01.25, 12:07 - Dominic Dbtech: dann so
-04.01.25, 12:07 - Lennard: 👍🏻
-04.01.25, 12:07 - Dominic Dbtech: sag Bescheid
-04.01.25, 12:55 - Lennard: Kann jetzt
-04.01.25, 12:55 - Dominic Dbtech: jut ich call bei dc
-04.01.25, 13:49 - Dominic Dbtech: lol er hatte schon geantwortet...nur nicht runtergescrollt 😂
-04.01.25, 13:49 - Dominic Dbtech: Aber er hat es durcheinander gebracht 😂
-04.01.25, 13:51 - Lennard: Ohh ja ich glaube ich muss die ersten Infos etwas anders gestalten 😂 werde es dann als Fließtext statt stichpunkte schreiben damit er weiß dass ich nicht der große Bruder bin
-04.01.25, 13:52 - Lennard: Evtl könnten wir heute Nacht noch callen
-04.01.25, 13:52 - Lennard: Ich schaue mal das kann ich auch immer nebenher mal machen
-04.01.25, 13:54 - Dominic Dbtech: Ich würde erstmal amrawmaterial nix machen.
-04.01.25, 13:55 - Dominic Dbtech: Ich werde noch ein zweites Modell aufsetzen
-04.01.25, 13:59 - Dominic Dbtech: Lol ich lese gerade das unser EmbeddingModell nur 256token nehmen kann.
-04.01.25, 14:00 - Dominic Dbtech: Vllt machen wir einen Text und chunken das auf die 256 token, ich überlege mal bis nachher
-04.01.25, 14:01 - Lennard: Lul oh man das ist nicht viel
-04.01.25, 14:02 - Lennard: Wir brauchen dann auf jeden Fall mehr Ergebnisse aus dem Kontext
-04.01.25, 14:03 - Dominic Dbtech: Ja er hat derzeit 3 Contexte weil ich n_results = 3 defniert habe
-04.01.25, 14:14 - Lennard: Jo, mir fällt gerade auf dass token nicht zwingend Zeichen heißt, können auch Wörter sein, haben sie ja jetzt durch /n/n getrennt aber evtl könnte ich die Chunks auch deutlich länger machen, wenn token Wörter sind und keine Zeichen <Diese Nachricht wurde bearbeitet.>
-04.01.25, 14:15 - Lennard: Könntest du evtl rausfinden was token für unser Modell bedeutet und ob man das möglicherweise sogar einstellen kann zB ob Zeichen oder Wörter? <Diese Nachricht wurde bearbeitet.>
-04.01.25, 15:22 - Lennard: Sorry für den Spam aber würde mich auch mal interessieren, ob man auch so 20 Kontext Ausgaben machen könnte bzw wie die Performance dann ist usw können wir sonst aber auch heute Abend testen
-04.01.25, 15:23 - Dominic Dbtech: Aso ja das es wörter sind war mir klar xD
-04.01.25, 15:23 - Dominic Dbtech: sinnvolle Einheit wird der token erstellt was ich gelesen haben
-04.01.25, 15:24 - Dominic Dbtech: Jo ich schaue mal nach, bzw man kann tokenzähler implementieren um zu schauen
-04.01.25, 15:24 - Dominic Dbtech: Ja ich kann das n-result auf 20 erhöhen
-04.01.25, 15:44 - Dominic Dbtech: Also bei 20 results wird mein Laptop gut gefickt RAM auf Anschlag CPU +7ß%
-04.01.25, 15:49 - Dominic Dbtech: Hallo! Ich bin Lennard Alexander Dubhorn. Ich bin ein junger Mann aus dem ländlichen Dorf Kogel Fünfseen in Mecklenburg-Vorpommern. Ich wurde am 27. März 2003 geboren und habe eine Größe von 1,90 Metern und wiege etwa 85 Kilogramm.
-04.01.25, 15:49 - Dominic Dbtech: Auf die Frage : Wer bist du ?
-04.01.25, 16:16 - Lennard: Interessant 🤔 ist aufjedenfall sehr ausführlich geworden dadurch, bisschen Halluzination ist dabei aber immerhin die meisten Sachen richtig
-04.01.25, 16:18 - Lennard: Wenn dir noch was einfällt gerne dazu schreiben
-04.01.25, 16:19 - Lennard: Übrigens solche Sachen könnten wir auch als Experimente kennzeichnen also immer am besten irgendwo die Ergebnisse Speichern damit wir daraus evtl im Nachhinein was basteln können ✌🏻
-04.01.25, 16:44 - Dominic Dbtech: Der Jailbreak ist im Prinzip der Satz wa
-04.01.25, 19:40 - Lennard: Jo
-04.01.25, 22:26 - Lennard: Ich glaube wahrscheinlich ist es sogar sinnvoll, ihm sehr viele Ergebnisse aus der Datenbank zu geben (?50+) und dann halt im prompt zu spezifizieren, dass er sich nur das wichtigste für die gewisse Antwort suchen soll und ebend mögliche nicht gegebene Zusammenhänge selber interpretieren
-04.01.25, 22:27 - Dominic Dbtech: Haben wir 50 Paragraphen ?
-04.01.25, 22:28 - Dominic Dbtech: das wird auch mein rechner nicht schaffen xD
-04.01.25, 22:28 - Dominic Dbtech: Bei 20 hat schon alles den ygeist aufgegeben
-04.01.25, 22:29 - Dominic Dbtech: Ich werde will noch ein kleineres etwas untrainierteres Modell nutzen
-04.01.25, 22:30 - Dominic Dbtech: Und dann per Prompts dann finetunen
-04.01.25, 22:30 - Lennard: Okay Mal schauen ob das allgmein gute Outputs gibt
-04.01.25, 22:30 - Lennard: Wäre jetzt Zuhause btw
-04.01.25, 22:31 - Dominic Dbtech: ja wegen mir können wa noch n Stündchen machen
-04.01.25, 22:33 - Lennard: Jo ich komm gleich on
-04.01.25, 23:42 - Lennard: Sinnhaftigkeit, Performance, Halluzinationen
-04.01.25, 23:42 - Lennard: + weitere sinnvolle
-05.01.25, 14:58 - Lennard: null
-05.01.25, 15:06 - Lennard: <Medien ausgeschlossen>
-05.01.25, 15:50 - Dominic Dbtech: null
-05.01.25, 15:51 - Dominic Dbtech: Ruf mal durch xD
-05.01.25, 15:52 - Lennard: Bin nicht Zuhause gerade
-05.01.25, 15:54 - Dominic Dbtech: Wann hast du dir den COde gezogen vom Projekt ?
-05.01.25, 15:54 - Lennard: Den letzten commit
-05.01.25, 15:54 - Dominic Dbtech: Heute ?
-05.01.25, 15:54 - Dominic Dbtech: vor einer Stunde
-05.01.25, 15:55 - Lennard: Aso ne
-05.01.25, 15:56 - Lennard: Den davor dann
-05.01.25, 15:56 - Dominic Dbtech: mhhh, weil er hat noch am Cod was geändert.
-05.01.25, 16:28 - Lennard: Okay okay, irgendwas wichtiges?
-05.01.25, 18:07 - Dominic Dbtech: Diese Nachricht wurde gelöscht.
-06.01.25, 23:04 - Dominic Dbtech: Biste home ?
-06.01.25, 23:16 - Lennard: Jo
-06.01.25, 23:16 - Dominic Dbtech: Nice
-06.01.25, 23:16 - Dominic Dbtech: kann man callen ?
+Cluster 1:
+In welcher Übung bist eigentlich?
+
+Cluster 2:
+jo same aber Übung 19:00
+Jetzt weiß ichs
+Also ich bin leider 15min zu spät in die Zoom Veranstaltung aber habe wohl auch nichts verpasst, war halt nur fragen stellen wenn wer welche hat und dass es wohl sinnvoll ist die erste Teilaufgaben einzeln zu machen für Aufgabe 4 schonmal
+Schon weiter gekommen? Habe gerade auch 40-50min Zeit
+Weißt du ob die erste placeNo 0 ist? Oder 1 🤔
+Schätze 23Uhr
+Versuche 23:30 ready zu sein
+Jo bin aber 10min zu spat6
+Kann jetzt
+so 30-40min die bahn hat sich wieder gemeldet
+bin warum auch immer 5 Stationen zu weit gefahren und danach hatte die bahn zurück Verspätung 💀😂
+das sind einfach 100, das dauert ne weile bin auch 'erst' bei ~36 😂
+Ring und U5 also die Strecke geht normalerweise voll klar
+Jo aber erst 17Uhr
+Bin jetzt home
+Ich kann am Montag leider erst 19:36 in Malchow sein, weil die Klausur bis 16:30 geht und dann erst gegen 18Uhr eine Bahn fährt
+Sind ca 17:30 da
+Die kommen jetzt
+Dienstag 17Uhr
+Wir kommen 13:40 an
+35-37° Tagsüber, ist aber noch aushaltbar, da wir meistens sowieso erst am Nachmittag losfahren
+Fährt leider kein Zug/Bus nach Malchow
+20:28 würden wir in Waren ankommen
+Welche Uhrzeit wäre euch Samstag am liebsten? Wir fahren 2h
+Moin, könnte jemand uns und unsere Sachen am Dienstag nach Berlin bringen? Harms hat einen Hänger den wir nehmen könnten (ihr könntet es ja evtl auch mit einem Ausflug verbinden). Und Gardinenstangen anbauen wäre auch praktisch 😶‍🌫
+Hier ist es heute auch mal wieder etwas wärmer
+Hier so 22-23°
+Gleich da nur noch 2 Stationen Ringbahn
+Könnte uns eventuell jemand 18:30 aus Waren abholen? Bringen auch ne Kleinigkeit zu essen mit
+Aii dann werde ich wohl so kommen, dass ich rechtzeitig da bin. Kann mich eventuell jemand nach der Arbeit aus Waren abholen?
+Busse fahren keine, hab jedenfalls keine gefunden und luci fährt Donnerstag oder Freitag, das entscheidet sich morgen
+Sind bei euch auch -11°?
+Ihr braucht mich doch nicht abholen heute, komme Donnerstag Mittag, habe eine Mitfahrgelegenheit
+Wäre das möglich Lissi am Donnerstag aus Berlin mitzunehmen, wenn wir zurück fahren? Sie hat aber wahrscheinlich erst 20:00Uhr Schluss. Wenn's nicht passt fährt sie Bahn, wäre auch nicht der Weltuntergang
+Bin im zug
+Könnte mich jemand Freitag eventuell nach der Arbeit mitnehmen? Ich könnte z.B. 16:28 in Waren sein
+Vor 6 Jahren
+Fahre gleich mit der Bahn nach Wittstock, von da holt mich Milan ab
+Könnte mich jemand eventuell um 20:30 aus Waren abholen? 😶‍🌫 <Diese Nachricht wurde bearbeitet.>
+7:50 müssen wir los
+Offiziell ist die Verspätung jetzt auf 15min angesetzt
+Am Samstag ist in Fredenhagen 30 jähriges Jubiläum soll ich euch ausrichten, falls ihr da sonst nichts vor habt :)
+Komme hoffentlich 17:45 an, wir stehen im Stau
+Bin aufm weg6
+Das nächst mögliche würden dann 19:20-30 in Trier ankommen..
+Jo, Lissi und ich kommen laut Plan 18:30 in Waren an
+Könnte uns heute jemand um 21Uhr aus Sietow oder um 20:30Uhr aus Waren abholen?
+Jetzt
+JA man 300 auf 4 Wiederholungen🤑🤑
+Ersten beiden Minuten kannst skippen
+Okay kann noch 10-15min dauern evtl
+Hab noch 19 Minuten meine Hausaufgaben abzugeben
+Bin jetzt jedenfalls aufm weg home
+Jetzt ist demnächst endlich
+Jo in der Mensa oder bei mir?
+In 10 min soll's weniger werden mitm Regen falls du nicht komplett nass werden möchtest
+Ich ruf in 10min an guck mir noch fix ne Aufgabe an
+Ich würd dann 17:23 am Hbf ankommen ✌🏻
+Also bin denke ich gegen ~17:50+- da
+Müssten gerade schon warten, und jetzt kommt keine Bahn
+Jo dann lass in der Mensa treffen, kann aber sein, dass wir ~5-10min zu spät kommen
+
+Cluster 3:
+wie weit bist so mit den Aufgaben?
+Bist du bei den Nachbarn?
+Schreibst du wenn du da bist?
+
+Cluster 4:
+nice nice, habe bisher nur die erste gemacht, habe aber auch immer erst gegen Ende der Woche viel Zeit
+also ich würd die zweite sonst erstmal alleine angucken und falls ich Schwierigkeiten hab oder dann zum Vergleichen können wir die gerne nochmal anschauen 👀
+Falls du da nichts mehr finden solltest versuch ich's einfach anders danke aufjedenfall schonmal für die Hilfe 🫶🏻
+Bin bisher der einzige hier 😂🥲
+Ja ich weiß 😅 ist für mich ne top Ausrede die anderen Fächer nicht zu machen deshalb mach ich's wahrscheinlich noch lieber und weil ichs so langsam ganz gut verstanden hab denk ich. Aber ich werd mich zusammenreißen.. für dich 😂
+Interessant 🤔 ist aufjedenfall sehr ausführlich geworden dadurch, bisschen Halluzination ist dabei aber immerhin die meisten Sachen richtig
+also noch wohnen wir alleine aber bald zieht er ein verstehe mich aber gut mit ihm 😂
+aber immerhin läufts jetzt 👌🏻
+Ich hoffe dem geht's gut 😶‍🌫
+Wir sind jetzt im Flugzeug ✌🏻
+Das hört sich ziemlich gut an 🥸
+Die sehen doch alle gleich aus 😶‍🌫
+Wo hastn den jetzt hergeholt 😵‍💫
+Bleibt jetzt so 👀
+Alles gute dude 🥳
+Hab wie gesagt noch 2 da also alles gut 🤷🏻‍♂️
+Muss ich nachher gleich mal testen 👀
+Kannst ja nachfragen aber wär nice 😶‍🌫️
+Nice, hört sich gut an 🤌🏻😁
+Keine Zeit zurzeit 😅
+Also für paar Striche sollte das aufjedenfall funktionieren 🤔
+Falls ihr nochmal her kommen solltet deine Schublade ist noch voll deine mum hat die oberste genommen 😶‍🌫
+Die Wohnung sieht nice aus 😁👌🏻
+Das hört sich nach nem ziemlich guten Vorschlag an actually 🤔
+Also prinzipiell hab ich den ganzen Tag Zeit, bin auch bis Mittwoch aufjedenfall in hro, würde mich sonst nach dir richten oder spontan 🤷🏻‍♂️
+Moin, ich meld mich vor Dienstag nochmal deswegen 👀✌🏻
+Cluster 5:
+die erste hat er ja auch prinzipiell in der online Übung geleaked
+Ja okay okay aber warum updatest du das Datum bei tray 6? Steht nicht im 2ten Test, dass keine Änderungen passieren sollen?
+Bin ja von ob das Tray leer ist ausgegangen, jetzt hab ich getestet ob die ID existiert und siehe da ja sie existiert also wird else ausgeführt
+Okay um nochmal das Paradoxon vom Anfang aufzuklären, es lag daran, dass ich eine Exception geworfen habe, wenn das Tray leer ist und das galt auch schon als Änderung
+Habe MAS und Dbtech aus dem dritten Semester
+Braucht man dafür irgendwelches Vorwissen aus 1./2. Semester? Weil ich mach nächstes Semester die ganzen BWL Fächer aus dem 1. und 2. und eig auch Controlling <Diese Nachricht wurde bearbeitet.>
+Bin schon bisschen traurig, dass ich nächstes Semester dann nur ein Info Kurs habe 😶‍🌫
+Bin rein theoretisch auch schon im 5. Semester
+Er hat Beispielprojekte für DAOs hochgeladen, da kann man sich das grob angucken bzw die Struktur
+Heute ist Zoom lul <Diese Nachricht wurde bearbeitet.>
+Außerdem gibt es btw einen Fehler, wenn du die Tests ausführen möchtest und gleichzeitig einen Zugriff im SQL dev offen hast
+Bis zum 10.12.
+Ich weiß dass es das Datum ist was da steht
+Aber wieso sollte ich an dem Punkt irgendwo ein Datum zurück geben
+Der vergleicht im Test den Datenbank bzw Tabellenstand actual und expected aber da sich aber meines Verständnisses nach nichts geändert haben soll und ich nur selects ausgeführt habe sollte da nichts fehlen <Diese Nachricht wurde bearbeitet.>
+Wenn nicht guck ich kurz nach bei oracle
+wer hätte gedacht, dass es so eklig sein kann ein Datum über jdbc in SQL zu übertragen 🥴 (bei der Insert/Update Funktion)
+Ja oder Debugger 😅 weiß nicht genau wie man mit dem logger arbeitet
+dbtech_service projek´t
+Ich hab bisher auch nur versucht die Funktion zum laufen zu bringen, hab's jetzt geschafft einen Tabellen-Datentypen zu machen, den die Funktion zurückgeben kann aber jetzt will er das SQL Statement nicht mehr ausführen
+Nene in der Pl SQL Funktion
+"RETURN TABLE" geht nicht weil man den Datentyp der spezifischen Tabelle erst erstellen muss. Das habe ich jetzt gemacht und das kompiliert auch wie es soll aber in der Funktion meckert er
+Beim SQL Statement aber wie gesagt mal schauen erkläre das sonst lieber beim callen
+Der Anfang klappt soweit (man sieht die Datentypen auch im Baum links unter "Typen")
+Hast noch viele Projekte zurzeit?
+Hat sich wie mehr angefühlt haha aber die beiden sind die schwereren Funktionen, die anderen Funktionen in jdbc sind nur Update undso, was in pl/sql easy ist
+Im Prinzip kann man die der Übersichtshalber auch als Funktionen schreiben aber sonst wäre der nächste Schritt die Transfer Sample zu implementieren. Habe noch nichts mit Funktionsaufrufen gemacht, deswegen wird das etwas interessant aber sonst sollte es tatsächlich ganz machbar sein
+Ne ist nur der ganze Code also Übersichtshalber. Musst dann nur noch das package bzw. body öffnen und die Funktionen da rein schreiben
+Aber nenn es mal wieder in t_tray_table um, das ist der richtige Name
+Und 10 Mal aktualisieren
+Dann lass mal dbtech erstmal sein, lass einfach zusammen machen
+Keine Zeit gehabt um auf Eclipse zu testen bei oracle wird aufjedenfall der die tray exception angezeigt also sollte
+Müssen jetzt eigentlich noch den Code refactoren ich hoffe man kann alle Variablennamen aufeinmal ändern..
+Wegen der Namenskonventionen
+Ne die _ zwischen den Wörtern also zu v_fitting_Trays statt v_fittingTrays
+Perfekt. Habe versucht was zu refactoren und jetzt geht gar nichts mehr, danke oracle
+So ich habe jetzt alles in eine SQL Datei gemacht und getestet und geb das jetzt ab okay?
+Ich mach's einfach in ne txt Datei fix
+Halli hallo, du wie waren die Übungen in Webtech eigentlich aufgebaut? Nur Abnahmen wie in prog 2 oder auch Inhalt?
+Naja also du musst welche von den Wahlpflicht Modulen wählen, wenn du das meinst
+Alle Kurse aus dem 5. Semester bzw Marketing und Komponentenbasierte Entwicklung als Wahlmodule
+239 bist nicht im Moodle Kurs?
+https://moodle.htw-berlin.de/mod/url/view.php?id=1744774
+In der Mensa mit nem Kollegen, die Übung war wie erwartet nur, dass jeder Probleme mit dem Setup hatte, bei mir und glaube vielen anderen funktionierts immer noch nicht richtig
+Sach Mal meinst du er hat schon ne Gruppe? Er seemed jedenfalls motiviert
+Aber einen motivierten Kollegen für unsere US Gruppe
+Debugger habe ich leider auch keine Ahnung von 😶‍🌫
+Ich führ bei Python dann immer nur Teile des Codes nacheinander aus um zu debuggen
+Internet ist gerade richtig am durchdrehen ich starte gerade den Router neu..
+Steht auch online nicht genauer beschrieben
+Ach ne stimmt im Moodle kurs
+Ist ne easy Aufgabe sollen 3 User Stories schreiben
+Jo, mir fällt gerade auf dass token nicht zwingend Zeichen heißt, können auch Wörter sein, haben sie ja jetzt durch /n/n getrennt aber evtl könnte ich die Chunks auch deutlich länger machen, wenn token Wörter sind und keine Zeichen <Diese Nachricht wurde bearbeitet.>
+Könntest du evtl rausfinden was token für unser Modell bedeutet und ob man das möglicherweise sogar einstellen kann zB ob Zeichen oder Wörter? <Diese Nachricht wurde bearbeitet.>
+Ich glaube wahrscheinlich ist es sogar sinnvoll, ihm sehr viele Ergebnisse aus der Datenbank zu geben (?50+) und dann halt im prompt zu spezifizieren, dass er sich nur das wichtigste für die gewisse Antwort suchen soll und ebend mögliche nicht gegebene Zusammenhänge selber interpretieren
+Also kann sein, dass die dieses Semester etwas verändert haben, musst dich mal erkundigen 🤔
+Bei dir? Mache jetzt btw das 5te Semester und Praktikum erst im Sommer
+Jo finde auch die Module sind echt interessant 👌🏻
+Hast eigentlich schon ne Gruppe in Unternehmenssoftware?
+weißt du was er in US zur Übung heute gesgt hat? <Diese Nachricht wurde bearbeitet.>
+Zurzeit definiv prog möchte evtl später erst in der 'Karriere' mehr Management machen
+Laptop ist auch gleich leer
+lange Geschichte.. <Diese Nachricht wurde bearbeitet.>
+Issues sind im Prinzip eine Art Ticket auf GitHub, du kannst entweder eine Stelle im Programm suchen die fehlerhaft ist oder wozu es noch keine Tests gibt und legst eins selber an oder du schaust im Original Repo unter 'Issues' nach bereits angelegten. Dort hat Herr Stanik welche angelegt. Da kannst du eins aussuchen und kommentieren, dass du es bearbeiten willst. Er weist es dann offiziell zu und du musst das spezifische Problem dann im Code fixen <Diese Nachricht wurde bearbeitet.>
+Moin, hast du das Problem mit dem Backend inzwischen lösen können?
+Willst du dieses Semester das Praktikum machen?
+In Marketing sind wir Folie 66-72 durchgegangen und haben uns einen Text zu Innovation vs Imitation durchgelesen den er hochgeladen hat. Sollen uns zum nächsten Mal den Harvard 3... Text durchlesen
+Musst das dataset neu importieren also einfach nur den Teil am Anfang ausführen
+Also bei mir hat er noch zwei Änderungen gefordert als Kommentar beim pull request, habe das erst heute gesehen. Hab die dann im Code behoben und gepusht. Der Push wurde dann jetzt im pull request angezeigt und ich denke er muss es erst nochmal reviewen 🤷🏻‍♂️ <Diese Nachricht wurde bearbeitet.>
+Moin ✌🏻 habe mein pull request fertig, also kannst dich als reviewer eintragen (wenn man das zuweisen kann), damit das kein anderer macht. Habe versucht es dir zuzuweisen aber hab nicht gesehen wo und ob das möglich ist <Diese Nachricht wurde bearbeitet.>
+die laufen automatisch durch, wenn du in den draft request pushst
+Naja wenn du das Model änderst, änderst du auch die Logik wie das Projekt funktionieren soll
+Musst nichts an der Datenbank verändern. Solltest dich eher am liquibase Changeset orientieren
+Von immutable ist nur der builder
+Achso und die immutable Klasse wird generiert wenn du das Projekt baust glaub ich deswegen muss du das erst in der Json ändern und dann nochmal bauen
+Heute Nachmittag, die Infoveranstaltung heut Abend ist auch online
+Ich erwarte noch den Schufa Brief, falls einer ankommt, schickt mir bitte den Verifizierungscode der da drauf steht
+Ja sie hat ein bisschen mit den Praktikumstagen geschummelt, damit sie diese Woche einen Tag mehr frei hat und endlich mal nach MV fahren kann <Diese Nachricht wurde bearbeitet.>
+Am Pätsch? <Diese Nachricht wurde bearbeitet.>
+Der Praktikant guckt Youtube und hat vergessen auf das richtige Programm umzuschalten <Diese Nachricht wurde bearbeitet.>
+Internet ist down bei mir
+Könntest du evtl meinen PC starten (Anknopf ist oben drauf direkt rechts unter der Ablage) Passwort: , im Explorer die Datei Hochzeit suchen (sollte ne .txt Datei sein und mir davon ein Bild schicken? Hab vergessen, das auf Drive hochzuladen
+Bin schonwieder nicht Zuhause aber ich nehm mein Laptop glaub ich mit nächstes mal
+Kannst du das Geld für Minecraft über PayPal schicken? 😅
+Hab die IP auf dc geschickt
+Schon neuen Infos zum 28./29.?
+Schickst du mir die Moneten dann über PayPal? 👀 Waren 10 fürs Essen/Trinken und 8 für die Kippen
+Junge Text editing >9000 alla 😤🤯
+Mein PayPalius-Konto ist unter l.dubhorn@gmail.com erreichbar
+
+Cluster 6:
+also nehme denk ich trz meine impl, weiß nicht wie die sich da haben, wenn wir seins in etwas verändert übernehmen würden 🤔
+
+Cluster 7:
+~das~
+Steht das
+Wer ist das?
+Wann ist das so?
+so muss das
+
+Cluster 8:
+Hätte das anfänglich auch so
+Sou und Aladin sind auch hier
+
+Cluster 9:
+Nice, habe gerade noch ein bisschen rumprobiert, bin noch nicht soo familiär mit Exceptions, an der Uni hatten wir die nur sehr beiläufig. Danke für die Hilfe :)
+Habe noch bis 19Uhr Uni, kann mir das eh erst richtig heute Abend anschauen btw
+
+Cluster 10:
+Also inkl 3. nehme ich an, hab die 2te gerade gemacht, lief recht reibungslos 👀
+Junge mein Bauch tut so hart weh ich hab vorhin n seit 3 Wochen abgelaufenen Skyr gegessen bzw so die Hälfte davon 🥴🥴
+
+Cluster 11:
+Achso ja die erste hab ich mal nicht mitgezählt
+Achso ja die Fehlermeldung kann ich ja lesen das ist ja meine Frage was genau der da überhaupt haben will
+Ich schaue mal das kann ich auch immer nebenher mal machen
+Genau das hab ich gestern auch überlegt, isses dann aber doch nicht geworden leider
+
+Cluster 12:
+Jo alles klar, ich mach nachher gleich die letzte Aufgabe, sitzt jetzt schon über ne Stunde länger als geplant beim Bahnfahren fest wegen eines Unfalls auf den Gleisen, wollte eigentlich schon dran sitzen
+
+Cluster 13:
+Jo ich muss dich mal anhauen
+Mal schauen wie ich lustig bin
+Jo ich schau mal
+Im Edeka in Malchow, der Film war ganz okay, nicht schlecht
+
+Cluster 14:
+Also folgende Sache, geht um die ersten beiden Tests, wenn ich wie im ersten Bild nur teste ob nichts passiert wenn ich die Funktion Aufrufe bzw ob sie funktioniert, wird der zweite Test, (also dass beim Löschen nichts passiert ist) grün und er erkennt die leeren trays richtig
+Wenn ich aber wie auf dem zweiten Bild das in ne if Anweisung setze um die Exception zu werfen für den ersten Test, funktioniert der zweite nicht mehr, obwohl die Else Anweisung eigentlich gar nicht aufgerufen werden sollte und ich ja nachgewiesen hab, dass die Funktion alleine beim 2ten Test grün bleibt <Diese Nachricht wurde bearbeitet.>
+Und hier hab ich ja die Methode ohne die zweite Methode genommen um zu gucken ob die was verändert, was sie ja müsste, aber tut sie nicht
+Habe vorher nur ne falsche Methode benutzt wie du schon gesagt hast
+Der ist um die Sampleid's zu speichern um die danach in Sample löschen zu können
+also irgendwie war ich schon bisschen motiviert und habe ein paar Sachen implementiert. Die ersten 4 Tests sind grün und ich hab extra ein wenig (wenn auch nicht mega viel) Kommentiert und dokumentiert, damit man das hoffentlich recht schnell verstehen kann
+Ja ik ich weiß nur nicht was genau er im Test vergleicht, ob die Tabellen 1 zu 1 wie vorher sind oder wie? Weil eigentlich dürfte sich ja nichts verändert haben
+Habe mal die findFittingTrays Funktion versucht zu bauen, noch keine Zeit gehabt sie zu testen aber so in der Art sollte es wohl aussehen
+habe mir ein good first issue erstellt wo ich einfach nur equals und toString Methode teste, mal schauen ob das durch geht
+Ne macht man ja mit Rest assured tests in ...ResourceTest
+Habe Freitag Nachmittag noch einen Test bis 17Uhr also komme erst Abends <Diese Nachricht wurde bearbeitet.>
+
+Cluster 15:
+Müsste eigentlich trz n ähnliches Prinzip sein 🤔
+Meintest du ja hier auch schon im Prinzip 😶‍🌫
+
+Cluster 16:
+Ich schreibs mal um
+
+Cluster 17:
+Ja macht ja an sich auch Sinn
+Gut möglich
+Wollt ich auch sagen
+Danke, gute Nacht
+Wir auch
+Gute Nacht, euch auch
+Gute Nacht 💤
+Gute Nacht 🫶🏻
+Gute Nacht
+Gute Nacht mit 8
+
+Cluster 18:
+Ich raff bloß wirklich nicht wieso er sagt es hätte sich was verändert obwohl der else Fall ja gar nicht ausgeführt wird bei mir
+Beim zweiten wird der else Fall doch ausgelöst
+
+Cluster 19:
+Aber die wird doch gar nicht aufgerufen eigentlich
+
+Cluster 20:
+Weird, dass ich da nicht selber drauf gekommen bin
+ja eigentlich schon steht trz in der Aufgabe idk
+
+Cluster 21:
+Nope, das wird mir wahrscheinlich angerechnet
+Habe noch mit Errors rumgespielt deswegen hat's etwas länger gedauert
+Jo schick mal den Error, vielleicht kann ich helfen
+Alles gut bei euch? Kriege niemanden erreicht
+Alles gut bei euch, ihr habt bei mir angerufen?
+
+Cluster 22:
+Achso und Englisch
+Achso und 09.04. ist schon Ostern also wäre auch etwas unpassender
+
+Cluster 23:
+Woege, Dienstag 15:30
+
+Cluster 24:
+4, er meinte schon bei euch waren 2 oder so 😂
+das "IS" steht stellvertretend für "declare". In den Folien steht zwar immer declare aber in den Beispielen aus der Übung IS, außerdem wird mir mit declare eine Fehlermeldung angezeigt
+Was meinst mit "1 Funktionen hast schon..."
+Btw das DECLARE was in den Vorlesungsfolien überall steht heißt in einer Funktion/Prozedur IS oder AS
+Ja gibt 2 Eingangstüren musst Aufgang 1 nehmen
+Ich habe nach ner Stunde endlich rausgefunden was der verkackte Fehler an der ganzen Sache war... man schreibt IF(blabla *IS NULL*) und nicht IF(blabla *=* NULL)....
+Habe jetzt ja auch Englisch 2
+Und funktioniert?
+Aber ist eigentlich irrelevant die Spalte
+Jo gerne, sind schon zu 2t, dann wären wir 3 mit dir
+Jo, gab zum Schluss auch 2 für 1
+
+Cluster 25:
+Ja wilde Nummer, weißt du weshalb? 🤔
+Ahh schade ich hab tatsächlich verpennt 😅
+Wenn ihr das gesehen habt versuche ich auch mein bestes nicht immer meinen Senf dazu zu geben bei dem Thema 😅
+Ich kann's mir ganz gut vorstellen 👀
+Also halb würde ich eigentlich schon gerne bestellen langsam 😅
+Das sind Wunschlieder 😂😂
+Safe 😂 ich freu mich auch schon euch wieder zu sehen ✌🏻
+Hoffe das beste für dich 🙏🏻
+Du brauchst Lukas nicht jedes Mal vorstellen 😂
+
+Cluster 26:
+Herr Dohmeier meint, die haben wohl gleichzeitig Statistik 🥸
+Hab heute endlich meine Anrechnungen bekommen nach Jahren gefühlt. Statistik wurd angerechnet btw aber muss auch 1-2 Fächer nochmal machen 🥴 hattest du eigentlich schon Controlling?
+
+Cluster 27:
+Ja gut verständlich
+
+Cluster 28:
+Ah interesting, an der HTW? Wie lang?
+
+Cluster 29:
+Finanzbuchhaltung hatte ich schon, dann passt das ja, hatte an der Uni kosten-und Leistungsrechnung für internes
+
+Cluster 30:
+Lul ja verständlich ich muss sagen so ein paar Wirtschaftskurse sind ganz nice aber n ganzes Studium wär mir echt zu viel von dem kram
+Hab noch den Luxus, dass meine Mum mich "fürs studieren bezahlt" 😶‍🌫
+Weiß nicht gerade das erste mal gehört bin grad auf klo
+
+Cluster 31:
+lul aber war bei mir am Anfang auch auf der kritischen Seite, ich find das braucht ein bisschen, bis man sich da sicherer ist (würde mich nicht als sicher bezeichnen haha aber auch nicht unsicher) aufjedenfall hab ich gemerkt, dass es deutlich besser läuft wenn man Bock drauf hat
+
+Cluster 32:
+Warst du in der Vorlesung?
+Die nach der Vorlesung am Donnerstag
+Würde ich in der Vorlesungszeit machen
+Hört sich doch ganz gut an 🐧 hab diese Woche schon Vorlesungsbeginn, ist sehr stressig, weil viel organisatorisches außen rum geregelt werden muss und man hier halt deutlich mehr Aufgaben in der Vorlesungszeit hat aber das wollte ich ja :)
+
+Cluster 33:
+Hätte ich die Übung vorher gesehen, hätte ich's gleich so gemacht 😂 naja aber könnte weiter davon weg sein
+
+Cluster 34:
+Same, er hat aber hybrid gemacht
+
+Cluster 35:
+Gute Besserung btw
+
+Cluster 36:
+Ah okay wusst ich gar nicht 🤔 bin aber Zuhause, lohnt sich nicht nochmal 40min zur Uni zu Gurken wenn's auch online ist <Diese Nachricht wurde bearbeitet.>
+
+Cluster 37:
+Bin in Präsens btw demnächst eher in der 17:15 Übung je nachdem wie's passt, habe normalerweise bis 15:15 Veranstaltungen (mit einem Freiblock) und würde dann in Zukunft wahrscheinlich noch bis 17:15 warten und zur Übung gehen
+
+Cluster 38:
+Also in Zukunft nicht heute
+Ne heute ist Zwischenbau
+
+Cluster 39:
+Bzw hängt Eclipse sich evtl auf
+
+Cluster 40:
+Hab noch nicht weiter gemacht, können wir machen habe aber wahrscheinlich erst frühestens ab Donnerstag Zeit
+
+Cluster 41:
+Gehst du heute zur Übung? Ist ja eigentlich wieder nur Konsultation
+Kommst du zur Übung?
+
+Cluster 42:
+Ich les mich auch gerade wieder rein
+
+Cluster 43:
+Soll man dann das Ablaufdatum verändern oder wie
+
+Cluster 44:
+Ahh wahrscheinlich ein neues Tablett erstellen
+
+Cluster 45:
+Hab jetzt Vorlesung, ich schau mir nachher den Baum bzw die Anforderungen nochmal ordentlich an bzw mach dann weiter. Eventuell könnten wir auch über dc schnacken oder so 🤷🏻‍♂️
+Habe ne Veranstaltung gerade 😬
+Denke heute Nacht eventuell aber ist zurzeit echt schwer Zeit zu finden obwohl ich Bock hab 😶‍🌫
+Jo moin, hast du eventuell Bock heut Abend auf ne Kleinigkeit zu Trinken vorbei zu kommen? Lissi ist auch hier und Paul hab ich auch gefragt 🥸 Isabell kannst natürlich mitbringen wenn du möchtest
+
+Cluster 46:
+Denke wir sollen nur implementieren was unsere Aufgabe löst
+Wenn das in deinem Model Interface so definiert ist sollte es passen idk
+
+Cluster 47:
+btw wir sollten laut Aufgabenblatt eigentlich in den Kommentar bei der Abgabe unsere Namen reinschreiben, wir können das ja einfach mal bei der Abgabe 3 jetzt machen, auch rückwirkend, falls es nötig ist <Diese Nachricht wurde bearbeitet.>
+
+Cluster 48:
+bin gerade dabei habe die Grundstruktur fast fertig 😅
+Jo, n Kumpel von mir ist auch dabei der muss sich noch eintragen, dann sind wir 3
+Na da sind 3 fertige Paare die man nur noch einsetzten muss
+Wann ist das fertig?
+
+Cluster 49:
+Ach übrigens, wenn du mal ne Runde Fortnite zocken willst sag bescheid
+
+Cluster 50:
+Also ich hab jetzt durch die Frage mal angenommen, dass du's spielst
+
+Cluster 51:
+Habe morgen oder Freitag oder evtl übers Wochenende Zeit
+
+Cluster 52:
+Also später würde auch gehen
+Schicke ich später
+
+Cluster 53:
+Bringt mich jetzt schon zum verzweifeln der quatsch
+
+Cluster 54:
+Das schlimmste ist, dass man keine ordentlichen Fehlermeldungen kriegt
+
+Cluster 55:
+Möchte da ja in eine Tabelle auslesen aber irgendwas läuft da noch nicht rund
+
+Cluster 56:
+Aber naja ich schau mir mal 1,2 Youtube Videos an
+
+Cluster 57:
+Die Funktion zeigt allerdings diese Fehler:
+Jo, da sind wir allerdings schon 3 in der Gruppe leider 😬
+Ja gute Frage, es implementieren allerdings auch 2 Leute die entsprechenden views
+Allerdings kann ich jtz trz erst Sonntag kommen weil Niklas erst Sonntag fährt
+
+Cluster 58:
+Also ich habe es jetzt gefixt
+
+Cluster 59:
+Allerdings ist mir aufgefallen, dass er das Vorgehen (wahrscheinlich auch in etwas besser..) in der letzten Übung gemacht hat und es dafür n Beispiel auf Moodle gibt 🥲
+
+Cluster 60:
+Die Funktion ist doch gut wie sie ist.. das habe ich jetzt nach locker 2-3h endlich herausgefunden, weil das Problem was ich die ganze Zeit hatte nur war, dass die verkackte Datenbank nicht richtig aufgesetzt war....
+
+Cluster 61:
+Also so ist die final, wir können die Tage auch callen, dann versuch ich dir paar Sachen zu erklären muss dafür aber selber noch etwas mehr verstehen
+
+Cluster 62:
+Aiaiai, dann gute Besserung erstmal 😬
+Aii das sieht gut aus..
+
+Cluster 63:
+Naja aber hört sich eigentlich noch ganz okay an
+
+Cluster 64:
+nächste Woche wird spaßig bei mir, gefühlt alle Abgaben auf einmal aber geht noch zb prog 1 ist halt sehr entspannt
+
+Cluster 65:
+Jo ich versuche Zeit zu finden 😅 hab noch echt ne Menge für MAS zu tun
+
+Cluster 66:
+Also Abgabe ist bisher Mittwoch 0Uhr die Tage danach sollte ich Zeit haben
+
+Cluster 67:
+Falls du dir das schon vorher angucken möchtest kann ich dir rüberschicken, was ich schon gemacht habe
+
+Cluster 68:
+Es ist recht schwer einzuschätzen, wie viel noch zu machen bleibt, kann sein, dass es nicht mehr viel ist, kann aber auch sein, dass sich das noch irgendwie viel länger zieht als gedacht
+
+Cluster 69:
+Hier sind die beiden Funktionen die ich implementiert hab
+
+Cluster 70:
+Dafür haben wir die Funktion aus der Übung
+
+Cluster 71:
+Glaube das externe speichern ist nur zum testen
+
+Cluster 72:
+Wenn's auch in der Funktion geht, isses da wohl besser 🤷🏻‍♂️
+
+Cluster 73:
+Ja sieht so aus, habe da viel umher probiert also das meiste da sollte schon seinen Grund haben
+
+Cluster 74:
+Aber deshalb führt man das ja vorher schon aus 🤔
+Wird leider noch ein kleines bisschen dauern bei mir sorry 😅
+Fühlt sich nicht gerade belohnend an 😂🥲
+Sorry sollten nicht an dich 😂
+Habe vergessen zu antworten sorry 😂
+Welche Präsi? 🫣
+Moin, gerade nicht aber danke fürs bescheid geben ✌🏻
+Oh sorry hab dich Nachricht nicht gesehen 😶‍🌫
+Das ist ja nicht schwer 🥸
+Achso dachte das wäre ein Ausruf 😂
+Da ist ja gut was los bei euch
+Alter Falter das sieht ja aus wie im Paradies 🫣
+gegen eine kleine Bedingung 🥸
+Ist ja schön bei euch
+Wie sie da auch steht 😂
+Das ist ja echt schön bei euch 👀
+Seid froh dass der Hund nicht mit ist 😂
+So war das nicht gemeint 😂
+Ja schon ne weile
+Fuck dude das ist von mir, hab vergessen das weg zu machen 😶‍🌫😶‍🌫😶‍🌫😶‍🌫😶‍🌫😶‍🌫
+Achso ja das ist ja kein Ding 🤷🏻‍♂️
+Ja willst dann da fragen oder wie? 🤔
+Halt die mal frei 😬
+
+Cluster 75:
+Damit die Typen definiert sind
+Wofür möchtest du es ändern?
+Die 13€ kann ich dazu legen
+Kann man auch jährlich zahlen, dann kostet es 20€ weniger
+Wollen wir was bestellen?
+Urst krass für 200€
+Ich mach nachher Bolognese, du kannst mitessen wenn du möchtest. Hab aber leider keine Nudeln hier wollte evtl Reis dazu machen idk 🤷🏻‍♂️ ca. 3€ würde die Hälfte der Zutaten kosten btw
+Nur fürs Protokoll
+
+Cluster 76:
+Glaub ich
+Lul Gebäude C glaub ich
+Jo hab das beidseitig gedruckt 5 Seiten warens aber glaub gibt keine Begrenzung
+Glaub ne Woche tatsächlich 🤔
+Aber ist glaub ich eh um 10 zuende idk
+3 Tage glaub ich
+Da waren auch noch Beeren von Georg glaub ich
+Glaube wenn wir zu 4t hingehen ist entspannter
+
+Cluster 77:
+Wieso was wird angezeigt?
+
+Cluster 78:
+Ja getestet hab ich's auch
+
+Cluster 79:
+Da stimmt was mit den Namen nicht
+
+Cluster 80:
+Ups 😅 sorry war noch die alte Namensgebung..
+
+Cluster 81:
+Also die Befüllung der Tabellen
+
+Cluster 82:
+ja aber alles einzeln hab das nur zusammengefasst
+Mir wird angezeigt, dass die Funktionen nicht mehr im Body seien obwohl ich da nichts verändert habe
+Erinnert mich an einen bestimmten Hund
+Nur <-> wenn meinst du bestimmt
+
+Cluster 83:
+Donnerstag
+Ich komme am Donnerstag & Samstag mit
+Donnerstag Abend
+
+Cluster 84:
+Vorraussichtlich
+
+Cluster 85:
+Bin erst gegen dreiviertel 11 wieder home
+
+Cluster 86:
+Falls du zufällig Bock hast können wir jetzt noch was machen
+Mhm rip, falls sich doch noch ne Chance für irgendwas ergibt schreib durch
+Wenn dir noch was einfällt gerne dazu schreiben
+Falls du am Dienstag etwas mehr Zeit hättest haben die beiden vorgeschlagen, dass man noch etwas kleines zusammen machen könnte
+
+Cluster 87:
+kann jetzt auch ein bisschen Englisch machen und wir machen morgen weiter 🤷🏻‍♂️
+
+Cluster 88:
+können später auch callen, wenn du bock hast
+Kein Bock, dass er uns deswegen Punkte abzieht
+Btw sie rechnet die Punkte auf also wenn du zb 1 mal mehr mitmachst kannst du die Punkte auffüllen
+Okay, kannst die ja 1 zu 1 dann kopieren
+
+Cluster 89:
+Jo wann wär n das, wenn du heute noch vorbei kommen würdest? 🤔
+
+Cluster 90:
+Aber das geht immerhin also sollte Recht fix gehen
+All good habe schon 2 issues erstellt
+Wir essen jetzt hier fix was
+
+Cluster 91:
+Supi 😂👍🏻 hab da nur mal ganz kurz rüber geguckt und fand die auch nicht so geil
+
+Cluster 92:
+Mhh das versteh ich auch nicht 😅🤔
+Mhmm das ist natürlich ungünstig 😅
+
+Cluster 93:
+2 und die Präsi in MAS
+
+Cluster 94:
+Lief ganz gut, bei dir?
+Jo wie sieht's bei dir aus? Schaffst du's in nächster Zeit zu pushen?
+
+Cluster 95:
+Ersten bin ich durch, hab dann ab 20.03. noch 3
+
+Cluster 96:
+Hast dann im zweiten noch gut was zu tun?
+Hast ihn noch gekriegt?
+
+Cluster 97:
+Lul, hoffe im nächsten Prüfungsraum auch 🫣 lief gut?
+
+Cluster 98:
+Ist Papier oder?
+Ist in der Mail
+das was der Prof heut morgen als Mail geschickt hat, hat's tatsächlich gelöst. Habe vorher die Plots als Bilder gespeichert, da es nicht anders funktioniert hat aber jetzt geht alles 👌🏻 <Diese Nachricht wurde bearbeitet.>
+- und dazu bekommt jeder kostenlos _(wenn er/sie möchte)_ die ganzen Premium Office Programme also Word, Excel, Powerpoint usw.. <Diese Nachricht wurde bearbeitet.>
+Moin, du ist n Paket für mich angekommen? Hab ne Mail gekriegt, dass das cbd wohl angekommen sei aber so richtig sicher bin ich mir nicht, die meinten bloß geshiped
+
+Cluster 99:
+Die AWE dinger sind ja eigentlich die Fremdsprachen oder nicht
+
+Cluster 100:
+Weiß nicht genau was man da belegt und oder was dazu zählt
+
+Cluster 101:
+Jo denke schon, wir hatten das in Englisch auch schonmal besprochen
+
+Cluster 102:
+Bei mir steht in der Notenübersicht, dass ich wohl Variante 1 gewählt habe was mich wundert, weil ich eigentlich genau das nicht machen wollte??
+
+Cluster 103:
+Ja heute war aber nicht da
+
+Cluster 104:
+Ich eigentlich auch aber können wohl überall hin
+
+Cluster 105:
+Jo und ne noch nicht
+Bin noch nicht so weit
+Ne noch nicht 😶‍🌫
+Weiß ich nicht
+Nein noch nicht
+Ach stimmt ihr habt ja noch Urlaub
+Ich auch nicht
+Ich nicht
+Weiß noch nicht
+Nein noch nicht, mach ich aber gleich
+In meinem Zimmer steht auch noch ein großer, ich weiß aber leider die Maße nicht
+So nochmal ohne Ton, weil ich schonwieder bullshit geschnackt hab
+Ne brauch ich noch
+Ich nicht
+Jo weiß aber noch nicht wann
+Komme gleich on, hab noch mittag gemacht
+ich schnack nochmal mit ihr
+Ich hör dich noch
+
+Cluster 106:
+Also denke dann steigen die Chancen aufjedenfall 🤔🤷🏻‍♂️
+Mhm sieht aus als hätte er es gemerged also denke ist alles richtig ja 🤔
+
+Cluster 107:
+Hoffe ich krieg noch n Platz 😶‍🌫
+
+Cluster 108:
+Letzte Woche konnte ich nicht aber vorletzte waren bis 2m² um den Prof Stühle
+
+Cluster 109:
+Oh wait nvm, es gab doch erst eine Vorlesung, hab irgendwie an ein anderes Modul gedacht
+
+Cluster 110:
+Okay haben nen größeren Raum heute
+
+Cluster 111:
+Ja können wir machen
+Nene, habe jetzt die Woche auch nichts mehr machen können
+Ihr könnt auch gerne her kommen
+Die könnt ihr mitnehmen
+Können wir nicht
+Wir können ja nachher reden
+Wir kommen jetzt doch nochmal zurück
+Könnt gerne her kommen
+Lohnt sich das noch hoch zu kommen?
+Kommst du?
+Wobei das ist dann ja schon über ne Woche
+Kommst du on?
+Können wir machen 👀
+
+Cluster 112:
+Die ist so bodenlos voll heute
+
+Cluster 113:
+Btw würd dir empfehlen zur Übung zu gehen sonst kriegst du das höchstwahrscheinlich nicht zum laufen
+Ich war in der 'übung' gerade so kurz vorm wegpennen warum auch immer, ich hatte so zu kämpfen teilweise 😂
+
+Cluster 114:
+Hast du ihn mal gefragt? Weil dieses Problem hatten eigentlich einige vorhin
+
+Cluster 115:
+Anzeige iist raus
+
+Cluster 116:
+Keine Ahnung wird er wahrscheinlich im Zoom call sagen
+
+Cluster 117:
+Kommst noch zur Logistik Übung
+Jo die Logistik Übung ist online bis 1.12. btw
+Fand die Aufgaben in der Logistik Übung witzig das war auch 10te Klasse
+Er war auch nicht in der Logistik Übung heute idk
+
+Cluster 118:
+jo wenn du bei US irgendwo nicht weiter kommen solltest kann ich dir maybe helfen. Habe nicht alle Aufgaben fertig aber evtl hab ich ja schon was
+
+Cluster 119:
+Das war die Steckdosenaufteilung in unserem Schlafzimmer 😂😂
+
+Cluster 120:
+Ist noch Vorlesung
+
+Cluster 121:
+Kommt drauf an obs jetzt notwendig ist für die Lösung aber kannst aufjedenfall probieren
+
+Cluster 122:
+Bist du gerade noch dran?
+Wäre jetzt Zuhause btw
+Bin nicht Zuhause gerade
+Ne sind wieder Zuhause
+Bist du nicht gerade wach oder?
+
+Cluster 123:
+Gute Frage weiß gar nicht
+
+Cluster 124:
+Habe auch noch auf schnelle Welle was abgegeben aber mal schauen ob sies wertet wegen Abwesenheit
+
+Cluster 125:
+Pfff letztes Mal hat sie's nicht
+
+Cluster 126:
+Obwohl ich das Thema schon ziemlich interessant fand eig, klar nicht gerade alles komplett verstanden aber trotzdem
+
+Cluster 127:
+War kurz vorm Koma wirklich
+Warte kurz
+
+Cluster 128:
+Zuhause bleiben, das Training hat 19:45 angefangen hätte das eh nicht rechtzeitig geschafft 😶‍🌫
+
+Cluster 129:
+Scheiße sehe gerade ich wäre sogar 2min früher da wegen der wartezeit 🥴
+
+Cluster 130:
+Ahhh okay miese Briese. Ja all good, ne kleine Nachricht wäre bei sowas vllt schon praktisch, wir haben schon überlegt ob dir was passiert ist 😅😂 gute Besserung ✌🏻
+Wenn das passt
+okay, passt schon 👀
+😬 oh man wie isn das passiert?
+Ich werd aber bis 20./21. Nicht da sein 😅
+Pass auf die ist wirklich gut scharf lul
+Nice 👌🏻kannst so gegen 19Uhr hier sein wenn das passt 🤔
+
+Cluster 131:
+Sach mal kommst nicht mehr zur übung Dienstags? 👀
+Verschwimmt mit der Umgebung 🧙🏻‍♂️
+
+Cluster 132:
+Okay alles klar, hast auch echt Glück weil diese Woche haben wir wieder bis Sonntag Zeit lul
+Kommt aufs Thema an habe erst am 18. zum Glück, habe diese Woche 0 Zeit
+Ja alles gut, hatte ich sowieso vor, ihr seid mir immer zuvor gekommen lul, ich kann aber erst heut Nachmittag spülen, bin gleich noch verabredet
+Dieses Wochenende bin ich in der Heimat aber mit ein bisschen Glück kriegst du ihn wann anders bestimmt Mal zu Gesicht, also weil er auch nicht so häufig aus seinem Zimmer kommt lul
+
+Cluster 133:
+Ja ist bisschen ungünstig, ärgert mich, dass ich die Wecker anscheinend weggedrückt habe.. wir essen in 10min Mittag, würde eher probieren danach noch ne halbe Stunde
+
+Cluster 134:
+Ohh ja ich glaube ich muss die ersten Infos etwas anders gestalten 😂 werde es dann als Fließtext statt stichpunkte schreiben damit er weiß dass ich nicht der große Bruder bin
+
+Cluster 135:
+Evtl könnten wir heute Nacht noch callen
+
+Cluster 136:
+Lul oh man das ist nicht viel
+Lul ne wusst ich nicht
+
+Cluster 137:
+Wir brauchen dann auf jeden Fall mehr Ergebnisse aus dem Kontext
+
+Cluster 138:
+Sorry für den Spam aber würde mich auch mal interessieren, ob man auch so 20 Kontext Ausgaben machen könnte bzw wie die Performance dann ist usw können wir sonst aber auch heute Abend testen
+
+Cluster 139:
+Übrigens solche Sachen könnten wir auch als Experimente kennzeichnen also immer am besten irgendwo die Ergebnisse Speichern damit wir daraus evtl im Nachhinein was basteln können ✌🏻
+
+Cluster 140:
+Okay Mal schauen ob das allgmein gute Outputs gibt
+
+Cluster 141:
+Sinnhaftigkeit, Performance, Halluzinationen
+
+Cluster 142:
++ weitere sinnvolle
+
+Cluster 143:
+Den letzten commit
+Ja die linken
+
+Cluster 144:
+Wie heißt du eigentlich? Habe gar nicht gefragt 😂😅
+Wie genau heißt eigentlich der Ort wo das Ferienhaus ist? 🤔
+Komme heute gegen Nachmittag ✌🏻
+Ahh chillig, bei mir ähnlich zurzeit :) bin schon in der Heimat aber viel bei ner Freundin
+Wann fährst eigentlich in die Heimat? Bin zurzeit am überlegen wann und ob ich hoch kommen könnte 🤔
+
+Cluster 145:
+War auf dem Festival of Lights, da Standen ein paar Planeten usw rum 👀
+
+Cluster 146:
+Im Oktober war das letztes Jahr, da werden einige große Gebäude in Mitte mit Beamern undso angeleuchtet und allgemein viel Lichtshow, war ganz nice eigentlich
+
+Cluster 147:
+Ja stimmt, finde hier ist es aber schon fast essentiell, hätte jedenfalls kein Bock gehabt die formalen Sachen komplett auswendig zu wissen lul
+
+Cluster 148:
+Muss schauen, diese Woche nur Freitag aber da hab ich leider keine Zeit, nächste Woche sind auch kaum noch Veranstaltungen. Mittwoch bin ich aufjedenfall in der Uni 👀, können zur Not sonst auch nen kurzen call machen nächste Woche
+
+Cluster 149:
+Jo kann ich aber erst wann anders machen, bin gerade in der Heimat und hab ab heute Abend bis Sonntag volles Programm
+
+Cluster 150:
+Ahh shit voll vergessen 😬😬 hast du die geschrieben heute?
+
+Cluster 151:
+Ja das wär wild 😂 aber denke das wird kein Problem sein, war die Klausur schwer?
+
+Cluster 152:
+Moin, jo Unimäßig schon, Freizeitmäßig geht so, letztens mein Portemonnaie mit allen Karten verloren.. 😭😂
+
+Cluster 153:
+Jo zum Glück, habe aber Frau felske geschrieben sonst wäre ich bei manchen nicht rein
+
+Cluster 154:
+Ich werd mich auch gleich damit beschäftigen, muss aber erstmal schauen, dass die graphen plotten, es funktioniert warum auch immer nicht obwohl ich TkAgg benutze
+
+Cluster 155:
+Ja mal schauen, habe Komponentenbasierte Entwicklung als Wahlfach, das sieht auch nicht einfach aus aber ist schon in Ordnung wird vielleicht schwer das Semester aber ziemlich interessant
+
+Cluster 156:
+doch war dar war nur zu spät
+
+Cluster 157:
+saß hinten 🤷🏻‍♂️😂
+Schlüssel vergessen 🙃
+
+Cluster 158:
+Jo haben wir ganz zum Schluss gemacht
+
+Cluster 159:
+jo wenn irgendwas nicht klappt sag bescheid
+Sag mal so ganz rein zufällig
+
+Cluster 160:
+Zwischen Pankow und Pberg
+
+Cluster 161:
+geht schon, noch carried muddi 😶‍🌫️
+
+Cluster 162:
+mit Freundin und ihren Bruder
+
+Cluster 163:
+Also ab Praktikum wahrscheinlich
+Wahrscheinlich am Nachmittag
+
+Cluster 164:
+Habe Elektriker Zuhause die haben gerade meinen Strom gekillt das war's dann mit dem Wlan 🫠
+
+Cluster 165:
+joa glaube sogar, dass ich für Management sachen eher geeignet wäre
+
+Cluster 166:
+Hast du alle Programme runtergeladen? (Erste Vorlesung in den Folien)
+
+Cluster 167:
+Ja vor allem die Aufgaben heute bruh
+
+Cluster 168:
+Ja aber wie gesagt die Woche kaum Zeit daran was zu machen leider..
+
+Cluster 169:
+Moin, quatschen ist leider schlecht, weil ich gerade selber einiges nachzuholen habe aber kann dir kurz erklären wie das mit den issues ist
+
+Cluster 170:
+Wir waren insgesamt nur 3 Leute deswegen sind wir nur Folien (42- ca. 62) durchgegangen, die Videos die verlinkt sind sollen wir uns Zuhause anschauen
+
+Cluster 171:
+Haben in den Folien weiter gemacht, kann sonst nachher mal schauen bis wohin
+
+Cluster 172:
+Ansonsten müssen wir ihn mal fragen
+Ja dann musst eines erstellen
+Jtz muss ich meine ganzen Sachen in ner halben Stunde packen weil ich seit heute mittag Anime gegrindet hab
+Das ist im müll war zu dreckig
+
+Cluster 173:
+Wetten mein Kollege wüsste nichtmal was das alles heißt
+
+Cluster 174:
+Ja kannst versuchen aber weiß nicht ob dir das die Punkte bringt, wenn es da nicht so viel zu überarbeiten gibt
+Also außer es gibt viel zu überarbeiten
+Kannst meins wenn du willst überarbeiten btw
+
+Cluster 175:
+Spezifizieren nicht erweitern 😂
+
+Cluster 176:
+Die letzten Wochen nicht wegen des 'Umzuges' aber normalerweise aufjedenfall
+
+Cluster 177:
+Bist du remsfal schon beigetreten? Ich kann dich nicht taggen
+
+Cluster 178:
+Ne müsste trz gehen
+
+Cluster 179:
+Ne das wird vorher gebaut
+
+Cluster 180:
+Okay all good, ich hab eh erst die Tage Zeit mir das anzuschauen
+Ah okay, hier hat ja aufeinmal jeder zweite ne Verletzung
+Okay all good, passt auch eigentlich ganz gut weil morgens kommt noch n Kleinanzeigen Atze hier ne alte Couch abholen und muss noch absaugen
+
+Cluster 181:
+Jo okay, bis 06.01. sollen wir das dann resolven btw
+
+Cluster 182:
+Bin Recht flexibel vielleicht a frühen Nachmittag?
+Also wir sind ziemlich flexibel
+
+Cluster 183:
+Wenn möglich ne Stunde später aber sonst geht auch 13Uhr
+
+Cluster 184:
+Ah ist ja auch noch bis morgen Zeit seh gerade
+
+Cluster 185:
+Weiß nicht, hab's nicht hinbekommen 😅
+
+Cluster 186:
+Hab in Rostock mal 110€ bezahlt, war aber auch ohne Deutschlandticket to be fair aber trz
+Ne da gilt das nicht aber mit dem Deutschlandticket wäre ich 5h unterwegs
+
+Cluster 187:
+Fahre jetzt nach Hause dann schau ichs mir kurz an, weiß gar nicht ob ich eigentlich überhaupt noch reviewen muss lul
+ungewohnt von dort unten raus zu schauen 👀
+
+Cluster 188:
+Ja hab ich aber das muss er machen, war bei mir ja auch so
+
+Cluster 189:
+Komme morgen Nachmittag nach Hause
+
+Cluster 190:
+Oh man oh man, ab wann bist du im Krankenhaus? Heute?
+
+Cluster 191:
+Sollen wir dir am Wochenende etwas zum Lesen bringen?
+Wieso weißt du's nicht? An dem Wochenende ist auch Volksfest in Malchow aber wenn wir das tagsüber machen könnten wir evtl trotzdem
+Ich komm am Wochenende doch nicht, nächstes aber
+Wir sind das Wochenende in Berlin
+Ich komme am Wochenende (bzw morgen oder übermorgen) übrigens hoch.
+Was wären im Sommer die möglichen Wochen an denen Arvid Ferien hat, wo ihr in Urlaub fahren könntet?
+Als wir einen Wochenendausflug in ein Feriendorf gemacht haben, weiß den Namen nicht mehr
+Hey ich komme doch erst am nächsten Wochenende. Lissi hat diese Wochenende extra Sonntag/Montag frei bekommen, weil ich da normalerweise Zeit habe und Georg ist auch in Berlin
+Ich komme dieses Wochenende doch nachhause
+
+Cluster 192:
+Ob er quietscht weiß ich nicht aber den hat sie sich schon selbst ausgepackt 😂
+Selbst wenn das nicht stark riecht wird sie wissen wenn so ein Packet ankommt weil es ein Hund ist 🤔
+
+Cluster 193:
+Die weiß doch ganz genau was los ist wenn so ein Paket kommt
+
+Cluster 194:
+Bitte normalen Tofu mitbringen
+Guten Appetit, seid ihr zu einem Konzert? 🤔
+Guten Appetit 😁
+Milan holt mich 20:30 aus Waren ab, komme dann nur kurz nachhause um Sachen abzustellen und Pizza zu essen, er feiert nämlich in überschaubarer Größe Geburtstag heute
+Die wichtigere Frage ist, warum essen fast alle Ihre Pizza mit Besteck? 😁 <Diese Nachricht wurde bearbeitet.>
+Niklas und ich sind am Freitag übrigens nicht zum Pizza essen da
+Bei mikusch zum grillen
+Könntest du mir noch Wurst, also chicken oder salami und Vollkorntoast mitbringen? 😅
+14€ bitte schicken für Pizza und Energy 🍪
+Also falls du noch Platz haben solltest könntest du mir noch einen Humus und einmal veganen Aufschnitt also dieses "Wurstzeug" in dieser veggiekühlecke links 😶‍🌫
+Nono, kannst dir sonst ne Pizza hier machen, bist du irgendwo im trockenen? 😬
+
+Cluster 195:
+Und Hefeflocken bitte
+
+Cluster 196:
+Schnupfen und Husten halten sich gerade zum Glück in Grenzen, hab auch nen dicken Mittagsschlaf gemacht bin aber sehr schlapp, war auch beim Arzt heut morgen
+
+Cluster 197:
+Kann mich jemand nach der Arbeit aus Appelburg mitnehmen?
+Könnte mich morgen jemand nach der Arbeit mitnehmen?
+
+Cluster 198:
+Hier zieht der Wind auch ganz schön umher
+
+Cluster 199:
+Wir sind in der Innenstadt in einem Café
+Wobei ist auch ein Restaurant
+Also es gibt n kleines Problem 😅 Lissi meint es ist ihr schon zu teuer, wir haben halt bald richtig fett Ausgaben für die neue Wohnung (da muss ziemlich viel gemacht werden, komplett neue Küche, Fußböden usw.). Ist schade, weil das Restaurant an sich echt geil aussieht :/
+
+Cluster 200:
+Wann genau hat Julia Geburtstag?
+
+Cluster 201:
+Lissi ist morgen Abend auch da
+Lissi würde gerne mitkommen
+Lissi und ich wahrscheinlich
+Übrigens, Lissi kommt am Freitag erst gegen halb 11 in Waren an. Ich könnte euch zu 22:15 nach Malchow bringen, dann Lissi abholen und euch aufm Rückweg einsammeln. Ich schaffe dann leider nicht das Feuerwerk zu schauen, ist aber in Ordnung
+Waren mit Luki im Wald spazieren
+Lissi fährt nach Rostock deshalb
+
+Cluster 202:
+Also Samstag 11Uhr steht dann fest, haben gestern mit ihr telefoniert
+
+Cluster 203:
+Live-Standort wird geteilt.
+Live-Standort wird geteilt.
+
+Cluster 204:
+Auf dem Markt
+
+Cluster 205:
+Lissi und ich kommen gegen Nachmittag übrigens nachhause
+
+Cluster 206:
+Vorm Abendbrot machen anhören!
+
+Cluster 207:
+Geht heute zufällig noch wer einkaufen?
+Warst du schon einkaufen? 😅
+Kann ich den Wagenkorb da zum Einkaufen?
+Noch keine Zeit zum einkaufen gehabt
+Kann ich aber ich gehe wohl erst etwas später einkaufen
+
+Cluster 208:
+Ich fahre demnächst, wenn jemand was braucht schreibt ne Nachricht
+Würde dann bei euch mit wenn ihr demnächst fahrt
+
+Cluster 209:
+Wann fahren wir hier los?
+Schreibt mal bitte wenn ihr los fahrt!!
+@491608564028 sind mehrere Bilder
+Aber nicht ganz so viele Bilder bitte, so viel macht der Speicher nicht mit langfristig 😂
+Weißt du schon wann du losfährst?
+Ich schreib dann wenn wir genauer planen, wann wir los düsen undso 👀✌🏻
+
+Cluster 210:
+Hier ist wohl kein Platz mehr frei
+
+Cluster 211:
+Klagge kommt nachher gleich nach Kogel, ich bleibe in Malchow wenn das okay ist, komme sonst nicht wieder zurück
+
+Cluster 212:
+Hallöchen, wir haben Dienstag 17Uhr einen Besichtigungstermin in Berlin, die Wohnung ist wohl von einer Klassenkameradin (oder deren Verwandtschaft) von Martina. Hätte einer von euch (Mama,Papa) Zeit dort mitzukommen?
+
+Cluster 213:
+Hat sich erledigt, wird doch nichts...
+Das erste, nicht schlecht
+(Rieke hat's nicht geschafft)
+Hat sich erledigt
+Hat sich erledigt
+
+Cluster 214:
+Morgen wahrscheinlich
+Komme morgen mit Lucas
+Bzw morgen
+Guten Morgen
+
+Cluster 215:
+Aus Appelburg
+
+Cluster 216:
+Okay das wäre gut, mit Auto oder Motorrad? Müsste mit Auto abgeholt werden, wegen der ganzen Zelt Sachen
+
+Cluster 217:
+Ohh :( ich weiß nicht ob ich das schaffe..
+Müssen wir mal schnacken wie wir das am besten abwickeln 🥸
+Weiß nicht ob ich das zeitlich schaffe, wird wenn dann n ziemlich spontanes Ding 😬
+Mhhh wieder schön das große Zimmer abgestaubt 😂👌🏻 aber trifft sich ja dann mit der Wohnung 👍🏻
+
+Cluster 218:
+Ist es möglich, dass uns jemand aus Krakow am See abholt? Lissis Mutti muss spontan aushelfen bei Harms im Laden 😬
+
+Cluster 219:
+Oma hatte ziemlich viel Rindfleisch im Kühlschrank, wir haben das jetzt mit rüber genommen und kaufen Schwein bzw Pute, weil sie das ja nicht kauen kann
+
+Cluster 220:
+Sehr schön...
+Sehr schön!
+Ja schon gesehen
+Sehen gut aus
+
+Cluster 221:
+seit wann hat Arvid einen Führerschein? 🤔
+
+Cluster 222:
+Sogar mit Vornamen 😂👌🏻
+
+Cluster 223:
+Thessaloniki für heute und morgen
+
+Cluster 224:
+Danach fahren wir zu Georgs Ferienhaus in der Gegend
+Georg weiß das genau er ist aber gerade nicht hier
+am Freitag ja für Georgs Konzert
+Georg hat mir die roomtour gezeigt
+Wie sieht's eigentlich aus mit Georgs Konzerten Ende Oktober, wollen wir da eventuell zusammen zu einem gehen?
+
+Cluster 225:
+Weiß ich gerade nicht 😅
+
+Cluster 226:
+Habt ihr heute Abend Zeit, dass wir mit Lissis Mutti kurz vorbei kommen können 1-2 Sachen zur Wohnung besprechen? (Kein Abendbrot oder so nur quatschen)
+
+Cluster 227:
+Lissi und ich kommen heute Abend wenn wir hier fertig sind
+
+Cluster 228:
+Das Zeug in der Küche bitte nicht wegräumen
+
+Cluster 229:
+Wo seid ihr denn?
+Bin denk ich kurz vor um wieder da 🥴😶‍🌫
+Wo seid ihr denn? 🤔
+
+Cluster 230:
+Gerade bei #Kleinanzeigen gefunden. Wie findest du das?
+Gerade bei #Kleinanzeigen gefunden. Wie findest du das?
+
+Cluster 231:
+Könnt ihr, falls wir welche Zuhause haben noch 1-2 Glühbirnenfassungen mitbringen?
+
+Cluster 232:
+Also schonmal vorweg, in der Küche können wir aufjedenfall nichts machen am Wochenende.. der Elektriker war hier und da muss sehr viel erneuert, gemacht,.. werden und die Firma wird das nicht übernehmen. Wir müssen jetzt erstmal mit der Wohnungsgesellschaft kommunizieren
+
+Cluster 233:
+Ich schicke demnächst ein Bild, was der Handwerker aufgeschrieben hat
+
+Cluster 234:
+Ja ist bloß sehr schade, weil wir jetzt wahrscheinlich nichts machen können außer die Küche abholen und evtl 1-2 Erledigungen im Baumarkt zu machen
+
+Cluster 235:
+Hat jemand zufällig Lust Lissi und mich heute Abend aus Waren abzuholen..?
+
+Cluster 236:
+Eigentlich müssen wir gar nicht am Freitag los, Samstag für die Küche reicht
+
+Cluster 237:
+In jedem Zimmer muss Elektrik gemacht werden
+The Blaze heißen die, die machen so atmosphärische elektronische Musik würde ichs betiteln
+*Elektrikerkram nicht Malerkram (wie auch immer)
+
+Cluster 238:
+Ihr könnt wahrscheinlich Samstag auch zum Geburtstag
+Ich auch fahre aber entweder Samstag Nachmittag oder Sonntag früh wieder hoch
+
+Cluster 239:
+Also wenn der nicht allzu früh ist
+
+Cluster 240:
+Wir müssen wir gesagt Küche abholen, können in den Baumarkt/Ikea ein paar Sachen holen aber viel mehr gibt's nicht zu tun so lange kein Elektriker die Sachen gemacht hat
+
+Cluster 241:
+Mhh das ist eigentlich ungünstig wenn wir noch Sachen kaufen wollen
+Mhh wäre gut, wenn wir beide in einen packen könnten
+
+Cluster 242:
+Wäre aber ganz schön wenn wir ne Uhrzeit so bald wie möglich ausmachen, dass ich ihr nochmal schreiben kann
+
+Cluster 243:
+Harms kann wahrscheinlich nicht kommen, weil er keine Vertretung für seinen Laden hat, habe ich Mama am Telefon erzählt. Außerdem gibt's leider eh nicht so viel zu tun. Wenn ihr zum Geburtstag wollt können wir auch am Freitag hin und da eine Nacht schlafen
+Wird leider nichts vor Ostern.. Können aber gerne mal telefonieren oder discordieren wenn du Lust hast 👀
+
+Cluster 244:
+Wir fahren Samstag hoch die Küche holen (spätestens 8Uhr los), danach die Wohnung angucken und etwas planen und dann seid ihr höchstwahrscheinlich rechtzeitig zuhause
+
+Cluster 245:
+Wann sollen wir morgen da sein?
+
+Cluster 246:
+Ouaha sieht sehr schön aus die Stadt
+Greifenhagener Straße 32
+Am besten in Trier wir können mal schauen
+Bei jedem sind Parkhäuser oder Parkplätze in der direkten Nähe
+https://www.outdoorfreizeit.lu/de/
+Ich werd gleich los bin denk ich 35-40 an der Parkstraße
+Also die Adresse ist _Greifenhagener Straße 32_. Du kommst dann mitm Scooter nehm ich an?
+
+Cluster 247:
+Ouha das ist aber bunt bei euch
+
+Cluster 248:
+Soo voll war es tatsächlich gar nicht
+
+Cluster 249:
+Bloß 'Hotspots' auf den Videos zu sehen
+
+Cluster 250:
+Nichts wir wollen das Wetter noch genießen und luci muss ja auch sowieso hoch heute
+
+Cluster 251:
+Ich brauche noch ein bisschen, Versuche halb 2
+
+Cluster 252:
+Nicht gut
+
+Cluster 253:
+Ja ich gehe jetzt schlafen
+
+Cluster 254:
+Wir kommen erst Samstag früh, Lissi ist Freitag noch bis 20Uhr Probearbeiten
+
+Cluster 255:
+Wir kommen doch schon heute, das Probearbeiten wird verschoben
+
+Cluster 256:
+Wollen wir morgen gegen 11:45 zu Simone dann können wir danach noch zu den Sieglers Adri und Lydia da, wollten noch was spielen
+
+Cluster 257:
+Sind die Kniebandagen neu? Wir haben letztes Jahr zu Weihnachten schon solche bekommen 😶‍🌫
+
+Cluster 258:
+Übrigens Luki und ich sind an Silvester höchstwahrscheinlich da, Lissi geht, wenn es mit der Arbeit klappt aber wahrscheinlich arbeiten, wegen der Zuschüsse
+Übrigens, Lissi kommt vielleicht doch am Donnerstag Abend
+
+Cluster 259:
+Sieht ja schön aus bei euch 👀 würd auch gern ne Runde durch den Wald schlendern, naja zumindest ist der Himmel hier auch ähnlich rot
+
+Cluster 260:
+- für jeden 1 Terrabyte (viel) Cloud-Speicher
+
+Cluster 261:
+Ich denke Oma und Thore feiern da Geburtstag?
+
+Cluster 262:
+Oder trinken wir Kaffee? <Diese Nachricht wurde bearbeitet.>
+
+Cluster 263:
+Och ne stimmt ja.. kacke
+
+Cluster 264:
+Ach ne war nur heute morgen, jetzt sind's -5 das geht ja 🫣
+
+Cluster 265:
+Ne diese Woche nicht
+Mhhh ne nicht wirklich
+Aber du mich wohl nicht
+
+Cluster 266:
+Es gibt inzwischen auch FlixTrains
+ein Zug, der von FlixBus organisiert wird, wie die Busse nur als Zug
+ist da überhaupt was drin?
+Auf der Transportebene
+
+Cluster 267:
+Okay, bin dann morgen ~9:50 in Eisenach, nicht vergessen bitte 🫣
+
+Cluster 268:
+Weiter
+
+Cluster 269:
+Ich muss heute nicht nach Appelburg 👀
+
+Cluster 270:
+Ich bestell die schonmal für meinen Geburtstag, die ist gerade sehr stark reduziert und ich weiß nicht wie lange das Angebot noch existiert
+
+Cluster 271:
+Habe überlegt, dass man die Lautsprecher in der Mitte vielleicht sogar mit einem kleinen Holzbrett zusammenschrauben könnte
+Ja hab keine Lust auf Döner und bis auf das letzte sind die eher Imbiss-artig
+Keine Ahnung wie das so mit Religion und Höflichkeit läuft
+
+Cluster 272:
+Sind noch in einer Bar aber geht bald los :)
+
+Cluster 273:
+Schaut euch das mal an. Ich will hier niemanden angreifen, das ist einfach *wirklich* nur sehr interessant 👀
+
+Cluster 274:
+Nächstes Wochenende 🐧
+Wann ist der Wahltermin?Komme am Wochenende nach Hause 👀
+
+Cluster 275:
+Die Anwältin war übrigens die ganze Woche nicht zu erreichen, war auch dort klingeln, denke die ist gerade im Urlaub
+Der Anwalt der Gegenseite war wohl auch unvorbereitet, unpünktlich und hat sich ein wenig mit dem Richter in den Haaren gehabt
+
+Cluster 276:
+Ich komme heute doch spontan nach Hause
+
+Cluster 277:
+Ja war sehr gut. In der Uber Arena (ist die Mercedes Benz Arena, wurde vor kurzem umbenannt)
+
+Cluster 278:
+Waren heute in einem Museum/Ausstellung "Deja Vu" über optische Täuschungen und Spiegelungen, war ziemlich witzig 🐧
+
+Cluster 279:
+Unser Zug ist zu voll, die fordern jetzt die Polizei an, damit die den Zug zum Teil räumen.. das heißt wir kommen wahrscheinlich ne halbe Stunde später als geplant an.. ist jetzt sehr ungünstig, weil @491608564028 uns ja nach der Arbeit abholen wollte
+
+Cluster 280:
+Also hält sich in Grenzen
+
+Cluster 281:
+Mhm schade, habe ab dem 04.08. frei
+Mhm miese Briese aber so Geschmacksverlust oder so hast nicht?
+
+Cluster 282:
+Könnte evtl die letzte Woche nachkommen
+
+Cluster 283:
+Klassiker
+/Korbwagen
+
+Cluster 284:
+Ist aber ganz schön hell
+
+Cluster 285:
+Ein ziemlich großer Artemis Tempel (hab's gegoogelt)
+
+Cluster 286:
+Also ich habe am 31.07. die letzte Prüfung des 1. Prufungszeitraumes. Könnte, falls ihr die letzten 2 Wochen fahren solltet am 01.08. (Donnerstag) nach kommen
+
+Cluster 287:
+Sind die Zeichen usw original?
+
+Cluster 288:
+Mhm okay gerade die überdachten Sachen sind ja noch echt gut erhalten
+
+Cluster 289:
+Mhm für die Europawahl hab ich die Wahlbenachrichtigung hier bekommen
+
+Cluster 290:
+Also werde denk ich Sonntag noch in Kogel sein aber abends fahr ich dann wieder
+Also ich werd heut Abend leider nicht kommen können, noch zu viel zu tun :/
+
+Cluster 291:
+Bei Stobers gibt's leider keine Eier mehr, ich würde wenn ich euch abhole in Suckow schauen, falls ihr mit Gütschows mitfahrt, könntet ihr dort evtl mal kurz ran?
+
+Cluster 292:
+Ich fahre jetzt los
+
+Cluster 293:
+Na toll... hoffe da ist nicht viel kaputt 😬 Lissi hat erst um 8 Feierabend
+
+Cluster 294:
+Aus denen kommt nichts raus, deshalb kann ich die Waschmaschine nicht anschließen..
+
+Cluster 295:
+Kannst du morgen evtl Calcium mitbringen? 👀
+
+Cluster 296:
+Habe keinen erreichen können, wir kommen erst 18:30 an, unser Zug hat sich verspätet
+
+Cluster 297:
+Nein haben jetzt den Anschluss genau eine Stunde später aber dafür ist noch Zeit
+
+Cluster 298:
+Also den sollten wir schon kriegen 👀
+
+Cluster 299:
+Ist es bei euch auch regnerisch?
+
+Cluster 300:
+Kann sein, dass wir den nächsten Anschluss in Koblenz auch nicht kriegen, weil wir wieder Verspätung haben...
+Habt ihr schon gegessen wenn ihr in Neustrelitz seid?
+
+Cluster 301:
+Ist eingetroffen
+
+Cluster 302:
+Wir sind hier gelandet
+
+Cluster 303:
+Das behindert sich nicht
+
+Cluster 304:
+Arvid hat ja morgen ein Spiel, wann genau seid ihr dann in Waren und habt ihr 3 Plätze frei?
+
+Cluster 305:
+Stellt mal die Dose mit wo der Apfelmus drin ist in mein Zimmer bitte, sobald sie leer ist
+Auf ein Köpfchen
+Sobald da ein paar mehr Köpfe kommen muss die Tüte offen bleiben
+
+Cluster 306:
+Mama falls du möchtest kannst du morgen nach der Arbeit hier Kuchen abholen, Martina hat einiges übrig
+
+Cluster 307:
+Der Fluss gefällt mir 🐙
+
+Cluster 308:
+Und die Amphoren sind ganz schön groß 🫣
+
+Cluster 309:
+Wir kommen eine Stunde früher also 20Uhr
+
+Cluster 310:
+Aber mit runden Stangen
+Bock je Runde zu quatschen?
+
+Cluster 311:
+Oh man... streich das wenn möglich mal mit einem Tuch vorsichtig ab und am besten pass auf, dass er wenn er sich hinlegt nicht irgendwas vollblutet 😬 also kann sein, dass die Kopfseite dann sowieso oben ist aber evtl auch nicht <Diese Nachricht wurde bearbeitet.>
+
+Cluster 312:
+UMFRAGE:
+Umfragen meinst du
+
+Cluster 313:
+Aber auch das letzte ist recht preiswert
+
+Cluster 314:
+Falls möglich würde ich gern zum Raclette Einkauf mitkommen 🥸
+
+Cluster 315:
+Habt ihr Humus?
+Ich stibitz mir mal etwas Toast, wollte dich nicht aufwecken, falls du geschlafen hast und ich hab mega Hunger 😶‍🌫
+Ja kannst du machen ich guck spontan ob ich Hunger hab
+
+Cluster 316:
+Moin, jo hab ja bisher nur Georg kennengelernt aber wir kommen sehr gut klar 👌🏻
+
+Cluster 317:
+16 Dias in ner dreiviertel Stunde ohne Glück auf der Spitzhacke
+
+Cluster 318:
+Besser als jeder Orgasmus
+
+Cluster 319:
+Das ist so ziemlich mit Abstand das beste was du in dem Preisbereich kriegen kannst
+
+Cluster 320:
+Hier kriegst das prinzipell noch günstiger ist aber befristet die Aktion
+
+Cluster 321:
++ cornerskip ganz zum Schluss
+
+Cluster 322:
+Und das heißt, dass sie während ich die letzten mitteldinger gelöst hab die Ecken mitgelöst wurden
+
+Cluster 323:
+Moin ich bin heute schon früher los, hab dir und Georg noch was da gelassen auf Armins Kühlschrank 😉 hab noch 0,2 oder so raufgelegt weil ichs nicht mehr geschafft hab den Rest abzuwaschen 😅
+Btw ich hab nicht ganz geschafft alles abzuwaschen, hab verpennt und Niklas musste ewig warten deswegen ist da noch das Besteck und 1-2 Sachen aber den Großteil hab ich noch gemacht
+
+Cluster 324:
+Veit kommt gleich rum geld bringen kannst du ihm aufmachen wenn er klingelt?
+Kannst du in 30sek wenn ich Klingel aufmachen?
+
+Cluster 325:
+Bin jetzt in der Wohnung aber muss noch ne halbe Stunde-Stunde Hausaufgaben machen die wir heute abgeben müssen
+
+Cluster 326:
+Und eigentlich bin ich auch schon echt durch hab 3 tage hintereinander gesoffen und gebufft wie n schlund und war gestern bzw heute bis halb 8 wach 🥴 was ist oben so los?
+
+Cluster 327:
+Was gehtn ab bei euch?
+
+Cluster 328:
+Und btw ist georg jetzt eigentlich auch mit oder nicht?
+
+Cluster 329:
+Wollen wir uns gleich oben aufm balkon treffen n Tüten rauchen vorher?
+
+Cluster 330:
+Ich schreib gleich mach mich noch kurz fertig
+
+Cluster 331:
+Jaaa mit schlafen ist sowieso nichts 😂
+Haben jetzt sogar ne Couch seit ner Woche 😎 also sollte für dich auch recht entspannt sein mitm schlafen
+
+Cluster 332:
+Nur damit du bescheid weißt, damit zu pünktlich zum WGlichen Ritual da bist
+
+Cluster 333:
+Aber verlass dich nicht auf meine Zeitangaben
+
+Cluster 334:
+Dein Verlangen mit Gesellschaft zu rauchen hat gefragt 😌
+
+Cluster 335:
+Welcher Geschmack?
+Hast du schon mit gerog geschrieben?
+
+Cluster 336:
+Meinst mit Spüli den für die Küche?
+
+Cluster 337:
+Digga ich find den nicht
+
+Cluster 338:
+Jo habs nicht mehr geschafft die Flaschen wegzubringen sorry.. hab auch vergessen wo der Container sein soll 😅 wenigstens abwaschen hab ich noch geschafft
+
+Cluster 339:
+Weißt du was Amin meint? 😅
+Überhaupt kein front an Amin aber digga ich hab mich so heftig weggeschmissen als ich die Nachricht gelesen hab 😂😂😂😂
+Hab mir Mal n Schluck Milch fürs Müsli geklaut, ich geh demnächst wahrscheinlich einkaufen wenn du was brauchst sag an
+Weißt du ob Amin Schweinefleisch isst? 😅
+Hab mir mal etwas Milch und und einen Apfel für mein Müsli schnabuliert
+
+Cluster 340:
+Jo ich komm btw morgen wieder hoch
+
+Cluster 341:
+Richtiger Krampf
+
+Cluster 342:
+Lass eine smöseln
+Gleich eine smöseln?
+
+Cluster 343:
+Ich werd jtz nochmal in der Südstadt n Test machrn
+
+Cluster 344:
+Ich fahr kurz nach 18 Uhr los, geh jtz noch kurz ins Gym, überleg dir mal noch was du an Essen brauchen könntest bzw wenn ich jtz im Gym bin kann ich auch noch fix ne Kleinigkeit einkaufen
+
+Cluster 345:
+Mhm btw ich wollt eigentlich Freitag/Samstag wieder hoch kommen aber wäre ja absolut belastend wenn ich mich dann noch ansteck 😬
+
+Cluster 346:
+Bist du Montag noch in Rostock?
+
+Cluster 347:
+Ah Shit, vllt haben die das ja auch im Kaufland idk 😬
+
+Cluster 348:
+Ich grab mich Mal von da hoch
+
+Cluster 349:
+Wenn man sich da irgendwo in der Mitte trifft könnte man das bestimmt hinkriegen, dass beide chunks geladen werden oder? 🤔
+
+Cluster 350:
+Hab Mal die Einstellungen bisschen optimiert (du solltest dir btw optifine holen) und da waren 1-2 dabei die einfach instant 100-200 fps mehr gegönnt haben 😂
+
+Cluster 351:
+No Joke, grad in ner survival Welt den krankesten seed, den ich jemals selber gesehen hab gefunden
+
+Cluster 352:
+Muss ich dir morgen mal zeigen
+Mhhh ich hab gerade nicht so den Kopf dafür könnte morgen sonst gucken
+ja wir könnten morgen mal gucken
+
+Cluster 353:
+Kommst du heute oder morgen? 🤔
+
+Cluster 354:
+Btw wolltest du jetzt wirklich 40g trim?
+Du hattest jetzt 25g oder?
+
+Cluster 355:
+Kannst aber von mir noch was haben
+
+Cluster 356:
++7,29 Einkauf letztens für das was Georg gekocht hat (in der WG Gruppe)
+
+Cluster 357:
+Wie siehts bei den shroomies aus?
+
+Cluster 358:
+Rauchen wir nachher gleich noch einen? 🤔
+
+Cluster 359:
+Dann gehst du pennen?
+
+Cluster 360:
+Können wir machen ich kann ja trz noch n normalen Kopf smoken 😶‍🌫
+Bin wach aber muss Weed sparen 🫣🫣
+
+Cluster 361:
+Gute Besserung von Sou
+
+Cluster 362:
+Bruh bin gleich fertig, dauert doch bisschen länger als erwartet 😵‍💫
+
+Cluster 363:
+Könntest du evtl heut Abend bei den Pilzen Mal nachgucken und mir n Bild schicken wies aussieht?
+
+Cluster 364:
+Ich kenn den auch bloß von Dream undso 😅
+
+Cluster 365:
+Aber heftig, vorallem weil der Krebs ja noch nicht so lange diagnostiziert war
+
+Cluster 366:
+Und dann noch in Anfangsstadium
+Dauert noch etwas
+Dauert noch, hier ist alles dicht wegen Fußball
+
+Cluster 367:
+Einfach Sport genascht 😂😂
+
+Cluster 368:
+Naja Mal gucken aber mach Mal so, dass die Tüte leicht auf ist pls :)
+
+Cluster 369:
+Ich nehm glaub ich n Döner ohne Tomaten 🤔
+Ja dann nehm ich auch n großen ohne Tomaten
+
+Cluster 370:
+Meinst du die sind klein weil die da noch 4,50 kosten?
+
+Cluster 371:
+Hier ist ganz schön actuon
+
+Cluster 372:
+Brauchst auch nicht immer sone langen Erklärungen schreiben, einfach, spülst du heute oder so reicht aus 😂
+
+Cluster 373:
+Btw ich wasch morgen nach dem Testat (das fängt 13Uhr an) ab, habs verpeilt heute 😅
+
+Cluster 374:
+Heute wird's wahrscheinlich nichts mehr evtl Nachts aber Mal gucken ich würd mich einfach Mal melden wenn ich Zeit hab 🤔
+
+Cluster 375:
+Mhm will nicht respektlos rüber kommen 😶‍🌫
+
+Cluster 376:
+Die wurde warum auch immer als nicht bestanden eingetragen, das ist das komische aber ich krieg das hoffentlich noch geregelt
+
+Cluster 377:
+Und sonst so? Alles fit in Ikenhausen? 😁
+
+Cluster 378:
+Wenn dann vor-nachmittags, Montag Dienstag kann ich eigentlich gar nicht aber sonst sollten wir die Tage mal spielen können bin halt Abends so gut wie imemr weg
+
+Cluster 379:
+Morgen können wir endlich 🥸
+
+Cluster 380:
+Also muss jetzt erstmal die Lage checken, nachm Mittag wär am besten bei mir
+
+Cluster 381:
+Das ist schon ewig her als ich das da hin gestellt hab, hat aber wohl gut funktioniert das easter Egg 😁
+
+Cluster 382:
+Server wurd wieder verlängert btw
+
+Cluster 383:
+Süßer
+
+Cluster 384:
+Das Lied was ich gesucht hab heißt glue von bicep
+
+Cluster 385:
+*Nicht laut vorlesen lol*
+
+Cluster 386:
+Mhm nagut das ist schonmal sehr gut
+
+Cluster 387:
+Könntest du die Wohnungstür aufmachen? 😶‍🌫
+
+Cluster 388:
+Du kostest gar nicht mal so selten 😂
+
+Cluster 389:
+Wie heißt du bei Duolingo?
+
+Cluster 390:
+Jojo, wann kommt ihr morgen eigentlich her? Ich hab mir leider ne etwas dickere Erkältung aufgesackt :/ also ich werd trz versuchen so gut es geht zu helfen aber ich werd aufjedenfall nicht so viel Energie haben wie sonst
+
+Cluster 391:
+Hallööchen, wenn du schon einen genaueren Zeitplan hast sag den mal durch bitte, muss 1,2 Sachen planen 👀
+Es gibt ne kleine Planänderung
+
+Cluster 392:
+Audio kommt gleich
+
+Cluster 393:
+Ey ihr habt meinen Kuchen mitgenommen 😂
+Kommen etwas zu spät 😅
+
+Cluster 394:
+Nene alles gut ist nicht der Weltuntergang 😄
+
+Cluster 395:
+Also Winter bin ich nicht mehr hier aber wegen des Sommersemesters werd ich Mal gucken, thx 👀
+
+Cluster 396:
+Hab extra schon das Bettgestell an die Wand gestellt, falls das so kommt damit du ins Bett kommst 😂
+
+Cluster 397:
+Wer kommtn da noch eigentlich? 🤔
+
+Cluster 398:
+Achso okay okay, ja also wenn alles passt können wir doch auch noch hoch kommen aber das steht jetzt noch nicht fest, also brauchst nichts groß einplanen oder so, ich würd mich einfach spontan melden 👀
+
+Cluster 399:
+Ja, wollte nur sagen, dass ich nicht sonst wie lange bleiben werd, weil ich noch zum Sport will und eigentlich Hausaufgaben anfangen muss, ich hoffe nur Georg braucht nicht ne Georg-halbe Stunde oder ich fahr später alleine zurück
+
+Cluster 400:
+Na du, der neue Mitbewohner ist btw angekommen, leider nicht sehr gesprächig und auch nicht gerade leicht verständlich aber immerhin ziemlich nett 🥸 was läuft bei dir so? Bisschen Sonne auf der Terrasse genießen? 👀
+
+Cluster 401:
+Das hört sich echt gut an, wie ihr jeweils bzw zusammen Fortschritte in dem Thema macht 👀 das mit dem Termin wird bestimmt auch ganz interessant, weißt du schon was ihr da so besprecht? Würde auch schon fast mal gerne mit zu nem Termin von Lissi 🤔
+
+Cluster 402:
+Hab ich schon mit ihr beschnackt, evtl machen wir das auch mal, wenn wir ein interessantes Thema finden 🥸
+
+Cluster 403:
+Kann man da vllt noch irgendwie später hinkommen?
+
+Cluster 404:
+Muss Samstag leider in der Heimat sein, weil ich da meine Anlage vermiete.. Können die Woche oder nächste sonst was anderes machen, nen Döner essen oder so 🤔
+
+Cluster 405:
+Übrigens kleine Vorwarnung, falls du in die Verlegenheit geraten solltest einen Kopf rauchen zu wollen musst du selber was mitbringen ich hab extra alles rauchbare Zuhause gelassen damit ich nicht in Versuchung komme 😅
+
+Cluster 406:
+Volleyball fällt jetzt leider aus heute aber ich hab voll Bock auf Sport weshalb ich mit Georg zur Kletterhalle möchte. Der kann allerdings nur jetzt (bis 18:15). Wenn du möchtest kannst du mitkommen und da mit uns ein bisschen schnacken oder so, oder wir machen nächste Woche wieder was 🤔🤷🏻‍♂️
+Gerade 3h Volleyball gehabt jetzt erstmal was essen und runter kommen 😶‍🌫
+
+Cluster 407:
+Wir sind noch hier wollen aber gleich los
+
+Cluster 408:
+Voll falsch gelaufen haha
+
+Cluster 409:
+Mooin, ich bin gerade wieder in Rostock, hab am 02. und 04. Prüfung. Mit in Kogel besuchen ist erstmal schwierig weil ich die Zeit zum Lernen brauche und man da schon ne Tag einplanen sollte. Eventuell könnte man das an einem Tag nach den beiden Prüfungen machen aber da kann ich dir jetzt noch nichts versprechen. Weiß auch nicht ob/wann/wie lange ich jetzt vor den Prüfungen nochmal in die Heimat fahre aber ich bin auf jeden Fall ne gewisse Zeit hier in der wir so mal chillen können 👀
+
+Cluster 410:
+Bist du bis Ende September in der Heimat?
+
+Cluster 411:
+Mhhh heute ist eher unpraktisch, muss echt noch was schaffen und Volleyball findet jetzt doch statt heute 😬 wie sieht's mit Donnerstag aus?
+
+Cluster 412:
+Okay also nur mal um alle Möglichkeiten durchzuspielen, wäre es sonst möglich mit Isabell irgendwie Mittags in die Mensa zu gehen?
+
+Cluster 413:
+Also ich hätte auch irgendwie Bock mit dir Lissi sou und evtl wem von den anderen Kollegen abends in ne Shisha Bar zu gehen aber das muss halt auch nicht sein, wir können abends auch, wenn sie mittags nicht kann mit dir und Isabell was trinken gehen (bloß essen gehen wäre raus dafür sind wir zu broke)
+
+Cluster 414:
+Alles klar, habt ihr sonst Lust was kleines rauszusuchen wo man hingehen könnte? 👀
+
+Cluster 415:
+Also Betonung war nicht auf trinken haha
+
+Cluster 416:
+Ja dann gucken wir morgen nach der Prüfung mal, kannst ja Isabell trz fragen ob sie evtl was kennt
+
+Cluster 417:
+Aber wollt ihr da noch essen? 🤔
+
+Cluster 418:
+Evtl nehmen wir auch ne Kleinigkeit, sieht ziemlich gut aus das Essen aber mal sehen, wie gesagt müssen echt aufs Budget gucken 😶‍🌫
+
+Cluster 419:
+Ich will ja nicht auf'n Sack gehen aber weiß sie zufällig, was da n Cocktail so kostet im schnitt? 😂
+
+Cluster 420:
+nene aber woanders wos günstiger ist wäre cool
+
+Cluster 421:
+Kannst dich auch langsam auf'n Weg hierher machen?
+
+Cluster 422:
+Ohne Fragezeichen
+
+Cluster 423:
+Ist wohl überall bisschen das gleiche, Lissi ist jetzt komplett schlecht gelaunt, weil sie wohl keinen kompletten halben Döner bekommen hat obwohl das nichtmal eindeutig so abgesprochen war 🙃
+
+Cluster 424:
+Habby Birthday 🎂🥳 bisschen spät dran aber noch pünktlich genug hehe, hoffe du hattest einen schönen Tag, wie läuft's bei dir so? 👀
+
+Cluster 425:
+Was hast jetzt für n Handy?
+
+Cluster 426:
+Ich schreib jetzt mal hier weiter weil ich irgendwie schlechtes Gewissen wegen Paul hab 🥴 danach können wir entweder zu georg meinte er oder alle in ne Bar
+
+Cluster 427:
+Georg muss btw Samstag 5e aufstehen also er kann nicht ewig aber er kommt ja auch mit etwas weniger Schlaf klar 🌚
+
+Cluster 428:
+Aiaiai hoffen wir mal die haben noch welche 😬
+
+Cluster 429:
+Wo genau müssen wir eigentlich hin?
+
+Cluster 430:
+Puhhh zum Glück hat's noch geklappt 👀😶‍🌫 gute Nacht dir (rückwirkend) 😁
+
+Cluster 431:
+Jo wir nehmen uns jetzt auch immer extra nichts zu rauchen mit 😶‍🌫 freut mich, dass das noch machbar ist 👀 und Dankeschön :)✌🏻
+
+Cluster 432:
+Tatsächlich eher weniger, weil wir meistens wenn wir zu zweit überlegen, ob wir jetzt rauchen zu zögerlich sind und die Verantwortung hin und her schieben und dann halt smoken. Man tendiert auch irgendwie mehr dazu nachzugeben wenn der andere auch am überlegen ist
+
+Cluster 433:
+Glaube das ist nur hilfreich, wenn wir uns beide fest vornehmen es nach striktem Plan sein zu lassen aber in dem jetzigen Alltag nicht 😅😶‍🌫
+
+Cluster 434:
+Frohes neues 🥂🌚
+
+Cluster 435:
+Jo also ich habe Mitte Februar frei und Lissi und ich wollten da mal wieder nach hro, müssen auch noch bei Georg unsere Oliven abholen, da könnte man ja evtl wieder zusammen was starten ✌🏻
+
+Cluster 436:
+Keine Ahnung alles gut 😂 habe auch noch ne Löffel und ne Gabel aus Rostock lul
+Nice 👌🏻 Lissi und ich haben jetzt ab demnächst frei und würden nen Tag mal in Rostock vorbei schauen, genauer haben wir aber noch nichts geplant bisher aber wenn du Lust hast was zu machen würd ich dir nochmal schreiben wenn sich da was rausgestellt hat 🐧
+
+Cluster 437:
+Also ich habe mal gegoogelt wie das wohl aussehen könnte, weil wir habens ja im Ikea gekauft als ich eingezogen bin und der kleine Löffel, einer der großen und oder das Messer könnten von mir sein 😂 ist leider schwierig genau zu sagen aber die Chance ist gar nicht so klein, dass es zumindest eine Sache davon ist 🥸
+
+Cluster 438:
+Ist schwierig, eigentlich hatte ich geplant am Donnerstag nach meiner Prüfung zu kommen und mit meinem Bruder nach Hause aber der fährt schon Donnerstag Abend und Lissi kann da auch nicht deswegen bin ich mir noch sehr unschlüssig
+
+Cluster 439:
+Yessir, denke Morgen Nachmittag würde es vermutlich passen sonst Freitag 🐧
+
+Cluster 440:
+Ma kiecken fahre morgen in die Heimat und gehen abends essen weil mein Vater Geburtstag hat. Falls das nichts wird, Freitag hab ich aber wirklich Zeit! 🫣 <Diese Nachricht wurde bearbeitet.>
+Nagut das freut mich ehrlich gesagt, dass ich nicht der einzige bin 😵‍💫😂 bei mir ist auch erstmal kaggi weil aus dem Nichts 100 Dinge um die Ohren.. Sonntag Abend hätte ich eigentlich erst wieder Zeit <Diese Nachricht wurde bearbeitet.>
+
+Cluster 441:
+Mir ist nämlich gerade Arsch langweilig
+
+Cluster 442:
+Mit Betonung auf Betonung
+
+Cluster 443:
+Halli hallo, also Lissi muss leider arbeiten, ich wäre aber dabei, müsste nur irgendwie bei dir oder Georg pennen, habe keinen Schlafsack oder so hier 🤔
+
+Cluster 444:
+Muss ich später mal schauen hab gerade zu tun
+
+Cluster 445:
+Ich werd gleich nochmal zum Kaufland ran, soll ich noch was mitbringen?
+
+Cluster 446:
+Kommt drauf an, fahre bei meinem Bruder mit und der weiß noch nicht ob er morgen oder Freitag fährt
+
+Cluster 447:
+Hi, coole Sache 👀 muss mich noch einmal mit Lissi abstimmen ob ich nichts vergessen habe aber denke nächstes Wochenende könnte gut passen 👌🏻
+
+Cluster 448:
+Jo passt. Hätte vorgeschlagen, dass du dann Samstag gegen frühen Mittag evtl kommst? Freitag muss ich noch etwas Uni machen. Passt das? Lissi hat btw am Samstag 'früh' also gegen 21Uhr+- Schluss
+
+Cluster 449:
+Ruf mal am wenn du Schönhauser Allee bisr
+
+Cluster 450:
+Irgendwie hab ich schlechtes Gewissen weil du auch immer nicht so gut bei Kasse bist 🫣 dann zieh da mal noch meinen Döner ab
+
+Cluster 3:
+lul
+ahh chillig 😄
+Also 2 catch Blöcke
+Wobei
+Lul 😂
+Mhh hmm
+Oh
+Oh man
+Aiaiaiai 🥲😂
+Interesting 🤔
+Mhhhh hmm
+test 5
+wait
+Bruh 😭😂
+Ahhh interesting 🤔
+Achso okay 😁✌🏻
+Nope 😅
+In 10min 😅👀
+rip 😂😅
+Oh man oh man
+Ne
+No risk no fun
+Okay okay 😂
+Number
+Mhh hmm
+Nice nice
+Loool 😶‍🌫
+Oh shit ähh idk
+Lol
+Ahh okay
+Nice 👌🏻
+5min
+?
+All good
+Idk
+Bin in 16min am Start
+Untick mal rezise automatically
+Frech
+Bin bei 60
+All good lol 🤷🏻‍♂️
+Aso ne
+All good 🤷🏻‍♂️
+Lol bruh
+lul nice
+Ahh okay lul
+all good 😂
+fr
+shit happens 😂😂
+Fr..
+Ohh lol
+Ahh okay
+KE easy
+Achso huch
+Okay nice
+Hä
+Was da los
+Achso
+Win win 😂
+?
+Normaler?
+Ne
+cool cool 👀
+Interessant 🤔
+Nom nom 😶‍🌫
+Interessant interessant
+Strände?
+in seinem Element
+.
+?
+...
+Uhhh achsooo 👀
+Haiaiai
+Keene Ahnung
+Mhhh hmm 👀
+...
+Okay
+Was'n da los? 👀
+Achsooo
+What the hell 😂😂
+Top
+Was? 🤔
+Okay
+Isso 😂😂
+Okay
+Ich bin btw so in 20min home
+Wtff 😂
+Erstmal nachgucken👳🏿‍♂️
+I dunno 🤔
+Lul Oh man
+Bin in 1 min da
+Bruh 😂😅
+Ohaaa nice 😁💪🏻
+Bruh..
+Pepe
+Pls 😅
+Nope Skelett
+Mhm
+Bruh 😂😂
+Alpro Milch Bio 1,5%
+2,75
+2,29+2*0,92
+4,13 Euronen
++5,59 (Cordon Bleu + osaft)
++3€ Tabbako
+Pls
+Mhmmmmmmmm
+Chulkig
+Lol
+Indeed
+Nom nom
+Fuck
+Action
+Amin auch
+Mhmmm
+Naagut
+Ahh lol
+Hi
+Fun fact
+Nice pb btw 🤌🏻
+😂 lol
+Bidde bidde
+Niceeeeee
+Thanks dude 👀
+Issso
+
+Ähhhm
+Hehe
+Okay top 👌🏻
+Cbd
+Haiaiaiaiaiai
+Pls remember
+Well done fella
+Yessir
+Okay okay 👀
+so 🥸
+Okay okay 😁
+Aaaalso
+Okay
+Top 👌🏻
+Same 😅
+idk
+Halli hallo
+://
+Lul 😂
+Oh man 😂
+👌🏻:)
+Du Stinker
+Du
+Top 👌🏻
+Nice
+Okay okay
+Yessir 🫶🏻
+Hehe
+Ouhiuhiui sogar mit trinko 🤑
+
+Cluster 4:
+jojo ich würd sagen ich meld mich einfach, wenn ich da weiter gemacht habe, sollte das im Laufe der nächsten Tage sein denke ich
+Jojo muss ja auch nicht 🤷🏻‍♂️
+Jo behalt ich im Kopf 👀
+Ahh chillig jo können wir machen 👀
+Jo das klingt gut 👀
+Ja gut 🥴
+Jojo dir auch, bis morgen ✌🏻
+
+Cluster 9:
+Jo ik
+Jo
+jojo
+Jo
+Jo :)
+
+Cluster 10:
+✌🏻
+😂
+😂
+👍🏻
+🌚👍🏻
+👍🏻
+🐧
+👍🏻
+👍🏻
+😁✌🏻
+😂
+😂😂💀
+🫨
+😂
+🤔
+👌🏻
+👌🏻
+🫡
+🌚
+🥸
+😂
+🤌🏻
+🥸
+😂
+🤌🏻
+🥳
+👀
+😮
+😂
+🎃
+🙋🏻‍♂️
+😬
+🎶
+😄👌🏻
+👍🏻
+🤔
+🦭
+😁👌🏻
+😂
+😂
+🌚
+😶‍🌫
+😂😂
+😅
+😂
+🥲
+😂😂😂
+😅😂
+😂😂😂
+👌🏻
+😂😂
+👌🏻
+😶‍🌫
+👌🏻
+🥴
+👀
+👌🏻
+👌🏻
+✌🏻
+🤔
+🥸
+😅
+👌🏻
+😂
+🥸
+🫓
+😶‍🌫
+😶‍🌫
+✌🏻
+👍🏻
+👍🏻👍🏻
+🥸
+😂
+😂
+😂🤌🏻
+🤌🏻
+🤌🏻😂
+😂😂
+🌚
+🥸
+🫨
+🦦👍🏻
+👍🏻
+
+Cluster 14:
+Ahhh niceeee danke 🤌🏻
+Dankeschön :)
+Dankeschön! 🎅🏻
+Dankeschön :)
+Danke 🙌🏻
+Tooop danke 🌚
+Nice danke 👌🏻
+Top danke :)
+Looool geil 😂
+Danke danke 🤩
+
+Cluster 18:
+Ja sollte passen
+Kann gut sein
+sollte da sein
+
+Cluster 19:
+Alles klaro
+Alles klar 👍🏻
+Alles gut 😄
+Alles klar
+Alles gut
+Alles klärchen
+Alles klaro
+Okay alles klar
+Alles klar :)
+Alles klaorfski :)
+Alles klar 👀
+Alles klarowski
+Alles klaro
+
+Cluster 24:
+Jo find ich gut
+Jo ich komm gleich on
+Jo ist alles gut
+Jo komm gleich
+Ja alles gut
+
+Cluster 26:
+Perfekt 😬
+Sind angekommen 👍🏻
+Angekommen ✌🏻
+
+Cluster 29:
+Ja keine Ahnung 😂
+Ja niemand da leider 😂
+Ja kann sie 🥸
+
+Cluster 31:
+Hab jetzt Volleyball
+Hau raus hab gleich Volleyball
+Gleich
+
+Cluster 36:
+Junge
+Junge was 😭
+
+Cluster 37:
+Aber naja
+Immerhin
+Naja immerhin
+
+Cluster 71:
+In der Tat 🥸
+verrückt 😯
+Wirklich so 🥴
+
+Cluster 102:
+Ey yo
+Ey yo
+Ey
+Yo
+Ey yo

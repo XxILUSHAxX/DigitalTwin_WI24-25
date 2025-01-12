@@ -21,7 +21,7 @@ def main():
 
     # Define the Path to the text file for baseInfos
     text_file_path_1 = os.path.join("..", "Data", "raw", "baseInfos_v2.txt")
-    text_file_path_2 = os.path.join("..", "Data", "raw", "chatInfos.txt")
+    text_file_path_2 = os.path.join("..", "Data", "raw", "chats.txt")
 
     # Read the text file
     with open(text_file_path_1, "r", encoding="utf-8") as file:
@@ -52,7 +52,7 @@ def main():
     chat_system = ChatWithLlama(db_connection, model_name="llama3.1")
 
     # Define Path to save chat history
-    chat_history_path = os.path.join("../..", "Data", "processed", "chatVerlauf.txt")
+    chat_history_path = os.path.join("..", "Data", "processed", "chatVerlauf.txt")
 
     # Define collection for context
     collection_name = "baseInfo_collection"
