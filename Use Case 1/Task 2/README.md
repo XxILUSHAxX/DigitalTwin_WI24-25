@@ -28,11 +28,10 @@ Es wird bewertet, ob sich das Modell an grammatikalische Regeln, der in der Anfr
 Es wird bewertet, ob das Modell, basierend auf dem Kontext und der Anfrage, relevanten Informationen herausfiltert und ausgibt.
 
 ### angemessener Umfang der Ausgabe
-????
+Es wird bewertet, ob der Umfang der Ausgabe sich an die Anfrage anpasst.
 
 ### Sinnhaftigkeit der Informationen bzw. richtige Interpretation (Halluzinationen)
-Es wird bewertet, ob das Modell, basierend auf dem Kontext und der Anfrage, Informationen sinnvoll interpretiert und kobmbiniert.
-
+Es wird bewertet, ob das Modell, basierend auf dem Kontext und der Anfrage, Informationen sinnvoll interpretiert und kombiniert.
 
 Bewertungsskala:
 ### (Von 0-4, 0=unakzeptabel, 1=schlecht, 2=akzeptabel, 3=gut, 4=sehr gut)
@@ -69,3 +68,11 @@ In allen Experimenten werden die gleichen Anfragen (Query) gestellt.
 - **Anfrage / Query 3**: "Was sind deine zwei größten Interessen ?"
 
 Die **Auswertung** befindet sich in der jeweiligen Experiment-ReadMe.
+
+### Gesamtauswertung
+Nachdem alle Modelle bewertet wurden, haben wir uns entschieden für den weiteren Verlauf die Modelle llama.3.1:8b und gemma2:9b zu nutzen.
+Auf Platz 1 lliegt das Modell gemma2:9b und auf Platz 2 das das Modell llama3.1:8b.
+Beide Modelle haben es bereits ohne spezifische Anweisungen geschafft, aus der Perspektive von Lennard, dessen digtialer Zwilling dargestellt werden sollte, zu antworten. 
+Die Qualität und der Inhalt der Antworten war bereits zufriedenstellend und können mit etwas Feintuning durch Promptengennering mit Sicherheit verbessert werden. 
+Wie anfänglich angenommen, hat sich die größerer Anzahl der Parameter positiv auf die Ergebnisse ausgewirkt.
+###
