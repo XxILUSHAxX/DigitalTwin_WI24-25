@@ -1,7 +1,7 @@
 import os
 from sentence_transformers import SentenceTransformer
 from scripts.database.db_connection import ExperimentDBConnection
-from scripts.ollama.ollama_chat_gemma import ChatWithLlama
+from scripts.ollama.ollama_chat_gemma_test import ChatWithLlama
 import time
 
 def main():
@@ -10,7 +10,7 @@ def main():
     # Initialize experiment-specific settings
     experiment_name = "task2_experiment1"
     persist_directory = "data/Task2/chromadb/experiment_7"
-    embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
+    embedding_model = SentenceTransformer('avsolatorio/GIST-Embedding-v0')
 
     # Initialize database connection
     db_connection = ExperimentDBConnection(
@@ -55,8 +55,8 @@ def main():
     chat_history_path = os.path.join("..", "Data", "processed", "chatVerlauf.txt")
 
     # Define collection for context
-    collection_name = "baseInfo_collection"
-    collection_name_2 = "chat_collection"
+    baseInfo_collection = "baseInfo_collection"
+    chat_collection = "chat_collection"
 
     # Debugg
     print("Chat with Llama (type 'exit' to quit):\n")
@@ -77,11 +77,14 @@ def main():
 
         start_time = time.time()
         # Generate Response
-        response = chat_system.chat(user_query,collection_name,collection_name_2)
+        response = chat_system.chat(user_query, baseInfo_collection)
+        advanced_response = chat_system.chat_enhance(response, baseInfo_collection, chat_collection)
         end_time = time.time()
         elapsed_time = end_time - start_time
         print("\nResponse:")
         print(response)
+        print("\nadvanced Response:")
+        print(advanced_response)
         print(f"\nAntwortgenerierung dauerte: {elapsed_time:.4f} Sekunden")
 
 

@@ -21,7 +21,7 @@ den Sinn des restlichen Absatzes benötigen (z.B. in der Raw Data unter Charakte
 als das Chunking in *Sätzen*, selbst wenn man eine überlappende Strategie für das sentence chunking wählen für. 
 Nichtsdestotrotz werden wir möglicherweise zu einem späteren Zeitpunkt im Projekt noch einen Test mit dem sentence Embedding durchführen.
 
-## Druchführung
+## Durchführung
 
 Für die Performance Messung implementiere ich eine einfache Stoppuhr und die Qualität der Outputs bewerte ich an der Sinnhaftigkeit des zurück gegebenen Kontextes bezogen auf die Query-Abfrage.
 
