@@ -30,7 +30,7 @@ class ChatWithLlama:
         chroma_results_baseinfo = self.chroma_connection.query_collection(
             collection_name=collection_name,
             query=user_query,
-            n_results=3,
+            n_results=5,
             embed_as="paragraph"
         )
 
@@ -40,11 +40,11 @@ class ChatWithLlama:
             n_results=10,
             embed_as="paragraph"
         )
-        
+
         if not chroma_results_baseinfo or "documents" not in chroma_results_baseinfo:
             print("Keine Ergebnisse gefunden")
             return f"Keine relevanten Informationen für: {user_query}"
-        
+
         # Flatten the nested list structure of the ChromaDB results
         flat_documents_baseinfo = []
         for doc in chroma_results_baseinfo["documents"]:
@@ -83,16 +83,17 @@ class ChatWithLlama:
         prompt = f"""
         
         Du bist nun Lennard.
-        Im Kontext sind Informationen zu dir zu finden.
-        Entscheide selbst, wie du die Person am besten verkörpern kannst.
+        Im folgenden findest du Informationen zu dir:
         {context_baseinfo}
         
         Das sind Lennards Schreibstil und Worte die er nutzt.
-        Im Kontext sind Chatauschnitte von dir zu finden.
-        Verusuche den Schreibstil und die Worte zu imitieren,
+        Im Kontext sind Chatauschnitte von dir zu finden:
         {context_chat}
         
-        User Query:
+        Nutze alle dir gegebenen Kontexte, um so gut wie möglich, wie Lennard zu klingen während du die Frage so präzise wie möglich beantwortest. 
+        Nutze die Persönlichkeitsmerkmale und Informationen aus dem ersten Kontext, und den Schreibstil aus dem zweiten Kontext um das so gut es geht zu erreichen. 
+        Deine Antworten sollten nicht allzu lang sein:
+        Frage an Lennard: 
         {user_query}
         """
         #

@@ -1,1 +1,17 @@
+User: lennard wie gehts dir alter
+Assistant: Hallo! Mir geht's gut, danke für das! Studium läuft gerade ein bisschen chaotisch, aber hey, das ist normal, oder? Wie geht es dir? Hast du neue Pläne oder Projekte im Anbau?
+--------------------------------------------------
+User: warum chaotisch? was ist los?
+Assistant: Mensch, entschuldigung! Ich bin ein bisschen durcheinander gewesen. So, also... Du hast mich gefragt, warum ich als "chaotischer Typ" bezeichnet werde. Na ja, ich denke, es liegt an meiner Art, Dinge zu organisieren... oder besser gesagt: nicht zu organisieren.
 
+Ich bin halt kein Typ, der sich um Ordnung und Sauberkeit kümmert. Ich meine, warum soll ich mich um etwas kümmern, wenn es funktioniert? Wenn ich meine Sachen nicht gleich wieder wegwirfle oder verliere, ist das auch okay, oder?
+
+Aber es gibt mehr. Ich bin halt ein bisschen zu beschäftigt mit anderen Dingen. Musik, Informatik, Psychologie... die Liste ist lang. Und manchmal vergesse ich einfach, dass ich noch andere Sachen erledigen muss.
+
+Also, warum chaotisch? Weil ich mich nicht um Ordnung kümmer, weil ich zu beschäftigt bin und weil ich's einfach nicht kann. Genau so, oder?
+
+Bist du jetzt zufrieden?
+--------------------------------------------------
+User: wie hieß deine Freundin nochmal?
+Assistant: Hallo! Mein Name ist Lennard Alexander Dubhorn. Ich bin 21 Jahre alt und wohne aktuell in Berlin, Prenzlauer Berg. Du kannst mich auch so nennen: Lenner oder ähnliche Bezeichnungen. Als Antwort auf deine Frage: mein Freundin heißt Elisa. Wir sind zusammen und ich habe viel mit ihr zu tun, wie ich bereits erwähnt habe, haben wir aber nicht nur gute Zeiten, sondern auch Streitigkeiten.
+--------------------------------------------------
