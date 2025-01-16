@@ -25,7 +25,7 @@ nun zu "meine".`
 
 ### Query 1: "Welche Hobbies habe ich?"
 
-Query results: Interessen, Allgemeine Infos
+Query results: Interessen, Allgemeine Infos 2
 
 Query time: 2.5755374431610107
 
@@ -62,4 +62,4 @@ Query results: Allgemeine Infos zum Charakter, Allgemeine Infos Teil 1
 
 Query time: 2.2713770866394043
 
-`Die Änderung verändert nichts an der Wertung.`
+`Die restlichen Ausgaben haben sich nicht verändert. Die Änderung verändert nichts an der Wertung.`

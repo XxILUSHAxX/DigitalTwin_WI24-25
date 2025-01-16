@@ -12,7 +12,12 @@ Nach unserer Recherche standen 3 Modelle zur Auswahl:
 - **Modell 2**: "paraphrase-MiniLM-L6-v2" dies ist ein etwas resourcenaufwändigeres Modell als das vorherige, ist aber trotzdem noch überschaubar. Es ist auf paraphrasing gefinetuned, d.h. kann ähnliche Sätze gut verstehen und wiedergeben, was unserem Projekt zugute kommen könnte
 
 
-- **Modell 3**: "distilroberta-base" dies ist ein großes Modell, performantes Modell, welches deutlich besser in NLP (Natural Language Processing) ist aber dafür viele Resourcen beansprucht und somit möglicherweise unpraktisch für uns sein könnte
+- **Modell 3**: "distilroberta-base" dies ist ein großes Modell, performantes Modell, welches besser in NLP (Natural Language Processing) ist aber dafür mehr Ressourcen beansprucht und somit möglicherweise unpraktisch für uns sein könnte
+
+
+- **Modell 4**: "avsolatorio/GIST-Embedding-v0" dies ist auch ein größeres Modell und im HuggingFace Leaderboard auf Platz 50, was im Vergleich zu den anderen Modellen (zB AllMini Platz 150) ein großer Vorteil ist. Außerdem soll es ohne spezifische Anweisungen gute Embeddings erzeugen können
+
+![img.png](img.png)
 
 In den nachfolgenden *Experimenten* untersuchen wir die Modelle auf Resourcen-Effizienz, Output-Qualität und letztendlich die allgemeine Sinnhaftigkeit für unser Projekt. 
 
@@ -43,5 +48,5 @@ Die Anzahl der Results ist auf 2 gesetzt, da bei mehr das Ergebnis zu undeutlich
 indem ich den Inhalt des baseInfo-Files einheitlicher und mehr als zusammenhängende Texte gestalte und 1-2 kleine Änderungen an den Überschriften vornehme. Das habe
 ich nun gemacht (baseInfos_v2), in jedem Modell getestet und habe etwas überraschend herausgefunden, dass es so gut wie keinen Einfluss hat,
 bis auf ein anderes Ergebnis in Eperiment 1 (die Zeit habe ich dafür nicht dokumentiert, da die zeitlichen Unterschiede nicht wirklich
-relevant waren). Somit fällt die Wahl erstmal auf das "all-MiniLM-L6-v2"-Modell. Wir werden die Anzahl an results für die weiteren
+relevant waren). Somit fällt die Wahl erstmal auf das "avsolatorio/GIST-Embedding-v0"-Modell. Wir werden die Anzahl an results für die weiteren
 Abfragen allerdings erhöhen um eine höhere Wahrscheinlichkeit des Auftauchens der relevanten Informationen zu garantieren.`

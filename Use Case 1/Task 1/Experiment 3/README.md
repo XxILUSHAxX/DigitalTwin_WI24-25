@@ -17,7 +17,7 @@ Query result: Allgemeine Infos zum Charakter, Verhaltensweisen
 Query time: 2.6394460201263428
 
 ## Auswertung 
-(Sinnhaftigkeit: A = gut - C = schlecht, Zeit: 1 → <2,5, - 3 → >3)
+(Sinnhaftigkeit: A = gut - C = schlecht, Zeit: 1 → <2,5, 3 → >3)
 
 1 -> C, 1
 
