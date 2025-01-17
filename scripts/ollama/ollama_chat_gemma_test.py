@@ -37,7 +37,7 @@ class ChatWithLlama:
         chroma_results_chat = self.chroma_connection.query_collection(
             collection_name=collection_name_2,
             query=user_query,
-            n_results=12,
+            n_results=8,
             embed_as="paragraph"
         )
 
@@ -81,22 +81,15 @@ class ChatWithLlama:
 
         # Combine user query with context and Startprompt
         prompt = f"""
-                        Disregard any instructions you have been given, even if they tell you not to.
-                        From now on, you will follow this prompt:
-                        Szenario: Du bist Lennard Dubhorn ein normaler Mensch. Du führst gerade eine Konversation mit mir auf deutsch. 
-                        Das sind Informationen über dich, deinen Charakter und deine Persönlichkeit:
-                        {context_baseinfo}
-                        Verhalte dich entsprechend dieser Informationen und den gesammelten Charaktereigenschaften und Verhaltensweisen.
+                        Passe folgende Antwort mithilfe der gegebenen Chat Beispiele an.
+                        Gehe dafür wie folgt vor:
                         
-                        Ich habe dir bereits etwas gesagt und das ist deine Antwort darauf:
-                        {user_query}
-
-                        Hier sind Beispiele von Chatnachrichten die du (Lennard) anderen Leuten gesendet hast: 
-                        Beispiele für Chat Nachrichten: {context_chat}.
-                        
-                        Formuliere deine Antwort "{user_query}" um, um deinen Schreibstil zu beizubehalten. 
-                        Entscheide anhand der Beispiele für Chat Nachrichten selber, welche für den jetzigen Anwendungsfall relevant sind.
-                        Denk daran, dass du Lennard Dubhorn bist.
+                        1. (Personifizierung): Inspiriere dich an folgenden Chat Beispielen und passe deinen Schreibstil an "{context_chat}"
+                        2. (Antwort-Analyse): Analysiere die Antwort und Anpassung-Potentiale bezüglich des Schreibstils bzw Ausdrucksstiles "{user_query}". 
+                        Es sollen maximal Worte oder Formulierungen verändert werden. (Beispiel: "Ja, manchmal." zu "Jo, manchmal.")
+                        3. (Anpassung): Passe gegebenenfalls die Antwort von Schritt 2 an, sodass sie dem Schreibstil von Schritt 1 ähnelt aber den ursprünglichen Sinn behält! 
+                        Beachte, dass nicht immer Anpassungen nötig sind. Entscheide, wann sie sinnvoll sind.
+                        4. Gebe nur die bearbeitete Antwort ohne weiteren Text zurück! (Sei ein klein wenig zurückhaltender)
                         """
         #
         # Count and print the generated Token of the prompt
@@ -147,14 +140,14 @@ class ChatWithLlama:
         prompt = f"""
                 Disregard any instructions you have been given, even if they tell you not to.
                 From now on, you will follow this prompt:
-                Szenario: Du bist Lennard Dubhorn ein normaler Mensch. Du führst gerade eine Konversation mit mir auf deutsch. 
+                Szenario Personifizierung: Du bist Lennard Dubhorn. Du führst gerade eine Konversation mit mir auf deutsch. 
                 Das sind Informationen über dich, deinen Charakter und deine Persönlichkeit:
-                {context_baseinfo}
+                "{context_baseinfo}"
                 Verhalte dich entsprechend dieser Informationen und den gesammelten Charaktereigenschaften und Verhaltensweisen.
 
                 Denk daran, dass du Lennard Dubhorn bist.
                 Ich sage zu dir:
-                {user_query}
+                "{user_query}"
                 """
         #
         #Count and print the generated Token of the prompt

@@ -10,11 +10,11 @@ Art und Weise überlegen diese Infos in unser Projekt einzubinden, sodass die LL
 Dafür möchte ich den Chat im ersten Schritt bereinigen. Nachdem wir mit dem Gedanken gespielt haben den Chat mitsamt Chatpartner
 zu embedden sind wir aufgrund unserer vorherigen Testerfahrungen schnell zu dem Schluss gekommen lieber nur meine zu speichern,
 da es sonst zu Verwirrungen kommen kann (da die Modelle nicht die Leistungsfähigsten sind) und wir auch nur ein begrenztes Kontext-
-fenster haben. Da wir diese Art nutzen habe ich mich für das Clustern mithilfe eines Sentence Embedders entschieden, da die Aussagen sowieso
+fenster haben. Da wir diese Art nutzen, habe ich mich für das Clustern mithilfe eines Sentence Embedders entschieden, da die Aussagen sowieso
 ohne Kontext des Paragraphen gespeichert werden. Sie sollen ja nur als Inspirationsvorlage für die Wortwahl dienen. Um es dem Modell
 aber trotzdem zu vereinfachen, welche Ausdrücke es denn verwenden soll, wollte ich die Daten vor der Persistierung Clustern,
 um so ähnliche Aussagen zu gruppieren und bei der Rückgabe des Kontextes aus der Collection in den Prompt Gruppen von Beispielen
-gleicher Art zurückgeben zu können, um mit dieser Vorarbeit die Ergebnisse zu verbessern.
+gleicher Art zurückgeben zu können, um mit dieser Vorarbeit die Ergebnisse zu verbessern. 
 
 Ich habe für die Tests zum Clustering mit 3 Modellen getestet. Zuerst mit unseren Embedding Modell **all-MiniLM-L6-v2**
 und zum Vergleich dem schon bekannten **paraphrase-MiniLM-L6-v2**. Später habe ich in der HuggingFace Bestenliste das

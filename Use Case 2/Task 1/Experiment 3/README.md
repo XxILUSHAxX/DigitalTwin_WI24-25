@@ -8,3 +8,10 @@ Als Metric habe ich nach Tests und Recherche die "cosine" genommen, da sich dies
 Ich entschied mich dazu dieses Modell zukünftig für beide Iterationen zu verwenden. Das Endergebnis bzw. endgültige 
 Vorgehensweise ist in scripts/data_clustering zu finden. Dort wurden auch noch kleine Änderungen an der Filterung der Daten
 vorgenommen.
+
+## Resultat
+
+Leider hat das Clustering trotz Testen der verschiedensten Modelle und Anpassungen der Werte zwar verbesserte Resultate gezeigt
+aber nicht die erwünschte Auswirkung hervorgerufen. Viele Sätze stehen einzeln und in manchen Clustern sind die Gemeinsamkeiten
+schwer auszumachen. Das könnte zum einen and der Art der Nachrichten oder an der Größe des Embedding Modelles liegen.
+Aufgrund der begrenzten Ressourcen belassen wir es aber bei dem Ergebnis.

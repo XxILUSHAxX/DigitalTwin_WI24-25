@@ -17,7 +17,7 @@ Nach unserer Recherche standen 3 Modelle zur Auswahl:
 
 - **Modell 4**: "avsolatorio/GIST-Embedding-v0" dies ist auch ein größeres Modell und im HuggingFace Leaderboard auf Platz 50, was im Vergleich zu den anderen Modellen (zB AllMini Platz 150) ein großer Vorteil ist. Außerdem soll es ohne spezifische Anweisungen gute Embeddings erzeugen können
 
-![img.png](img.png)
+![img_1.png](img_1.png)![img.png](img.png)
 
 In den nachfolgenden *Experimenten* untersuchen wir die Modelle auf Resourcen-Effizienz, Output-Qualität und letztendlich die allgemeine Sinnhaftigkeit für unser Projekt. 
 

@@ -29,11 +29,11 @@ zum anderen werden Chat-Beispiele aus Whatsapp Chats (chats.txt) genutzt.
 - Task 1: Prompt Engineering & Kontextfenster (von Datenbank)
 - Task 2: Daten ergänzen & verbessern
 
-**UseCase 4**: Die App bezieht sich auf Infos, die zuvor im Chat besprochen wurden
+**UseCase 3**: Die App bezieht sich auf Infos, die zuvor im Chat besprochen wurden
 - Task 1: Der aktuelle Chat wird gespeichert und als Kontext im Prompt mitgegeben
 
-(**UseCase 3**: Die App speichert Chats und kann auf die neuen Infos zugreifen
+(**UseCase 4**: Die App speichert Chats und kann auf die neuen Infos zugreifen)
 - Task 1: Sinnvoll speichern & chunken
-- Task 2: Projekt trainieren)
+- Task 2: Projekt trainieren
 
 ## Projektaufbau
