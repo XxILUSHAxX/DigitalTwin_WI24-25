@@ -49,7 +49,7 @@ def main():
 
 
     # Initialise the chat
-    chat_system = ChatWithLlama(db_connection, model_name="llama3.1")
+    chat_system = ChatWithLlama(db_connection, model_name="gemma2:9b")
 
     # Define Path to save chat history
     chat_history_path = os.path.join("..", "Data", "processed", "chatVerlauf.txt")
