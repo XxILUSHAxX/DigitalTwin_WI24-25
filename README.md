@@ -32,10 +32,6 @@ zum anderen werden Chat-Beispiele aus Whatsapp Chats (chats.txt) genutzt.
 **UseCase 3**: Die App bezieht sich auf Infos, die zuvor im Chat besprochen wurden
 - Task 1: Der aktuelle Chat wird gespeichert und als Kontext im Prompt mitgegeben
 
-(**UseCase 4**: Die App speichert Chats und kann auf die neuen Infos zugreifen
-- Task 1: Sinnvoll speichern & chunken
-- Task 2: Projekt trainieren)
-
 ## Projektaufbau
 Im Wesentlichen wurden für unser Projekt die aus 6 Ordnern.
 
@@ -63,18 +59,13 @@ Im Wesentlichen wurden für unser Projekt die aus 6 Ordnern.
 
 **UseCases** Unter diesen Ordner wurden die Experimente durchgeführt zu den o.g UseCases 1-3. 
 Weitere Unterteilung in:
- **Task** Der jeweilige Task im UseCase
 
-  **Experiment** Das Experiment zum Task
-
-    **Code** Bereistellung der main.py zur Ausführung des Experiments
-
-    **Data** Bereitstellung von txt Dokumenten (Basisinformationen, aufbereitete Nachrichten aus WhatsApp Chat) zur Ausführung des Experiments
-
-    **README** Dokumentation und Bewertung der Ergebnisse des Experiments
-
-  **README** Beschreibung der Baseline/Vorüberlegungen und die Durchführung des Tasks
-
+**Task** Der jeweilige Task im UseCase
+**Experiment** Das Experiment zum Task
+**Code** Bereistellung der main.py zur Ausführung des Experiments
+**Data** Bereitstellung von txt Dokumenten (Basisinformationen, aufbereitete Nachrichten aus WhatsApp Chat) zur Ausführung des Experiments
+**README** Dokumentation und Bewertung der Ergebnisse des Experiments
+**README** Beschreibung der Baseline/Vorüberlegungen und die Durchführung des Tasks
 **README** Kurzbeschreibung für den UseCase und der/die darin enthalten(e) Task(s)
 
 
