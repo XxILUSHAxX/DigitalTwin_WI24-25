@@ -1,6 +1,3 @@
-*Task 2* - Im nächsten Schritt widmen wir uns voll und ganz dem Fine Tuning bzw. dem Prompt-Engineering und Tests
-zu den optimalen Kontextlängen, um ein möglichst realistisches Szenario zu konstruieren.
-
 ## Baseline/Vorüberlegung
 
 Wir haben uns nun für die Modelle entschieden **llama3.1:8b** und **gemma2:9b** und müssen nun versuchen mithilfe der
