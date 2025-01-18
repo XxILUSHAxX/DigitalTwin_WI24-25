@@ -6,12 +6,12 @@ einen möglichst ähnlichen "digitalen Zwilling" mithilfe eines lokalen LLM Mode
 
 ## finale Technologien
 Für die Umsetzung dieses Projektes wird *ChromaDb* als Vektordatenbank verwendet, um Informationen über die 
-Person bei Erhaltung des Kontextes zu gewährleisten. Zum embeddden in die Datenbank benutzen wir das **. 
+Person bei Erhaltung des Kontextes zu gewährleisten. Zum embeddden in die Datenbank benutzen wir das *avsolatorio/GIST-Embedding-v0*. 
 Des Weiteren werden die Chat-Beispiele mit dem gleichen Modell und dem DBSCAN (Density-Based Spatial Clustering 
 of Applications with Noise) Algorithmus die Chat-Daten vor der Speicherung manuell geclustert. Als LLM wird
 *Gemma2:9B* mit Ollama als Chat-Framework genutzt.
 
-Strukturdiagramm einfügen (in Arbeit..)
+![img_1.png](img_1.png)
 
 ## Daten
 Es werden zum einen allgemeine Daten über die zu imitierende Person (baseInfos_v3.txt) gespeichert. Und
