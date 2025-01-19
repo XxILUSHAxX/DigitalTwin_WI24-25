@@ -1,7 +1,7 @@
 import os
 from sentence_transformers import SentenceTransformer
 from scripts.database.db_connection import ExperimentDBConnection
-from scripts.ollama.ollama_chat_llama import  ChatWithLlama
+from FinalApp.Code.ollama_chat_final import ChatWithOllama
 import time
 
 def main():
@@ -10,7 +10,7 @@ def main():
     # Initialize experiment-specific settings
     experiment_name = "task3_experiment1"
     persist_directory = "data/Task3/chromadb/experiment_1"
-    embedding_model = SentenceTransformer('all-MiniLM-L6-v2')
+    embedding_model = SentenceTransformer('avsolatorio/GIST-Embedding-v0')
 
     # Initialize database connection
     db_connection = ExperimentDBConnection(
@@ -21,7 +21,7 @@ def main():
 
     # Define the Path to the text file for baseInfos
     text_file_path_1 = os.path.join("..", "Data", "raw", "baseInfos_v3.txt")
-    text_file_path_2 = os.path.join("..", "Data", "raw", "chats2.txt")
+    text_file_path_2 = os.path.join("..", "Data", "raw", "chats.txt")
 
     # Read the text file
     with open(text_file_path_1, "r", encoding="utf-8") as file:
@@ -49,7 +49,7 @@ def main():
 
 
     # Initialise the chat
-    chat_system = ChatWithLlama(db_connection, model_name="llama3.1")
+    chat_system = ChatWithOllama(db_connection, model_name="gemma2:9b")
 
     # Define Path to save chat history
     chat_history_path = os.path.join("..", "Data", "processed", "chatVerlauf.txt")

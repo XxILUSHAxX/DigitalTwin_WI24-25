@@ -40,7 +40,7 @@ Das Projekt besteht aus 6 Hauptordnern.
 
 **Final App** Dieser Ordner enthält die finalen Files um die Appliaktion zu benutzen. Der Code wurde hier etwas überarbeitet.
 1. **Code** 
-    - db_connection_final.py: File mit den Datenbankfunktionen
+    - db_connection.py: File mit den Datenbankfunktionen
     - main.py: File zum Ausführen der Applikation
     - ollama_chat_final.py: File für die Anbindung zum lokalen Modell
 2. **Data**
