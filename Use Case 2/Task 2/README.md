@@ -23,5 +23,5 @@ Eingabe verglichen, was für die BaseInfos auch sinn macht, für die Chat Beispi
 bezüglich der eigenen Antwort suchen und nicht nach Formulierungen der vom User gestellten Frage. Genauere Infos dazu gibts in der 
 entsprechenden ReadMe.
 
-In Experiment 4 vergleichen wir die Endergebnisse der anderen Experimente an 5 User Queries um zu entscheiden, welches das finale
+In Experiment 5 vergleichen wir die Endergebnisse der anderen Experimente an 5 User Queries um zu entscheiden, welches das finale
 Modell ist.
