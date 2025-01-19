@@ -131,11 +131,8 @@ class ChatWithLlama:
             }
         ])
 
-        # Save the conversation
-        self.chat_history.append({
-            "user": user_query,
-            "assistant": response["message"]["content"]
-        })
+        # Save the conversation as a string
+        self.chat_history.append(f"User: {user_query}\nAssistant: {response['message']['content']}")
 
         return response["message"]["content"]
 
