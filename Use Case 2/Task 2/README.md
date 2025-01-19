@@ -1,6 +1,3 @@
-*Task 2* - Im nächsten Schritt widmen wir uns voll und ganz dem Fine Tuning bzw. dem Prompt-Engineering und Tests
-zu den optimalen Kontextlängen, um ein möglichst realistisches Szenario zu konstruieren.
-
 ## Baseline/Vorüberlegung
 
 Wir haben uns nun für die Modelle entschieden **llama3.1:8b** und **gemma2:9b** und müssen nun versuchen mithilfe der
@@ -25,3 +22,6 @@ der Basisinfos, sowie der Kontext der Chats direkt nach der eingabe der UserQuer
 Eingabe verglichen, was für die BaseInfos auch sinn macht, für die Chat Beispiele aber nur bedingt. Die App soll ja nach Formulierungen
 bezüglich der eigenen Antwort suchen und nicht nach Formulierungen der vom User gestellten Frage. Genauere Infos dazu gibts in der 
 entsprechenden ReadMe.
+
+In Experiment 5 vergleichen wir die Endergebnisse der anderen Experimente an 5 User Queries um zu entscheiden, welches das finale
+Modell ist.
