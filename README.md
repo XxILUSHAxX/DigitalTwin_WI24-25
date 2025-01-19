@@ -2,7 +2,8 @@
 
 ## Einführung
 Dieses Projekt ist eine im Zuge des Kurses Unternehmenssoftware entstandene App, die es zum Ziel hat,
-einen möglichst ähnlichen "digitalen Zwilling" mithilfe eines lokalen LLM Modells zu erschaffen.
+einen möglichst ähnlichen "digitalen Zwilling" mithilfe eines lokalen LLM Modells zu erschaffen. Der
+Fokus liegt dabei auf der Simulation einer normalen schriftlichen, menschlichen Konversation.
 
 ## finale Technologien
 Für die Umsetzung dieses Projektes wird *ChromaDb* als Vektordatenbank verwendet, um Informationen über die 

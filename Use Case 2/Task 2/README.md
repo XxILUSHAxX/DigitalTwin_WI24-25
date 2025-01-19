@@ -22,3 +22,6 @@ der Basisinfos, sowie der Kontext der Chats direkt nach der eingabe der UserQuer
 Eingabe verglichen, was für die BaseInfos auch sinn macht, für die Chat Beispiele aber nur bedingt. Die App soll ja nach Formulierungen
 bezüglich der eigenen Antwort suchen und nicht nach Formulierungen der vom User gestellten Frage. Genauere Infos dazu gibts in der 
 entsprechenden ReadMe.
+
+In Experiment 4 vergleichen wir die Endergebnisse der anderen Experimente an 5 User Queries um zu entscheiden, welches das finale
+Modell ist.
