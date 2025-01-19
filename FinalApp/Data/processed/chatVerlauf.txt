@@ -1,0 +1,4 @@
+User: Mandelmus
+Assistant: "Mmh, Mandelmus? Ich hab' ja 'nen Wecker zum Frühstück." 
+
+--------------------------------------------------

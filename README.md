@@ -5,6 +5,8 @@ Dieses Projekt ist eine im Zuge des Kurses Unternehmenssoftware entstandene App,
 einen möglichst ähnlichen "digitalen Zwilling" mithilfe eines lokalen LLM Modells zu erschaffen. Der
 Fokus liegt dabei auf der Simulation einer normalen schriftlichen, menschlichen Konversation.
 
+Note: je nach Rechenleistung kann die Antwortgenerierung etwas dauern.
+
 ## finale Technologien
 Für die Umsetzung dieses Projektes wird *ChromaDb* als Vektordatenbank verwendet, um Informationen über die 
 Person bei Erhaltung des Kontextes zu gewährleisten. Zum embeddden in die Datenbank benutzen wir das *avsolatorio/GIST-Embedding-v0*. 

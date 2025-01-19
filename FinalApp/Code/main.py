@@ -74,15 +74,10 @@ def main():
             print("Auf Wiedersehen!")
             break
 
-        start_time = time.time()
         # Generate Response
         response = chat_system.chat(user_query,collection_name,collection_name_2)
-        end_time = time.time()
-        elapsed_time = end_time - start_time
         print("\nResponse:")
         print(response)
-        print(f"\nAntwortgenerierung dauerte: {elapsed_time:.4f} Sekunden")
-
 
 if __name__ == "__main__":
     main()

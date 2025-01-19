@@ -123,6 +123,5 @@ class ChatWithOllama:
         """
         with open(filepath, 'w', encoding='utf-8') as f:
             for entry in self.chat_history:
-                f.write(f"User: {entry['user']}\n")
-                f.write(f"Assistant: {entry['assistant']}\n")
+                f.write(entry + "\n")  # Simply write the entry string as it is
                 f.write("-" * 50 + "\n")
