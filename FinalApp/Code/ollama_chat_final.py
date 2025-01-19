@@ -54,11 +54,6 @@ class ChatWithOllama:
                 flat_documents_baseinfo.append(doc)
         context_baseinfo = "\n".join(flat_documents_baseinfo)
 
-        #Debugg
-        print("\nGefundener Context:")
-        print("-" * 50)
-        print(context_baseinfo)
-        print("-" * 50)
 
         if not chroma_results_chat or "documents" not in chroma_results_chat:
             print("Keine Ergebnisse gefunden")
@@ -73,17 +68,7 @@ class ChatWithOllama:
                 flat_documents_chat.append(doc)
         context_chat = "\n".join(flat_documents_chat)
 
-        # Debugg
-        print("\nGefundener Context:")
-        print("-" * 50)
-        print(context_chat)
-        print("-" * 50)
-
         chat_history_context = "\n".join(self.chat_history) if self.chat_history else ""
-        print("\nGefundener Context:")
-        print("-" * 50)
-        print(chat_history_context)
-        print("-" * 50)
 
         # Combine user query with context and Startprompt
         prompt = f"""
@@ -104,11 +89,6 @@ class ChatWithOllama:
                 Ich sage zu dir:
                 "{user_query}"
         """
-        #
-        #Count and print the generated Token of the prompt
-        encoder = tiktoken.get_encoding("cl100k_base")  # You can change this based on your model
-        token_count = len(encoder.encode(prompt))  # Encode the prompt and count tokens
-        print(f"Token count: {token_count}")
 
         return prompt
 

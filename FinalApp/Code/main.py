@@ -1,11 +1,10 @@
 import os
 from sentence_transformers import SentenceTransformer
-from scripts.database.db_connection import ExperimentDBConnection
+from FinalApp.Code.db_connection import ExperimentDBConnection
 from FinalApp.Code.ollama_chat_final import ChatWithOllama
 import time
 
 def main():
-
 
     # Initialize experiment-specific settings
     experiment_name = "task3_experiment1"

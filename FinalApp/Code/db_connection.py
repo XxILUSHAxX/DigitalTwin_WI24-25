@@ -53,7 +53,6 @@ class ExperimentDBConnection:
                 embeddings=[embedding],
                 documents=[unit]
             )
-            print(f"Document '{document_id}_{idx}' stored in collection '{collection_name}' as {embed_as}.")
 
     def query_collection(self, collection_name, query, embed_as="paragraph", n_results=1):
         """
